@@ -1,0 +1,136 @@
+.shirtMaker{
+	background-color:black;
+	width:1020px !important;
+	padding:20px;
+	height:520px;
+}
+
+.shirtMaker h2{
+	display:block;
+	background-color:#2db674;
+	margin:3px 0;
+	padding:4px 0;
+	text-align:center;
+	border:1px solid #CCC;
+}
+
+#shirtViewer{
+	position:relative;
+	float:left;
+	display:inline-block;
+	height:315px;
+	width:315px;
+}
+
+.slider{
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+
+.flexslider{
+	width:306px;
+	height:306px;
+	margin:0px auto;
+	background-color:transparent !important;
+}
+
+.slides li{
+	height:306px;
+}
+
+.slides img{
+	height:306px;
+}
+
+#designContainer{
+	width:620px;
+	padding:0 42px;
+	float:left;
+	display:inline-block;
+	margin:0 0 11px;
+	background-color:#AEAEAE;
+}
+
+#designThumb{
+	list-style-type:none;
+	padding:0;
+	margin:0;
+}
+
+#designThumb li{
+	display:inline-block;
+}
+
+#designThumb li:hover{
+	background-color:rgba(255,0,0,0.75);
+	box-shadow:0 0 5px rgba(0,0,0,0.95);
+}
+
+#designThumb li img{
+	width:83px;
+	margin:1px;
+}
+
+#swatchContainer{
+	width:330px;
+	float:left;
+	display:inline;
+	margin:0 5px;
+}
+
+#swatchContainer ul{
+	list-style-type:none;
+	padding:0;
+	width:auto;
+	}
+
+#swatchContainer .colorControls{
+	display:inline-block;
+}
+
+#swatchContainer .colorControls img{
+	width:40px;
+}
+
+.smallBox{
+	width:320px;
+	float:left;
+	display:inline;
+	margin:0 10px;
+}
+
+#size #sizes li{
+	margin-top:5px;
+	background-color:#CCC;
+}
+
+#sizes li.selected{
+	background-color:orange !important;
+}
+
+#sizes li:hover{
+	background-color:#0fa1f5 !important;
+	cursor:pointer;
+}
+
+#quantity select{
+	display:block;
+	width:220px;
+	padding:15px 0;
+	height:40px;
+}
+
+#checkout span{
+	display:block;
+	background-color:#2db674;
+	text-align:center;
+	margin:3px 0 15px;
+	font-size:24px;
+	font-weight:700;
+}
+
+#checkout span:hover{
+	cursor:pointer;
+	background-color:orange;
+}

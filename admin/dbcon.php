@@ -1,0 +1,1 @@
+<? $pdo = new PDO("mysql:host=localhost;dbname=aofievav_stz", 'aofievav_tom', 'w4gukoj1TPH'); ?>

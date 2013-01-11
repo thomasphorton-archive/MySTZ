@@ -1,0 +1,68 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+html{
+	background-color:#58595B;
+}
+
+header{
+	width:1000px;
+	margin:0px auto;
+}
+
+#wrapper{
+	width:1000px;
+	margin:0px auto;
+}
+
+#logo{
+	width:250px;
+	float:left;
+	display:inline;
+}
+
+#mystz{
+	width:600px;
+	float:right;
+	display:inline;
+	margin-top:40px;
+}
+
+ul{
+	padding:0px;
+	color:#2ab673;	
+}
+
+ul a{
+	float:left;
+	display:inline;
+	margin:0px 4px;
+	list-style-type:none;
+	color:#2ab673;
+	text-decoration:none;
+}
+
+ul a:hover{
+	text-decoration:underline;
+}

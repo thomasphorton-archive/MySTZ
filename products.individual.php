@@ -4,10 +4,10 @@
 	$numProducts = count($inventory);
 	for($i=0;$i<$numProducts;$i++){
 		if ($inventory[$i]["id"] == $id){
-			$shirt = $inventory[$i];
+			$product = $inventory[$i];
 		}
 	}
-	$title = $shirt["title"] . ' | STZ | Custom Tees and Outerwear';
+	$title = $product["title"] . ' | STZ | Custom Tees and Outerwear';
 	include 'inc.header.html.php';
 	include 'inc.header.php'; 
 ?>
@@ -29,15 +29,15 @@
 </script>
 
 <div id="pageWrapper">
-	<span class="breadCrumb"><a href="index.php">home</a> > <a href="products.php">products</a> > <a href="products.line.php?line=<?=$shirt["line"]?>"><?=$shirt["line"]?></a> > <?=$shirt["title"]?></span>
+	<span class="breadCrumb"><a href="index.php">home</a> > <a href="products.php">products</a> > <a href="products.line.php?line=<?=$product["line"]?>"><?=$product["line"]?></a> > <?=$product["title"]?></span>
 	<div id="picWrapper">
-			<img src="images/<?= $shirt["big_image"]?>" class="bigPic">
+			<img src="images/<?= $product["big_image"]?>" class="bigPic">
 	</div><!--#picWrapper-->
 <div id="bigDesc">
-	<h1><?=$shirt["title"]?></h1>
-	<h2><?=$shirt["basePrice"]?></h2>
+	<h1><?=$product["title"]?></h1>
+	<h2><?=$product["basePrice"]?></h2>
 	
-	<? if ($shirt["title"] == "Custom Hoodie")
+	<? if ($product["title"] == "Custom Hoodie")
 	{
 		echo "<p>We're working on our custom hoodie builder, until it's finished please <a href='mailto:info@mystz.com'>email us</a> with any questions or custom orders.</p>
 		
@@ -67,24 +67,24 @@
 	else{
 	?>
 	
-	<p class="smallDesc"><?=$shirt["small_description"]?></p>
-	<? if ($shirt["line"]!= "hats"){ ?>
+	<p class="smallDesc"><?=$product["small_description"]?></p>
+	<? if ($product["line"]!= "hats"){ ?>
 		<ul id="sizes" class="clearfix">
-			<li class="size selected" data-size = "small">S</li>
-			<li class="size" data-size = "medium">M</li>
-			<li class="size" data-size = "large">L</li>
-			<li class="size" data-size = "x-large">XL</li>
-			<li class="size" data-size = "xx-large">XXL</li>
+			<li class="size selected" data-size="small" onclick="_gaq.push(['_trackEvent', 'Picked Size', 'S']);">S</li>
+			<li class="size" data-size="medium" onclick="_gaq.push(['_trackEvent', 'Picked Size', 'M']);">M</li>
+			<li class="size" data-size="large" onclick="_gaq.push(['_trackEvent', 'Picked Size', 'L']);">L</li>
+			<li class="size" data-size="x-large" onclick="_gaq.push(['_trackEvent', 'Picked Size', 'XL']);">XL</li>
+			<li class="size" data-size="xx-large" onclick="_gaq.push(['_trackEvent', 'Picked Size', 'XXL']);">XXL</li>
 		</ul>
 		<? } ?>
 		<p class="description">
-			<?=$shirt["description"]?>
+			<?=$product["description"]?>
 		</p>
 		
 		<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 			<input type="hidden" name="cmd" value="_s-xclick">
-			<input type="hidden" name="hosted_button_id" value="<?=$shirt["paypal_code"]?>">
-			<? if ($shirt["line"]!= "hats"){ ?>
+			<input type="hidden" name="hosted_button_id" value="<?=$product["paypal_code"]?>">
+			<? if ($product["line"]!= "hats"){ ?>
 			<table>
 			<tr><td><input type="hidden" name="on0" value="size"></td></tr><tr><td><select id="paypalSizes" name="os0" style="display:none;" >
 				<option value="small">Small</option>
@@ -97,7 +97,7 @@
 			<? } ?>
 			<input type="hidden" name="currency_code" value="USD">
 			<div class="addToCartWrap">
-			<input type="image" src="images/addToCart.png" border="0" style="display:block; margin:0 auto;" name="submit" alt="PayPal - The safer, easier way to pay online!">
+			<input type="image" src="images/addToCart.png" border="0" style="display:block; margin:0 auto;" name="submit" alt="PayPal - The safer, easier way to pay online!" onclick="_gaq.push(['_trackEvent', 'Add to Cart', '<?= $product["title"]; ?>']);">
 			</div>
 			<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 		</form>
@@ -107,7 +107,7 @@
 <section id="specials" class="clearfix">
 	<ul id="specialsList">
 		<?
-			$dontShow = array($shirt["id"]);
+			$dontShow = array($product["id"]);
 			$length = count($inventory) -1;
 			$i = 0;
 			while ($i < 4){

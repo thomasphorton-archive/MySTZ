@@ -37,7 +37,7 @@
 		});
 	</script>
 
-	<div id="pageWrapper">
+	<div class="page-wrapper">
 		<span class="breadCrumb"><a href="index.php">home</a> > <a href="products.php">products</a> > <?=$line?></span>
 	<div class="clearfix">
 	<!--<span class="specialsBanner"></span>-->
@@ -73,7 +73,7 @@
 			<br /><br /><br /><img src="images/banners/customhoodie.png" style="display:inline"> <? include 'inc.contact.php'; ?>
 	<?	} */?>
 	<span class="breadCrumb"><a href="index.php">home</a> > <a href="products.php">products</a> > <?=$line?></span>
-	</div><!--#pageWrapper-->
+	</div><!--.page-wrapper-->
 <? 
 	include 'inc.social.php'; 
 	include 'inc.footer.php';

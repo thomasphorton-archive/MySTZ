@@ -5,7 +5,7 @@
 ?>
 
 <div class="page">
-<div id="pageWrapper" class="clearfix">
+<div class="page-wrapper clearfix">
 <span class="breadCrumb"><a href="index.php">Home</a> > About</span>
 	<form id="stickerPackForm" class="contactForm clearfix" action="form.send.sticker.php" method="post">
 		<h2>Request a Sticker Pack</h2>

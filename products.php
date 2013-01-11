@@ -4,7 +4,7 @@
 	include 'inc.header.php'; 
 ?>
 
-<div id="pageWrapper">
+<div class="page-wrapper">
 	<span class="breadCrumb"><a href="index.php">home</a> > products</span>
 	<div class="clearfix">
 	<a href="products.line.php?line=stz"><div class="productLineBig"><img src="images/banners/categories.stz.png"></div></a>
@@ -15,7 +15,7 @@
 	
 	</div>
 	<span class="breadCrumb"><a href="index.php">home</a> > products</span>
-</div><!--#pageWrapper-->
+</div><!--.page-wrapper-->
 
 <? 
 	include 'inc.social.php'; 

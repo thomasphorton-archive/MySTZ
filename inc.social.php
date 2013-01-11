@@ -1,4 +1,4 @@
-<div id="socialWrapper">
+<div class="social-wrapper">
 	<div id="fb-root"></div>
 	<script>(function(d, s, id) {
 	  var js, fjs = d.getElementsByTagName(s)[0];
@@ -17,4 +17,4 @@
 			<a href="https://twitter.com/stzlife" target="_blank">Twitter</a>
 			<br /> Canvassed Apparel, LLC Copyright 2012. Happy Shredding.</span>
 	</section>
-</div><!--#socialWrapper-->
+</div><!--.social-wrapper-->

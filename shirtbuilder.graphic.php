@@ -181,7 +181,7 @@
       );
        ?>
 
-<div id="pageWrapper" class="shirtMaker">
+<div class="page-wrapper shirtMaker">
 	<div id="shirtViewer">
   	<div class="slider">
     	<div id="colorOptions" class="flexslider" >

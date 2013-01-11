@@ -132,7 +132,7 @@
        );
        ?>
 
-<div id="pageWrapper" class="shirtMaker">
+<div class="page-wrapper shirtMaker">
 	<div id="shirtViewer">
   	<div class="slider">
     	<div id="colorOptions" class="flexslider" >
@@ -204,7 +204,7 @@
 
   </div><!--#checkout-->
   <p style="color:gray;">Pocket size/placement are approximate. Please reference the <a target="_blank" href="stz.php?line=pocket">products page</a> for examples. Please allow an additional 5-7 days for production.</p>
-</div><!--#pageWrapper-->
+</div><!--.page-wrapper-->
 
 <? 
 	include 'inc.social.php'; 

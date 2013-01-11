@@ -1,14 +1,14 @@
 <body>
 <header class="clearfix">
-	<div id="subHead" class="clearfix">
+	<div class="header-small">
 		<a href="index.php"><img src="images/mystz.png" id="mystz"></a>
-		<ul id="backNav" class="nav">
+		<ul class="nav nav-small">
 			<li><a href="index.php"><img src="images/navbuttons/home.sprite.png" /></a></li>
 			<li><a href="products.php"><img src="images/navbuttons/products.sprite.png" /></a></li>
 			<li><a href="shirtbuilder.select.php"><img src="images/navbuttons/shirtbuilder.sprite.png" /></a></li>
 			<li><a href="about.php"><img src="images/navbuttons/about.sprite.png" /></a></li>
 		</ul>	
-		<ul id="socialButtonsBack">
+		<ul class="social social-small">
 			<li><a href="https://facebook.com/pages/STZ-Canvassed-Apparel/166458200044265" target="_blank"><img src="images/social/facebook.png"></a></li>
 			<li><a href="https://twitter.com/#!/stz_canvassed" target="_blank"><img src="images/social/twitter.png"></a></li>
 			<li><a href="https://vimeo.com/stz" target="_blank"><img src="images/social/vimeo.png"></a></li>

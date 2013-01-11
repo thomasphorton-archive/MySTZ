@@ -18,24 +18,35 @@
 		sizeSelect = $('#paypalSizes');
 		
 		sizes.click(function(){
-			sizes.removeClass(' selected');
-			$(this).addClass(' selected');
+			sizes.removeClass(' size-selector-size-selected');
+			$(this).addClass(' size-selector-size-selected');
 			size = ($(this).data('size'));
 			console.log(size);
 			sizeSelect.val(size);
 		});
+		
+		productWrapper = $('.nav-more a');
+		productDesc = $('.productDesc');
+		productWrapper.hover(function(e){
+			e.stopPropagation();
+			$(this).find('span').animate({'height' : '28px'}, 200);
+		}, function(e){
+		e.stopPropagation();
+			$(this).find('span').animate({'height' : '18'}, 200);
+		});
+	
 	});
 	
 </script>
 
-<div id="pageWrapper">
+<div class="page-wrapper">
 	<span class="breadCrumb"><a href="index.php">home</a> > <a href="products.php">products</a> > <a href="products.line.php?line=<?=$product["line"]?>"><?=$product["line"]?></a> > <?=$product["title"]?></span>
 	<div id="picWrapper">
-			<img src="images/<?= $product["big_image"]?>" class="bigPic">
+			<img src="images/<?= $product["big_image"]?>" class="product-image-main">
 	</div><!--#picWrapper-->
-<div id="bigDesc">
-	<h1><?=$product["title"]?></h1>
-	<h2><?=$product["basePrice"]?></h2>
+<div class="product-data">
+	<h1 class="product-title"><?=$product["title"]?></h1>
+	<h2 class="product-price"><?=$product["basePrice"]?></h2>
 	
 	<? if ($product["title"] == "Custom Hoodie")
 	{
@@ -67,17 +78,17 @@
 	else{
 	?>
 	
-	<p class="smallDesc"><?=$product["small_description"]?></p>
+	<p class="product-description-small"><?=$product["small_description"]?></p>
 	<? if ($product["line"]!= "hats"){ ?>
-		<ul id="sizes" class="clearfix">
-			<li class="size selected" data-size="small" onclick="_gaq.push(['_trackEvent', 'Picked Size', 'S']);">S</li>
-			<li class="size" data-size="medium" onclick="_gaq.push(['_trackEvent', 'Picked Size', 'M']);">M</li>
-			<li class="size" data-size="large" onclick="_gaq.push(['_trackEvent', 'Picked Size', 'L']);">L</li>
-			<li class="size" data-size="x-large" onclick="_gaq.push(['_trackEvent', 'Picked Size', 'XL']);">XL</li>
-			<li class="size" data-size="xx-large" onclick="_gaq.push(['_trackEvent', 'Picked Size', 'XXL']);">XXL</li>
+		<ul class="size-selector clearfix">
+			<li class="size-selector-size size-selector-size-selected" data-size="small" onclick="_gaq.push(['_trackEvent', 'Picked Size', 'S']);">S</li>
+			<li class="size-selector-size" data-size="medium" onclick="_gaq.push(['_trackEvent', 'Picked Size', 'M']);">M</li>
+			<li class="size-selector-size" data-size="large" onclick="_gaq.push(['_trackEvent', 'Picked Size', 'L']);">L</li>
+			<li class="size-selector-size" data-size="x-large" onclick="_gaq.push(['_trackEvent', 'Picked Size', 'XL']);">XL</li>
+			<li class="size-selector-size" data-size="xx-large" onclick="_gaq.push(['_trackEvent', 'Picked Size', 'XXL']);">XXL</li>
 		</ul>
 		<? } ?>
-		<p class="description">
+		<p class="product-description-large">
 			<?=$product["description"]?>
 		</p>
 		
@@ -104,8 +115,8 @@
 		<? } ?>
 		
 </div><!--#bigDesc-->
-<section id="specials" class="clearfix">
-	<ul id="specialsList">
+<section class="clearfix">
+	<ul class="nav-more">
 		<?
 			$dontShow = array($product["id"]);
 			$length = count($inventory) -1;
@@ -116,7 +127,7 @@
 				if (!in_array($randInv, $dontShow)){
 					$dontShow[] = $randInv;
 					if(isset($inventory[$randInv])){
-					echo '<a href="products.individual.php?id='.$inventory[$randInv]["id"].'" onclick=\"_gaq.push([\'_trackEvent\', \'Catalog\', \'More Products Images\', \'' . $inventory[$randInv]["title"] . '\']);">';
+					echo '<a href="products.individual.php?id='.$inventory[$randInv]["id"].'" onclick=\"_gaq.push([\'_trackEvent\', \'Catalog\', \'More Products Images\', \'' . $inventory[$randInv]["title"] . '\']);" >';
 					echo '<li><img src="images/'.$inventory[$randInv]["more_thumb"].'" class="randThumb">';
 					echo '<span class="productDesc">'.$inventory[$randInv]["title"].'</span>';
 					echo '</li></a>';
@@ -128,8 +139,8 @@
 
 	</ul>
 </section>
-<span class="breadCrumb"><a href="index.php">home</a> > <a href="products.php">products</a> > <a href="products.line.php?line=<?=$shirt["line"]?>"><?=$shirt["line"]?></a> > <?=$shirt["title"]?></span>
-</div><!--#pageWrapper-->
+<span class="breadCrumb"><a href="index.php">home</a> > <a href="products.php">products</a> > <a href="products.line.php?line=<?=$product["line"]?>"><?=$product["line"]?></a> > <?=$product["title"]?></span>
+</div><!--.page-wrapper-->
 <? 
 	include 'inc.social.php'; 
 	include 'inc.footer.php';

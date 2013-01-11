@@ -14,17 +14,17 @@
     });
 	 });
 </script>
-<header>
-	<div id="indexHeader" class="clearfix">
-		<a href="index.php"><img src="images/logo.png" id="indexLogo"></a>
-		<a href="index.php"><img src="images/mystz.png" id="indexMystz"></a>
-		<ul id="indexNav" class="nav">
+<header class="header">
+	<div class="header-index">
+		<a href="index.php"><img src="images/logo.png" class="header-index-logo"></a>
+		<a href="index.php"><img src="images/mystz.png" class="header-index-mystz"></a>
+		<ul class="nav nav-index">
 			<li><a href="index.php"><img src="images/navbuttons/home.sprite.png" /></a></li>
 			<li><a href="products.php"><img src="images/navbuttons/products.sprite.png" /></a></li>
 			<li><a href="shirtbuilder.select.php"><img src="images/navbuttons/shirtbuilder.sprite.png" /></a></li>
 			<li><a href="about.php"><img src="images/navbuttons/about.sprite.png" /></a></li>
 		</ul>
-		<ul id="socialButtons">
+		<ul class="social social-index">
 			<li><a href="https://facebook.com/pages/STZ-Canvassed-Apparel/166458200044265" target="_blank"><img src="images/social/facebook.png"></a></li>
 			<li><a href="https://twitter.com/stzlife" target="_blank"><img src="images/social/twitter.png"></a></li>
 			<li><a href="https://vimeo.com/stz" target="_blank"><img src="images/social/vimeo.png"></a></li>
@@ -42,26 +42,26 @@
 	</div>
 </header>
 
-<div id="pageWrapper">
-	<div class="flexslider">
+<div class="page-wrapper">
+	<div class="flexslider slider-main">
 	<ul class="slides">
-		<li><a href="products.line.php?line=outer"><img src="images/bigfrontbanners/blackstzlifehoodie.png" class="bigFrontPic"></a></li>
-		<li><a href="products.php"><img src="images/bigfrontbanners/productryannikki.png" class="bigFrontPic"></a></li>
-		<li><a href="products.line.php?line=ladies"><img src="images/bigfrontbanners/womens.png" class="bigFrontPic"></a></li>
-		<li><a href="products.individual.php?id=72"><img src="images/bigfrontbanners/customhoodies.png" class="bigFrontPic"></a></li>
-		<li><a href="products.line.php?line=hats"><img src="images/bigfrontbanners/hats.png" class="bigFrontPic"></a></li>
+		<li><a href="products.line.php?line=outer"><img src="images/bigfrontbanners/blackstzlifehoodie.png" class="slider-main-image"></a></li>
+		<li><a href="products.php"><img src="images/bigfrontbanners/productryannikki.png" class="slider-main-image"></a></li>
+		<li><a href="products.line.php?line=ladies"><img src="images/bigfrontbanners/womens.png" class="slider-main-image"></a></li>
+		<li><a href="products.individual.php?id=72"><img src="images/bigfrontbanners/customhoodies.png" class="slider-main-image"></a></li>
+		<li><a href="products.line.php?line=hats"><img src="images/bigfrontbanners/hats.png" class="slider-main-image"></a></li>
 	</ul>
 	</div><!--#flexslider-->
 	
-	<section id="specials" class="clearfix">
-		<ul id="specialsList">
+	<section class="clearfix">
+		<ul class="nav-more">
 			<li><a href="products.line.php?line=stz"><img src="images/smallfrontbanners/stz.png" alt="Outer STZ" /></a></li>
 			<li><a href="products.line.php?line=pocket"><img src="images/smallfrontbanners/pocketstz.png" alt="Outer STZ" /></a></li>
 			<li><a href="shirtbuilder.select.php"><img src="images/smallfrontbanners/shirtbuilder.png" alt="Pocket STZ" /></a></li>
 			<li><a href="http://canvassedapparel.com" target="_blank"><img src="images/smallfrontbanners/canvassedapparel.png" alt="Pocket STZ" /></a></li>
 		</ul>
 	</section>
-</div><!--#pageWrapper-->
+</div><!--.page-wrapper-->
 
 <? 
 	include 'inc.social.php'; 

@@ -81,11 +81,11 @@
 	<p class="product-description-small"><?=$product["small_description"]?></p>
 	<? if ($product["line"]!= "hats"){ ?>
 		<ul class="size-selector clearfix">
-			<li class="size-selector-size size-selector-size-selected" data-size="small" onclick="_gaq.push(['_trackEvent', 'Picked Size', 'S']);">S</li>
-			<li class="size-selector-size" data-size="medium" onclick="_gaq.push(['_trackEvent', 'Picked Size', 'M']);">M</li>
-			<li class="size-selector-size" data-size="large" onclick="_gaq.push(['_trackEvent', 'Picked Size', 'L']);">L</li>
-			<li class="size-selector-size" data-size="x-large" onclick="_gaq.push(['_trackEvent', 'Picked Size', 'XL']);">XL</li>
-			<li class="size-selector-size" data-size="xx-large" onclick="_gaq.push(['_trackEvent', 'Picked Size', 'XXL']);">XXL</li>
+			<li class="size-selector-size size-selector-size-selected" data-size="small" onclick="_gaq.push(['_trackEvent', 'Picked Size', 'S', '<?= $product["title"];?>']);">S</li>
+			<li class="size-selector-size" data-size="medium" onclick="_gaq.push(['_trackEvent', 'Picked Size', 'M', '<?= $product["title"];?>']);">M</li>
+			<li class="size-selector-size" data-size="large" onclick="_gaq.push(['_trackEvent', 'Picked Size', 'L', '<?= $product["title"];?>']);">L</li>
+			<li class="size-selector-size" data-size="x-large" onclick="_gaq.push(['_trackEvent', 'Picked Size', 'XL', '<?= $product["title"];?>']);">XL</li>
+			<li class="size-selector-size" data-size="xx-large" onclick="_gaq.push(['_trackEvent', 'Picked Size', 'XXL', '<?= $product["title"];?>']);">XXL</li>
 		</ul>
 		<? } ?>
 		<p class="product-description-large">

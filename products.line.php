@@ -52,7 +52,7 @@
 <a href="products.individual.php?id=<?=$product["id"];?>" 
 	data-product-title="<?= $product["title"]; ?>" 
 	data-product-color="<?= $product["shirt_color"]; ?>" 
-	onclick="_gaq.push(['_trackEvent', 'Catalog', 'Product Image', '<?= $product["title"]; ?>']);"
+	onclick="_gaq.push(['_trackEvent', 'View Product', 'Product Image', '<?= $product["title"]; ?>']);"
 >
 	<div class="productWrapper <? if ($i == 0 && $product["line"] == "outer") echo 'special';?>">
 			<img src="images/<?= $product["product_image"]; ?>" title="<?= $product["title"]; ?>" class="productImage">

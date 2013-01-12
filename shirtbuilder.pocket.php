@@ -52,8 +52,8 @@
 		sizeSelect = $('#paypalSizes');
 			
 		sizes.click(function(){
-			sizes.removeClass(' selected');
-			$(this).addClass(' selected');
+			sizes.removeClass(' size-selector-size-selected');
+			$(this).addClass(' size-selector-size-selected');
 			size = ($(this).data('size'));
 			//console.log(size);
 			sizeSelect.val(size);
@@ -171,12 +171,12 @@
   </div><!--.flex-container-->
   <div id="size" class="smallBox">
   	<h2>3. Pick Your Size</h2>
-  	<ul id="sizes" class="clearfix">
-			<li class="size" data-size="Small">S</li>
-			<li class="size" data-size="Medium">M</li>
-			<li class="size" data-size="Large">L</li>
-			<li class="size" data-size="X-Large">XL</li>
-			<li class="size" data-size="XX-Large">XXL</li>
+  	<ul class="size-selector clearfix">
+			<li class="size-selector-size size-selector-size-selected" data-size="Small">S</li>
+			<li class="size-selector-size" data-size="Medium">M</li>
+			<li class="size-selector-size" data-size="Large">L</li>
+			<li class="size-selector-size" data-size="X-Large">XL</li>
+			<li class="size-selector-size" data-size="XX-Large">XXL</li>
 		</ul>
   </div><!--#size-->
   <div id="checkout" class="smallBox">

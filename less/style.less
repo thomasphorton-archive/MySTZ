@@ -5,11 +5,13 @@
   font-weight: normal;
   font-style: normal;
 }
+@base: #4C4C4C;
+
 html {
   padding: 0px;
   margin: 0px;
   width: 100%;
-  background-color: #4c4c4c;
+  background-color: @base;
   font-family: 'libel';
 }
 body {
@@ -23,7 +25,7 @@ a {
 header {
   width: 100%;
   display: block;
-  background-color: #4c4c4c;
+  background-color: @base;
   border-top: 2px solid #2db674;
   border-bottom: 1px solid #333;
   position: relative;
@@ -69,7 +71,7 @@ header ul li:hover {
   height: 69px;
   float: left;
   display: inline;
-  background: url(images/header-small-mystz.png);
+  background:url(images/header-small-mystz.png)
 }
 .header-index {
   display: block;
@@ -83,20 +85,20 @@ header ul li:hover {
   display: inline;
 }
 .header-index-logo {
-  float: left;
-  display: inline;
+	float:left;
+	display:inline;
   width: 230px;
-  height: 149px;
+  height:149px;
   margin: 0 140px 0 30px;
-  background: url(images/header-index-logo.png);
+  background:url(images/header-index-logo.png);
 }
 .header-index-mystz {
-  float: left;
-  display: inline;
+	float:left;
+	display:inline;
   width: 600px;
-  height: 104px;
+  height:104px;
   margin: 10px 0 0 0;
-  background: url(images/header-index-mystz.png);
+  background:url(images/header-index-mystz.png);
 }
 .nav {
   margin: 0;
@@ -222,7 +224,7 @@ header ul li:hover {
 }
 .social-wrapper {
   border-top: 1px solid #333;
-  background-color: #4c4c4c;
+  background-color: @base;
   border-bottom: 4px solid #2db674;
 }
 #social {
@@ -346,7 +348,7 @@ header ul li:hover {
   display: inline;
   text-align: center;
   margin: 0 2px;
-  background-color: #4c4c4c;
+  background-color:@base;
 }
 .size-selector-size-selected {
   background-color: orange;

@@ -1,7 +1,7 @@
 <body>
 <header class="clearfix">
 	<div class="header-small">
-		<a href="index.php"><img src="images/mystz.png" id="mystz"></a>
+		<a href="index.php"><div class="header-small-mystz"></div></a>
 		<ul class="nav nav-small">
 			<li><a href="index.php"><img src="images/navbuttons/home.sprite.png" /></a></li>
 			<li><a href="products.php"><img src="images/navbuttons/products.sprite.png" /></a></li>

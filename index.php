@@ -16,8 +16,8 @@
 </script>
 <header class="header">
 	<div class="header-index">
-		<a href="index.php"><img src="images/logo.png" class="header-index-logo"></a>
-		<a href="index.php"><img src="images/mystz.png" class="header-index-mystz"></a>
+		<a href="index.php"><div class="header-index-logo"></div></a>
+		<a href="index.php"><div class="header-index-mystz"></div></a>
 		<ul class="nav nav-index">
 			<li><a href="index.php"><img src="images/navbuttons/home.sprite.png" /></a></li>
 			<li><a href="products.php"><img src="images/navbuttons/products.sprite.png" /></a></li>

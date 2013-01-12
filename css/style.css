@@ -336,6 +336,7 @@ header ul li:hover {
   display: inline;
   text-align: center;
   margin: 0 2px;
+  background-color:#4C4C4C;
 }
 .size-selector-size-selected {
   background-color: orange;

@@ -48,7 +48,7 @@
       controlsContainer: ".flex-container"
     });
  
-	  sizes = $('.size');
+	  sizes = $('.size-selector-size');
 		sizeSelect = $('#paypalSizes');
 			
 		sizes.click(function(){

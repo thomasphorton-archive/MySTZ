@@ -1,5 +1,5 @@
 <?
-	$title = "";
+	$title = "Custom Tees from MySTZ.com | Wake Skate Surf Snow";
 	include 'inc.header.html.php';
 	include 'inc.header.php'; 
 ?>

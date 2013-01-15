@@ -1,5 +1,5 @@
 <?
-	$title = "";
+	$title = "Custom Screen Printed Tees | MySTZ.com";
 	include 'inc.header.html.php';
 	include 'inc.header.php'; 
 ?>

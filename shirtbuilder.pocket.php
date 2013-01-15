@@ -1,5 +1,5 @@
 <?
-	$title = "";
+	$title = "Pocket Tee Builder | MySTZ.com | Build Your Own T-Shirt";
 	include 'inc.header.html.php';
 	include 'inc.header.php'; 
 ?>

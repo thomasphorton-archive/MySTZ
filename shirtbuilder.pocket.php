@@ -9,7 +9,7 @@
 <script type="text/javascript">
 	$(document).ready(function() {
        
-     var color = "Charcoal";
+     var color = "Heather Grey";
      var graphic = "Flamingo";  
        
      var customString = color + ' ' + graphic;  
@@ -63,25 +63,7 @@
 </script>
 
 <?
-      $shirt_color_options = array(
-       	"Charcoal",
-       	"Fatigue",
-       	"Gold",
-       	"Green",
-       	"Blue",
-       	
-       	"Dark Navy",
-       	"Deep Red",
-       	"Grey",
-       	"Latte",
-       	"Maroon",
-       	"Navy",
-       	"Orange",
-       	"Purple",
-       	"Red",
-       	"White",	
-       	"Black"	
-      );
+     include ('shirtbuilder.shirts.php');
       
       $pocket_options = array(
       	"Flamingo" => array(
@@ -91,12 +73,12 @@
        	),
        	"Grapefruit" => array(
        		"title" => "Grapefruit",
-       		"full_size" => "grapefruit.png",
+       		"full_size" => "gfruit.png",
        		"thumb" => "grapefruit.thumb.jpg"
        	),
        	"Jazzercize" => array(
-       		"title" => "Jazzercize",
-       		"full_size" => "jazzercize.png",
+       		"title" => "Jazzercise",
+       		"full_size" => "jazzercise.png",
        		"thumb" => "jazzercize.thumb.jpg"
        	),
        	"'Merica" => array(
@@ -107,7 +89,7 @@
        	"Mint" => array(
        		"title" => "Mint",
        		"full_size" => "mint.png",
-       		"thumb" => "mint.thumb.jpg"
+       		"thumb" => "mint.thumb.png"
        	),
        	"Nerd" => array(
        		"title" => "Nerd",
@@ -118,12 +100,12 @@
        		"title" => "Polar Bear",
        		"full_size" => "polarbear.png",
        		"thumb" => "polarbear.thumb.jpg"
-       	),
+       	),/*
        	"Purp" => array(
        		"title" => "Purp",
        		"full_size" => "purp.png",
        		"thumb" => "purp.thumb.jpg"
-       	),
+       	),*/
        	"Tie Dye" => array(
        		"title" => "Tie Dye",
        		"full_size" => "tiedye.png",
@@ -138,7 +120,7 @@
     	<div id="colorOptions" class="flexslider" >
       	<ul class="slides">
         	<?	foreach ($shirt_color_options as $color){	?>
-          	<li><img src="images/shirtbuilder/blanks/<?=$color?>.jpg" alt="<?=$color?>" /></li>
+          	<li><img src="images/shirtbuilder/blanks/<?=$color["shirt"]?>" alt="<?=$color["title"]?>" /></li>
           <?	} ?>
         </ul>
       </div><!--.flexslider-->
@@ -147,7 +129,7 @@
     	<div id="pocketOptions" class="flexslider graphicslide">
       	<ul class="slides">
         	<?	foreach ($pocket_options as $design){	?>
-            <!--<li><img src="images/shirtbuilder/graphics/<?=$design?>.png" alt="<?=$design?>" /></li>--><li><img src="images/shirtbuilder/pockets/<?=$design["full_size"]?>" alt="<?=$design["title"]?>" /></li>
+            <li><img src="images/shirtbuilder/pockets/<?=$design["full_size"]?>" alt="<?=$design["title"]?>" /></li>
           <?	} ?>
         </ul>
       </div><!--.flexslider1-->
@@ -157,7 +139,7 @@
 		<h2 class="step1">1. Pick Your Pocket</h2>
 	  <ul id="designThumb">
 	   	<?	foreach ($pocket_options as $design){ ?>
-	     	<li class="graphicControls" data-graphic="<?=$design["title"]?>"><img src="images/shirtbuilder/pocketthumbs/<?=$design["thumb"]?>" alt="<?=$design["title"]?>" /></li>
+	     	<li class="graphicControls" data-graphic="<?=$design["title"]?>"><img src="images/shirtbuilder/pocketthumbs/<?=$design["thumb"]?>" alt="<?=$design["title"]?>" title="<?=$design["title"]?>" /></li>
 	    <?	} ?>
 	  </ul>
   </div><!--.flex-container-->  
@@ -165,13 +147,13 @@
   	<h2 class="step2">2. Pick Your Shirt Color</h2>
     <ul>
   	 	<?	foreach ($shirt_color_options as $color){ ?>
-  	 		<li class="colorControls" data-color="<?=$color?>"><img src="images/shirtbuilder/swatches/<?=$color?>.png" alt="<?=$color?>" /></li>
+  	 		<li class="colorControls" data-color="<?=$color["title"]?>"><img src="images/shirtbuilder/swatches/<?=$color["thumb"]?>" alt="<?=$color["title"]?>" title="<?=$color["title"]?>"/></li>
             <?	} ?>
     </ul>
   </div><!--.flex-container-->
   <div id="size" class="smallBox">
   	<h2>3. Pick Your Size</h2>
-  	<ul class="size-selector clearfix">
+  	<ul class="size-selector">
 			<li class="size-selector-size size-selector-size-selected" data-size="Small">S</li>
 			<li class="size-selector-size" data-size="Medium">M</li>
 			<li class="size-selector-size" data-size="Large">L</li>

@@ -9,7 +9,7 @@
 <script type="text/javascript">
 	$(document).ready(function() {
        
-     var color = "Fatigue";
+     var color = "Heather Grey";
      var graphic = "Beast Mode";  
        
      var customString = color + ' ' + graphic;  
@@ -18,7 +18,6 @@
        
      graphicControl = $('.graphicControls');
      graphicControl.click(function(){
-	    //console.log($(this).data('graphic'));
 	    graphic = $(this).data('graphic');
 	    customString = color + ' ' + graphic;
 	    customDetail.val(customString);
@@ -26,7 +25,6 @@
     
     colorControl = $('.colorControls');
     colorControl.click(function(){
-	    //console.log($(this).data('color'));
 	    color = $(this).data('color');
 	    customString = color + ' ' + graphic;
 	    customDetail.val(customString);
@@ -63,120 +61,153 @@
 </script>
 
 <?
-      $shirt_color_options = array(
-       	"Fatigue",
-       	"Gold",
-       	"Green",
-       	"Blue",
-       	"Charcoal",
-       	"Dark Navy",
-       	"Deep Red",
-       	"Grey",
-       	"Latte",
-       	"Maroon",
-       	"Navy",
-       	"Orange",
-       	"Purple",
-       	"Red",
-       	"White",	
-       	"Black",	
-      );
+    include ('shirtbuilder.shirts.php');
       
       $design_options = array(
       	"Beast Mode" => array(
        		"title" => "Beast Mode",
        		"full_size" => "beastmode.black.png",
-       		"thumb" => "beastmode.thumb.png",
+       		"thumb" => "beastmode.black.thumb.png",
        	),
        	"Daps n Pounds" => array(
        		"title" => "Daps n Pounds",
-       		"full_size" => "dapsnpounds.black.png",
-       		"thumb" => "dapsnpounds.thumb.png",
+       		"full_size" => "dapsnpounds.grey.png",
+       		"thumb" => "dapsnpounds.grey.thumb.png",
        	),
        	"Double STZ Burger" => array(
        		"title" => "Double STZ Burger",
        		"full_size" => "doublestzburger.black.png",
-       		"thumb" => "doublestzburger.thumb.png",
+       		"thumb" => "doublestzburger.black.thumb.png",
        	),
        	"El Caputo" => array(
        		"title" => "El Caputo",
        		"full_size" => "elcaputo.black.png",
-       		"thumb" => "elcaputo.thumb.png",
+       		"thumb" => "elcaputo.black.thumb.png",
        	),
        	"Emergency Mustache" => array(
        		"title" => "Emergency Mustache",
        		"full_size" => "emergencymustache.black.png",
-       		"thumb" => "emergencymustache.thumb.png",
-       	),
+       		"thumb" => "emergencymustache.black.thumb.png",
+       	),/*
        	"En Garde" => array(
        		"title" => "En Garde",
        		"full_size" => "engarde.black.png",
-       		"thumb" => "engarde.thumb.png",
-       	),
+       		"thumb" => "engarde.black.thumb.png",
+       	),*/
        	"Gorilla Boombox" => array(
        		"title" => "Gorilla Boombox",
        		"full_size" => "gorillaboombox.black.png",
-       		"thumb" => "gorillaboombox.thumb.png",
+       		"thumb" => "gorillaboombox.black.thumb.png",
        	),
        	"Skyline" => array(
        		"title" => "Skyline",
-       		"full_size" => "homegrown.black.png",
-       		"thumb" => "skyline.thumb.png",
+       		"full_size" => "skyline.black.png",
+       		"thumb" => "skyline.black.thumb.png",
        	),
        	"I Skate NC" => array(
        		"title" => "I Skate NC",
        		"full_size" => "iskatenc.black.png",
-       		"thumb" => "iskatenc.thumb.png",
+       		"thumb" => "iskatenc.black.thumb.png",
+       	),
+       	"I Skate NC" => array(
+       		"title" => "I Skate NC (Blue)",
+       		"full_size" => "iskatenc.blue.png",
+       		"thumb" => "iskatenc.blue.thumb.png",
        	),
        	"Moostache" => array(
        		"title" => "Moostache",
        		"full_size" => "moostache.black.png",
-       		"thumb" => "moostache.thumb.png",
+       		"thumb" => "moostache.black.thumb.png",
        	),
        	"Party Animals" => array(
        		"title" => "Party Animals",
-       		"full_size" => "partyanimals.black.png",
-       		"thumb" => "partyanimals.thumb.png",
+       		"full_size" => "partyanimals.grey.png",
+       		"thumb" => "partyanimals.grey.thumb.png",
        	),
        	"Peace" => array(
-       		"title" => "Peace",
+       		"title" => "Peace (Black)",
        		"full_size" => "peace.black.png",
-       		"thumb" => "peace.thumb.png",
+       		"thumb" => "peace.black.thumb.png",
        	),
-       	"Ride NC" => array(
-       		"title" => "Ride NC",
+       	"Peace" => array(
+       		"title" => "Peace (Blue)",
+       		"full_size" => "peace.blue.png",
+       		"thumb" => "peace.blue.thumb.png",
+       	),
+       	"Ride NC Black" => array(
+       		"title" => "Ride NC (Black)",
        		"full_size" => "ridenc.black.png",
-       		"thumb" => "ridenc.thumb.png",
+       		"thumb" => "ridenc.black.thumb.png",
+       	),
+       	"Ride NC Orange" => array(
+       		"title" => "Ride NC (Orange)",
+       		"full_size" => "ridenc.orange.png",
+       		"thumb" => "ridenc.orange.thumb.png",
        	),
        	"Right Coast" => array(
        		"title" => "Right Coast",
        		"full_size" => "rightcoast.black.png",
-       		"thumb" => "rightcoast.thumb.png",
+       		"thumb" => "rightcoast.black.thumb.png",
        	),
        	"Shoot All Shred" => array(
        		"title" => "Shoot All Shred",
        		"full_size" => "shootallshred.black.png",
-       		"thumb" => "shootallshred.thumb.png",
+       		"thumb" => "shootallshred.black.thumb.png",
        	),
        	"Shred Til You're Dead" => array(
        		"title" => "Shred Til You're Dead",
        		"full_size" => "shredtilyouredead.black.png",
-       		"thumb" => "shredtilyouredead.thumb.png",
+       		"thumb" => "shredtilyouredead.black.thumb.png",
        	),
        	"Triangles" => array(
        		"title" => "Triangles",
        		"full_size" => "triangles.black.png",
-       		"thumb" => "triangles.thumb.png",
+       		"thumb" => "triangles.black.thumb.png",
        	),
        	"Hand Shredded" => array(
        		"title" => "Hand Shredded",
-       		"full_size" => "wakeskatesurfsnow.black.png",
-       		"thumb" => "handshredded.thumb.png",
+       		"full_size" => "handshredded.black.png",
+       		"thumb" => "handshredded.black.thumb.png",
        	),
-       	"Yes We Can" => array(
-       		"title" => "Yes We Can",
+       	"We Can Do It" => array(
+       		"title" => "We Can Do It",
        		"full_size" => "wecandoit.black.png",
-       		"thumb" => "wecandoit.thumb.png",
+       		"thumb" => "wecandoit.black.thumb.png",
+       	),
+       	"Happy Shredding" => array(
+       		"title" => "Happy Shredding",
+       		"full_size" => "happyshredding.orange.png",
+       		"thumb" => "happyshredding.orange.thumb.png",
+       	),
+       	"KJ Gorilla" => array(
+       		"title" => "KJ Gorilla",
+       		"full_size" => "kjgorilla.black.png",
+       		"thumb" => "kjgorilla.black.thumb.png",
+       	),
+       	"OG Whaler Black" => array(
+       		"title" => "OG Whaler (Black)",
+       		"full_size" => "ogwhaler.black.png",
+       		"thumb" => "ogwhaler.black.thumb.png",
+       	),
+       	"OG Whaler White" => array(
+       		"title" => "OG Whaler (White)",
+       		"full_size" => "ogwhaler.white.png",
+       		"thumb" => "ogwhaler.white.thumb.png",
+       	),
+       	"Slush Buddie" => array(
+       		"title" => "Slush Buddie (White)",
+       		"full_size" => "slushbuddie.white.png",
+       		"thumb" => "slushbuddie.white.thumb.png",
+       	),
+       	"STZ Life" => array(
+       		"title" => "STZ Life",
+       		"full_size" => "stzlife.black.png",
+       		"thumb" => "stzlife.black.thumb.png",
+       	),
+       	"Too Fresh" => array(
+       		"title" => "Too Fresh",
+       		"full_size" => "toofresh.blue.png",
+       		"thumb" => "toofresh.blue.thumb.png",
        	),
       );
        ?>
@@ -187,7 +218,7 @@
     	<div id="colorOptions" class="flexslider" >
       	<ul class="slides">
         	<?	foreach ($shirt_color_options as $color){	?>
-          	<li><img src="images/shirtbuilder/blanks/<?=$color?>.jpg" alt="<?=$color?>" /></li>
+          	<li><img src="images/shirtbuilder/blanks/<?=$color["shirt"]?>" alt="<?=$color["title"]?>" /></li>
           <?	} ?>
         </ul>
       </div><!--.flexslider-->
@@ -196,7 +227,7 @@
     	<div id="graphicOptions" class="flexslider graphicslide">
       	<ul class="slides">
         	<?	foreach ($design_options as $design){	?>
-            <!--<li><img src="images/shirtbuilder/graphics/<?=$design?>.png" alt="<?=$design?>" /></li>--><li><img src="images/shirtbuilder/graphics/<?=$design["full_size"]?>" alt="<?=$design["title"]?>" /></li>
+            <li><img src="images/shirtbuilder/graphics/<?=$design["full_size"]?>" alt="<?=$design["title"]?>" /></li>
           <?	} ?>
         </ul>
       </div><!--.flexslider1-->
@@ -214,13 +245,13 @@
   	<h2 class="step2">2. Pick Your Shirt Color</h2>
     <ul>
   	 	<?	foreach ($shirt_color_options as $color){ ?>
-  	 		<li class="colorControls" data-color="<?=$color?>"><img src="images/shirtbuilder/swatches/<?=$color?>.png" alt="<?=$color?>" /></li>
+  	 		<li class="colorControls" data-color="<?=$color["title"]?>"><img src="images/shirtbuilder/swatches/<?=$color["thumb"]?>" alt="<?=$color["title"]?>" /></li>
             <?	} ?>
     </ul>
   </div><!--.flex-container-->
   <div id="size" class="smallBox">
   	<h2>3. Pick Your Size</h2>
-  	<ul class="size-selector clearfix">
+  	<ul class="size-selector">
 			<li class="size-selector-size size-selector-size-selected" data-size="Small">S</li>
 			<li class="size-selector-size" data-size="Medium">M</li>
 			<li class="size-selector-size" data-size="Large">L</li>

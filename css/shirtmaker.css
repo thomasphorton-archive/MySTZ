@@ -1,17 +1,19 @@
 .shirtMaker{
-	background-color:black;
 	width:1020px !important;
 	padding:20px;
-	height:520px;
+	min-height:520px;
 }
 
 .shirtMaker h2{
 	display:block;
-	background-color:#2db674;
+	/*background-color:#2db674;
 	margin:3px 0;
 	padding:4px 0;
+	
+	border:1px solid #CCC;*/
 	text-align:center;
-	border:1px solid #CCC;
+	color:#EAEAEA;
+	margin:5px 0;
 }
 
 #shirtViewer{
@@ -30,17 +32,17 @@
 
 .flexslider{
 	width:306px;
-	height:306px;
 	margin:0px auto;
 	background-color:transparent !important;
+	box-shadow: none !important;
 }
 
 .slides li{
-	height:306px;
+	
 }
 
 .slides img{
-	height:306px;
+	
 }
 
 #designContainer{
@@ -49,7 +51,6 @@
 	float:left;
 	display:inline-block;
 	margin:0 0 11px;
-	background-color:#AEAEAE;
 }
 
 #designThumb{
@@ -60,16 +61,17 @@
 
 #designThumb li{
 	display:inline-block;
+	padding:1px;
 }
 
 #designThumb li:hover{
-	background-color:rgba(255,0,0,0.75);
+	background-color:#2DB674;
 	box-shadow:0 0 5px rgba(0,0,0,0.95);
 }
 
 #designThumb li img{
-	width:83px;
-	margin:1px;
+	width:80px;
+	margin:2px;
 }
 
 #swatchContainer{
@@ -89,6 +91,11 @@
 	display:inline-block;
 }
 
+.colorControls:hover,
+.graphicControls:hover{
+	cursor:pointer;
+}
+
 #swatchContainer .colorControls img{
 	width:40px;
 }
@@ -98,6 +105,10 @@
 	float:left;
 	display:inline;
 	margin:0 10px;
+}
+
+.size-selector{
+	margin:15px auto 0;
 }
 
 #size #sizes li{

@@ -127,10 +127,13 @@
 				if (!in_array($randInv, $dontShow)){
 					$dontShow[] = $randInv;
 					if(isset($inventory[$randInv])){
-					echo '<a href="products.individual.php?id='.$inventory[$randInv]["id"].'" onclick=\"_gaq.push([\'_trackEvent\', \'View Product\', \'More Products Images\', \'' . $inventory[$randInv]["title"] . '\']);" >';
-					echo '<li><img src="images/'.$inventory[$randInv]["more_thumb"].'" class="randThumb">';
-					echo '<span class="productDesc">'.$inventory[$randInv]["title"].'</span>';
-					echo '</li></a>';
+					?>
+					
+					<a href="products.individual.php?id=<?=$inventory[$randInv]["id"]?>" onclick="_gaq.push(['_trackEvent', 'View Product', 'More Products', '<?= $inventory[$randInv]["title"];?>']);" >
+						<li><img src="images/<?=$inventory[$randInv]["more_thumb"]?>" class="randThumb">
+							<span class="productDesc"><?= $inventory[$randInv]["title"] ?></span>
+					</li></a>
+					<?
 					$i++;
 					}
 				}

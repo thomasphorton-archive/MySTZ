@@ -110,7 +110,39 @@
        		"title" => "Tie Dye",
        		"full_size" => "tiedye.png",
        		"thumb" => "tiedye.thumb.jpg"
+       	),
+       	
+       	"Charcoal" => array(
+       		"title" => "Charcoal",
+       		"full_size" => "charcoal.png",
+       		"thumb" => "charcoal.png"
+       	),
+       	"Creamsicle" => array(
+       		"title" => "Creamsicle",
+       		"full_size" => "creamsicle.png",
+       		"thumb" => "creamsicle.png"
+       	),
+       	"Parrots" => array(
+       		"title" => "Parrots",
+       		"full_size" => "parrots.png",
+       		"thumb" => "parrots.png"
+       	),
+       	"Wine" => array(
+       		"title" => "Wine",
+       		"full_size" => "wine.png",
+       		"thumb" => "wine.png"
+       	),
+       	"Yellow" => array(
+       		"title" => "Yellow",
+       		"full_size" => "yellow.png",
+       		"thumb" => "yellow.png"
+       	),
+       	"Zig Zig" => array(
+       		"title" => "Zig Zig",
+       		"full_size" => "zigzig.png",
+       		"thumb" => "zigzig.png"
        	)
+       	
        );
        ?>
 

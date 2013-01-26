@@ -15,6 +15,6 @@
 			<a href="http://canvassedapparel.com/wp/?page_id=885" target="_blank">STZ Team</a> | 
 			<a href="https://facebook.com/pages/STZ-Canvassed-Apparel/166458200044265" target="_blank">Facebook</a> | 
 			<a href="https://twitter.com/stzlife" target="_blank">Twitter</a>
-			<br /> Canvassed Apparel, LLC Copyright 2012. Happy Shredding.</span>
+			<br /> Canvassed Apparel, LLC Copyright 2013. Happy Shredding.</span>
 	</section>
 </div><!--.social-wrapper-->

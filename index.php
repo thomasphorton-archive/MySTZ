@@ -3,6 +3,7 @@
 	include 'inc.header.html.php';
 ?>
 <link rel="stylesheet" href="libraries/flexslider/flexslider.css" type="text/css" />
+<link rel="icon" href="images/favicon.ico">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script src="libraries/flexslider/jquery.flexslider.js"></script>  
 <script type="text/javascript">

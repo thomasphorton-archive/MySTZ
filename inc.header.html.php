@@ -3,6 +3,7 @@
 <head>
 <title><?=$title?></title>
 <link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="icon" href="images/favicon.ico">
 <script type="text/javascript">
 
   var _gaq = _gaq || [];

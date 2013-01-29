@@ -5,7 +5,7 @@
   font-weight: normal;
   font-style: normal;
 }
-@base: #4C4C4C;
+@base: #515151;
 
 html {
   padding: 0px;
@@ -18,13 +18,17 @@ body {
   padding: 0px;
   margin: 0px;
   width: 100%;
+  position:relative;
 }
 a {
   color: gray;
 }
+h2{
+	margin: 0.5em 0;
+	text-shadow: 1px 1px 0 gray;
+}
 header {
   width: 100%;
-  display: block;
   background-color: @base;
   border-top: 2px solid #2db674;
   border-bottom: 1px solid #333;
@@ -59,7 +63,14 @@ header ul li a {
 header ul li:hover {
   color: #48484a;
 }
-.header-small {
+
+.header-small{
+	position:fixed;
+	background: @base;
+	z-index: 5;
+}
+
+.header-small-inner {
   display: block;
   width: 1060px;
   height: 70px;
@@ -176,6 +187,35 @@ header ul li:hover {
   display: block;
   padding: 0;
 }
+
+.footer-wrap{
+	background: gray;
+	width: 100%;
+	z-index: 2;
+	position: relative;
+}
+
+.footer{
+	width: 1060px;
+	margin: 0 auto;
+}
+
+.footer-nav{
+	float:left;
+	width: 122px;
+	padding: 0;
+	margin: 10px 5px;
+}
+
+.footer-nav dt{
+	text-decoration:underline;
+	font-size:1.2em;
+	margin-bottom: 0.2em;
+}
+
+.footer-nav dd{
+	margin: 0;
+}
 /********** index.php **********/
 .page {
   width: 1060px;
@@ -183,9 +223,15 @@ header ul li:hover {
 }
 .page-wrapper {
   width: 1060px;
-  margin: 10px auto;
+  margin: 0 auto;
+  padding-top:93px;
   position: relative;
 }
+
+.page-wrapper-index{
+	padding-top:10px;
+}
+
 .slider-main-image {
   float: left;
   display: inline;
@@ -203,9 +249,9 @@ header ul li:hover {
 .nav-more li {
   float: left;
   display: inline;
-  width: 255px;
+  width: 265px;
   height: 180px;
-  margin: 10px 5px 0;
+  margin: 0;
   background-color: #AEAEAE;
   overflow: hidden;
   position: relative;
@@ -215,17 +261,20 @@ header ul li:hover {
   -webkit-transition: box-shadow 0.15s;
 }
 .nav-more li:hover {
-  box-shadow: 0 0 15px rgba(255, 255, 255, 0.45);
+  //box-shadow: 0 0 15px rgba(255, 255, 255, 0.45);
 }
 .nav-more li a {
-  display: block;
-  width: 255px;
-  height: 180px;
+
+}
+.nav-more img{
+	width: 265px;
 }
 .social-wrapper {
   border-top: 1px solid #333;
   background-color: @base;
   border-bottom: 4px solid #2db674;
+  z-index: 2;
+  position: relative;
 }
 #social {
   display: block;
@@ -294,6 +343,7 @@ header ul li:hover {
 }
 .productDesc {
   color: black;
+  height: 18px;
   position: absolute;
   bottom: 0;
   right: 0;
@@ -301,18 +351,27 @@ header ul li:hover {
   background-color: #0fa1f5;
   border-top: 1px solid #0d6a9f;
   border-left: 1px solid #0d6a9f;
+  transition: height 0.2s;
+  -o-transition: height 0.2s;
+  -moz-transition: height 0.2s;
+  -webkit-transition: height 0.2s;
 }
+
+a:hover .productDesc{
+	height: 28px;
+}
+
 /********** individual inventory **********/
 #picWrapper {
-  width: 600px;
+  width: 790px;
   overflow: hidden;
   float: left;
   display: inline;
   margin: 0;
 }
 .product-image-main {
-  width: 600px;
-  height: 350px;
+  width: 790px;
+  height: 460px;
   float: left;
   display: inline;
 }
@@ -324,25 +383,25 @@ header ul li:hover {
   margin: 0 0 10px 10px;
 }
 .product-data {
-  width: 420px;
+  width: 250px;
   margin: 0 10px;
   float: left;
   display: inline;
 }
 .product-title,
 .product-price {
-  margin: 5px 0;
+  margin: 0 0 5px;
+  text-shadow: 1px 1px 0px gray;
 }
 .size-selector {
   list-style-type: none;
-  width: 280px;
   padding: 0;
   display: block;
   clear: both;
 }
 .size-selector-size {
   width: 30px;
-  padding: 10px;
+  padding: 5px;
   border: 1px solid black;
   float: left;
   display: inline;
@@ -393,14 +452,14 @@ textarea {
 }
 #contactInfo {
   padding: 10px 15px;
-  display: inline-block;
+  float:left;
   text-align: center;
   width: 260px;
   color: gray;
   font-size: 48px;
 }
 #contactInfo h1,
-h2 {
+#contactInfo h2 {
   margin: 0;
 }
 #contactInfo h1 {
@@ -419,6 +478,7 @@ h2 {
 .breadCrumb {
   display: block;
   text-transform: lowercase;
+  margin: 10px 0;
 }
 .breadCrumb a {
   color: gray;

@@ -1,6 +1,6 @@
 <body>
-<header class="clearfix">
-	<div class="header-small">
+<header class="header-small">
+	<div class="header-small-inner">
 		<a href="index.php"><div class="header-small-mystz"></div></a>
 		<ul class="nav nav-small">
 			<li><a href="index.php"><img src="images/navbuttons/home.sprite.png" /></a></li>

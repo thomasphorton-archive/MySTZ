@@ -4,9 +4,9 @@
 	include 'inc.header.php'; 
 ?>
 
-<div class="page">
-<div class="page-wrapper clearfix">
+<div class="page-wrapper">
 <span class="breadCrumb"><a href="index.php">Home</a> > About</span>
+<div class="clearfix">
 	<form id="stickerPackForm" class="contactForm clearfix" action="form.send.sticker.php" method="post">
 		<h2>Request a Sticker Pack</h2>
 		<input type="text" placeholder="name" id="stickerName" name="name" />
@@ -27,9 +27,10 @@
 		<h2><a href="http://canvassedapparel.com">www.canvassedapparel.com</a></h2>
 		<a href="http://canvassedapparel.com">blog</a> | <a href="http://canvassedapparel.com">team</a>
 	</section>
+</div>
 	<span class="breadCrumb"><a href="index.php">Home</a> > About</span>
 </div><!--#pageWrapper-->
-</div>
+
 <? 
 	include 'inc.social.php'; 
 	include 'inc.footer.php';

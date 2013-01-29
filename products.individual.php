@@ -24,16 +24,6 @@
 			console.log(size);
 			sizeSelect.val(size);
 		});
-		
-		productWrapper = $('.nav-more a');
-		productDesc = $('.productDesc');
-		productWrapper.hover(function(e){
-			e.stopPropagation();
-			$(this).find('span').animate({'height' : '28px'}, 200);
-		}, function(e){
-		e.stopPropagation();
-			$(this).find('span').animate({'height' : '18'}, 200);
-		});
 	
 	});
 	
@@ -116,6 +106,9 @@
 		
 </div><!--#bigDesc-->
 <section class="clearfix">
+
+	<h2>You also might like:</h2>
+
 	<ul class="nav-more">
 		<?
 			$dontShow = array($product["id"]);

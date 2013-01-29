@@ -1,147 +1,101 @@
-.shirtMaker{
-	width:1020px !important;
-	padding:20px;
-	min-height:520px;
+.shirtMaker {
+  width: 1020px !important;
+  padding: 100px 20px 20px;
+  min-height: 520px;
 }
-
-.shirtMaker h2{
-	display:block;
-	/*background-color:#2db674;
-	margin:3px 0;
-	padding:4px 0;
-	
-	border:1px solid #CCC;*/
-	text-align:center;
-	color:#EAEAEA;
-	margin:5px 0;
+#shirtViewer {
+  position: fixed;
+  height: 400px;
+  width: 400px;
 }
-
-#shirtViewer{
-	position:relative;
-	float:left;
-	display:inline-block;
-	height:315px;
-	width:315px;
+.slider {
+  position: absolute;
+  top: 0px;
+  left: 0px;
 }
-
-.slider{
-	position:absolute;
-	top:0px;
-	left:0px;
+.flexslider {
+  width: 391px;
+  margin: 0px auto;
+  background-color: transparent !important;
+  box-shadow: none !important;
 }
-
-.flexslider{
-	width:306px;
-	margin:0px auto;
-	background-color:transparent !important;
-	box-shadow: none !important;
+.shirtmaker-step {
+  padding-left: 400px;
+  text-align: center;
 }
-
-.slides li{
-	
+#designThumb {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
-
-.slides img{
-	
+#designThumb li {
+  display: inline-block;
+  padding: 1px;
 }
-
-#designContainer{
-	width:620px;
-	padding:0 42px;
-	float:left;
-	display:inline-block;
-	margin:0 0 11px;
+#designThumb li:hover {
+  background-color: #2DB674;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.95);
 }
-
-#designThumb{
-	list-style-type:none;
-	padding:0;
-	margin:0;
+#designThumb li img {
+  width: 80px;
+  margin: 2px;
 }
-
-#designThumb li{
-	display:inline-block;
-	padding:1px;
+#swatchContainer ul {
+  list-style-type: none;
+  padding: 0;
+  width: auto;
 }
-
-#designThumb li:hover{
-	background-color:#2DB674;
-	box-shadow:0 0 5px rgba(0,0,0,0.95);
+.graphicControls {
+  height: 86px;
+  width: 86px;
 }
-
-#designThumb li img{
-	width:80px;
-	margin:2px;
+.colorControls {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
 }
-
-#swatchContainer{
-	width:330px;
-	float:left;
-	display:inline;
-	margin:0 5px;
+.colorControls:hover {
+  box-shadow: 0 0 5px black;
 }
-
-#swatchContainer ul{
-	list-style-type:none;
-	padding:0;
-	width:auto;
-	}
-
-#swatchContainer .colorControls{
-	display:inline-block;
-}
-
 .colorControls:hover,
-.graphicControls:hover{
-	cursor:pointer;
+.graphicControls:hover {
+  cursor: pointer;
 }
-
-#swatchContainer .colorControls img{
-	width:40px;
+#swatchContainer .colorControls img {
+  width: 40px;
 }
-
-.smallBox{
-	width:320px;
-	float:left;
-	display:inline;
-	margin:0 10px;
+.smallBox {
+  width: 320px;
+  float: left;
+  display: inline;
+  margin: 0 10px;
 }
-
-.size-selector{
-	margin:15px auto 0;
+#size #sizes li {
+  margin-top: 5px;
+  background-color: #CCC;
 }
-
-#size #sizes li{
-	margin-top:5px;
-	background-color:#CCC;
+#sizes li.selected {
+  background-color: orange !important;
 }
-
-#sizes li.selected{
-	background-color:orange !important;
+#sizes li:hover {
+  background-color: #0fa1f5 !important;
+  cursor: pointer;
 }
-
-#sizes li:hover{
-	background-color:#0fa1f5 !important;
-	cursor:pointer;
+#quantity select {
+  display: block;
+  width: 220px;
+  padding: 15px 0;
+  height: 40px;
 }
-
-#quantity select{
-	display:block;
-	width:220px;
-	padding:15px 0;
-	height:40px;
+#checkout span {
+  display: block;
+  background-color: #2db674;
+  text-align: center;
+  margin: 3px 0 15px;
+  font-size: 24px;
+  font-weight: 700;
 }
-
-#checkout span{
-	display:block;
-	background-color:#2db674;
-	text-align:center;
-	margin:3px 0 15px;
-	font-size:24px;
-	font-weight:700;
-}
-
-#checkout span:hover{
-	cursor:pointer;
-	background-color:orange;
+#checkout span:hover {
+  cursor: pointer;
+  background-color: orange;
 }

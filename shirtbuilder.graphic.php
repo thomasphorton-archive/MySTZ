@@ -233,7 +233,8 @@
       </div><!--.flexslider1-->
     </div><!--.slider-->
   </div><!--#shirtMaker--> 
-  <div class="flex-container" id="designContainer">
+  
+  <div class="flex-container shirtmaker-step" id="designContainer">
 		<h2 class="step1">1. Pick Your Graphic</h2>
 	  <ul id="designThumb">
 	   	<?	foreach ($design_options as $design){ ?>
@@ -241,7 +242,7 @@
 	    <?	} ?>
 	  </ul>
   </div><!--.flex-container-->  
-  <div class="flex-container smallBox" id="swatchContainer">
+  <div class="flex-container shirtmaker-step" id="swatchContainer">
   	<h2 class="step2">2. Pick Your Shirt Color</h2>
     <ul>
   	 	<?	foreach ($shirt_color_options as $color){ ?>
@@ -249,9 +250,9 @@
             <?	} ?>
     </ul>
   </div><!--.flex-container-->
-  <div id="size" class="smallBox">
+  <div id="size" class="shirtmaker-step">
   	<h2>3. Pick Your Size</h2>
-  	<ul class="size-selector">
+  	<ul class="size-selector clearfix">
 			<li class="size-selector-size size-selector-size-selected" data-size="Small">S</li>
 			<li class="size-selector-size" data-size="Medium">M</li>
 			<li class="size-selector-size" data-size="Large">L</li>
@@ -259,7 +260,7 @@
 			<li class="size-selector-size" data-size="XX-Large">XXL</li>
 		</ul>
   </div><!--#size-->
-  <div id="checkout" class="smallBox">
+  <div id="checkout" class="shirtmaker-step">
   <h2>4. Order It!</h2>
   <h3 style="color:white; text-align:center;">$30</h3>
   	<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
@@ -283,7 +284,7 @@
 		</form>
 
   </div><!--#checkout-->
-  <p style="color:gray;">Graphic size/placement are approximate. Please reference the <a target="_blank" href="stz.php?line=stz">products page</a> for examples. Please allow 2-3 days for production.</p>
+  <p class="shirtmaker-step">Graphic size/placement are approximate. Please reference the <a target="_blank" href="stz.php?line=stz">products page</a> for examples. Please allow 2-3 days for production.</p>
 </div><!--#pageWrapper-->
 
 

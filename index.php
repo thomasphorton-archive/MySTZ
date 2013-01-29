@@ -43,7 +43,7 @@
 	</div>
 </header>
 
-<div class="page-wrapper">
+<div class="page-wrapper page-wrapper-index">
 	<div class="flexslider slider-main">
 	<ul class="slides">
 		<li><a href="products.line.php?line=outer"><img src="images/bigfrontbanners/blackstzlifehoodie.png" class="slider-main-image"></a></li>

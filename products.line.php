@@ -23,20 +23,6 @@
 	}
 ?>
 
-	<script>
-		$(function(){
-			productWrapper = $('.productWrapper');
-			productDesc = $('.productDesc');
-			productWrapper.hover(function(e){
-				e.stopPropagation();
-				$(this).children('span').animate({'height' : '28px'}, 200);
-			}, function(e){
-			e.stopPropagation();
-				$(this).children('span').animate({'height' : '18'}, 200);
-			});
-		});
-	</script>
-
 	<div class="page-wrapper">
 		<span class="breadCrumb"><a href="index.php">home</a> > <a href="products.php">products</a> > <?=$line?></span>
 	<div class="clearfix">

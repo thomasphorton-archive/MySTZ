@@ -4,6 +4,6 @@
 		<input type="text" placeholder="email" id="messageEmail" name="email" />
 		<input type="text" placeholder="subject" id="messageSubject" name="subject" />
 		<textarea placeholder="message" id="message" name="message" ></textarea>
-		<input type="submit" value="Send Us a Message" />
+		<button class="btn" type="submit">Send Us a Message</button>
 		<input type="hidden" value="nospam" name="spamcheck"/>
 	</form>

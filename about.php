@@ -17,7 +17,7 @@
 		<input type="text" placeholder="state" id="stickerState" name="state" />
 		<input type="text" placeholder="zip code" id="stickerZip" name="zip" />
 		<input type="hidden" name="spamcheck" value="nospam" />
-		<input type="submit" value="Request a Sticker Pack" />
+		<button class="btn" type="submit">Request a Pack</button>
 	</form>
 	
 	<? include 'inc.contact.php'; ?>

@@ -5,23 +5,33 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'camelia';
+  src: url('fonts/rns_camelia-webfont.eot');
+  src: url('fonts/rns_camelia-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/rns_camelia-webfont.woff') format('woff'), url('fonts/rns_camelia-webfont.ttf') format('truetype'), url('fonts/rns_camelia-webfont.svg#rns_cameliaregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 html {
   padding: 0px;
   margin: 0px;
   width: 100%;
   background-color: #515151;
-  font-family: 'libel';
+  font-family: 'camelia';
 }
 body {
   padding: 0px;
   margin: 0px;
-  width: 100%;
   position: relative;
 }
 a {
   color: gray;
 }
+h1 {
+  font-family: 'libel';
+}
 h2 {
+  font-family: 'libel';
   margin: 0.5em 0;
   text-shadow: 1px 1px 0 gray;
 }
@@ -31,11 +41,6 @@ header {
   border-top: 2px solid #2db674;
   border-bottom: 1px solid #333;
   position: relative;
-}
-header #topWrap {
-  background-color: #48484a;
-  height: 30px;
-  display: none;
 }
 header ul {
   float: left;
@@ -81,15 +86,10 @@ header ul li:hover {
   background: url(images/header-small-mystz.png);
 }
 .header-index {
-  display: block;
   width: 1060px;
   height: 150px;
   margin: 0 auto;
   position: relative;
-}
-.header-index img {
-  float: left;
-  display: inline;
 }
 .header-index-logo {
   float: left;
@@ -104,7 +104,7 @@ header ul li:hover {
   display: inline;
   width: 600px;
   height: 104px;
-  margin: 10px 0 0 0;
+  margin: 10px 0 0 ;
   background: url(images/header-index-mystz.png);
 }
 .nav {
@@ -222,13 +222,7 @@ header ul li:hover {
   padding-top: 10px;
 }
 .slider-main-image {
-  float: left;
-  display: inline;
   width: 1060px;
-  height: 340px;
-  overflow: hidden;
-  margin: 0;
-  background-color: white;
 }
 .nav-more {
   list-style-type: none;
@@ -238,16 +232,9 @@ header ul li:hover {
 .nav-more li {
   float: left;
   display: inline;
-  width: 265px;
   height: 180px;
-  margin: 0;
-  background-color: #AEAEAE;
   overflow: hidden;
   position: relative;
-  transition: box-shadow 0.15s;
-  -o-transition: box-shadow 0.15s;
-  -moz-transition: box-shadow 0.15s;
-  -webkit-transition: box-shadow 0.15s;
 }
 .nav-more img {
   width: 265px;
@@ -364,8 +351,11 @@ a:hover .productDesc {
   margin: 0 0 10px 10px;
 }
 .product-data {
-  width: 250px;
-  margin: 0 10px;
+  width: 240px;
+  min-height: 430px;
+  background: #d9d9d9;
+  margin: 0;
+  padding: 15px;
   float: left;
   display: inline;
 }
@@ -383,12 +373,12 @@ a:hover .productDesc {
 .size-selector-size {
   width: 30px;
   padding: 5px;
-  border: 1px solid black;
+  border: 1px solid #AAA;
   float: left;
   display: inline;
   text-align: center;
   margin: 0 2px;
-  background-color: #515151;
+  background-color: #BBB;
 }
 .size-selector-size-selected {
   background-color: orange;
@@ -397,18 +387,17 @@ a:hover .productDesc {
   background-color: #0fa1f5;
   cursor: pointer;
 }
-.addToCartWrap {
-  height: 39px;
-  overflow: hidden;
-}
-.addToCartWrap input {
-  display: block;
+.btn {
+  padding: 20px;
+  font-size: 24px;
   margin: 0 auto;
-  width: 216px !important;
-  padding: 0 !important;
+  font-family: 'libel';
+  display: block;
+  border: none;
 }
-.addToCartWrap input:hover {
-  margin: -39px auto 0px;
+.btn:hover {
+  cursor: pointer;
+  background: orange;
 }
 /********** About **********/
 .contactForm {
@@ -504,9 +493,7 @@ html[xmlns] .clearfix {
 }
 /* iPads (portrait) ----------- */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  #instagram {
-    display: none;
-  }
+  
 }
 /* Desktops and laptops ----------- */
 @media only screen and (min-width: 1224px) {
@@ -518,7 +505,5 @@ html[xmlns] .clearfix {
 }
 /* iPhone 4 ----------- */
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  #instagram {
-    display: none;
-  }
+  
 }

@@ -277,9 +277,9 @@
 			<tr><td><input type="hidden" name="on1" value="Shirt Details"></td></tr><tr><td><input type="text" id="customDetail" name="os1" maxlength="200" style="display:none;"></td></tr>
 			</table>
 			<input type="hidden" name="currency_code" value="USD">
-			<div class="addToCartWrap">
-			<input type="image" src="images/addToCart.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" onclick="_gaq.push(['_trackEvent', 'Add to Cart', 'Custom Graphic', 'Details to Be Added');">
-			</div>
+			
+			<button type="submit" class="btn-cart" name="submit" onclick="_gaq.push(['_trackEvent', 'Add to Cart', 'Custom Graphic', 'Details to Be Added');">Add to Cart</button>
+		
 			<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 		</form>
 

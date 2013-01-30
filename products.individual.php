@@ -97,7 +97,7 @@
 			</table>
 			<? } ?>
 			<input type="hidden" name="currency_code" value="USD">
-			<button type="submit" name="submit" class="btn-cart" onclick="_gaq.push(['_trackEvent', 'Add to Cart', '<?= $product["title"]; ?>']);">Add to Cart</button>
+			<button type="submit" name="submit" class="btn" onclick="_gaq.push(['_trackEvent', 'Add to Cart', '<?= $product["title"]; ?>']);">Add to Cart</button>
 			<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 		</form>
 		<? } ?>

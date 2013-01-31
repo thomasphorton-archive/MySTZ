@@ -244,7 +244,7 @@
   </div><!--.flex-container-->  
   <div class="flex-container shirtmaker-step" id="swatchContainer">
   	<h2 class="step2">2. Pick Your Shirt Color</h2>
-    <ul>
+    <ul class="color-options-container">
   	 	<?	foreach ($shirt_color_options as $color){ ?>
   	 		<li class="colorControls" data-color="<?=$color["title"]?>"><img src="images/shirtbuilder/swatches/<?=$color["thumb"]?>" alt="<?=$color["title"]?>" /></li>
             <?	} ?>

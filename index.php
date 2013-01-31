@@ -46,6 +46,7 @@
 <div class="page-wrapper page-wrapper-index">
 	<div class="flexslider slider-main">
 	<ul class="slides">
+		<li><a href="products.php"><img src="images/bigfrontbanners/freeshirthatandrew.png" class="slider-main-image"></a></li>
 		<li><a href="products.line.php?line=outer"><img src="images/bigfrontbanners/blackstzlifehoodie.png" class="slider-main-image"></a></li>
 		<li><a href="products.php"><img src="images/bigfrontbanners/productryannikki.png" class="slider-main-image"></a></li>
 		<li><a href="products.line.php?line=ladies"><img src="images/bigfrontbanners/womens.png" class="slider-main-image"></a></li>

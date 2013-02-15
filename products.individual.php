@@ -12,8 +12,6 @@
 	include 'inc.header.html.php';
 	include 'inc.header.php'; 
 ?>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-<script type="text/javascript" src="js/select-size.js"></script>
 
 <div class="page-wrapper" 
   itemscope itemtype="http://schema.org/Product">
@@ -54,16 +52,17 @@
 		";
 	}
 	else{
+		$product_title = str_replace("'", "", $product_title);
 	?>
 	
 	<p class="product-description-small"><?=$product["small_description"]?></p>
 	<? if ($product["line"]!= "hats"){ ?>
 		<ul class="size-selector clearfix">
-			<li class="size-selector-size size-selector-size-selected" data-size="small" onclick="_gaq.push(['_trackEvent', 'Picked Size', 'S', '<?= $product["title"];?>']);">S</li>
-			<li class="size-selector-size" data-size="medium" onclick="_gaq.push(['_trackEvent', 'Picked Size', 'M', '<?= $product["title"];?>']);">M</li>
-			<li class="size-selector-size" data-size="large" onclick="_gaq.push(['_trackEvent', 'Picked Size', 'L', '<?= $product["title"];?>']);">L</li>
-			<li class="size-selector-size" data-size="x-large" onclick="_gaq.push(['_trackEvent', 'Picked Size', 'XL', '<?= $product["title"];?>']);">XL</li>
-			<li class="size-selector-size" data-size="xx-large" onclick="_gaq.push(['_trackEvent', 'Picked Size', 'XXL', '<?= $product["title"];?>']);">XXL</li>
+			<li class="size-selector-size size-selector-size-selected" data-size="small" onclick="_gaq.push(['_trackEvent', 'Picked Size', 'S', '<?= $product_title?>']);">S</li>
+			<li class="size-selector-size" data-size="medium" onclick="_gaq.push(['_trackEvent', 'Picked Size', 'M', '<?= $product_title?>']);">M</li>
+			<li class="size-selector-size" data-size="large" onclick="_gaq.push(['_trackEvent', 'Picked Size', 'L', '<?= $product_title?>']);">L</li>
+			<li class="size-selector-size" data-size="x-large" onclick="_gaq.push(['_trackEvent', 'Picked Size', 'XL', '<?= $product_title?>']);">XL</li>
+			<li class="size-selector-size" data-size="xx-large" onclick="_gaq.push(['_trackEvent', 'Picked Size', 'XXL', '<?= $product_title?>']);">XXL</li>
 		</ul>
 		<? } ?>
 		<p class="product-description-large">
@@ -85,7 +84,7 @@
 			</table>
 			<? } ?>
 			<input type="hidden" name="currency_code" value="USD">
-			<button type="submit" name="submit" class="btn" onclick="_gaq.push(['_trackEvent', 'Add to Cart', '<?= $product["title"]; ?>']);">Add to Cart</button>
+			<button type="submit" name="submit" class="btn" data-product-title="<?= $product["title"]; ?>">Add to Cart</button>
 			<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 		</form>
 		<? } ?>
@@ -108,7 +107,10 @@
 					if(isset($inventory[$randInv])){
 					?>
 					
-					<a href="products.individual.php?id=<?=$inventory[$randInv]["id"]?>" onclick="_gaq.push(['_trackEvent', 'View Product', 'More Products', '<?= $inventory[$randInv]["title"];?>']);" >
+					<a href="products.individual.php?id=<?=$inventory[$randInv]["id"]?>" 
+							class="product-individual-link"
+							data-product-title="<?= $inventory[$randInv]["title"]; ?>"
+							data-link-type="products.individual" >
 						<li><img src="images/<?=$inventory[$randInv]["more_thumb"]?>" class="randThumb">
 							<span class="productDesc"><?= $inventory[$randInv]["title"] ?></span>
 					</li></a>

@@ -2,6 +2,7 @@
 	$line = $_GET['line'];
 	$title = $line . " from STZ | Custom Tees and Hoodies";
 	$meta_description = "check out our " . $line . ". you'll look good in it.";
+
 	include 'inc.header.html.php';
 	include 'inc.header.php'; 
 	include 'inventory.php'; 
@@ -37,9 +38,10 @@
 	foreach ($inventory as $product){		
 ?>
 <a href="products.individual.php?id=<?=$product["id"];?>" 
+	class="product-individual-link" 
 	data-product-title="<?= $product["title"]; ?>" 
 	data-product-color="<?= $product["shirt_color"]; ?>" 
-	onclick="_gaq.push(['_trackEvent', 'View Product', 'Product Image', '<?= $product["title"]; ?>']);"
+	data-link-type="products.line"
 >
 	<div class="productWrapper <? if ($i == 0 && $product["line"] == "outer") echo 'special';?>">
 			<img src="images/<?= $product["product_image"]; ?>" title="<?= $product["title"]; ?>" class="productImage">

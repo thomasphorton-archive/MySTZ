@@ -6,7 +6,6 @@
 			sizes.removeClass(' size-selector-size-selected');
 			$(this).addClass(' size-selector-size-selected');
 			size = ($(this).data('size'));
-			console.log(size);
 			sizeSelect.val(size);
 		});
 	});

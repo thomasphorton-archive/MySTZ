@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-<html>
-
 <!------------------------------------------------------------------------------------------------------------------
                                                                                                                    
                                                                                   .,1C8L:                          
@@ -41,13 +38,3 @@
                                                                                 wake. skate. surf. snow.                     
                                                                                                                                                                                                                           
 ---------------------------------------------------------------------------------------------------------------------->
-
-<head>
-<title><?=$title?></title>
-<meta name="description" content="<?=$meta_description?>">
-<link rel="stylesheet" type="text/css" href="css/style.css" />
-<link rel="icon" href="images/favicon.ico">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<? include 'inc.analytics.php'; ?>
-<? include 'inc.js.php'; ?>
-</head>

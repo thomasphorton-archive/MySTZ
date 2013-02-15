@@ -1,11 +1,13 @@
 <?
-	$title = "Custom Screen Printed Tees | MySTZ.com";
+	$title = "Build a Custom Graphic Tee";
+	$meta_description = "build a one-of-a-kind piece of art. then wear it.";
 	include 'inc.header.html.php';
 	include 'inc.header.php'; 
 ?>
 <link rel="stylesheet" type="text/css" href="css/shirtmaker.css" />
 <link rel="stylesheet" href="libraries/flexslider/flexslider.css" type="text/css" />
-<script src="libraries/flexslider/jquery.flexslider.js"></script>  
+<script src="libraries/flexslider/jquery.flexslider.js"></script> 
+<script type="text/javascript" src="js/select-size.js"></script> 
 <script type="text/javascript">
 	$(document).ready(function() {
        
@@ -45,17 +47,6 @@
       manualControls: ".graphicControls",
       controlsContainer: ".flex-container"
     });
- 
-	  sizes = $('.size-selector-size');
-		sizeSelect = $('#paypalSizes');
-			
-		sizes.click(function(){
-			sizes.removeClass(' size-selector-size-selected');
-			$(this).addClass(' size-selector-size-selected');
-			size = ($(this).data('size'));
-			//console.log(size);
-			sizeSelect.val(size);
-		})
 		
 	 });
 </script>
@@ -244,7 +235,7 @@
   </div><!--.flex-container-->  
   <div class="flex-container shirtmaker-step" id="swatchContainer">
   	<h2 class="step2">2. Pick Your Shirt Color</h2>
-    <ul>
+    <ul class="color-options-container">
   	 	<?	foreach ($shirt_color_options as $color){ ?>
   	 		<li class="colorControls" data-color="<?=$color["title"]?>"><img src="images/shirtbuilder/swatches/<?=$color["thumb"]?>" alt="<?=$color["title"]?>" /></li>
             <?	} ?>
@@ -278,7 +269,7 @@
 			</table>
 			<input type="hidden" name="currency_code" value="USD">
 			
-			<button type="submit" class="btn-cart" name="submit" onclick="_gaq.push(['_trackEvent', 'Add to Cart', 'Custom Graphic', 'Details to Be Added');">Add to Cart</button>
+			<button type="submit" class="btn" name="submit" onclick="_gaq.push(['_trackEvent', 'Add to Cart', 'Custom Graphic', 'Details to Be Added');">Add to Cart</button>
 		
 			<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 		</form>

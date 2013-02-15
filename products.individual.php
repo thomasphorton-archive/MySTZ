@@ -8,35 +8,23 @@
 		}
 	}
 	$title = $product["title"] . ' | STZ | Custom Tees and Outerwear';
+	$meta_description = "rock your stz with " . $product["title"] . " from STZ.";
 	include 'inc.header.html.php';
 	include 'inc.header.php'; 
 ?>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-<script type="text/javascript">
-	$(function(){
-		sizes = $('.size-selector-size');
-		sizeSelect = $('#paypalSizes');
-		
-		sizes.click(function(){
-			sizes.removeClass(' size-selector-size-selected');
-			$(this).addClass(' size-selector-size-selected');
-			size = ($(this).data('size'));
-			console.log(size);
-			sizeSelect.val(size);
-		});
-	
-	});
-	
-</script>
+<script type="text/javascript" src="js/select-size.js"></script>
 
-<div class="page-wrapper">
+<div class="page-wrapper" 
+  itemscope itemtype="http://schema.org/Product">
 	<span class="breadCrumb"><a href="index.php">home</a> > <a href="products.php">products</a> > <a href="products.line.php?line=<?=$product["line"]?>"><?=$product["line"]?></a> > <?=$product["title"]?></span>
 	<div id="picWrapper">
-			<img src="images/<?= $product["big_image"]?>" class="product-image-main">
+			<img src="images/<?= $product["big_image"]?>" class="product-image-main" itemprop="image">
 	</div><!--#picWrapper-->
 <div class="product-data">
-	<h1 class="product-title"><?=$product["title"]?></h1>
-	<h2 class="product-price"><?=$product["basePrice"]?></h2>
+  
+	<h1 class="product-title" itemprop="name"><?=$product["title"]?></h1>
+	<h2 class="product-price" itemprop="price"><?=$product["basePrice"]?></h2>
 	
 	<? if ($product["title"] == "Custom Hoodie")
 	{

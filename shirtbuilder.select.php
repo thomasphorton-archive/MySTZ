@@ -1,5 +1,6 @@
 <?
-	$title = "Custom Tees from MySTZ.com | Wake Skate Surf Snow";
+	$title = "Graphic Tee or Pocket Tee? That is the Question.";
+	$meta_description = "it all starts with one. simple. choice.";
 	include 'inc.header.html.php';
 	include 'inc.header.php'; 
 ?>

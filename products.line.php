@@ -1,6 +1,7 @@
 <?
 	$line = $_GET['line'];
 	$title = $line . " from STZ | Custom Tees and Hoodies";
+	$meta_description = "check out our " . $line . ". you'll look good in it.";
 	include 'inc.header.html.php';
 	include 'inc.header.php'; 
 	include 'inventory.php'; 

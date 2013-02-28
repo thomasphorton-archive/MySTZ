@@ -93,3 +93,15 @@
   cursor: pointer;
   background-color: orange;
 }
+
+.shirtmaker-randomize {
+	position: fixed;
+	padding: 10px; 
+	border: 1px solid black;
+	background: #BBB;
+}
+
+.shirtmaker-randomize:hover {
+	cursor: pointer;
+	background: rgba(45, 182, 116, 0.8);
+}

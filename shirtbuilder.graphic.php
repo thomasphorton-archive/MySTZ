@@ -97,7 +97,7 @@
     </div><!--.slider-->
   </div><!--#shirtMaker--> 
   
-  <span class="shirtmaker-randomize" style="float: right;" onclick="_gaq.push(['_trackEvent', 'Custom Shirt', 'Randomized', 'Details to Be Added']);">Randomize</span>
+  <span class="shirtmaker-randomize" onclick="_gaq.push(['_trackEvent', 'Custom Shirt', 'Randomized', 'Details to Be Added']);">Randomize</span>
   
   <div class="flex-container shirtmaker-step" id="designContainer">
 		<h2 class="step1">1. Pick Your Graphic</h2>

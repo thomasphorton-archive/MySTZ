@@ -1,8 +1,6 @@
 <?
 	$line = $_GET['line'];
 	$title = $line . " from STZ | Custom Tees and Hoodies";
-	$meta_description = "check out our " . $line . ". you'll look good in it.";
-
 	include 'inc.header.html.php';
 	include 'inc.header.php'; 
 	include 'inventory.php'; 
@@ -25,9 +23,14 @@
 	}
 ?>
 
-	<div class="page-wrapper">
-		<span class="breadCrumb"><a href="index.php">home</a> > <a href="products.php">products</a> > <?=$line?></span>
-	<div class="clearfix">
+	<div class="container">
+	  <div class="row">
+	    <div class="span12">
+	      <span class="breadCrumb"><a href="index.php">home</a> > <a href="products.php">products</a> > <?=$line?></span>
+	    </div>
+	  </div>
+		
+	<div class="row">
 	<!--<span class="specialsBanner"></span>-->
 <?
 	$numProducts = count($inventory);	
@@ -38,17 +41,16 @@
 	foreach ($inventory as $product){		
 ?>
 <a href="products.individual.php?id=<?=$product["id"];?>" 
-	class="product-individual-link" 
 	data-product-title="<?= $product["title"]; ?>" 
 	data-product-color="<?= $product["shirt_color"]; ?>" 
-	data-link-type="products.line"
+	onclick="_gaq.push(['_trackEvent', 'View Product', 'Product Image', '<?= $product["title"]; ?>']);"
+	class="productLink column span3"
 >
-	<div class="productWrapper <? if ($i == 0 && $product["line"] == "outer") echo 'special';?>">
-			<img src="images/<?= $product["product_image"]; ?>" title="<?= $product["title"]; ?>" class="productImage">
-			<span class="productDesc">
-				<?= $product["title"]; ?>
-			</span>
-	</div><!--.productWrapper-->
+	<? if ($product["message"]) { ?>
+  <span class="productMessage"><?= $product["message"]?></span>
+	<? } ?>
+  <img src="images/<?= $product["product_image"]; ?>" title="<?= $product["title"]; ?>" class="productImage">
+  <span class="productDesc"><?= $product["title"]; ?></span>
 </a>
 <?
 	$i++;
@@ -57,12 +59,21 @@
 ?>
 	</div>
 	<? if ($line == "ladies"){ ?>
-			<p>All graphics are available on women's styles. <a href="about.php">Contact us</a> for details.</p>
+	  <div class="row">
+	    <div class="span12">
+			  <p>All graphics are available on women's styles. <a href="about.php">Contact us</a> for details.</p>
+	    </div>
+	  </div>
 	<? }/*else if($line =="outer"){ ?>
 			<br /><br /><br /><img src="images/banners/customhoodie.png" style="display:inline"> <? include 'inc.contact.php'; ?>
 	<?	} */?>
-	<span class="breadCrumb"><a href="index.php">home</a> > <a href="products.php">products</a> > <?=$line?></span>
-	</div><!--.page-wrapper-->
+	
+	  <div class="row">
+	    <div class="span12">
+	      <span class="breadCrumb"><a href="index.php">home</a> > <a href="products.php">products</a> > <?=$line?></span>
+	    </div>
+	  </div>
+	</div><!--.container-->
 <? 
 	include 'inc.social.php'; 
 	include 'inc.footer.php';

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Config>
+    <Instagram>
+        <Endpoint timeout="10">https://api.instagram.com</Endpoint>
+        <Version>v1</Version>
+        <ClientId>44f83b1cab56478e9eec50b04f826430</ClientId>
+        <ClientSecret>f3685bc70f0647ef85ab761efc0dafa5</ClientSecret>
+        <OAuthPath>/oauth/authorize/?client_id={ClientId}&amp;response_type=code&amp;redirect_uri={RedirectUri}</OAuthPath>
+        <OAuthTokenPath>/oauth/access_token/</OAuthTokenPath>
+    </Instagram>
+    <Instaphp>
+        <RedirectUri>http://beta.mystz.com</RedirectUri>
+        <CACertBundlePath></CACertBundlePath>
+        <Cache Engine="File" Enabled="true">
+            <Settings>
+                <Setting Path="tmp/cache"/>
+                <Setting TTL="+2 Minutes"/>
+            </Settings>
+        </Cache>
+    </Instaphp>
+</Config>

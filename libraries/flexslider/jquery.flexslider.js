@@ -99,7 +99,7 @@
         // MOUSEWHEEL:
         if (vars.mousewheel) {
           slider.bind('mousewheel', function(event, delta, deltaX, deltaY) {
-            event.preventDefault();
+            //event.preventDefault();
             var target = (delta < 0) ? slider.getTarget('next') : slider.getTarget('prev');
             slider.flexAnimate(target, vars.pauseOnAction);
           });
@@ -180,7 +180,7 @@
           methods.controlNav.active();
         
           slider.controlNavScaffold.delegate('a, img', eventType, function(event) {
-            event.preventDefault();
+            //event.preventDefault();
             var $this = $(this),
                 target = slider.controlNav.index($this);
 
@@ -192,7 +192,7 @@
           // Prevent iOS click event bug
           if (touch) {
             slider.controlNavScaffold.delegate('a', "click touchstart", function(event) {
-              event.preventDefault();
+              //event.preventDefault();
             });
           }
         },
@@ -201,7 +201,7 @@
           methods.controlNav.active();
           
           slider.controlNav.live(eventType, function(event) {
-            event.preventDefault();
+            //event.preventDefault();
             var $this = $(this),
                 target = slider.controlNav.index($this);
                 
@@ -213,7 +213,7 @@
           // Prevent iOS click event bug
           if (touch) {
             slider.controlNav.live("click touchstart", function(event) {
-              event.preventDefault();
+              //event.preventDefault();
             });
           }
         },
@@ -252,14 +252,14 @@
           methods.directionNav.update();
         
           slider.directionNav.bind(eventType, function(event) {
-            event.preventDefault();
+            //event.preventDefault();
             var target = ($(this).hasClass(namespace + 'next')) ? slider.getTarget('next') : slider.getTarget('prev');
             slider.flexAnimate(target, vars.pauseOnAction);
           });
           // Prevent iOS click event bug
           if (touch) {
             slider.directionNav.bind("click touchstart", function(event) {
-              event.preventDefault();
+              //event.preventDefault();
             });
           }
         },
@@ -296,7 +296,7 @@
           methods.pausePlay.update((vars.slideshow) ? namespace + 'pause' : namespace + 'play');
 
           slider.pausePlay.bind(eventType, function(event) {
-            event.preventDefault();
+            //event.preventDefault();
             if ($(this).hasClass(namespace + 'pause')) {
               slider.manualPause = true;
               slider.manualPlay = false;
@@ -310,7 +310,7 @@
           // Prevent iOS click event bug
           if (touch) {
             slider.pausePlay.bind("click touchstart", function(event) {
-              event.preventDefault();
+              //event.preventDefault();
             });
           }
         },

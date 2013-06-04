@@ -1,26 +1,90 @@
 <body>
-<header class="header-small">
-	<div class="header-small-inner">
-		<a href="index.php"><div class="header-small-mystz"></div></a>
-		<ul class="nav nav-small">
-			<li><a href="index.php"><img src="images/navbuttons/home.sprite.png" /></a></li>
-			<li><a href="products.php"><img src="images/navbuttons/products.sprite.png" /></a></li>
-			<li><a href="shirtbuilder.select.php"><img src="images/navbuttons/shirtbuilder.sprite.png" /></a></li>
-			<li><a href="about.php"><img src="images/navbuttons/about.sprite.png" /></a></li>
-		</ul>	
-		<ul class="social social-small">
-			<li><a href="https://facebook.com/pages/STZ-Canvassed-Apparel/166458200044265" target="_blank"><img src="images/social/facebook.png"></a></li>
-			<li><a href="https://twitter.com/#!/stz_canvassed" target="_blank"><img src="images/social/twitter.png"></a></li>
-			<li><a href="https://vimeo.com/stz" target="_blank"><img src="images/social/vimeo.png"></a></li>
-			<li>
-				<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
-">
-<input type="image" src="images/cart.png" id="viewCartBack" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
-			</li>
-		</ul>
-		</div><!--#subHead-->
-</header>
+
+<div class="lightbox">
+	<div class="cart-wrapper">
+		<span class="cart-close">X</span>
+		<h2>Your Cart</h2>
+		
+		<h2>Items:</h2>
+		<div class="simpleCart_items clearfix"></div>
+
+		<div class="cart-totals">
+			<div class="cart-row">
+			<span class="cart-row-left">Cart Total:</span>
+			<span class="simpleCart_total cart-row-right"></span>
+			</div>
+			
+			<div class="cart-row">
+			<span class="cart-row-left">Tax:</span>
+			<span class="simpleCart_tax cart-row-right"></span>
+			</div>
+			
+			<div class="cart-row">
+			<span class="cart-row-left">Shipping:</span>
+			<span class="simpleCart_shipping cart-row-right"></span>
+			</div>
+			
+			<div class="cart-row">
+			<span class="cart-row-left">TOTAL:</span>
+			<span class="simpleCart_grandTotal cart-row-right"></span>
+			</div>
+			
+			<div class="cart-row promo-holder">
+				<input type="text" class="promo-field" placeholder="have a promo code?">
+			</div>
+			<div class="cart-row">
+				<span class="promo-apply">Apply Promo Code</span>
+				<div class="promo-result"></div>
+			</div>
+		
+		</div>		
+		<a href="javascript:;" class="simpleCart_checkout btn">checkout</a>
+	</div>
+</div>
+
+<div class="navbar navbar-fixed-top">
+	<div class="navbar-inner">
+		<div class="container">
+			<a class="brand" href="./"><img src="/images/smallstzlogo.png"></a>
+			<div id="main-menu">
+					<ul class="nav pull-right" id="main-menu-right">
+						<li class="dropdown">
+							<a class="dropdown-toggle disabled" data-toggle="dropdown" href="products.php">products <b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="products.line.php?line=stz">graphic.STZ</a></li>
+								<li><a href="products.line.php?line=pocket">pocket.STZ</a></li>
+								<li><a href="products.line.php?line=outer">outer.STZ</a></li>
+								<li><a href="products.line.php?line=ladies">lady.STZ</a></li>
+								<li><a href="products.line.php?line=hats">hats</a></li>
+								<li><a href="products.tanks.php">NEW! tanks</a></li>
+
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a class="dropdown-toggle disabled" data-toggle="dropdown" href="shirtbuilder.select.php">shirtbuilder <b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="shirtbuilder.php?item=tee&style=graphic">custom graphic</a></li>
+								<li><a href="shirtbuilder.php?item=tee&style=pocket">custom pocket</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a class="dropdown-toggle disabled" data-toggle="dropdown" href="about.php">about <b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="about.contact.php">contact</a></li>
+								<li><a href="about.faqs.php">faqs</a></li>
+								<!--<li><a href="about.requeststickers.php">request a sticker pack</a></li>-->
+							</ul>
+						</li>
+					</ul>
+				</div>
+		</div>
+	</div>
+</div>
+<div class="header-cart-wrapper">
+  <div class="container">
+    <div class="pull-right" style="margin-top: 3px;">
+      <span class="simpleCart_quantity"></span> items - <span class="simpleCart_total"></span>
+      <a href="#" class="cart-show">View Cart</a>
+    </div>
+  </div>
+</div>

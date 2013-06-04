@@ -17,23 +17,32 @@
     font-style: normal;
 }
 
+.shadow {
+	box-shadow: 0 1px 4px rgba(0,0,0,.2);
+}
+
 @base: #515151;
 
 html {
   padding: 0px;
   margin: 0px;
   width: 100%;
-  background-color: @base;
+  height: 100%;
   font-family: 'camelia';
 }
+
 body {
   padding: 0px;
   margin: 0px;
+  min-height: 100%;
   position:relative;
+  background: url('images/groovepaper-med.png');
 }
+
 a {
   color: gray;
 }
+
 h1{
 	font-family: 'libel';
 }
@@ -43,107 +52,71 @@ h2{
 	margin: 0.5em 0;
 	text-shadow: 1px 1px 0 gray;
 }
+
 ::selection {
 	background: rgba(45, 182, 116, 0.8);
 }
+
 header {
   width: 100%;
-  background-color: @base;
-  border-top: 2px solid #2db674;
-  border-bottom: 1px solid #333;
   position: relative;
+  background: url('images/groovepaper-dark.png');
+  box-shadow: 0 0 5px rgba(0,0,0,0.75);
 }
-header ul {
-  float: left;
-  display: inline;
-  list-style-type: none;
-  width: 600px;
-  margin: 20px 0 0 40px;
-  padding: 0;
-  height: 30px;
-}
-header ul li {
-  float: left;
-  position: relative;
-}
+
 header ul li a {
-  display: block;
+  display: inline-block;
   text-decoration: none;
-  height: 30px;
-  line-height: 30px;
   margin: 0;
   color: #CACACA;
+  padding: 10px;
 }
-header ul li:hover {
-  color: #48484a;
-}
-.header-small{
-	position:fixed;
-	background: @base;
-	z-index: 5;
-}
+
 .header-small-inner {
   display: block;
   width: 1060px;
-  height: 70px;
-  margin: 10px auto;
+  margin: 10px auto 0;
   position: relative;
 }
+
 .header-small-mystz {
-  width: 400px;
-  height: 69px;
-  float: left;
-  display: inline;
-  background:url(images/header-small-mystz.png)
+  width: 93px;
+  height: 50px;
+  display: inline-block;
+  background:url('images/smallstz.png')
 }
+
+.header-wakeskatesurfsnow {
+	width: 475px;
+	height: 50px;
+	display: inline-block;
+	background: url('images/wakeskatesurfsnow.png') no-repeat;
+}
+
 .header-index {
   width: 1060px;
   height: 150px;
   margin: 0 auto;
   position: relative;
 }
-.header-index-logo {
-	float:left;
-	display:inline;
-  width: 230px;
-  height:149px;
-  margin: 0 140px 0 30px;
-  background:url(images/header-index-logo.png);
-}
-.header-index-mystz {
-	float:left;
-	display:inline;
-  width: 600px;
-  height:104px;
-  margin: 10px 0 0 ;
-  background:url(images/header-index-mystz.png);
-}
+
 .nav {
   margin: 0;
   padding: 0;
   list-style-type: none;
+  display: inline-block;
+  float: right;
 }
 .nav li {
-  float: left;
-  display: inline;
+  display: inline-block;
   margin: 1px;
-  padding: 0;
 }
-.nav li a {
-  position: relative;
-  width: 148px;
-  height: 26px;
-  overflow: hidden;
+
+.nav li:hover {
+	cursor: pointer;
+	background: #2e2d2c;
 }
-.nav li img {
-  position: absolute;
-}
-.nav li img:hover {
-  top: -26px;
-}
-.nav-small {
-  margin: 20px 18px;
-}
+
 .social-index {
   width: 45px;
   position: absolute;
@@ -152,16 +125,19 @@ header ul li:hover {
   margin: 1px 0 0;
   padding: 0;
 }
+
 .social-index li {
   height: 34px;
   width: 34px;
   margin: 1px 0px;
   display: block;
 }
+
 .social-index li img {
   height: 34px;
   width: 34px;
 }
+
 #viewCart {
   width: 34px;
   height: 34px;
@@ -169,6 +145,7 @@ header ul li:hover {
   display: block;
   padding: 0;
 }
+
 .social-small {
   width: 22px;
   position: absolute;
@@ -194,11 +171,22 @@ header ul li:hover {
   display: block;
   padding: 0;
 }
+
+footer {
+	background: url('images/groovepaper-dark.png');
+	position: fixed;
+	bottom: 0;
+	height: 30px;
+	width:100%;
+	z-index: 10;
+}
+
 .footer-wrap{
 	background: gray;
 	width: 100%;
 	z-index: 2;
-	position: relative;
+	position: absolute;
+	bottom: 0;
 }
 .footer{
 	width: 1060px;
@@ -222,16 +210,22 @@ header ul li:hover {
 .page {
   width: 1060px;
   margin: 0 auto;
+  
 }
 .page-wrapper {
   width: 1060px;
   margin: 0 auto;
-  padding-top:93px;
   position: relative;
+  min-height: 100%;
 }
 .page-wrapper-index{
 	padding-top:10px;
 }
+
+.slider-main {
+	margin-bottom: 20px;
+}
+
 .slider-main-image {
   width: 1060px;
 }
@@ -247,21 +241,23 @@ header ul li:hover {
   overflow: hidden;
   position: relative;
 }
+
+.nav-more li.tall {
+	height: 375px;
+}
+
 .nav-more img{
 	width: 265px;
 }
 .social-wrapper {
-  border-top: 1px solid #333;
-  background-color: @base;
-  border-bottom: 4px solid #2db674;
   z-index: 2;
   position: relative;
 }
 #social {
   display: block;
   width: 1060px;
-  margin: 10px auto;
-  padding: 10px 0;
+  margin: 10px auto ;
+  padding: 10px 0 30px;
 }
 #social .fb-like {
   border-right: 1px solid #333;

@@ -13,6 +13,7 @@
       animation: "slide",
 			animationLoop: true,
 			controlNav: false,
+			slideshowSpeed: 4000,
     });
 	 });
 </script>
@@ -24,13 +25,16 @@
 			  <div class="flexslider">
           <ul class="slides">
             <li>
-              <img src="images/index/index-banner-1.png" class="index-banner-image">
+              <img src="images/banners/banner1.jpg" class="index-banner-image">
             </li>
             <li>
-
+              <img src="images/banners/banner2.jpg" class="index-banner-image">
             </li>
             <li>
-
+              <img src="images/banners/banner3.jpg" class="index-banner-image">
+            </li>
+            <li>
+              <img src="images/banners/banner4.jpg" class="index-banner-image">
             </li>
           </ul>
         </div>

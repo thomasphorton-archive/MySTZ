@@ -37,7 +37,7 @@
 
         <h4 class="collapsible-trigger">What if I ordered the wrong size?</h4>
         <div class="collapsible-pane">
-          <p>No problem, contact our returns department at returns@mystz.com within 5 days of receiving your order. We will send you a shipping label to return the item(s) and exchange it for the correct size. Unfortunately, we are unable to exchange or refund the sale of any custom outerwear unless there is a manufacturer defect.</p>
+          <p>No problem, contact our returns department at <a href="mailto:returns@mystz.com">returns@mystz.com</a> within 5 days of receiving your order. We will send you a shipping label to return the item(s) and exchange it for the correct size. Unfortunately, we are unable to exchange or refund the sale of any custom outerwear unless there is a manufacturer defect.</p>
         </div>
 
         <h4 class="collapsible-trigger">How should I wash STZ apparel?</h4>
@@ -58,12 +58,12 @@
 
         <h4 class="collapsible-trigger">What is your return policy?</h4>
         <div class="collapsible-pane">
-          <p>If you are unsatisfied with your order, contact us at <a href="mailto:customerservice@mystz.com">customerservice@mystz.com</a> within 5 days receiving your order and we will gladly exchange your unworn item(s) free of charge. *Excludes custom orders.</p>
+          <p>If you are unsatisfied with your order, contact us at <a href="mailto:returns@mystz.com">returns@mystz.com</a> within 5 days receiving your order and we will gladly exchange your unworn item(s) free of charge. *Excludes custom orders.</p>
         </div>
 
         <h4 class="collapsible-trigger">Where is STZ made?</h4>
         <div class="collapsible-pane">
-          <p>Currently, we print all graphics in-house at our Charlotte, NC shop. All of out pocket tees and outerwear is manufactured locally in Statesville, NC.</p>
+          <p>Currently, we print all graphics in-house at our Charlotte, NC shop. All of our pocket tees and outerwear is manufactured locally in Statesville, NC.</p>
         </div>
 
         <h4 class="collapsible-trigger">I want to sell STZ in my retail store, how do I set up an account?</h4>

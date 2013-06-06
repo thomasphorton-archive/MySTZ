@@ -1,10 +1,10 @@
 <body>
 
 <div class="lightbox">
-	<div class="cart-wrapper">
+	<div class="cart-wrapper span8">
 		<span class="cart-close">X</span>
 		<h2>Your Cart</h2>
-		
+
 		<h2>Items:</h2>
 		<div class="simpleCart_items clearfix"></div>
 
@@ -13,22 +13,22 @@
 			<span class="cart-row-left">Cart Total:</span>
 			<span class="simpleCart_total cart-row-right"></span>
 			</div>
-			
+
 			<div class="cart-row">
 			<span class="cart-row-left">Tax:</span>
 			<span class="simpleCart_tax cart-row-right"></span>
 			</div>
-			
+
 			<div class="cart-row">
 			<span class="cart-row-left">Shipping:</span>
 			<span class="simpleCart_shipping cart-row-right"></span>
 			</div>
-			
+
 			<div class="cart-row">
 			<span class="cart-row-left">TOTAL:</span>
 			<span class="simpleCart_grandTotal cart-row-right"></span>
 			</div>
-			
+
 			<div class="cart-row promo-holder">
 				<input type="text" class="promo-field" placeholder="have a promo code?">
 			</div>
@@ -36,8 +36,8 @@
 				<span class="promo-apply">Apply Promo Code</span>
 				<div class="promo-result"></div>
 			</div>
-		
-		</div>		
+
+		</div>
 		<a href="javascript:;" class="simpleCart_checkout btn">checkout</a>
 	</div>
 </div>
@@ -72,7 +72,7 @@
 							<ul class="dropdown-menu">
 								<li><a href="about.contact.php">contact</a></li>
 								<li><a href="about.faqs.php">faqs</a></li>
-								<!--<li><a href="about.requeststickers.php">request a sticker pack</a></li>-->
+								<li><a href="about.contact.php">request a sticker pack</a></li>
 							</ul>
 						</li>
 					</ul>

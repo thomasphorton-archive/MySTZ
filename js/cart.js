@@ -1,3 +1,7 @@
+var user = {};
+var getPricesFor = [];
+var priceHolder;
+
 simpleCart({
   checkout: {
     type: "PayPal",
@@ -14,12 +18,21 @@ simpleCart({
     { attr: "total" , label: "TOTAL", view: 'currency' } ,
     { view: "remove" , text: "Remove" , label: false }
   ],
-  shippingFlatRate: 7
 });
 
-var promoCode;
-var getPricesFor = [];
-var priceHolder;
+simpleCart.shipping(function(){
+  if (user.freeshipping) {
+    return 0;
+  } else {
+    if (simpleCart.quantity() == 1) {
+      return 7;
+    } else if (simpleCart.quantity() == 2) {
+      return 5;
+    } else {
+      return 0;
+    }
+  }
+});
 
 $(function(){
 
@@ -47,19 +60,14 @@ $(function(){
 		showCart();
 	});
 
-	$('.promo-show').click(function(e){
-	  e.preventDefault();
-		showCart();
-	})
-
 	$('.cart-close').click(function(){
 		$('.lightbox').hide();
 	});
 });
 
 function checkPromo(){
-	promoCode = promoField.val();
-	$.cookie('promo_code', promoCode);
+	user.promoCode = promoField.val();
+	$.cookie('promo_code', user.promoCode);
 	resetPrices(function(){
 		applyDiscount();
 	});
@@ -74,7 +82,7 @@ function resetPrices(callback) {
 
 	simpleCart.each(function (item, x){
 		getPricesFor.push(item.get('number'));
-		//console.log(item.get('number'));
+
 	});
 
 	$.ajax({
@@ -96,11 +104,11 @@ function resetPrices(callback) {
 };
 
 function applyDiscount(){
-	promoCode = $.cookie('promo_code');
+	user.promoCode = $.cookie('promo_code');
 	$.ajax({
 		type: "POST",
 		url: "modules/check-promo-code.php",
-		data: {data : promoCode},
+		data: {data : user.promoCode},
 		dataType: 'script'
 	}).done(function(data){
 		data;

@@ -46,11 +46,8 @@
 		<? include 'inc.contact.php'; ?>
 	</div>
 	<div class="span4">
-		<section id="contactInfo" class="clearfix">
-			<h1><a href="mailto:info@mystz.com">info@mystz.com</a></h1>
-			<h2><a href="http://canvassedapparel.com">www.canvassedapparel.com</a></h2>
-			<a href="http://canvassedapparel.com">blog</a> | <a href="http://canvassedapparel.com">team</a>
-		</section>
+		<div class="text-content">
+		</div>
 	</div>
 </div>
 

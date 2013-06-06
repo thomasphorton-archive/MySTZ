@@ -74,7 +74,7 @@
 				}
 			?>
 			<p class="product-description-small"><?=$product["small_description"]?></p>
-			<a href="javascript:;" class="item_add btn <? if ($product["soldout"]) echo 'disabled'; ?>" disabled="disabled" >Add to Cart</a>
+			<a href="javascript:;" class="item_add btn <? if ($product["soldout"]) echo 'disabled'; ?>" >Add to Cart</a>
 	<? } ?>
 
 			<? if ($product["line"] == "stz" || $product["line"] =="pocket") {

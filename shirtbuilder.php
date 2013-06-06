@@ -4,36 +4,36 @@
 	} else {
 		$item = 'tee';
 	}
-	
+
 	if (isset($_GET['style'])) {
 		$style = preg_replace("/[^A-Za-z0-9 ]/", '', $_GET['style']);
 	} else {
 		$style = 'graphic';
 	}
-	
+
 	if (isset($_GET['design'])) {
 		$design = preg_replace("/[^A-Za-z0-9 ]/", '', $_GET['design']);
 	} else {
 		$design = NULL;
 	}
-	
+
 	if (isset($_GET['color'])) {
 		$color = preg_replace("/[^A-Za-z0-9 ]/", '', $_GET['color']);
 	} else {
 		$color = NULL;
 	}
-	
+
 	switch ($style){
 		case 'graphic':
 			include ('shirtbuilder/shirtbuilder.graphics.php');
 			break;
 		case 'pocket':
 			include ('shirtbuilder/shirtbuilder.pockets.php');
-			break; 
+			break;
 		default:
 			include ('shirtbuilder/shirtbuilder.graphics.php');
 	}
-	
+
 	switch ($item){
 		case 'tee':
 			include ('shirtbuilder/shirtbuilder.tees.php');
@@ -41,7 +41,7 @@
 		default:
 			include ('shirtbuilder/shirtbuilder.tees.php');
 	}
-	 
+
 	if ($style == 'graphic' && $item == 'tee') {
 		$item_name = 'Custom Graphic Tee';
 		$item_number = '99998';
@@ -56,14 +56,14 @@
 		$default_color = 'Heather Charcoal';
 		$default_design = 'Flamingo';
 	}
-	
+
 	$title = "STZ Shirtbuilder | Custom Graphics and Pocket Tees | MySTZ";
 	include 'inc.header.html.php';
-	include 'inc.header.php'; 
+	include 'inc.header.php';
 ?>
 <link rel="stylesheet" type="text/css" href="css/shirtmaker.css" />
 <link rel="stylesheet" href="libraries/flexslider/flexslider.css" type="text/css" />
-<script src="libraries/flexslider/jquery.flexslider.js"></script>  
+<script src="libraries/flexslider/jquery.flexslider.js"></script>
 <script type="text/javascript">
 
 
@@ -71,14 +71,14 @@
 var item = '<?=$item?>';
 var style = '<?=$style?>';
 var color = '<?=$default_color?>';
-var design = '<?=$default_design?>'; 
-var colorNormalized; 
+var design = '<?=$default_design?>';
+var colorNormalized;
 var designNormalized;
 
 var customString;
 
 $(document).ready(function() {
-   
+
   <? if ($design) { ?>
 		design = '<?=$design?>';
 		console.log(design);
@@ -95,25 +95,25 @@ $(document).ready(function() {
 		var colorStart = ($('#swatchContainer').find("[data-color-normalized='" + color + "']").index());
 <? } else { ?>
 		var colorStart = 0;
-<? } ?>	
-   
-	customDetail = $('#customDetail');  
+<? } ?>
+
+	customDetail = $('#customDetail');
   updateShirtString();
-     
+
   designControl = $('.designControls');
   designControl.click(function(){
   	design = $(this).data('design');
   	designNormalized = $(this).data('design-normalized');
     updateShirtString();
   });
-  
+
   colorControl = $('.colorControls');
   colorControl.click(function(){
     color = $(this).data('color');
     colorNormalized = $(this).data('color-normalized');
     updateShirtString();
   });
-              
+
   $('#colorOptions').flexslider({
   	animation: "slide",
     direction: "vertical",
@@ -122,7 +122,7 @@ $(document).ready(function() {
     controlsContainer: ".flex-container",
     startAt: colorStart
   });
-         
+
   $('#designOptions').flexslider({
     animation: "slide",
     direction: "horizontal",
@@ -131,13 +131,13 @@ $(document).ready(function() {
     controlsContainer: ".flex-container",
     startAt: designStart
   });
-	
+
 	var designSlider = $('.designslide').data('flexslider');
 	var colorSlider = $('.itemslide').data('flexslider');
-		
-	num_designs = <?=count($design_options)?>;		
+
+	num_designs = <?=count($design_options)?>;
 	num_colors = <?=count($item_color)?>;
-	
+
 	randomize = $('.shirtmaker-randomize');
 	randomize.click(function(){
 		rand_design = Math.ceil(Math.random() * num_designs);
@@ -149,7 +149,7 @@ $(document).ready(function() {
 		colorNormalized = colorControl.filter(':nth-child(' + rand_color + ')').data('color-normalized');
 		updateShirtString();
 	});
-	
+
 });
 
 function updateShirtString() {
@@ -170,7 +170,7 @@ function updateShirtString() {
 			    	<div id="colorOptions" class="flexslider itemslide" >
 			      	<ul class="slides">
 			        	<?	foreach ($item_color as $option){	?>
-			          	<li><img src="<?=$option["shirt"]?>" alt="<?=$option["title"]?>" /></li>
+			          	<li><img src="<?=$option["shirt"]?>" alt="<?=$option["title"]?>" class=" lazy"/></li>
 			          <?	} ?>
 			        </ul>
 			      </div><!--.flexslider-->
@@ -179,12 +179,12 @@ function updateShirtString() {
 			    	<div id="designOptions" class="flexslider designslide">
 			      	<ul class="slides">
 			        	<?	foreach ($design_options as $design){	?>
-			            <li><img src="<?=$design["full_size"]?>" alt="<?=$design["title"]?>"  /></li>
+			            <li><img src="<?=$design["full_size"]?>" alt="<?=$design["title"]?>" class=" lazy" /></li>
 			          <?	} ?>
 			        </ul>
 			      </div><!--.flexslider1-->
 			    </div><!--.slider-->
-			  </div><!--#shirtViewer--> 
+			  </div><!--#shirtViewer-->
 				<div class="span7 pull-right">
 				  <div class="flex-container shirtmaker-step row" id="designContainer">
 				  	<h1 class="item_name"><?=$item_name?></h1>
@@ -198,7 +198,7 @@ function updateShirtString() {
 					  		</div>
 					  	</div>
 					  </div>
-				  </div><!--.flex-container-->  
+				  </div><!--.flex-container-->
 				  <div class="flex-container shirtmaker-step row" id="swatchContainer">
 				  	<h2 class="step2">2. Pick Your Shirt Color</h2>
 				    <div class="color-options-container row">
@@ -219,7 +219,7 @@ function updateShirtString() {
 					  <h2 class="">4. Order It!</h2>
 					  <h2 class="product-price">
 							<span class="item_price"><?=$item_price?></span>
-							<span class="discount">Now: 
+							<span class="discount">Now:
 								<span class="discounted_price"></span>
 							</span>
 						</h2>
@@ -235,8 +235,13 @@ function updateShirtString() {
 	  </div>
 	</div>
 </div><!--#pageWrapper-->
+	<script>
 
-<? 
-	include 'inc.social.php'; 
+      $("img.lazy").show().lazyload({
+        effect: 'fadeIn'
+      });
+  </script>
+<?
+	include 'inc.social.php';
 	include 'inc.footer.php';
 ?>

@@ -11,5 +11,4 @@ $(function(){
 
 function track(category, action, label){
 	_gaq.push(['_trackEvent', category, action, label]);
-	console.log('tracking', category, action, label);
 }

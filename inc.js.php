@@ -3,4 +3,5 @@
 <script src="js/jquery.cookie.js"></script>
 <script src="libraries/simplecart/simpleCart.js"></script>
 <script src="js/cart.js"></script>
+<script src="js/tracking.js"></script>
 <script src="js/lazyload.min.js"></script>

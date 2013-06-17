@@ -5,31 +5,24 @@
 ?>
 
 (function() {
-	simpleCart.each(function (item, x){
-		item.price(item.price()*0.8);
-		item.set('promocode', user.promoCode)
-	});
-	simpleCart.update();
-	showResult('STZ20: <br> 20% discount');
+		simpleCart.each(function (item, x){
+			item.price(item.price()*0.8);
+			item.set('promocode', user.promoCode)
+		});
+		simpleCart.update();
+		showResult( user.promoCode + ': <br> 20% discount');
 
-	var priceSpan = $('.simpleCart_shelfItem').find('.item_price');
+		price = $('.item_price')
 
-	$.each(priceSpan, function(){
-		var price = $(this).text();
-		console.log(price);
-		var discountPrice = price.replace('$', '') * 0.8;
-		$(this).siblings('.discount').children('.discounted_price').text('$' + discountPrice);
-	});
+		discountPrice = price.text().replace('$', '') * 0.8;
+		price.addClass('strikethrough');
 
-	priceSpan.addClass('strikethrough');
+		$('.discounted_price').text('$' + discountPrice);
+		$('.discount').show();
 
-
-	$('.discount').show();
-
-})();
-
+	})();
 <?
-	} else if ($promo_code == 'beta10') {
+	} else if ($promo_code == 'beta10' || $promo_code == 'hunter10' || $promo_code == 'tucker10' || $promo_code == 'chez10') {
 ?>
 
 	(function() {
@@ -38,11 +31,33 @@
 			item.set('promocode', user.promoCode)
 		});
 		simpleCart.update();
-		showResult('beta10: <br> 10% discount');
+		showResult( user.promoCode + ': <br> 10% discount');
 
 		price = $('.item_price')
 
 		discountPrice = price.text().replace('$', '') * 0.9;
+		price.addClass('strikethrough');
+
+		$('.discounted_price').text('$' + discountPrice);
+		$('.discount').show();
+
+	})();
+
+<?
+	} else if ($promo_code == 'surfexpo15' || $promo_code == 'launchday15' || $promo_code == 'SURFEXPO15') {
+?>
+
+	(function() {
+		simpleCart.each(function (item, x){
+			item.price(item.price()*0.85);
+			item.set('promocode', user.promoCode)
+		});
+		simpleCart.update();
+		showResult( user.promoCode + ': <br> 15% discount');
+
+		price = $('.item_price')
+
+		discountPrice = price.text().replace('$', '') * 0.85;
 		price.addClass('strikethrough');
 
 		$('.discounted_price').text('$' + discountPrice);
@@ -94,6 +109,8 @@
 
 		$('.discounted_price').text('$' + discountPrice);
 		$('.discount').show();
+
+		user.freeshipping = true;
 
 	})();
 

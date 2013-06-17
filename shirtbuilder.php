@@ -45,16 +45,18 @@
 	if ($style == 'graphic' && $item == 'tee') {
 		$item_name = 'Custom Graphic Tee';
 		$item_number = '99998';
-		$item_price = '$30';
+		$item_price = '$22';
 		$default_color = 'Heather Charcoal';
 		$default_design = 'Beast Mode';
+		$production_time = '3-5 days';
 	}
 	elseif ($style == 'pocket' && $item == 'tee') {
 		$item_name = 'Custom Pocket Tee';
 		$item_number = '99999';
-		$item_price = '$35';
+		$item_price = '$25';
 		$default_color = 'Heather Charcoal';
 		$default_design = 'Flamingo';
+		$production_time = '5-7 days';
 	}
 
 	$title = "STZ Shirtbuilder | Custom Graphics and Pocket Tees | MySTZ";
@@ -228,7 +230,7 @@ function updateShirtString() {
 				  	<input type="text" id="customDetail" class="item_description" style="display: none">
 				  </div><!--#checkout-->
 					<div class="row">
-						<p>Graphic size/placement are approximate. Please reference the <a target="_blank" href="/products.php">products page</a> for examples. Please allow 2-3 days for production.</p>
+						<p>Graphic size/placement are approximate. Please reference the <a target="_blank" href="/products.php">products page</a> for examples. Please allow <?=$production_time?> days for production.</p>
 					</div>
 				</div>
 			</div>

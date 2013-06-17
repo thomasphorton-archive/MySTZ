@@ -17,9 +17,9 @@
 	</div>
 	<div class="span4">
 	  <div class="text-content">
-	    <h2>Available At:</h2>
-	     <a href="#">foo</a><br>
-	     <a href="#">bar</a>
+	  	<h2>Available At</h2>
+			<a href="http://www.valdostawakecompound.com/" target="_blank"><img src="/images/retail/vwc.png"></a>
+			<a href="http://icywakessurfshop.com/" target="_blank"><img src="/images/retail/icywakes.png"></a>
 	  </div>
 	</div>
 </div>

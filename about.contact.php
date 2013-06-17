@@ -47,6 +47,14 @@
 	</div>
 	<div class="span4">
 		<div class="text-content">
+			<h2>Contact Us</h2>
+			<p><a href="mailto:returns@mystz.com">returns@mystz.com</a></p>
+			<p><a href="mailto:customerservice@mystz.com">customerservice@mystz.com</a></p>
+			<p><a href="mailto:sales@mystz.com">sales@mystz.com</a></p>
+			<p><a href="mailto:info@mystz.com">info@mystz.com</a></p>
+			<h2>Available At</h2>
+			<a href="http://www.valdostawakecompound.com/" target="_blank"><img src="/images/retail/vwc.png"></a>
+			<a href="http://icywakessurfshop.com/" target="_blank"><img src="/images/retail/icywakes.png"></a>
 		</div>
 	</div>
 </div>

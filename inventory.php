@@ -712,7 +712,8 @@ $inventory  = array(
 		"small_description" => "",
 		"description" => "",
 		"product_image" => "hats/logo.maroon.blue.products.jpg",
-		"message" => "Only 1 Left!"
+		"soldout" => true,
+		"message" => "Sold Out!"
 	),
 
 	array(

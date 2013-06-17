@@ -4,6 +4,18 @@ $designbase = "images/shirtbuilder/pockets/full";
 $thumbbase = "images/shirtbuilder/pockets/thumbs";
 
 $design_options = array(
+	"Wolf" => array(
+ 		"title" => "Wolf",
+ 		"normalized" => "wolf",
+ 		"full_size" => "$designbase/wolf.png",
+ 		"thumb" => "$thumbbase/wolf.jpg"
+ 	),
+ 	"Aztec" => array(
+ 		"title" => "Aztec",
+ 		"normalized" => "aztec",
+ 		"full_size" => "$designbase/aztec.png",
+ 		"thumb" => "$thumbbase/aztec.jpg"
+ 	),
 	"Flamingo" => array(
  		"title" => "Flamingo",
  		"normalized" => "flamingo",

@@ -1,5 +1,29 @@
 <?
 $design_options = array(
+	"STZ Life Vintage" => array(
+		"title" => "STZ Life Vintage",
+		"normalized" => "stzlifevintage",
+		"full_size" => "images/shirtbuilder/graphics/stzlifevintage.png",
+		"thumb" => "images/shirtbuilder/graphicthumbs/stzlifevintage.jpg",
+	),
+	"Send It To The Flats" => array(
+		"title" => "Send It To The Flats",
+		"normalized" => "sendittotheflats",
+		"full_size" => "images/shirtbuilder/graphics/sendittotheflats.png",
+		"thumb" => "images/shirtbuilder/graphicthumbs/sendittotheflats.jpg",
+	),
+	"Chemical STZ" => array(
+		"title" => "Chemical STZ",
+		"normalized" => "chemicalstz",
+		"full_size" => "images/shirtbuilder/graphics/chemicalstz.png",
+		"thumb" => "images/shirtbuilder/graphicthumbs/chemicalstz.jpg",
+	),
+	"Charlie Brown" => array(
+		"title" => "Charlie Brown",
+		"normalized" => "charliebrown",
+		"full_size" => "images/shirtbuilder/graphics/charliebrown.png",
+		"thumb" => "images/shirtbuilder/graphicthumbs/charliebrown.jpg",
+	),
 	"Beast Mode" => array(
 		"title" => "Beast Mode",
 		"normalized" => "beastmode",

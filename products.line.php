@@ -51,7 +51,7 @@
 	<? if ($product["message"]) { ?>
   <span class="productMessage"><?= $product["message"]?></span>
 	<? } ?>
-  <img src="http://beta.mystz.com/images/smallstzlogo.png" data-original="images/<?= $product["product_image"]; ?>" title="<?= $product["title"]; ?>" class="productImage lazy">
+  <img src="/images/placeholder.products.png" data-original="images/<?= $product["product_image"]; ?>" title="<?= $product["title"]; ?>" class="productImage lazy">
   <span class="productDesc"><?= $product["title"]; ?></span>
 </a>
 <?

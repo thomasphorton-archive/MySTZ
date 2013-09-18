@@ -11,13 +11,19 @@
     	</ul>
       <ul class="nav pull-right social">
         <li class="">
-          <a href="https://www.facebook.com/pages/STZ-Canvassed-Apparel/166458200044265?fref=ts" target="_blank>"<i class="icon-facebook"></i></a>
+          <a href="https://www.facebook.com/pages/STZ-Canvassed-Apparel/166458200044265?fref=ts" target="_blank>">
+            <i class="icon-facebook"></i>
+          </a>
         </li>
         <li class="">
-          <a href="http://instagram.com/stzlife" target="_blank"><i class="icon-instagram"></i></a>
+          <a href="http://instagram.com/stzlife" target="_blank">
+            <i class="icon-instagram"></i>
+          </a>
         </li>
         <li class="">
-          <a href="http://vimeo.com/stz" target="_blank"><i class="icon-vimeo"></i></a>
+          <a href="http://vimeo.com/stz" target="_blank">
+            <i class="icon-vimeo"></i>
+          </a>
         </li>
       </ul>
     </div>

@@ -71,6 +71,17 @@
 .icon-gplus:before { content: '\e801'; } /* '' */
 .icon-instagram:before { content: '\f32d'; } /* '' */
 
+[class^="icon-"],
+[class*=" icon-"] {
+  display: inline-block;
+width: 20px;
+height: 20px;
+line-height: 20px;
+vertical-align: text-top;
+background-image: url("../img/glyphicons-halflings.png");
+background-position: 20px 20px;
+background-repeat: no-repeat;
+}
 
 .shadow {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);

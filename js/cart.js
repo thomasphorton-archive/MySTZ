@@ -34,6 +34,21 @@ simpleCart.shipping(function(){
   }
 });
 
+simpleCart.bind( 'afterAdd' , function( item ) {
+  track('Cart', 'Add', item.get('name') + ' ' + item.get('size'));
+  $('.header-cart-wrapper').show();
+  showCart();
+});
+
+simpleCart.bind( 'beforeRemove' , function( item ) {
+  track('Cart', 'Remove',  item.get('name') + ' ' + item.get('size'));
+});
+
+simpleCart.bind( 'beforeCheckout', function(data){
+  track('Cart', 'Checkout', simpleCart.grandTotal());
+  debugger;
+});
+
 $(function(){
 
   disabled = $('.disabled');
@@ -42,6 +57,7 @@ $(function(){
 	promoField = $('.promo-field');
 	$('.promo-apply').click(function(){
 		checkPromo();
+		track('Cart', 'Promo Code', $('.promo-field').val());
 	});
 
 	simpleCart.ready(function(){
@@ -126,8 +142,3 @@ function showCart() {
 function showResult(msg) {
 	$('.promo-result').slideDown().html(msg);
 }
-
-simpleCart.bind( "afterAdd" , function( item ){
-  showCart();
-  $('.header-cart-wrapper').show();
-});

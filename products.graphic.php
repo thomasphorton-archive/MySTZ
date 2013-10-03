@@ -11,7 +11,41 @@
 	include 'inc.header.html.php';
 	include 'inc.header.php';
 
+	if (count($product["options"]) >= 2) {
+
+		$colorway_select = "<select class='colorway-select' id='colorway-select'>";
+
+		foreach($product["options"] as $colorway) {
+
+			$colorway_option = strtolower($colorway["shirt"] . "/" . $colorway["graphic"]);
+
+			$colorway_select .= "<option value='" . $colorway_option . "'>" . $colorway_option . "</option>";
+
+		}
+
+		$colorway_select .= "</select>";
+
+	}
+
 ?>
+
+<script>
+	
+	$(function(){
+
+		var colorwaySelect = $('.colorway-select');
+
+		colorwaySelect.change(function(){
+
+			var colorway = $(this).val();
+
+			$('.item_description').text(colorway)
+
+		});
+
+	});
+
+</script>
 
 <div class="container">
 	<div class="row">
@@ -38,70 +72,24 @@
 				</span>
 			</h2>
 
-		<? if ($product["title"] == "Custom Hoodie")
-		{
-			echo "<p>We're working on our custom hoodie builder, until it's finished please <a href='mailto:info@mystz.com'>email us</a> with any questions or custom orders.</p>
+			<? if ($colorway_select) { ?>
 
-			<p>Please allow an additional 5-7 days for production.</p>
+			<label for="colorway-select">Color:</label>
 
-			<ul>
-				<li>Made in America</li>
-				<li>Hand-cut and assembled</li>
-				<li>34\" Length (Shoulder seam to bottom of waist)</li>
-				<li>iPod pocket</li>
-				<li>Thumb holes</li>
-				<li>Reinforced seams</li>
-				<li>Shoelace drawstring waistband</li>
-			</ul>
+			<? echo $colorway_select; ?>
 
-			<p>Custom options:<br />
-			<u>Body Color</u>: Red / Navy / Black / Ash / Burgundy<br />
-			<u>Sleeves:</u> Red / Navy / Black / Ash / Burgundy / Purple<br />
-			<u>Hood:</u> Red / Navy / Black / Ash / Burgundy / Purple<br />
-			<u>Pocket:</u> Red / Navy / Black / Ash / Burgundy / Purple / Mint / Pastel Yellow / Heather Charcoal / Royal Blue<br />
-			<u>Cuffs:</u> Black / Charcoal / Royal Blue<br />
-			<u>Laces:</u> Red / Navy / Black / Ash / Burgundy / Purple / Mint / Pastel Yellow / Heather Charcoal / Royal Blue
-			</p>
-
-			";
-		}
-		else{
-		?>
+			<? } ?>
 
 			<p class="item_description hidden"></p>
-
 			<?
-				if ($product["line"]!= "hats"){
+			
 					include 'inc.select-size.php';
-				}
+			
 			?>
 			<p class="product-description-small"><?=$product["description"]?></p>
 			<a href="javascript:;" class="item_add btn <? if ($product["soldout"]) echo 'disabled'; ?>" >Add to Cart</a>
-	<? } ?>
 
-			<? if ($product["line"] == "stz" || $product["line"] =="pocket") {
 
-				$color = $product["color_normalized"];
-
-				$item = "tee";
-
-				switch ($product["line"]) {
-					case "stz":
-						$style = "style";
-						break;
-					case "pocket":
-						$style = "pocket";
-						break;
-				}
-
-					$design = $product["design_normalized"];
-
-					$custom_url = "/shirtbuilder.php?item=" . $item . "&design=" . $design . "&style=" . $style . "&color=" . $color;
-			?>
-				<a href="<?=$custom_url?>">Want to make it unique? Load it in the customizer</a>
-			<?
-				}
-			?>
 		</div>
 	</div><!--.productData-->
 </div><!--.row-->
@@ -109,7 +97,7 @@
 
 		<h2 class="span12">You also might like:</h2>
 			<?
-				$dontShow = array((int) $product["id"], 901, 902, ,911, 1111, 1112, 1113, 1114);
+				$dontShow = array((int) $product["id"], 99999, 99998, 1111, 1112, 1113, 1114);
 
 				$length = count($inventory) -1;
 				$i = 0;

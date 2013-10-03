@@ -48,43 +48,22 @@
 			<a class="brand" href="./"><img src="/images/smallstzlogo.png"></a>
 			<div id="main-menu">
 					<ul class="nav pull-right" id="main-menu-right">
+						<li><a href="/products.php">shop</a></li>
+						<li><a href="/shirtbuilder.select.php">shirtbuilder</a></li>
 						<li class="dropdown">
-							<a class="dropdown-toggle disabled" data-toggle="dropdown" href="products.php">products <b class="caret"></b></a>
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#">cart <span class="simpleCart_quantity"></span><b class="caret"></b></a>
 							<ul class="dropdown-menu">
-								<li><a href="products.line.php?line=stz">graphic.STZ</a></li>
-								<li><a href="products.line.php?line=pocket">pocket.STZ</a></li>
-								<li><a href="products.line.php?line=outer">outer.STZ</a></li>
-								<li><a href="products.line.php?line=ladies">lady.STZ</a></li>
-								<li><a href="products.line.php?line=hats">hats</a></li>
-								<li><a href="products.tanks.php">NEW! tanks</a></li>
-
-							</ul>
-						</li>
-						<li class="dropdown">
-							<a class="dropdown-toggle disabled" data-toggle="dropdown" href="shirtbuilder.select.php">shirtbuilder <b class="caret"></b></a>
-							<ul class="dropdown-menu">
-								<li><a href="shirtbuilder.php?item=tee&style=graphic">custom graphic</a></li>
-								<li><a href="shirtbuilder.php?item=tee&style=pocket">custom pocket</a></li>
-							</ul>
-						</li>
-						<li class="dropdown">
-							<a class="dropdown-toggle disabled" data-toggle="dropdown" href="about.php">about <b class="caret"></b></a>
-							<ul class="dropdown-menu">
-								<li><a href="about.contact.php">contact</a></li>
-								<li><a href="about.faqs.php">faqs</a></li>
-								<li><a href="about.contact.php">request a sticker pack</a></li>
+								<li class="cart-details">
+									<div class="cart-panel">
+										<h4>items in your cart <span class="simpleCart_quantity"></span></h4>
+										<div class="simpleCart_items clearfix"></div>
+										<a href="/checkout.php" class="btn">checkout</a>
+									</div>
+								</li>
 							</ul>
 						</li>
 					</ul>
 				</div>
 		</div>
 	</div>
-</div>
-<div class="header-cart-wrapper">
-  <div class="container">
-    <div class="pull-right" style="margin-top: 3px;">
-      <span class="simpleCart_quantity"></span> items - <span class="simpleCart_total"></span>
-      <a href="#" class="cart-show">View Cart</a>
-    </div>
-  </div>
 </div>

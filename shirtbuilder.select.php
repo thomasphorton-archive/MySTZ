@@ -5,12 +5,7 @@
 ?>
 
 <div class="container">
-	<div class="row">
-		<div class="span12">
-			<span class="breadCrumb"><a href="index.php">home</a> > build a shirt</span>
-		</div>
-	</div>
-	
+		
 	<div class="row">
 		<div class="span6">
 			<a href="shirtbuilder.php?item=tee&style=graphic"><img src="images/shirtbuilder/select/select.graphic.png" class="shirtbuilder-select"/></a>
@@ -20,13 +15,7 @@
 		</div>
 	</div>
 
-	<div class="row">
-		<div class="span12">
-			<span class="breadCrumb"><a href="index.php">home</a> > build a shirt</span>
-		</div>
-	</div>
 </div><!--.container-->
 <? 
-	include 'inc.social.php'; 
 	include 'inc.footer.php';
 ?>

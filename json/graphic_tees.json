@@ -1,0 +1,762 @@
+{
+
+  "Vintage_STZlife" : {
+
+    "Name": "Vintage STZlife",
+
+    "Name_Normalized": "Vintage_STZlife",
+
+    "Price": 18,
+
+    "Line": "Graphic Tees",
+
+    "Sizes": ["S", "M", "L", "XL", "XXL"],
+
+    "Description": "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer-than-average fitted tee.",
+
+    "Colorways": [
+    
+      { "Shirt": "Latte", "Graphic": "Black" },
+
+      { "Shirt": "White", "Graphic": "Black" }
+
+    ],
+
+    "Images": {
+
+      "Large": [
+
+        "/images/graphic-tees/main/vintagestz.jpg",
+        "/images/graphic-tees/main/vintagestz.jpg"
+
+      ],
+
+      "Thumb": "/images/graphic-tees/thumb/vintagestz.jpg"
+
+    }
+
+  },
+
+  "Helloha" : {
+
+    "Name": "Helloha",
+
+    "Name_Normalized": "Helloha",
+
+    "Price": 18,
+
+    "Line": "Graphic Tees",
+
+    "Sizes": ["S", "M", "L", "XL", "XXL"],
+
+    "Description": "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer-than-average fitted tee.",
+
+    "Colorways": [
+    
+      { "Shirt": "Fatigue", "Graphic": "Burgandy" },
+
+      { "Shirt": "Latte", "Graphic": "Burgandy" }
+
+    ],
+
+    "Images": {
+
+      "Large": [
+
+        "/images/graphic-tees/main/helloha.jpg"
+
+      ],
+
+      "Thumb": "/images/graphic-tees/thumb/helloha.jpg"
+
+    }
+
+  },
+
+  "Slush_Buddie" : {
+
+    "Name": "Slush Buddie",
+
+    "Name_Normalized": "Slush_Buddie",
+
+    "Price": 18,
+
+    "Line": "Graphic Tees",
+
+    "Sizes": ["S", "M", "L", "XL", "XXL"],
+
+    "Description": "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer-than-average fitted tee.",
+
+    "Colorways": [
+    
+      { "Shirt": "Heather Grey", "Graphic": "Black" },
+
+      { "Shirt": "Maritime", "Graphic": "Black" }
+
+    ],
+
+    "Images": {
+
+      "Large": [
+
+        "/images/graphic-tees/main/slushbuddie.jpg"
+
+      ],
+
+      "Thumb": "/images/graphic-tees/thumb/slushbuddie.jpg"
+
+    }
+
+  },
+
+  "3_Flamingos" : {
+
+    "Name": "3 Flamingos",
+
+    "Name_Normalized": "3_Flamingos",
+
+    "Price": 18,
+
+    "Line": "Graphic Tees",
+
+    "Sizes": ["S", "M", "L", "XL", "XXL"],
+
+    "Description": "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer-than-average fitted tee.",
+
+    "Colorways": [
+    
+      { "Shirt": "Heather Blue", "Graphic": "Black" }
+
+    ],
+
+    "Images": {
+
+      "Large": [
+
+        "/images/graphic-tees/main/3flamingos.jpg"
+
+      ],
+
+      "Thumb": "/images/graphic-tees/thumb/3flamingos.jpg"
+
+    }
+
+  },
+
+  "Crest" : {
+
+    "Name": "Crest",
+
+    "Name_Normalized": "Crest",
+
+    "Price": 18,
+
+    "Line": "Graphic Tees",
+
+    "Sizes": ["S", "M", "L", "XL", "XXL"],
+
+    "Description": "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer-than-average fitted tee.",
+
+    "Colorways": [
+    
+      { "Shirt": "Heather Red", "Graphic": "Black" },
+
+      { "Shirt": "Fatigue", "Graphic": "Black" },
+
+      { "Shirt": "Latte", "Graphic": "Black" }
+
+    ],
+
+    "Images": {
+
+      "Large": [
+
+        "/images/graphic-tees/main/crest.jpg"
+
+      ],
+
+      "Thumb": "/images/graphic-tees/thumb/crest.jpg"
+
+    }
+
+  },
+
+  "Send_It_To_The_Flats" : {
+
+    "Name": "Send it to the Flats",
+
+    "Name_Normalized": "Send_It_To_The_Flats",
+
+    "Price": 18,
+
+    "Line": "Graphic Tees",
+
+    "Sizes": ["S", "M", "L", "XL", "XXL"],
+
+    "Description": "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer-than-average fitted tee.",
+
+    "Colorways": [
+    
+      { "Shirt": "Heather Grey", "Graphic": "Black" }
+
+    ],
+
+    "Images": {
+
+      "Large": [
+
+        "/images/graphic-tees/main/sendittotheflats.jpg"
+
+      ],
+
+      "Thumb": "/images/graphic-tees/thumb/sendittotheflats.jpg"
+
+    }
+
+  },
+
+  "Hand_Shredded" : {
+
+    "Name": "Hand Shredded",
+
+    "Name_Normalized": "Hand_Shredded",
+
+    "Price": 18,
+
+    "Line": "Graphic Tees",
+
+    "Sizes": ["S", "M", "L", "XL", "XXL"],
+
+    "Description": "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer-than-average fitted tee.",
+
+    "Colorways": [
+    
+      { "Shirt": "Heather Grey", "Graphic": "Black" },
+
+      { "Shirt": "Heather Blue", "Graphic": "Black" }
+
+    ],
+
+    "Images": {
+
+      "Large": [
+
+        "/images/graphic-tees/main/handshredded.jpg"
+
+      ],
+
+      "Thumb": "/images/graphic-tees/thumb/handshredded.jpg"
+
+    }
+
+  },
+
+  "Majestically_Rad" : {
+
+    "Name": "Majestically Rad",
+
+    "Name_Normalized": "Majestically_Rad",
+
+    "Price": 18,
+
+    "Line": "Graphic Tees",
+
+    "Sizes": ["S", "M", "L", "XL", "XXL"],
+
+    "Description": "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer-than-average fitted tee.",
+
+    "Colorways": [
+    
+      { "Shirt": "White", "Graphic": "Black" },
+
+      { "Shirt": "Heather Blue", "Graphic": "Black" }
+
+    ],
+
+    "Images": {
+
+      "Large": [
+
+        "/images/graphic-tees/main/majesticallyrad.jpg"
+
+      ],
+
+      "Thumb": "/images/graphic-tees/thumb/majesticallyrad.jpg"
+
+    }
+
+  },
+
+  "Right_Coast" : {
+
+    "Name": "Right Coast",
+
+    "Name_Normalized": "Right_Coast",
+
+    "Price": 18,
+
+    "Line": "Graphic Tees",
+
+    "Sizes": ["S", "M", "L", "XL", "XXL"],
+
+    "Description": "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer-than-average fitted tee.",
+
+    "Colorways": [
+    
+      { "Shirt": "Heather Red", "Graphic": "Black" },
+
+      { "Shirt": "Heather Blue", "Graphic": "Black" },
+
+      { "Shirt": "White", "Graphic": "Black" }
+
+    ],
+
+    "Images": {
+
+      "Large": [
+
+        "/images/graphic-tees/main/rightcoast.jpg"
+
+      ],
+
+      "Thumb": "/images/graphic-tees/thumb/rightcoast.jpg"
+
+    }
+
+  },
+
+  "El_Caputo" : {
+
+    "Name": "El Caputo",
+
+    "Name_Normalized": "El_Caputo",
+
+    "Price": 18,
+
+    "Line": "Graphic Tees",
+
+    "Sizes": ["S", "M", "L", "XL", "XXL"],
+
+    "Description": "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer-than-average fitted tee.",
+
+    "Colorways": [
+    
+      { "Shirt": "Fatigue", "Graphic": "Black" },
+
+      { "Shirt": "Heather Grey", "Graphic": "Black" }
+
+    ],
+
+    "Images": {
+
+      "Large": [
+
+        "/images/graphic-tees/main/elcaputo.jpg"
+
+      ],
+
+      "Thumb": "/images/graphic-tees/thumb/elcaputo.jpg"
+
+    }
+
+  },
+
+  "Happy_Shredding" : {
+
+    "Name": "Happy Shredding",
+
+    "Name_Normalized": "Happy_Shredding",
+
+    "Price": 18,
+
+    "Line": "Graphic Tees",
+
+    "Sizes": ["S", "M", "L", "XL", "XXL"],
+
+    "Description": "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer-than-average fitted tee.",
+
+    "Colorways": [
+    
+      { "Shirt": "Charcoal", "Graphic": "Orange" },
+
+      { "Shirt": "Fatigue", "Graphic": "Orange" }
+
+    ],
+
+    "Images": {
+
+      "Large": [
+
+        "/images/graphic-tees/main/happyshredding.jpg"
+
+      ],
+
+      "Thumb": "/images/graphic-tees/thumb/happyshredding.jpg"
+
+    }
+
+  },
+
+  "Shred_Til_Youre_Dead" : {
+
+    "Name": "Shred Til You're Dead",
+
+    "Name_Normalized": "Shred_Til_Youre_Dead",
+
+    "Price": 18,
+
+    "Line": "Graphic Tees",
+
+    "Sizes": ["S", "M", "L", "XL", "XXL"],
+
+    "Description": "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer-than-average fitted tee.",
+
+    "Colorways": [
+    
+      { "Shirt": "Fatigue", "Graphic": "Black" },
+
+      { "Shirt": "Latte", "Graphic": "Black" }
+
+    ],
+
+    "Images": {
+
+      "Large": [
+
+        "/images/graphic-tees/main/shredtilyouredead.jpg"
+
+      ],
+
+      "Thumb": "/images/graphic-tees/thumb/shredtilyouredead.jpg"
+
+    }
+
+  },
+
+  "Triangles" : {
+
+    "Name": "Triangles",
+
+    "Name_Normalized": "Triangles",
+
+    "Price": 18,
+
+    "Line": "Graphic Tees",
+
+    "Sizes": ["S", "M", "L", "XL", "XXL"],
+
+    "Description": "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer-than-average fitted tee.",
+
+    "Colorways": [
+    
+      { "Shirt": "Heather Blue", "Graphic": "Black" },
+
+      { "Shirt": "Heather Red", "Graphic": "Black" }
+
+    ],
+
+    "Images": {
+
+      "Large": [
+
+        "/images/graphic-tees/main/triangles.jpg"
+
+      ],
+
+      "Thumb": "/images/graphic-tees/thumb/triangles.jpg"
+
+    }
+
+  },
+
+  "Shoot_All_Shred" : {
+
+    "Name": "Shoot All Shred",
+
+    "Name_Normalized": "Shoot_All_Shred",
+
+    "Price": 18,
+
+    "Line": "Graphic Tees",
+
+    "Sizes": ["S", "M", "L", "XL", "XXL"],
+
+    "Description": "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer-than-average fitted tee.",
+
+    "Colorways": [
+    
+      { "Shirt": "Heather Grey", "Graphic": "Black" },
+
+      { "Shirt": "White", "Graphic": "Black" }
+
+    ],
+
+    "Images": {
+
+      "Large": [
+
+        "/images/graphic-tees/main/shootallshred.jpg"
+
+      ],
+
+      "Thumb": "/images/graphic-tees/thumb/shootallshred.jpg"
+
+    }
+
+  },
+
+  "OG_Whaler" : {
+
+    "Name": "OG Whaler",
+
+    "Name_Normalized": "OG_Whaler",
+
+    "Price": 18,
+
+    "Line": "Graphic Tees",
+
+    "Sizes": ["S", "M", "L", "XL", "XXL"],
+
+    "Description": "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer-than-average fitted tee.",
+
+    "Colorways": [
+    
+      { "Shirt": "Maritime", "Graphic": "White" }
+
+    ],
+
+    "Images": {
+
+      "Large": [
+
+        "/images/graphic-tees/main/ogwhaler.jpg"
+
+      ],
+
+      "Thumb": "/images/graphic-tees/thumb/ogwhaler.jpg"
+
+    }
+
+  },
+
+  "STZlife" : {
+
+    "Name": "STZlife",
+
+    "Name_Normalized": "STZlife",
+
+    "Price": 18,
+
+    "Line": "Graphic Tees",
+
+    "Sizes": ["S", "M", "L", "XL", "XXL"],
+
+    "Description": "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer-than-average fitted tee.",
+
+    "Colorways": [
+    
+      { "Shirt": "White", "Graphic": "Black" },
+
+      { "Shirt": "Heather Blue", "Graphic": "Black" },
+
+      { "Shirt": "Latte", "Graphic": "Black" }
+
+    ],
+
+    "Images": {
+
+      "Large": [
+
+        "/images/graphic-tees/main/stzlife.jpg"
+
+      ],
+
+      "Thumb": "/images/graphic-tees/thumb/stzlife.jpg"
+
+    }
+
+  },
+
+  "Chemical_STZ" : {
+
+    "Name": "Chemical STZ",
+
+    "Name_Normalized": "Chemical_STZ",
+
+    "Price": 18,
+
+    "Line": "Graphic Tees",
+
+    "Sizes": ["S", "M", "L", "XL", "XXL"],
+
+    "Description": "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer-than-average fitted tee.",
+
+    "Colorways": [
+    
+      { "Shirt": "Maritime", "Graphic": "Black" }
+
+    ],
+
+    "Images": {
+
+      "Large": [
+
+        "/images/graphic-tees/main/chemicalstz.jpg"
+
+      ],
+
+      "Thumb": "/images/graphic-tees/thumb/chemicalstz.jpg"
+
+    }
+
+  },
+
+  "Charlie_Brown" : {
+
+    "Name": "Charlie Brown",
+
+    "Name_Normalized": "Charlie_Brown",
+
+    "Price": 18,
+
+    "Line": "Graphic Tees",
+
+    "Sizes": ["S", "M", "L", "XL", "XXL"],
+
+    "Description": "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer-than-average fitted tee.",
+
+    "Colorways": [
+    
+      { "Shirt": "Heather Blue", "Graphic": "Black" },
+
+      { "Shirt": "Latte", "Graphic": "Black" },
+
+      { "Shirt": "Heather Grey", "Graphic": "Black" }
+
+    ],
+
+    "Images": {
+
+      "Large": [
+
+        "/images/graphic-tees/main/charliebrown.jpg"
+
+      ],
+
+      "Thumb": "/images/graphic-tees/thumb/charliebrown.jpg"
+
+    }
+
+  },
+
+  "STZburger" : {
+
+    "Name": "STZburger",
+
+    "Name_Normalized": "STZburger",
+
+    "Price": 18,
+
+    "Line": "Graphic Tees",
+
+    "Sizes": ["S", "M", "L", "XL", "XXL"],
+
+    "Description": "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer-than-average fitted tee.",
+
+    "Colorways": [
+    
+      { "Shirt": "Silver", "Graphic": "Black" },
+
+      { "Shirt": "White", "Graphic": "Black" }
+
+    ],
+
+    "Images": {
+
+      "Large": [
+
+        "/images/graphic-tees/main/stzburger.jpg"
+
+      ],
+
+      "Thumb": "/images/graphic-tees/thumb/stzburger.jpg"
+
+    }
+
+  },
+
+  "Emergency_Mustache" : {
+
+    "Name": "Emergency Mustache",
+
+    "Name_Normalized": "Emergency_Mustache",
+
+    "Price": 18,
+
+    "Line": "Graphic Tees",
+
+    "Sizes": ["S", "M", "L", "XL", "XXL"],
+
+    "Description": "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer-than-average fitted tee.",
+
+    "Colorways": [
+    
+      { "Shirt": "Latte", "Graphic": "Black" },
+
+      { "Shirt": "Heather Grey", "Graphic": "Black" }
+
+    ],
+
+    "Images": {
+
+      "Large": [
+
+        "/images/graphic-tees/main/emergencymustache.jpg"
+
+      ],
+
+      "Thumb": "/images/graphic-tees/thumb/emergencymustache.jpg"
+
+    }
+
+  },
+
+  "KJ_Gorilla" : {
+
+    "Name": "KJ Gorilla",
+
+    "Name_Normalized": "KJ_Gorilla",
+
+    "Price": 18,
+
+    "Line": "Graphic Tees",
+
+    "Sizes": ["S", "M", "L", "XL", "XXL"],
+
+    "Description": "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer-than-average fitted tee.",
+
+    "Colorways": [
+    
+      { "Shirt": "Silver", "Graphic": "Black" },
+
+      { "Shirt": "White", "Graphic": "Black" },
+
+      { "Shirt": "Latte", "Graphic": "Black" }
+
+    ],
+
+    "Images": {
+
+      "Large": [
+
+        "/images/graphic-tees/main/kjgorilla.jpg"
+
+      ],
+
+      "Thumb": "/images/graphic-tees/thumb/kjgorilla.jpg"
+
+    }
+
+  }
+
+}

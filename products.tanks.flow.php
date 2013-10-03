@@ -1,4 +1,4 @@
-<?
+?
 	include 'inventory.php';
 	$title = 'Women\'s Flow Tank | STZ | Custom Tees and Outerwear';
 	include 'inc.header.html.php';

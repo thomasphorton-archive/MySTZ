@@ -51,7 +51,7 @@
 						<li class="dropdown">
 							<a class="dropdown-toggle disabled" data-toggle="dropdown" href="products.php">products <b class="caret"></b></a>
 							<ul class="dropdown-menu">
-								<li><a href="products.line.php?line=stz">graphic.STZ</a></li>
+								<li><a href="products.line.php?line=graphic">graphic.STZ</a></li>
 								<li><a href="products.line.php?line=pocket">pocket.STZ</a></li>
 								<li><a href="products.line.php?line=outer">outer.STZ</a></li>
 								<li><a href="products.line.php?line=ladies">lady.STZ</a></li>

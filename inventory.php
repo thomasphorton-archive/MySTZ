@@ -3,885 +3,1559 @@
 $inventory  = array(
 
 	array(
-		"id" => "4",
-		"line" => "stz",
-		"title" => "Right Coast",
+		"id" => "1",
+		"line" => "graphic",
+		"title" => "Vintage STZlife",
 		"basePrice" => "18",
-		"big_image" => "stz/rightcoast.red.main.png",
-		"small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
-		"description" => "heather red tee, black ink",
-		"product_image" => "stz/rightcoast.red.products.jpg",
-		"color" => "Heather Red",
-		"color_normalized" => "red",
-		"ink_color" => "Black",
-		"design_normalized" => "rightcoast"
-	),
-
-	array(
-		"id" => "21",
-		"line" => "stz",
-		"title" => "Right Coast",
-		"basePrice" => "18",
-		"big_image" => "stz/rightcoast.heatherblue.main.jpg",
-		"small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
-		"description" => "heather blue tee, black ink",
-		"product_image" => "stz/rightcoast.heatherblue.products.jpg",
-		"color" => "Heather Blue",
-		"color_normalized" => "heatherblue",
-		"ink_color" => "Black",
-		"design_normalized" => "rightcoast"
-	),
-
-	array(
-		"id" => "22",
-		"line" => "stz",
-		"title" => "Right Coast",
-		"basePrice" => "18",
-		"big_image" => "stz/rightcoast.heathergrey.main.jpg",
-		"small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
-		"description" => "heather grey tee, black ink",
-		"product_image" => "stz/rightcoast.heathergrey.products.jpg",
-		"color" => "Heather Grey",
-		"color_normalized" => "heathergrey",
-		"ink_color" => "Black",
-		"design_normalized" => "rightcoast"
-	),
-
-	array(
-		"id" => "0",
-		"line" => "stz",
-		"title" => "El Caputo",
-		"basePrice" => "18",
-		"big_image" => "stz/elcaputo.red.main.jpg",
-		"small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
-		"description" => "heather red tee, black ink",
-		"product_image" => "stz/elcaputo.red.products.jpg",
-		"color" => "Heather Red",
-		"color_normalized" => "heatherred",
-		"ink_color" => "Black",
+		"description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
+		"images" => array(
+			"main" => array(
+				"graphic-tees/main/vintagestzlife.jpg"
+			),
+			"thumb" => "graphic-tees/thumbs/vintagestzlife.jpg",
+		),
+		"options" => array(
+			array(
+				"shirt" => "Latte",
+				"graphic" => "Black"
+			),
+			array(
+				"shirt" => "White",
+				"graphic" => "Black"
+			)
+		)
 	),
 
 	array(
 		"id" => "2",
-		"line" => "stz",
-		"title" => "Happy Shredding",
+		"line" => "graphic",
+		"title" => "Helloha",
 		"basePrice" => "18",
-		"big_image" => "stz/happyshredding.main.jpg",
-		"small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
-		"description" => "maroon tee, orange ink",
-		"product_image" => "stz/happyshredding.products.jpg",
-		"color" => "Maroon",
-		"color_normalized" => "maroon",
-		"ink_color" => "Orange",
-		"design_normalized" => "happyshredding"
+		"images" => array(
+			"main" => array(
+				"graphic-tees/main/helloha.jpg"
+			),
+			"thumb" => "graphic-tees/thumbs/helloha.jpg",
+		),
+		"options" => array(
+			array(
+				"shirt" => "Fatigue",
+				"graphic" => "Burgandy"
+			),
+			array(
+				"shirt" => "Latte",
+				"graphic" => "Burgandy"
+			)
+		)
+	),
+
+	array(
+		"id" => "3",
+		"line" => "graphic",
+		"title" => "Slush Buddie",
+		"basePrice" => "18",
+		"description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
+		"images" => array(
+			"main" => array(
+				"stz/slushbuddie.heatherblue.main.jpg"
+			),
+			"thumb" => "graphic-tees/thumbs/slushbuddie.jpg",
+		),
+		"options" => array(
+			array(
+				"shirt" => "Heather Grey",
+				"graphic" => "Black"
+			),
+			array(
+				"shirt" => "Maritime",
+				"graphic" => "Black"
+			)
+		)
+	),
+
+	array(
+		"id" => "4",
+		"line" => "graphic",
+		"title" => "3 Flamingos",
+		"basePrice" => "18",
+		"description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
+		"images" => array(
+			"main" => array(
+				"graphic-tees/main/3flamingos.jpg"
+			),
+			"thumb" => "graphic-tees/thumbs/3flamingos.jpg",
+		),
+		"options" => array(
+			array(
+				"shirt" => "Heather Blue",
+				"graphic" => "Black"
+			)
+		)
+	),
+
+	array(
+		"id" => "5",
+		"line" => "graphic",
+		"title" => "Crest",
+		"basePrice" => "18",
+		"description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
+		"images" => array(
+			"main" => array(
+				"graphic-tees/main/crest.jpg"
+			),
+			"thumb" => "graphic-tees/thumbs/crest.jpg",
+		),
+		"options" => array(
+			array(
+				"shirt" => "Heather Red",
+				"graphic" => "Black"
+			),
+			array(
+				"shirt" => "Fatigue",
+				"graphic" => "Black"
+			),
+			array(
+				"shirt" => "Latte",
+				"graphic" => "Black"
+			)
+		)
 	),
 
 	array(
 		"id" => "6",
-		"line" => "stz",
-		"title" => "Ride",
+		"line" => "graphic",
+		"title" => "Send It To The Flats",
 		"basePrice" => "18",
-		"big_image" => "stz/ride.main.jpg",
-		"small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
-		"description" => "heather charcoal tee, orange ink",
-		"product_image" => "stz/ride.products.jpg",
-		"color" => "Heather Charcoal",
-		"color_normalized" => "heathercharcoal",
-		"ink_color" => "Orange",
-		"design_normalized" => "ridencorange"
+		"description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
+		"images" => array(
+			"main" => array(
+				"graphic-tees/main/sendittotheflats.jpg"
+			),
+			"thumb" => "graphic-tees/thumbs/sendittotheflats.jpg",
+		),
+		"options" => array(
+			array(
+				"shirt" => "Heather Grey",
+				"graphic" => "Black"
+			)
+		)
 	),
 
 	array(
 		"id" => "7",
-		"line" => "stz",
-		"title" => "Ride",
+		"line" => "graphic",
+		"title" => "Word Search",
 		"basePrice" => "18",
-		"big_image" => "stz/ridenc.heathergrey.main.jpg",
-		"small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
-		"description" => "heather grey tee, black ink",
-		"product_image" => "stz/ridenc.heathergrey.products.jpg",
-		"color" => "Heather Grey",
-		"color_normalized" => "heathergrey",
-		"ink_color" => "Black",
-		"design_normalized" => "ridencblack"
-	),
-
-	array(
-		"id" => "33",
-		"line" => "stz",
-		"title" => "Emergency Mustache",
-		"basePrice" => "18",
-		"big_image" => "stz/emergencymustache.latte.main.jpg",
-		"small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
-		"product_image" => "stz/emergencymustache.latte.products.jpg",
-		"color" => "Latte",
-		"color_normalized" => "latte",
-		"ink_color" => "Black",
-		"design_normalized" => "emergencymustache"
-	),
-
-	array(
-		"id" => "10",
-		"line" => "stz",
-		"title" => "Skyline",
-		"basePrice" => "18",
-		"big_image" => "stz/skyline.white.main.jpg",
-		"small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
-		"description" => "white tee, black ink",
-		"product_image" => "stz/skyline.white.products.jpg",
-		"color" => "White",
-		"color_normalized" => "white",
-		"ink_color" => "Black",
-		"design_normalized" => "skyline"
-	),
-
-	array(
-		"id" => "11",
-		"line" => "stz",
-		"title" => "Skyline",
-		"basePrice" => "18",
-		"big_image" => "stz/skyline.blue.main.jpg",
-		"small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
-		"description" => "heather blue tee, black ink",
-    "product_image" => "stz/skyline.blue.products.jpg",
-		"color" => "Heather Blue",
-		"color_normalized" => "heatherblue",
-		"ink_color" => "Black",
-		"design_normalized" => "skyline"
+		"description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
+		"images" => array(
+			"main" => array(
+				"graphic-tees/main/wordsearch.jpg"
+			),
+			"thumb" => "graphic-tees/thumbs/wordsearch.jpg",
+		),
+		"options" => array(
+			array(
+				"shirt" => "Latte",
+				"graphic" => "Black"
+			),
+			array(
+				"shirt" => "White",
+				"graphic" => "Black"
+			)
+		)
 	),
 
 	array(
 		"id" => "8",
-		"line" => "stz",
-		"title" => "Shred Til You're Dead",
+		"line" => "graphic",
+		"title" => "Hand Shredded",
 		"basePrice" => "18",
-		"big_image" => "stz/shredtilyouredead.heathergrey.main.jpg",
-		"small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee. designed by Josh Varnum",
-		"description" => "heather grey shirt, black ink",
-		"product_image" => "stz/shredtilyouredead.heathergrey.products.jpg",
-		"color" => "Heather Grey",
-		"color_normalized" => "heathergrey",
-		"ink_color" => "Black",
-		"design_normalized" => "shredtilyouredead"
+		"description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
+		"images" => array(
+			"main" => array(
+				"graphic-tees/main/handshredded.jpg"
+			),
+			"thumb" => "graphic-tees/thumbs/handshredded.jpg",
+		),
+		"options" => array(
+			array(
+				"shirt" => "Heather Grey",
+				"graphic" => "Black"
+			),
+			array(
+				"shirt" => "Heather Blue",
+				"graphic" => "Black"
+			)
+		)
 	),
 
 	array(
 		"id" => "9",
-		"line" => "stz",
-		"title" => "Shred Til You're Dead",
+		"line" => "graphic",
+		"title" => "Majestically Rad",
 		"basePrice" => "18",
-		"big_image" => "stz/shredtilyouredead.fatigue.main.jpg",
-		"small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee. designed by Josh Varnum",
-		"description" => "fatigue tee, black ink",
-		"product_image" => "stz/shredtilyouredead.fatigue.products.jpg",
-		"color" => "Fatigue",
-		"color_normalized" => "fatigue",
-		"ink_color" => "Black",
-		"design_normalized" => "shredtilyouredead"
+		"description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
+		"images" => array(
+			"main" => array(
+				"graphic-tees/main/majesticallyrad.jpg"
+			),
+			"thumb" => "graphic-tees/thumbs/majesticallyrad.jpg",
+		),
+		"options" => array(
+			array(
+				"shirt" => "White",
+				"graphic" => "Black"
+			),
+			array(
+				"shirt" => "Heather Blue",
+				"graphic" => "Black"
+			)
+		)
+	),
+
+	array(
+		"id" => "10",
+		"line" => "graphic",
+		"title" => "Right Coast",
+		"basePrice" => "18",
+		"description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
+		"images" => array(
+			"main" => array(
+				"stz/rightcoast.red.main.png"
+			),
+			"thumb" => "graphic-tees/thumbs/rightcoast.jpg",
+		),
+		"options" => array(
+			array(
+				"shirt" => "Heather Red",
+				"graphic" => "Black"
+			),
+			array(
+				"shirt" => "Heather Blue",
+				"graphic" => "Black"
+			),
+			array(
+				"shirt" => "White",
+				"graphic" => "Black"
+			)
+		)
+	),
+
+	array(
+		"id" => "11",
+		"line" => "graphic",
+		"title" => "El Caputo",
+		"basePrice" => "18",
+		"description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
+		"images" => array(
+			"main" => array(
+				"stz/stz/elcaputo.red.main.jpg"
+			),
+			"thumb" => "graphic-tees/thumbs/elcaputo.jpg",
+		),
+		"options" => array(
+			array(
+				"shirt" => "Fatigue",
+				"graphic" => "Black"
+			),
+			array(
+				"shirt" => "Heather Grey",
+				"graphic" => "Black"
+			)
+		)
 	),
 
 	array(
 		"id" => "12",
-		"line" => "stz",
-		"title" => "Triangles",
+		"line" => "graphic",
+		"title" => "Happy Shredding",
 		"basePrice" => "18",
-		"big_image" => "stz/triangles.main.jpg",
-		"small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
-		"description" => "heather red tee, black ink",
-		"product_image" => "stz/triangles.products.jpg",
-		"color" => "Heather Red",
-		"color_normalized" => "heatherred",
-		"ink_color" => "Black",
-		"design_normalized" => "triangles"
+		"description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
+		"images" => array(
+			"main" => array(
+				"stz/happyshredding.main.jpg"
+			),
+			"thumb" => "graphic-tees/thumbs/happyshredding.jpg",
+		),
+		"options" => array(
+			array(
+				"shirt" => "Charcoal",
+				"graphic" => "Orange"
+			),
+			array(
+				"shirt" => "Fatigue",
+				"graphic" => "Orange"
+			)
+		)
 	),
 
 	array(
-		"id" => "26",
-		"line" => "stz",
-		"title" => "We Can Do It",
+		"id" => "12",
+		"line" => "graphic",
+		"title" => "Shred Til You're Dead",
 		"basePrice" => "18",
-		"big_image" => "stz/wecandoit.white.main.jpg",
-		"small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee. designed by Logan Huck",
-		"description" => "white tee, black ink",
-		"product_image" => "stz/wecandoit.white.products.jpg",
-		"color" => "White",
-		"color_normalized" => "white",
-		"ink_color" => "Black",
-		"design_normalized" => "wecandoit"
-	),
-
-	array(
-		"id" => "25",
-		"line" => "stz",
-		"title" => "We Can Do It",
-		"basePrice" => "18",
-		"big_image" => "stz/wecandoit.fatigue.main.jpg",
-		"small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee. designed by Logan Huck",
-		"description" => "fatigue tee, black ink",
-		"product_image" => "stz/wecandoit.fatigue.products.jpg",
-		"color" => "Fatigue",
-		"color_normalized" => "fatigue",
-		"ink_color" => "Black",
-		"design_normalized" => "wecandoit"
-	),
-
-	array(
-		"id" => "17",
-		"line" => "stz",
-		"title" => "OG Whaler",
-		"basePrice" => "18",
-		"big_image" => "stz/ogwhaler.white.main.jpg",
-		"small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
-		"description" => "white tee, black ink",
-		"product_image" => "stz/ogwhaler.white.products.jpg",
-		"color" => "White",
-		"color_normalized" => "white",
-		"ink_color" => "Black",
-		"design_normalized" => "ogwhalerblack"
-	),
-
-	array(
-		"id" => "16",
-		"line" => "stz",
-		"title" => "OG Whaler",
-		"basePrice" => "18",
-		"big_image" => "stz/ogwhaler.heatherblue.main.jpg",
-		"small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
-		"description" => "heather blue tee, white ink",
-		"product_image" => "stz/ogwhaler.heatherblue.products.jpg",
-		"color" => "Heather Blue",
-		"color_normalized" => "heatherblue",
-		"ink_color" => "White",
-		"design_normalized" => "ogwhalerwhite"
-	),
-
-	array(
-		"id" => "18",
-		"line" => "stz",
-		"title" => "Party Animals",
-		"basePrice" => "18",
-		"big_image" => "stz/partyanimals.heathercharc.main.jpg",
-		"small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
-		"description" => "heather charcoal tee, grey ink",
-		"product_image" => "stz/partyanimals.heathercharc.products.jpg",
-		"color" => "Heather Charcoal",
-		"color_normalized" => "heathercharcoal",
-		"ink_color" => "Grey",
-		"design_normalized" => "partyanimals"
-	),
-
-	array(
-		"id" => "15",
-		"line" => "stz",
-		"title" => "Moostache",
-		"basePrice" => "18",
-		"big_image" => "stz/moostache.white.main.jpg",
-		"small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
-		"description" => "white tee, black ink",
-		"product_image" => "stz/moostache.white.products.jpg",
-		"color" => "White",
-		"color_normalized" => "white",
-		"ink_color" => "Black",
-		"design_normalized" => "moostache"
+		"description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
+		"images" => array(
+			"main" => array(
+				"stz/shredtilyouredead.heathergrey.main.jpg"
+			),
+			"thumb" => "graphic-tees/thumbs/shredtilyouredead.jpg",
+		),
+		"options" => array(
+			array(
+				"shirt" => "Heather Grey",
+				"graphic" => "Black"
+			),
+			array(
+				"shirt" => "White",
+				"graphic" => "Black"
+			)
+		)
 	),
 
 	array(
 		"id" => "13",
-		"line" => "stz",
-		"title" => "Daps N Pounds",
+		"line" => "graphic",
+		"title" => "Triangles",
 		"basePrice" => "18",
-		"big_image" => "stz/dapsnpounds.heathercharc.main.jpg",
-		"small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
-		"description" => "heather charcoal tee, grey ink",
-		"product_image" => "stz/dapsnpounds.heathercharc.products.jpg",
-		"color" => "Heather Charcoal",
-		"color_normalized" => "heathercharcoal",
-		"ink_color" => "Grey",
-		"design_normalized" => "dapsnpounds"
-	),
-
-	array(
-		"id" => "19",
-		"line" => "stz",
-		"title" => "Peace",
-		"basePrice" => "18",
-		"big_image" => "stz/peace.charcoal.main.jpg",
-		"small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
-		"description" => "heather charcoal tee, blue ink",
-		"product_image" => "stz/peace.charcoal.products.jpg",
-		"color" => "Heather Charcoal",
-		"color_normalized" => "heathercharcoal",
-		"ink_color" => "Blue",
-		"design_normalized" => "peaceblue"
+		"description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
+		"images" => array(
+			"main" => array(
+				"stz/triangles.main.jpg"
+			),
+			"thumb" => "graphic-tees/thumbs/triangles.jpg",
+		),
+		"options" => array(
+			array(
+				"shirt" => "Heather Blue",
+				"graphic" => "Black"
+			),
+			array(
+				"shirt" => "Heather Red",
+				"graphic" => "Black"
+			)
+		)
 	),
 
 	array(
 		"id" => "14",
-		"line" => "stz",
-		"title" => "En Garde",
-		"basePrice" => "18",
-		"big_image" => "stz/engarde.white.main.jpg",
-		"small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
-		"description" => "white tee, black ink",
-		"product_image" => "stz/engarde.white.products.jpg",
-		"color" => "White",
-		"color_normalized" => "white",
-		"ink_color" => "Black",
-		"design_normalized" => "engarde"
-	),
-
-	array(
-		"id" => "27",
-		"line" => "stz",
+		"line" => "graphic",
 		"title" => "Shoot All Shred",
 		"basePrice" => "18",
-		"big_image" => "stz/shootallshred.white.main.jpg",
-		"small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
-		"description" => "white tee, black ink",
-		"product_image" => "stz/shootallshred.white.products.jpg",
-		"color" => "White",
-		"color_normalized" => "white",
-		"ink_color" => "Black",
-		"design_normalized" => "shootallshred"
+		"description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
+		"images" => array(
+			"main" => array(
+				"stz/shootallshred.white.main.jpg"
+			),
+			"thumb" => "graphic-tees/thumbs/shootallshred.jpg",
+		),
+		"options" => array(
+			array(
+				"shirt" => "Heather Grey",
+				"graphic" => "Black"
+			),
+			array(
+				"shirt" => "White",
+				"graphic" => "Black"
+			)
+		)
 	),
 
 	array(
-		"id" => "28",
-		"line" => "stz",
-		"title" => "I Skate NC",
+		"id" => "15",
+		"line" => "graphic",
+		"title" => "OG Whaler",
 		"basePrice" => "18",
-		"big_image" => "stz/iskatenc.grey.main.jpg",
-		"small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee. designed by Nicky Lovejoy",
-		"description" => "heather grey tee, blue ink",
-		"product_image" => "stz/iskatenc.grey.products.jpg",
-		"color" => "Heather Grey",
-		"color_normalized" => "heathergrey",
-		"ink_color" => "Blue",
-		"design_normalized" => "iskatencblue"
+		"description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
+		"images" => array(
+			"main" => array(
+				"stz/ogwhaler.white.main.jpg"
+			),
+			"thumb" => "graphic-tees/thumbs/ogwhaler.jpg",
+		),
+		"options" => array(
+			array(
+				"shirt" => "Maritime",
+				"graphic" => "White"
+			)
+		)
 	),
 
 	array(
-		"id" => "29",
-		"line" => "stz",
-		"title" => "Slush Buddie",
+		"id" => "16",
+		"line" => "graphic",
+		"title" => "STZlife",
 		"basePrice" => "18",
-		"big_image" => "stz/slushbuddie.heatherblue.main.jpg",
-		"small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
-		"description" => "heather blue tee, white ink",
-		"product_image" => "stz/slushbuddie.heatherblue.products.jpg",
-		"color" => "Heather Blue",
-		"color_normalized" => "heatherblue",
-		"ink_color" => "White",
-		"design_normalized" => "slushbuddie"
+		"description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
+		"images" => array(
+			"main" => array(
+				"graphic-tees/main/stzlife.jpg"
+			),
+			"thumb" => "graphic-tees/thumbs/stzlife.jpg",
+		),
+		"options" => array(
+			array(
+				"shirt" => "White",
+				"graphic" => "Black"
+			),
+			array(
+				"shirt" => "Heather Blue",
+				"graphic" => "Black"
+			),
+			array(
+				"shirt" => "Latte",
+				"graphic" => "Black"
+			)
+		)
 	),
 
 	array(
-		"id" => "31",
-		"line" => "stz",
-		"title" => "Too Fresh",
+		"id" => "17",
+		"line" => "graphic",
+		"title" => "Chemical STZ",
 		"basePrice" => "18",
-		"big_image" => "stz/toofresh.white.main.jpg",
-		"small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
-		"description" => "white tee, blue ink",
-		"product_image" => "stz/toofresh.white.products.jpg",
-		"color" => "White",
-		"color_normalized" => "white",
-		"ink_color" => "Blue",
-		"design_normalized" => "toofresh"
+		"description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
+		"images" => array(
+			"main" => array(
+				"graphic-tees/main/chemicalstz.jpg"
+			),
+			"thumb" => "graphic-tees/thumbs/chemicalstz.jpg",
+		),
+		"options" => array(
+			array(
+				"shirt" => "Maritime",
+				"graphic" => "Black"
+			)
+		)
+	),
+
+	array(
+		"id" => "18",
+		"line" => "graphic",
+		"title" => "Charlie Brown",
+		"basePrice" => "18",
+		"description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
+		"images" => array(
+			"main" => array(
+				"graphic-tees/main/charliebrown.jpg"
+			),
+			"thumb" => "graphic-tees/thumbs/charliebrown.jpg",
+		),
+		"options" => array(
+			array(
+				"shirt" => "Heather Blue",
+				"graphic" => "Black"
+			),
+			array(
+				"shirt" => "Latte",
+				"graphic" => "Black"
+			),
+			array(
+				"shirt" => "Heather Grey",
+				"graphic" => "Black"
+			)
+		)
+	),
+
+	array(
+		"id" => "19",
+		"line" => "graphic",
+		"title" => "STZburger",
+		"basePrice" => "18",
+		"description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
+		"images" => array(
+			"main" => array(
+				"graphic-tees/main/stzburger.jpg"
+			),
+			"thumb" => "graphic-tees/thumbs/stzburger.jpg",
+		),
+		"options" => array(
+			array(
+				"shirt" => "Silver",
+				"graphic" => "Black"
+			),
+			array(
+				"shirt" => "White",
+				"graphic" => "Black"
+			)
+		)
+	),
+
+	array(
+		"id" => "20",
+		"line" => "graphic",
+		"title" => "Emergency Mustache",
+		"basePrice" => "18",
+		"description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
+		"images" => array(
+			"main" => array(
+				"stz/emergencymustache.latte.main.jpg"
+			),
+			"thumb" => "graphic-tees/thumbs/emergencymustache.jpg",
+		),
+		"options" => array(
+			array(
+				"shirt" => "Latte",
+				"graphic" => "Black"
+			),
+			array(
+				"shirt" => "Heather Grey",
+				"graphic" => "Black"
+			)
+		)
+	),
+
+	array(
+		"id" => "21",
+		"line" => "graphic",
+		"title" => "KJ Gorilla",
+		"basePrice" => "18",
+		"description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
+		"images" => array(
+			"main" => array(
+				"graphic-tees/main/kjgorilla.jpg"
+			),
+			"thumb" => "graphic-tees/thumbs/kjgorilla.jpg",
+		),
+		"options" => array(
+			array(
+				"shirt" => "Silver",
+				"graphic" => "Black"
+			),
+			array(
+				"shirt" => "White",
+				"graphic" => "Black"
+			),
+			array(
+				"shirt" => "Latte",
+				"graphic" => "Black"
+			)
+		)
 	),
 
 /*********** Pocket Inventory **********/
 
 	array(
-		"id" => "36",
-		"line" => "pocket",
-		"title" => "'Merica",
-		"basePrice" => "25",
-		"big_image" => "pocket/merica.main.jpg",
-		"small_description" => "4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
-		"description" => "",
-		"product_image" => "pocket/merica.products.jpg",
-		"color" => "",
-		"color_normalized" => "heathernavy",
-		"design_normalized" => "merica"
-	),
-
-	array(
-		"id" => "37",
-		"line" => "pocket",
-		"title" => "US Mint",
-		"basePrice" => "25",
-		"big_image" => "pocket/mint.main.jpg",
-		"small_description" => "4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
-		"description" => "",
-		"product_image" => "pocket/mint.products.jpg",
-		"color" => "",
-		"color_normalized" => "maroon",
-		"design_normalized" => "mint"
-	),
-
-	array(
-		"id" => "39",
+		"id" => "101",
 		"line" => "pocket",
 		"title" => "Thatch",
 		"basePrice" => "25",
-		"big_image" => "pocket/thatched.main.jpg",
-		"small_description" => "4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
 		"description" => "",
-		"product_image" => "pocket/thatched.products.jpg",
-		"color" => "Heather Charcoal",
-		"color_normalized" => "heathercharcoal",
-		"design_normalized" => "thatch"
+		"images" => array(
+			"main" => array(
+				"pocket/main/thatch.jpg"
+			),
+			"thumb" => "pocket/thumbs/thatch.jpg",
+		),
+		"options" => array(
+			array(
+				"shirt" => "Sangria"
+			),
+			array(
+				"shirt" => "Charcoal"
+			),
+			array(
+				"shirt" => "Black"
+			)
+		)
 	),
 
 	array(
-		"id" => "40",
+		"id" => "102",
 		"line" => "pocket",
-		"title" => "Flamingo-ed",
+		"title" => "Color Aztec",
 		"basePrice" => "25",
-		"big_image" => "pocket/flamingo.main.jpg",
-		"small_description" => "4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
 		"description" => "",
-		"product_image" => "pocket/flamingo.products.jpg",
-		"color" => "",
-		"color_normalized" => "black",
-		"design_normalized" => "flamingo"
+		"images" => array(
+			"main" => array(
+				"pocket-tees/main/coloraztec.jpg"
+			),
+			"thumb" => "pocket-tees/thumbs/coloraztec.jpg",
+		),
+		"options" => array(
+			array(
+				"shirt" => "Black"
+			),
+			array(
+				"shirt" => "White"
+			),
+			array(
+				"shirt" => "Latte"
+			)
+		)
 	),
 
 	array(
-		"id" => "41",
+		"id" => "103",
 		"line" => "pocket",
-		"title" => "G-fruit",
+		"title" => "Jazzercize",
 		"basePrice" => "25",
-		"big_image" => "pocket/grapefruit.main.jpg",
-		"small_description" => "4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
 		"description" => "",
-		"product_image" => "pocket/grapefruit.products.jpg",
-		"color" => "",
-		"color_normalized" => "black",
-		"design_normalized" => "grapefruit"
+		"images" => array(
+			"main" => array(
+				"pocket-tees/main/jazzercize.jpg"
+			),
+			"thumb" => "pocket-tees/thumbs/jazzercize.jpg",
+		),
+		"options" => array(
+			array(
+				"shirt" => "Fatigue"
+			),
+			array(
+				"shirt" => "Latte"
+			),
+			array(
+				"shirt" => "Black"
+			)
+		)
 	),
 
 	array(
-		"id" => "42",
+		"id" => "104",
+		"line" => "pocket",
+		"title" => "Tan Cord",
+		"basePrice" => "25",
+		"description" => "",
+		"images" => array(
+			"main" => array(
+				"pocket-tees/main/tancord.jpg"
+			),
+			"thumb" => "pocket-tees/thumbs/tancord.jpg",
+		),
+		"options" => array(
+			array(
+				"shirt" => "Heather Navy"
+			),
+			array(
+				"shirt" => "Thyme"
+			),
+			array(
+				"shirt" => "Black"
+			)
+		)
+	),
+
+	array(
+		"id" => "105",
+		"line" => "pocket",
+		"title" => "Majestically Rad",
+		"basePrice" => "25",
+		"description" => "",
+		"images" => array(
+			"main" => array(
+				"pocket-tees/main/majesticallyrad.jpg"
+			),
+			"thumb" => "pocket-tees/thumbs/majesticallyrad.jpg",
+		),
+		"options" => array(
+			array(
+				"shirt" => "Black"
+			),
+			array(
+				"shirt" => "Heather Navy"
+			)
+		)
+	),
+
+	array(
+		"id" => "106",
 		"line" => "pocket",
 		"title" => "Polar Bear Club",
 		"basePrice" => "25",
-		"big_image" => "pocket/polarbear.main.jpg",
-		"small_description" => "4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
 		"description" => "",
-		"product_image" => "pocket/polarbear.products.jpg",
-		"color" => "",
-		"color_normalized" => "heathernavy",
-		"design_normalized" => "polarbear"
+		"images" => array(
+			"main" => array(
+				"pocket/main/polarbearclub.jpg"
+			),
+			"thumb" => "pocket/thumbs/polarbearclub.jpg",
+		),
+		"options" => array(
+			array(
+				"shirt" => "Sangria"
+			),
+			array(
+				"shirt" => "Black"
+			)
+		)
 	),
 
+/********** Baseball **********/
+
 	array(
-		"id" => "61",
-		"line" => "pocket",
-		"title" => "Nerd",
+		"id" => "201",
+		"line" => "baseball",
+		"title" => "Baseball Tee in White/Black",
 		"basePrice" => "25",
-		"big_image" => "pocket/nerd.main.jpg",
-		"small_description" => "4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
 		"description" => "",
-		"product_image" => "pocket/nerd.products.jpg",
-		"color" => "",
-		"color_normalized" => "white",
-		"design_normalized" => "nerd"
+		"images" => array(
+			"main" => array(
+				"pocket-tees/main/polarbearclub.jpg"
+			),
+			"thumb" => "pocket-tees/thumbs/polarbearclub.jpg",
+		),
+		"options" => array(
+			array(
+				"graphic" => "STZlife"
+			),
+			array(
+				"graphic" => "Triangles"
+			),
+			array(
+				"graphic" => "Shred Til You're Dead"
+			),
+			array(
+				"graphic" => "Shoot All Shred"
+			),
+			array(
+				"graphic" => "Majestically Rad"
+			)
+		)
 	),
 
-/********** Outer STZ **********/
-
 	array(
-		"id" => "72",
-		"line" => "outer",
-		"title" => "Custom Hoodie",
-		"basePrice" => "85",
-		"big_image" => "outer/customhoodies.main.jpg",
-		"small_description" => "",
-		"description" => "Details on the way- check back soon.",
-		"product_image" => "outer/customhoodies.products.jpg",
-		"color" => "Custom",
-		"ink_color" => "Custom",
+		"id" => "202",
+		"line" => "baseball",
+		"title" => "Baseball Tee in White/Hunter",
+		"basePrice" => "25",
+		"description" => "",
+		"images" => array(
+			"main" => array(
+				"pocket-tees/main/polarbearclub.jpg"
+			),
+			"thumb" => "pocket-tees/thumbs/polarbearclub.jpg",
+		),
+		"options" => array(
+			array(
+				"graphic" => "STZlife"
+			),
+			array(
+				"graphic" => "Triangles"
+			),
+			array(
+				"graphic" => "Shred Til You're Dead"
+			),
+			array(
+				"graphic" => "Shoot All Shred"
+			),
+			array(
+				"graphic" => "Majestically Rad"
+			)
+		)
 	),
 
 	array(
-		"id" => "64",
-		"line" => "outer",
-		"title" => "Red STZ Life Crew Neck",
+		"id" => "203",
+		"line" => "baseball",
+		"title" => "Baseball Tee in White/Red",
+		"basePrice" => "25",
+		"description" => "",
+		"images" => array(
+			"main" => array(
+				"pocket-tees/main/polarbearclub.jpg"
+			),
+			"thumb" => "pocket-tees/thumbs/polarbearclub.jpg",
+		),
+		"options" => array(
+			array(
+				"graphic" => "STZlife"
+			),
+			array(
+				"graphic" => "Triangles"
+			),
+			array(
+				"graphic" => "Shred Til You're Dead"
+			),
+			array(
+				"graphic" => "Shoot All Shred"
+			),
+			array(
+				"graphic" => "Majestically Rad"
+			)
+		)
+	),
+
+	array(
+		"id" => "204",
+		"line" => "baseball",
+		"title" => "Baseball Tee in White/Purple",
+		"basePrice" => "25",
+		"description" => "",
+		"images" => array(
+			"main" => array(
+				"pocket-tees/main/polarbearclub.jpg"
+			),
+			"thumb" => "pocket-tees/thumbs/polarbearclub.jpg",
+		),
+		"options" => array(
+			array(
+				"graphic" => "STZlife"
+			),
+			array(
+				"graphic" => "Triangles"
+			),
+			array(
+				"graphic" => "Shred Til You're Dead"
+			),
+			array(
+				"graphic" => "Shoot All Shred"
+			),
+			array(
+				"graphic" => "Majestically Rad"
+			)
+		)
+	),
+
+	array(
+		"id" => "205",
+		"line" => "baseball",
+		"title" => "Baseball Tee in Grey/Burgandy",
+		"basePrice" => "25",
+		"description" => "",
+		"images" => array(
+			"main" => array(
+				"pocket-tees/main/polarbearclub.jpg"
+			),
+			"thumb" => "pocket-tees/thumbs/polarbearclub.jpg",
+		),
+		"options" => array(
+			array(
+				"graphic" => "STZlife"
+			),
+			array(
+				"graphic" => "Triangles"
+			),
+			array(
+				"graphic" => "Shred Til You're Dead"
+			),
+			array(
+				"graphic" => "Shoot All Shred"
+			),
+			array(
+				"graphic" => "Majestically Rad"
+			)
+		)
+	),
+
+	array(
+		"id" => "206",
+		"line" => "baseball",
+		"title" => "Baseball Tee in Grey/Black",
+		"basePrice" => "25",
+		"description" => "",
+		"images" => array(
+			"main" => array(
+				"pocket-tees/main/polarbearclub.jpg"
+			),
+			"thumb" => "pocket-tees/thumbs/polarbearclub.jpg",
+		),
+		"options" => array(
+			array(
+				"graphic" => "STZlife"
+			),
+			array(
+				"graphic" => "Triangles"
+			),
+			array(
+				"graphic" => "Shred Til You're Dead"
+			),
+			array(
+				"graphic" => "Shoot All Shred"
+			),
+			array(
+				"graphic" => "Majestically Rad"
+			)
+		)
+	),
+
+	array(
+		"id" => "207",
+		"line" => "baseball",
+		"title" => "Baseball Tee in Grey/Royal",
+		"basePrice" => "25",
+		"description" => "",
+		"images" => array(
+			"main" => array(
+				"pocket-tees/main/polarbearclub.jpg"
+			),
+			"thumb" => "pocket-tees/thumbs/polarbearclub.jpg",
+		),
+		"options" => array(
+			array(
+				"graphic" => "STZlife"
+			),
+			array(
+				"graphic" => "Triangles"
+			),
+			array(
+				"graphic" => "Shred Til You're Dead"
+			),
+			array(
+				"graphic" => "Shoot All Shred"
+			),
+			array(
+				"graphic" => "Majestically Rad"
+			)
+		)
+	),
+
+	array(
+		"id" => "208",
+		"line" => "baseball",
+		"title" => "Baseball Tee in Grey/Hunter",
+		"basePrice" => "25",
+		"description" => "",
+		"images" => array(
+			"main" => array(
+				"pocket-tees/main/polarbearclub.jpg"
+			),
+			"thumb" => "pocket-tees/thumbs/polarbearclub.jpg",
+		),
+		"options" => array(
+			array(
+				"graphic" => "STZlife"
+			),
+			array(
+				"graphic" => "Triangles"
+			),
+			array(
+				"graphic" => "Shred Til You're Dead"
+			),
+			array(
+				"graphic" => "Shoot All Shred"
+			),
+			array(
+				"graphic" => "Majestically Rad"
+			)
+		)
+	),
+
+/**********  Crew Neck Fleece **********/
+
+	array(
+		"id" => "301",
+		"line" => "sweater",
+		"title" => "Crewneck Fleece in Heather Grey",
 		"basePrice" => "40",
-		"big_image" => "outer/stzlifecrew.red.main.jpg",
-		"small_description" => "",
 		"description" => "",
-		"product_image" => "outer/stzlifecrew.red.products.jpg",
-		"color" => "Red",
-		"ink_color" => "White",
+		"images" => array(
+			"main" => array(
+				"outer/stzlifecrew.red.main.jpg"
+			),
+			"thumb" => "outer/stzlifecrew.red.products.jpg",
+		),
+		"options" => array(
+			array(
+				"patch" => "stzlife print"
+			),
+			array(
+				"patch" => "stzlife patch"
+			),
+			array(
+				"patch" => "send it patch"
+			),
+			array(
+				"patch" => "happy shredding patch"
+			)
+		)
 	),
 
 	array(
-		"id" => "65",
-		"line" => "outer",
-		"title" => "Black STZ Life Zip-Up",
-		"basePrice" => "45",
-		"big_image" => "outer/stzlifehoodie.black.main.jpg",
-		"small_description" => "",
-		"description" => "",
-		"product_image" => "outer/stzlifehoodie.black.products.jpg",
-		"color" => "Black",
-		"ink_color" => "White",
-	),
-
-	array(
-		"id" => "66",
-		"line" => "outer",
-		"title" => "Blue STZ Life Zip-Up",
-		"basePrice" => "45",
-		"big_image" => "outer/stzlifehoodie.blue.main.jpg",
-		"small_description" => "",
-		"description" => "",
-		"product_image" => "outer/stzlifehoodie.blue.products.jpg",
-		"color" => "Blue",
-		"ink_color" => "White",
-	),
-
-	array(
-		"id" => "67",
-		"line" => "outer",
-		"title" => "Grey STZ Life Zip-Up",
-		"basePrice" => "45",
-		"big_image" => "outer/stzlifehoodie.grey.main.jpg",
-		"small_description" => "",
-		"description" => "",
-		"product_image" => "outer/stzlifehoodie.grey.products.jpg",
-		"color" => "Grey",
-		"ink_color" => "White",
-	),
-
-	array(
-		"id" => "62",
-		"line" => "outer",
-		"title" => "Black/Grey STZ Life Baseball Shirt",
-		"basePrice" => "25",
-		"big_image" => "outer/stzlifebaseball.grey.main.jpg",
-		"small_description" => "3/4 sleeve raglan baseball tee, 5.4oz, 100% cotton.",
-		"description" => "black and grey raglan tee, black ink",
-		"product_image" => "outer/stzlifebaseball.grey.products.jpg",
-		"color" => "Grey/Black",
-		"ink_color" => "Black",
-	),
-
-	array(
-		"id" => "48",
-		"line" => "outer",
-		"title" => "Red STZ Life Baseball Shirt",
-		"basePrice" => "25",
-		"big_image" => "outer/stzlifebaseball.red.main.jpg",
-		"small_description" => "3/4 sleeve raglan baseball tee, 5.4oz, 100% cotton.",
-		"description" => "red and white raglan tee, black ink",
-		"product_image" => "outer/stzlifebaseball.red.products.jpg",
-		"color" => "White/Red",
-		"ink_color" => "Black",
-	),
-
-	array(
-		"id" => "46",
-		"line" => "outer",
-		"title" => "Black/White STZ Life Baseball Shirt",
-		"basePrice" => "25",
-		"big_image" => "outer/stzlifebaseball.black.main.jpg",
-		"small_description" => "3/4 sleeve raglan baseball tee, 5.4oz, 100% cotton.",
-		"description" => "black and white raglan tee, black ink",
-		"product_image" => "outer/stzlifebaseball.black.products.jpg",
-		"color" => "White/Black",
-		"ink_color" => "Black",
-	),
-
-	array(
-		"id" => "47",
-		"line" => "outer",
-		"title" => "Purple Triangle Baseball Shirt",
-		"basePrice" => "28",
-		"big_image" => "outer/trianglesbaseball.purple.main.jpg",
-		"small_description" => "3/4 raglan henley, 38% cotton, 50% poly, 12% rayon. (poly is 6.25% recycled, cotton is 6.25% organic)",
-		"description" => "",
-		"product_image" => "outer/trianglesbaseball.purple.products.jpg",
-		"color" => "Grey/Purple",
-		"ink_color" => "Black",
-	),
-
-		array(
-		"id" => "45",
-		"line" => "outer",
-		"title" => "Red Triangle Baseball Shirt",
-		"basePrice" => "28",
-		"big_image" => "outer/trianglesbaseball.red.main.jpg",
-		"small_description" => "3/4 raglan henley, 38% cotton, 50% poly, 12% rayon. (poly is 6.25% recycled, cotton is 6.25% organic)",
-		"description" => "",
-		"product_image" => "outer/trianglesbaseball.red.products.jpg",
-		"color" => "Grey/Red",
-		"ink_color" => "Black",
-	),
-
-	array(
-		"id" => "43",
-		"line" => "outer",
-		"title" => "Black Triangle Crew Neck",
+		"id" => "302",
+		"line" => "sweater",
+		"title" => "Crewneck Fleece in Heather Red",
 		"basePrice" => "40",
-		"big_image" => "outer/triangles.crew.main.jpg",
-		"small_description" => "",
 		"description" => "",
-		"product_image" => "outer/triangles.crew.products.jpg",
+		"images" => array(
+			"main" => array(
+				"outer/stzlifecrew.red.main.jpg"
+			),
+			"thumb" => "sweater/thumbs/crewred.jpg",
+		),
+		"options" => array(
+			array(
+				"patch" => "stzlife print"
+			),
+			array(
+				"patch" => "stzlife patch"
+			),
+			array(
+				"patch" => "send it patch"
+			),
+			array(
+				"patch" => "happy shredding patch"
+			)
+		)
 	),
 
 	array(
-		"id" => "44",
-		"line" => "outer",
-		"title" => "STZ Life Crew Neck Sweater",
+		"id" => "303",
+		"line" => "sweater",
+		"title" => "Crewneck Fleece in Heather Black",
 		"basePrice" => "40",
-		"big_image" => "outer/stzlife.crew.main.jpg",
-		"small_description" => "",
 		"description" => "",
-		"product_image" => "outer/stzlife.crew.products.jpg",
+		"images" => array(
+			"main" => array(
+				"outer/stzlifecrew.red.main.jpg"
+			),
+			"thumb" => "outer/stzlifecrew.red.products.jpg",
+		),
+		"options" => array(
+			array(
+				"patch" => "stzlife print"
+			),
+			array(
+				"patch" => "stzlife patch"
+			),
+			array(
+				"patch" => "send it patch"
+			),
+			array(
+				"patch" => "happy shredding patch"
+			)
+		)
 	),
+
+	array(
+		"id" => "304",
+		"line" => "sweater",
+		"title" => "Crewneck Fleece in Heather Navy",
+		"basePrice" => "40",
+		"description" => "",
+		"images" => array(
+			"main" => array(
+				"outer/stzlifecrew.red.main.jpg"
+			),
+			"thumb" => "outer/stzlifecrew.red.products.jpg",
+		),
+		"options" => array(
+			array(
+				"patch" => "stzlife print"
+			),
+			array(
+				"patch" => "stzlife patch"
+			),
+			array(
+				"patch" => "send it patch"
+			),
+			array(
+				"patch" => "happy shredding patch"
+			)
+		)
+	),
+
+	array(
+		"id" => "351",
+		"line" => "hoodie",
+		"title" => "Zip-Up Hoodie in Grey",
+		"basePrice" => "45",
+		"description" => "",
+		"images" => array(
+			"main" => array(
+				"outer/stzlifecrew.red.main.jpg"
+			),
+			"thumb" => "hoodie/thumbs/zipupgrey.jpg",
+		),
+		"options" => array(
+			array(
+				"patch" => "stzlife patch"
+			),
+			array(
+				"patch" => "send it patch"
+			),
+			array(
+				"patch" => "happy shredding patch"
+			)
+		)
+	),
+
+	array(
+		"id" => "352",
+		"line" => "hoodie",
+		"title" => "Zip-Up Hoodie in Royal",
+		"basePrice" => "45",
+		"description" => "",
+		"images" => array(
+			"main" => array(
+				"outer/stzlifecrew.red.main.jpg"
+			),
+			"thumb" => "hoodie/thumbs/zipupblue.jpg",
+		),
+		"options" => array(
+			array(
+				"patch" => "stzlife patch"
+			),
+			array(
+				"patch" => "send it patch"
+			),
+			array(
+				"patch" => "happy shredding patch"
+			)
+		)
+	),
+
+	array(
+		"id" => "353",
+		"line" => "hoodie",
+		"title" => "Zip-Up Hoodie in Black",
+		"basePrice" => "45",
+		"description" => "",
+		"images" => array(
+			"main" => array(
+				"outer/stzlifecrew.red.main.jpg"
+			),
+			"thumb" => "hoodie/thumbs/zipupblack.jpg",
+		),
+		"options" => array(
+			array(
+				"patch" => "stzlife patch"
+			),
+			array(
+				"patch" => "send it patch"
+			),
+			array(
+				"patch" => "happy shredding patch"
+			)
+		)
+	),
+
 
 /********** Hats **********/
 
 	array(
-		"id" => "68",
+		"id" => "401",
 		"line" => "hats",
 		"title" => "Red Aloha",
 		"basePrice" => "35",
-		"big_image" => "hats/stzlife.aloha.red.main.jpg",
-		"small_description" => "",
 		"description" => "",
-		"product_image" => "hats/stzlife.aloha.red.products.jpg",
+		"images" => array(
+			"main" => array(
+				"outer/stzlifecrew.red.main.jpg"
+			),
+			"thumb" => "hats/thumbs/redaloha.jpg",
+		),
+		"options" => array(
+			array(
+				"patch" => "stzlife patch"
+			),
+			array(
+				"patch" => "send it patch"
+			),
+			array(
+				"patch" => "happy shredding patch"
+			)
+		)
 	),
 
 	array(
-		"id" => "69",
+		"id" => "402",
 		"line" => "hats",
 		"title" => "Blue Aloha",
 		"basePrice" => "35",
-		"big_image" => "hats/stzlife.aloha.blue.main.jpg",
-		"small_description" => "",
 		"description" => "",
-		"product_image" => "hats/stzlife.aloha.blue.products.jpg",
+		"images" => array(
+			"main" => array(
+				"outer/stzlifecrew.red.main.jpg"
+			),
+			"thumb" => "hats/thumbs/bluealoha.jpg",
+		),
+		"options" => array(
+			array(
+				"patch" => "stzlife patch"
+			),
+			array(
+				"patch" => "send it patch"
+			),
+			array(
+				"patch" => "happy shredding patch"
+			)
+		)
 	),
 
 	array(
-		"id" => "70",
+		"id" => "403",
 		"line" => "hats",
-		"title" => "Blue Cord STZ Life",
-		"basePrice" => "30",
-		"big_image" => "hats/stzlife.cord.blue.main.jpg",
-		"small_description" => "blue corduroy hat, stz life patch",
-		"description" => "",
-		"product_image" => "hats/stzlife.cord.blue.products.jpg",
-		"message" => "Only 1 Left!"
-	),
-
-	array(
-		"id" => "71",
-		"line" => "hats",
-		"title" => "Green Cord STZ Life",
-		"basePrice" => "30",
-		"big_image" => "hats/stzlife.cord.green.main.jpg",
-		"small_description" => "green corduroy hat, stz life patch",
-		"description" => "",
-		"product_image" => "hats/stzlife.cord.green.products.jpg",
-		"message" => "Only 1 Left!"
-	),
-
-	array(
-		"id" => "50",
-		"line" => "hats",
-		"title" => "Logo Snapback",
-		"basePrice" => "25",
-		"big_image" => "hats/logo.black.purple.main.jpg",
-		"small_description" => "",
-		"description" => "",
-		"product_image" => "hats/logo.black.purple.products.jpg",
-	),
-
-		array(
-		"id" => "51",
-		"line" => "hats",
-		"title" => "Logo Snapback",
-		"basePrice" => "25",
-		"big_image" => "hats/logo.maroon.blue.main.jpg",
-		"small_description" => "",
-		"description" => "",
-		"product_image" => "hats/logo.maroon.blue.products.jpg",
-		"soldout" => true,
-		"message" => "Sold Out!"
-	),
-
-	array(
-		"id" => "52",
-		"line" => "hats",
-		"title" => "Logo Snapback",
-		"basePrice" => "25",
-		"big_image" => "hats/logo.maroon.white.main.jpg",
-		"small_description" => "",
-		"description" => "",
-		"product_image" => "hats/logo.maroon.white.products.jpg",
-		"soldout" => true,
-		"message" => "Sold Out!"
-	),
-
-	array(
-		"id" => "53",
-		"line" => "hats",
-		"title" => "Triangle Cord Snapback",
-		"basePrice" => "30",
-		"big_image" => "hats/triangle.cord.blue.main.jpg",
-		"small_description" => "",
-		"description" => "",
-		"product_image" => "hats/triangle.cord.blue.products.jpg",
-		"soldout" => true,
-		"message" => "Sold Out!"
-	),
-
-		array(
-		"id" => "54",
-		"line" => "hats",
-		"title" => "Triangle Cord Snapback",
-		"basePrice" => "30",
-		"big_image" => "hats/triangle.cord.green.main.jpg",
-		"small_description" => "",
-		"description" => "",
-		"product_image" => "hats/triangle.cord.green.products.jpg",
-		"message" => "Only 1 Left!"
-	),
-
-	array(
-		"id" => "55",
-		"line" => "hats",
-		"title" => "NC Cord Snapback",
+		"title" => "Charcoal Stone Wash",
 		"basePrice" => "35",
-		"big_image" => "hats/nc.cord.wine.main.jpg",
-		"small_description" => "",
 		"description" => "",
-		"product_image" => "hats/nc.cord.wine.products.jpg",
-		"soldout" => true,
-		"message" => "Sold Out!"
+		"images" => array(
+			"main" => array(
+				"outer/stzlifecrew.red.main.jpg"
+			),
+			"thumb" => "outer/stzlifecrew.red.products.jpg",
+		),
+		"options" => array(
+			array(
+				"patch" => "stzlife patch"
+			),
+			array(
+				"patch" => "send it patch"
+			),
+			array(
+				"patch" => "happy shredding patch"
+			)
+		)
 	),
 
-	/********* Ladies *********/
-
 	array(
-		"id" => "60",
-		"line" => "ladies",
-		"title" => "Triangles Henley",
-		"basePrice" => "28",
-		"big_image" => "women/triangles.henley.purple.main.jpg",
-		"small_description" => "3/4 raglan henley, 38% cotton, 50% poly, 12% rayon. (poly is 6.25% recycled, cotton is 6.25% organic)",
+		"id" => "404",
+		"line" => "hats",
+		"title" => "Green/Blue Stone Wash",
+		"basePrice" => "35",
 		"description" => "",
-		"product_image" => "women/triangles.henley.purple.products.jpg",
-		"color" => "Heather Blue",
-		"ink_color" => "Black",
+		"images" => array(
+			"main" => array(
+				"outer/stzlifecrew.red.main.jpg"
+			),
+			"thumb" => "outer/stzlifecrew.red.products.jpg",
+		),
+		"options" => array(
+			array(
+				"patch" => "stzlife patch"
+			),
+			array(
+				"patch" => "send it patch"
+			),
+			array(
+				"patch" => "happy shredding patch"
+			)
+		)
 	),
 
 	array(
-		"id" => "56",
-		"line" => "ladies",
-		"title" => "Triangles Kanga Scoop",
-		"basePrice" => "40",
-		"big_image" => "women/triangles.kanga.grey.main.jpg",
-		"small_description" => "",
+		"id" => "405",
+		"line" => "hats",
+		"title" => "The Khaki Cord",
+		"basePrice" => "35",
 		"description" => "",
-		"product_image" => "women/triangles.kanga.grey.products.jpg",
-		"color" => "Heather Grey",
-		"ink_color" => "Black",
+		"images" => array(
+			"main" => array(
+				"outer/stzlifecrew.red.main.jpg"
+			),
+			"thumb" => "outer/stzlifecrew.red.products.jpg",
+		),
+		"options" => array(
+			array(
+				"patch" => "stzlife patch"
+			),
+			array(
+				"patch" => "send it patch"
+			),
+			array(
+				"patch" => "happy shredding patch"
+			)
+		)
 	),
 
-		array(
-		"id" => "57",
-		"line" => "ladies",
-		"title" => "Triangles Kanga Scoop",
-		"basePrice" => "40",
-		"big_image" => "women/triangles.kanga.purple.main.jpg",
-		"small_description" => "",
+	array(
+		"id" => "406",
+		"line" => "hats",
+		"title" => "The Green Cord",
+		"basePrice" => "35",
 		"description" => "",
-		"product_image" => "women/triangles.kanga.purple.products.jpg",
-		"color" => "Heather Purple",
-		"ink_color" => "Black",
+		"images" => array(
+			"main" => array(
+				"outer/stzlifecrew.red.main.jpg"
+			),
+			"thumb" => "hats/thumbs/greencord.jpg",
+		),
+		"options" => array(
+			array(
+				"patch" => "stzlife patch"
+			),
+			array(
+				"patch" => "send it patch"
+			),
+			array(
+				"patch" => "happy shredding patch"
+			)
+		)
 	),
 
 	array(
-		"id" => "58",
-		"line" => "ladies",
-		"title" => "Triangles Crew Scoop",
-		"basePrice" => "30",
-		"big_image" => "women/triangles.crew.grey.main.jpg",
-		"small_description" => "",
+		"id" => "407",
+		"line" => "hats",
+		"title" => "The Navy Cord",
+		"basePrice" => "35",
 		"description" => "",
-		"product_image" => "women/triangles.crew.grey.products.jpg",
-		"color" => "Heather Grey",
-		"ink_color" => "Black",
+		"images" => array(
+			"main" => array(
+				"outer/stzlifecrew.red.main.jpg"
+			),
+			"thumb" => "outer/stzlifecrew.red.products.jpg",
+		),
+		"options" => array(
+			array(
+				"patch" => "stzlife patch"
+			),
+			array(
+				"patch" => "send it patch"
+			),
+			array(
+				"patch" => "happy shredding patch"
+			)
+		)
 	),
 
 	array(
-		"id" => "59",
-		"line" => "ladies",
-		"title" => "Triangles Crew Scoop",
-		"basePrice" => "30",
-		"big_image" => "women/triangles.crew.blue.main.jpg",
-		"small_description" => "",
+		"id" => "408",
+		"line" => "hats",
+		"title" => "The Royal Cord",
+		"basePrice" => "35",
 		"description" => "",
-		"product_image" => "women/triangles.crew.blue.products.jpg",
-		"color" => "Heather Blue",
-		"ink_color" => "Black",
-	),
-
-		/********* Tanks *********/
-
-	array(
-		"id" => "1111",
-		"line" => "tanks",
-		"title" => "Unisex Tank",
-		"basePrice" => "20",
-		"product_image" => "tanks/tanks.unisex.products.jpg",
-	),
-
-	array(
-		"id" => "1112",
-		"line" => "tanks",
-		"title" => "Ultrasoft Tank",
-		"basePrice" => "20",
-		"product_image" => "tanks/tanks.ultrasoft.products.jpg",
+		"images" => array(
+			"main" => array(
+				"outer/stzlifecrew.red.main.jpg"
+			),
+			"thumb" => "hats/thumbs/royalcord.jpg",
+		),
+		"options" => array(
+			array(
+				"patch" => "stzlife patch"
+			),
+			array(
+				"patch" => "send it patch"
+			),
+			array(
+				"patch" => "happy shredding patch"
+			)
+		)
 	),
 
 	array(
-		"id" => "1113",
-		"line" => "tanks",
-		"title" => "Women's Razorback Tank",
-		"basePrice" => "20",
-		"product_image" => "tanks/tanks.razorback.products.jpg",
+		"id" => "409",
+		"line" => "hats",
+		"title" => "The Red Cord",
+		"basePrice" => "35",
+		"description" => "",
+		"images" => array(
+			"main" => array(
+				"outer/stzlifecrew.red.main.jpg"
+			),
+			"thumb" => "hats/thumbs/redcord.jpg",
+		),
+		"options" => array(
+			array(
+				"patch" => "stzlife patch"
+			),
+			array(
+				"patch" => "send it patch"
+			),
+			array(
+				"patch" => "happy shredding patch"
+			)
+		)
 	),
 
 	array(
-		"id" => "1114",
-		"line" => "tanks",
-		"title" => "Women's Flow Tank",
-		"basePrice" => "20",
-		"product_image" => "tanks/tanks.flow.products.jpg",
+		"id" => "410",
+		"line" => "hats",
+		"title" => "The Fatigue Cord",
+		"basePrice" => "35",
+		"description" => "",
+		"images" => array(
+			"main" => array(
+				"outer/stzlifecrew.red.main.jpg"
+			),
+			"thumb" => "outer/stzlifecrew.red.products.jpg",
+		),
+		"options" => array(
+			array(
+				"patch" => "stzlife patch"
+			),
+			array(
+				"patch" => "send it patch"
+			)
+		)
 	),
 
-/********* Custom Shirts *********/
+	array(
+		"id" => "411",
+		"line" => "hats",
+		"title" => "Embroidered Fatigue",
+		"basePrice" => "35",
+		"description" => "",
+		"images" => array(
+			"main" => array(
+				"outer/stzlifecrew.red.main.jpg"
+			),
+			"thumb" => "outer/stzlifecrew.red.products.jpg",
+		),
+		"options" => array(
+			array(
+				"patch" => "embroidered stz"
+			)
+		)
+	),
+
+	/********* Beanies *********/
 
 	array(
-		"id" => "99999",
+		"id" => "451",
+		"line" => "beanies",
+		"title" => "Slub Beanie in Pink",
+		"basePrice" => "35",
+		"description" => "",
+		"images" => array(
+			"main" => array(
+				"outer/stzlifecrew.red.main.jpg"
+			),
+			"thumb" => "outer/stzlifecrew.red.products.jpg",
+		),
+		"options" => array(
+			
+		)
+	),
+
+	array(
+		"id" => "452",
+		"line" => "beanies",
+		"title" => "Slub Beanie in Black",
+		"basePrice" => "35",
+		"description" => "",
+		"images" => array(
+			"main" => array(
+				"outer/stzlifecrew.red.main.jpg"
+			),
+			"thumb" => "outer/stzlifecrew.red.products.jpg",
+		),
+		"options" => array(
+			
+		)
+	),
+
+	array(
+		"id" => "453",
+		"line" => "beanies",
+		"title" => "Slub Beanie in Heather Grey",
+		"basePrice" => "35",
+		"description" => "",
+		"images" => array(
+			"main" => array(
+				"outer/stzlifecrew.red.main.jpg"
+			),
+			"thumb" => "outer/stzlifecrew.red.products.jpg",
+		),
+		"options" => array(
+			
+		)
+	),
+
+	array(
+		"id" => "454",
+		"line" => "beanies",
+		"title" => "Slub Beanie in Heather Forest",
+		"basePrice" => "35",
+		"description" => "",
+		"images" => array(
+			"main" => array(
+				"outer/stzlifecrew.red.main.jpg"
+			),
+			"thumb" => "outer/stzlifecrew.red.products.jpg",
+		),
+		"options" => array(
+			
+		)
+	),
+
+	/********* Accessories *********/
+
+	array(
+		"id" => "501",
+		"line" => "backpacks",
+		"title" => "Campus Classic in Red",
+		"basePrice" => "35",
+		"description" => "",
+		"images" => array(
+			"main" => array(
+				"outer/stzlifecrew.red.main.jpg"
+			),
+			"thumb" => "outer/stzlifecrew.red.products.jpg",
+		),
+		"options" => array(
+			array(
+				"patch" => "stzlife patch"
+			),
+			array(
+				"patch" => "send it patch"
+			),
+			array(
+				"patch" => "happy shredding patch"
+			)
+		)
+	),
+
+	array(
+		"id" => "502",
+		"line" => "backpacks",
+		"title" => "Campus Classic in Blue",
+		"basePrice" => "35",
+		"description" => "",
+		"images" => array(
+			"main" => array(
+				"outer/stzlifecrew.red.main.jpg"
+			),
+			"thumb" => "outer/stzlifecrew.red.products.jpg",
+		),
+		"options" => array(
+			array(
+				"patch" => "stzlife patch"
+			),
+			array(
+				"patch" => "send it patch"
+			),
+			array(
+				"patch" => "happy shredding patch"
+			)
+		)
+	),
+
+/********* Women's Products *********/
+
+/********* Tanks *********/
+
+/********* Custom Products *********/
+
+	array(
+		"id" => "901",
 		"line" => "custom",
 		"title" => "Custom Pocket Tee",
 		"basePrice" => "25",
+		"description" => "",
+		"images" => array(
+			"main" => array(
+				"outer/stzlifecrew.red.main.jpg"
+			),
+			"thumb" => "outer/stzlifecrew.red.products.jpg",
+		)
 	),
+
 	array(
-		"id" => "99998",
+		"id" => "902",
+		"line" => "custom",
+		"title" => "Custom Two-Toned Pocket Tee",
+		"basePrice" => "25",
+		"description" => "",
+		"images" => array(
+			"main" => array(
+				"outer/stzlifecrew.red.main.jpg"
+			),
+			"thumb" => "outer/stzlifecrew.red.products.jpg",
+		)
+	),
+
+	array(
+		"id" => "911",
 		"line" => "custom",
 		"title" => "Custom Graphic Tee",
 		"basePrice" => "22",
-	),
+		"description" => "",
+		"images" => array(
+			"main" => array(
+				"outer/stzlifecrew.red.main.jpg"
+			),
+			"thumb" => "outer/stzlifecrew.red.products.jpg",
+		)
+	)
 
 );
 

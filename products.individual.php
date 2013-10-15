@@ -5,22 +5,98 @@
 	for($i=0;$i<$numProducts;$i++){
 		if ($inventory[$i]["id"] == $id){
 			$product = $inventory[$i];
+			$line = $inventory[$i]["line"];
 		}
 	}
 	$title = $product["title"] . ' | STZ | Custom Tees and Outerwear';
 	include 'inc.header.html.php';
 	include 'inc.header.php';
+
+	switch ($line) {
+
+		case "graphic-tees":
+
+			$cat_name = "graphic-tees";
+
+			break;
+
+		case "pocket-tees":
+
+			$cat_name = "pocket-tees";
+
+			break;
+
+		case "outer":
+
+			$cat_name = "outer";
+
+			break;
+
+		case "baseball-tees":
+
+			$cat_name = "outer";
+
+			break;
+
+		case "crewneck":
+
+			$cat_name = "outer";
+
+			break;
+
+		case "zip-up":
+
+			$cat_name = "outer";
+
+			break;
+
+
+		case "hats":
+
+			$cat_name = "hats";
+
+			break;
+
+		case "beanies":
+
+			$cat_name = "hats";
+
+			break;
+
+		case "tanks":
+
+			$cat_name = "tanks";
+
+			break;
+
+		case "wmns":
+
+			$cat_name = "ladies";
+
+			break;
+
+		case "accessories";
+
+			$cat_name = "bags & accessories";
+
+			break;
+
+		default:
+
+			$cat_name = "all";
+
+	}
 ?>
 
 <div class="container">
 	<div class="row">
 		<div class="span12">
-			<span class="breadCrumb"><a href="index.php">home</a> > <a href="products.php">products</a> > <a href="products.line.php?line=<?=$product["line"]?>"><?=$product["line"]?></a> > <?=$product["title"]?></span>
+			<span class="breadCrumb"><a href="index.php">home</a> > <a href="products.php">products</a> > <a href="products.line.php?line=<?=$cat_name?>"><?=$product["line"]?></a> > <?=$product["title"]?></span>
 		</div>
 	</div>
 	<div class="row">
 	  <div class="span9" style="position: relative;">
-		<img src="images/<?= $product["big_image"]?>" class="productBigImage">
+		<img src="images/catalog/<?= $product["line"]?>/main/<?= $product["images"]["main"][0]?>" class="productBigImage">
 	  <? if ($product["message"]) { ?>
     <span class="productMessage"><?= $product["message"]?></span>
   	<? } ?>
@@ -37,35 +113,6 @@
 				</span>
 			</h2>
 
-		<? if ($product["title"] == "Custom Hoodie")
-		{
-			echo "<p>We're working on our custom hoodie builder, until it's finished please <a href='mailto:info@mystz.com'>email us</a> with any questions or custom orders.</p>
-
-			<p>Please allow an additional 5-7 days for production.</p>
-
-			<ul>
-				<li>Made in America</li>
-				<li>Hand-cut and assembled</li>
-				<li>34\" Length (Shoulder seam to bottom of waist)</li>
-				<li>iPod pocket</li>
-				<li>Thumb holes</li>
-				<li>Reinforced seams</li>
-				<li>Shoelace drawstring waistband</li>
-			</ul>
-
-			<p>Custom options:<br />
-			<u>Body Color</u>: Red / Navy / Black / Ash / Burgundy<br />
-			<u>Sleeves:</u> Red / Navy / Black / Ash / Burgundy / Purple<br />
-			<u>Hood:</u> Red / Navy / Black / Ash / Burgundy / Purple<br />
-			<u>Pocket:</u> Red / Navy / Black / Ash / Burgundy / Purple / Mint / Pastel Yellow / Heather Charcoal / Royal Blue<br />
-			<u>Cuffs:</u> Black / Charcoal / Royal Blue<br />
-			<u>Laces:</u> Red / Navy / Black / Ash / Burgundy / Purple / Mint / Pastel Yellow / Heather Charcoal / Royal Blue
-			</p>
-
-			";
-		}
-		else{
-		?>
 			<p class="product-description-large item_description"><?=$product["description"]?></p>
 
 			<?
@@ -75,7 +122,6 @@
 			?>
 			<p class="product-description-small"><?=$product["small_description"]?></p>
 			<a href="javascript:;" class="item_add btn <? if ($product["soldout"]) echo 'disabled'; ?>" >Add to Cart</a>
-	<? } ?>
 
 			<? if ($product["line"] == "stz" || $product["line"] =="pocket") {
 
@@ -105,39 +151,38 @@
 </div><!--.row-->
 <div class="row">
 
-		<h2 class="span12">You also might like:</h2>
-			<?
-				$dontShow = array((int) $product["id"], 99999, 99998, 1111, 1112, 1113, 1114);
+	<h2 class="span12">You also might like:</h2>
+		<?
+			$dontShow = array((int) $product["id"], 901, 902, 911);
 
-				$length = count($inventory) -1;
-				$i = 0;
-				while ($i < 4){
-					$randInv = (int) rand(0,$length);
+			$length = count($inventory) -1;
+			$i = 0;
+			while ($i < 4){
+				$randInv = (int) rand(0,$length);
 
-					if (!in_array($inventory[$randInv]["id"], $dontShow)){
-						$dontShow[] = (int) $inventory[$randInv]["id"];
-						if(isset($inventory[$randInv])){
-						?>
+				if (!in_array($inventory[$randInv]["id"], $dontShow)){
+					$dontShow[] = (int) $inventory[$randInv]["id"];
+					if(isset($inventory[$randInv])){
+					?>
 
-						<a href="products.individual.php?id=<?=$inventory[$randInv]["id"]?>" onclick="_gaq.push(['_trackEvent', 'View Product', 'More Products', '<?= $inventory[$randInv]["title"];?>']);" class="span3 randThumbAnchor">
-							<img src="images/<?=$inventory[$randInv]["product_image"]?>" class="randThumb">
-								<span class="productDesc"><?= $inventory[$randInv]["title"] ?></span>
-						</a>
-						<?
-						$i++;
-						}
+					<a href="products.individual.php?id=<?=$inventory[$randInv]["id"]?>" onclick="_gaq.push(['_trackEvent', 'View Product', 'More Products', '<?= $inventory[$randInv]["title"];?>']);" class="span3 randThumbAnchor">
+						<img src="/images/catalog/<?=$inventory[$randInv]["line"]?>/thumbs/<?=$inventory[$randInv]["images"]["thumb"]?>" class="randThumb">
+							<span class="productDesc"><?= $inventory[$randInv]["title"] ?></span>
+					</a>
+					<?
+					$i++;
 					}
 				}
-			?>
+			}
+		?>
 
 </div>
 <div class="row">
 	<div class="span12">
-		<span class="breadCrumb"><a href="index.php">home</a> > <a href="products.php">products</a> > <a href="products.line.php?line=<?=$product["line"]?>"><?=$product["line"]?></a> > <?=$product["title"]?></span>
+		<span class="breadCrumb"><a href="index.php">home</a> > <a href="products.php">products</a> > <a href="products.line.php?line=<?=$cat_name?>"><?=$product["line"]?></a> > <?=$product["title"]?></span>
 	</div>
 </div>
 </div><!--.container-->
 <?
-	include 'inc.social.php';
 	include 'inc.footer.php';
 ?>

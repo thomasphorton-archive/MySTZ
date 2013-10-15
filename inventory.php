@@ -4,15 +4,15 @@ $inventory  = array(
 
 	array(
 		"id" => "1",
-		"line" => "graphic",
+		"line" => "graphic-tees",
 		"title" => "Vintage STZlife",
 		"basePrice" => "18",
 		"description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
 		"images" => array(
 			"main" => array(
-				"graphic-tees/main/vintagestzlife.jpg"
+				"vintagestzlife.jpg"
 			),
-			"thumb" => "graphic-tees/thumbs/vintagestzlife.jpg",
+			"thumb" => "vintagestzlife.jpg",
 		),
 		"options" => array(
 			array(
@@ -28,14 +28,14 @@ $inventory  = array(
 
 	array(
 		"id" => "2",
-		"line" => "graphic",
+		"line" => "graphic-tees",
 		"title" => "Helloha",
 		"basePrice" => "18",
 		"images" => array(
 			"main" => array(
-				"graphic-tees/main/helloha.jpg"
+				"helloha.jpg"
 			),
-			"thumb" => "graphic-tees/thumbs/helloha.jpg",
+			"thumb" => "helloha.jpg",
 		),
 		"options" => array(
 			array(
@@ -51,15 +51,15 @@ $inventory  = array(
 
 	array(
 		"id" => "3",
-		"line" => "graphic",
+		"line" => "graphic-tees",
 		"title" => "Slush Buddie",
 		"basePrice" => "18",
 		"description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
 		"images" => array(
 			"main" => array(
-				"stz/slushbuddie.heatherblue.main.jpg"
+				"slushbuddie.jpg"
 			),
-			"thumb" => "graphic-tees/thumbs/slushbuddie.jpg",
+			"thumb" => "slushbuddie.jpg",
 		),
 		"options" => array(
 			array(
@@ -75,15 +75,15 @@ $inventory  = array(
 
 	array(
 		"id" => "4",
-		"line" => "graphic",
+		"line" => "graphic-tees",
 		"title" => "3 Flamingos",
 		"basePrice" => "18",
 		"description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
 		"images" => array(
 			"main" => array(
-				"graphic-tees/main/3flamingos.jpg"
+				"threeflamingos.jpg"
 			),
-			"thumb" => "graphic-tees/thumbs/3flamingos.jpg",
+			"thumb" => "threeflamingos.jpg",
 		),
 		"options" => array(
 			array(
@@ -95,15 +95,15 @@ $inventory  = array(
 
 	array(
 		"id" => "5",
-		"line" => "graphic",
+		"line" => "graphic-tees",
 		"title" => "Crest",
 		"basePrice" => "18",
 		"description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
 		"images" => array(
 			"main" => array(
-				"graphic-tees/main/crest.jpg"
+				"crest.jpg"
 			),
-			"thumb" => "graphic-tees/thumbs/crest.jpg",
+			"thumb" => "crest.jpg",
 		),
 		"options" => array(
 			array(
@@ -123,15 +123,15 @@ $inventory  = array(
 
 	array(
 		"id" => "6",
-		"line" => "graphic",
+		"line" => "graphic-tees",
 		"title" => "Send It To The Flats",
 		"basePrice" => "18",
 		"description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
 		"images" => array(
 			"main" => array(
-				"graphic-tees/main/sendittotheflats.jpg"
+				"sendittotheflats.jpg"
 			),
-			"thumb" => "graphic-tees/thumbs/sendittotheflats.jpg",
+			"thumb" => "sendittotheflats.jpg",
 		),
 		"options" => array(
 			array(
@@ -143,15 +143,15 @@ $inventory  = array(
 
 	array(
 		"id" => "7",
-		"line" => "graphic",
+		"line" => "graphic-tees",
 		"title" => "Word Search",
 		"basePrice" => "18",
 		"description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
 		"images" => array(
 			"main" => array(
-				"graphic-tees/main/wordsearch.jpg"
+				"wordsearch.jpg"
 			),
-			"thumb" => "graphic-tees/thumbs/wordsearch.jpg",
+			"thumb" => "wordsearch.jpg",
 		),
 		"options" => array(
 			array(
@@ -167,15 +167,15 @@ $inventory  = array(
 
 	array(
 		"id" => "8",
-		"line" => "graphic",
+		"line" => "graphic-tees",
 		"title" => "Hand Shredded",
 		"basePrice" => "18",
 		"description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
 		"images" => array(
 			"main" => array(
-				"graphic-tees/main/handshredded.jpg"
+				"handshredded.jpg"
 			),
-			"thumb" => "graphic-tees/thumbs/handshredded.jpg",
+			"thumb" => "handshredded.jpg",
 		),
 		"options" => array(
 			array(
@@ -191,15 +191,15 @@ $inventory  = array(
 
 	array(
 		"id" => "9",
-		"line" => "graphic",
+		"line" => "graphic-tees",
 		"title" => "Majestically Rad",
 		"basePrice" => "18",
 		"description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
 		"images" => array(
 			"main" => array(
-				"graphic-tees/main/majesticallyrad.jpg"
+				"majesticallyrad.jpg"
 			),
-			"thumb" => "graphic-tees/thumbs/majesticallyrad.jpg",
+			"thumb" => "majesticallyrad.jpg",
 		),
 		"options" => array(
 			array(
@@ -215,15 +215,15 @@ $inventory  = array(
 
 	array(
 		"id" => "10",
-		"line" => "graphic",
+		"line" => "graphic-tees",
 		"title" => "Right Coast",
 		"basePrice" => "18",
 		"description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
 		"images" => array(
 			"main" => array(
-				"stz/rightcoast.red.main.png"
+				"rightcoast.jpg"
 			),
-			"thumb" => "graphic-tees/thumbs/rightcoast.jpg",
+			"thumb" => "rightcoast.jpg",
 		),
 		"options" => array(
 			array(
@@ -243,15 +243,15 @@ $inventory  = array(
 
 	array(
 		"id" => "11",
-		"line" => "graphic",
+		"line" => "graphic-tees",
 		"title" => "El Caputo",
 		"basePrice" => "18",
 		"description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
 		"images" => array(
 			"main" => array(
-				"stz/stz/elcaputo.red.main.jpg"
+				"elcaputo.jpg"
 			),
-			"thumb" => "graphic-tees/thumbs/elcaputo.jpg",
+			"thumb" => "elcaputo.jpg",
 		),
 		"options" => array(
 			array(
@@ -267,15 +267,15 @@ $inventory  = array(
 
 	array(
 		"id" => "12",
-		"line" => "graphic",
+		"line" => "graphic-tees",
 		"title" => "Happy Shredding",
 		"basePrice" => "18",
 		"description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
 		"images" => array(
 			"main" => array(
-				"stz/happyshredding.main.jpg"
+				"happyshredding.jpg"
 			),
-			"thumb" => "graphic-tees/thumbs/happyshredding.jpg",
+			"thumb" => "happyshredding.jpg",
 		),
 		"options" => array(
 			array(
@@ -290,16 +290,16 @@ $inventory  = array(
 	),
 
 	array(
-		"id" => "12",
-		"line" => "graphic",
+		"id" => "13",
+		"line" => "graphic-tees",
 		"title" => "Shred Til You're Dead",
 		"basePrice" => "18",
 		"description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
 		"images" => array(
 			"main" => array(
-				"stz/shredtilyouredead.heathergrey.main.jpg"
+				"shredtilyouredead.jpg"
 			),
-			"thumb" => "graphic-tees/thumbs/shredtilyouredead.jpg",
+			"thumb" => "shredtilyouredead.jpg",
 		),
 		"options" => array(
 			array(
@@ -314,16 +314,16 @@ $inventory  = array(
 	),
 
 	array(
-		"id" => "13",
-		"line" => "graphic",
+		"id" => "14",
+		"line" => "graphic-tees",
 		"title" => "Triangles",
 		"basePrice" => "18",
 		"description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
 		"images" => array(
 			"main" => array(
-				"stz/triangles.main.jpg"
+				"triangles.jpg"
 			),
-			"thumb" => "graphic-tees/thumbs/triangles.jpg",
+			"thumb" => "triangles.jpg",
 		),
 		"options" => array(
 			array(
@@ -338,16 +338,16 @@ $inventory  = array(
 	),
 
 	array(
-		"id" => "14",
-		"line" => "graphic",
+		"id" => "15",
+		"line" => "graphic-tees",
 		"title" => "Shoot All Shred",
 		"basePrice" => "18",
 		"description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
 		"images" => array(
 			"main" => array(
-				"stz/shootallshred.white.main.jpg"
+				"shootallshred.jpg"
 			),
-			"thumb" => "graphic-tees/thumbs/shootallshred.jpg",
+			"thumb" => "shootallshred.jpg",
 		),
 		"options" => array(
 			array(
@@ -362,16 +362,16 @@ $inventory  = array(
 	),
 
 	array(
-		"id" => "15",
-		"line" => "graphic",
+		"id" => "16",
+		"line" => "graphic-tees",
 		"title" => "OG Whaler",
 		"basePrice" => "18",
 		"description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
 		"images" => array(
 			"main" => array(
-				"stz/ogwhaler.white.main.jpg"
+				"ogwhaler.jpg"
 			),
-			"thumb" => "graphic-tees/thumbs/ogwhaler.jpg",
+			"thumb" => "ogwhaler.jpg",
 		),
 		"options" => array(
 			array(
@@ -382,16 +382,16 @@ $inventory  = array(
 	),
 
 	array(
-		"id" => "16",
-		"line" => "graphic",
+		"id" => "17",
+		"line" => "graphic-tees",
 		"title" => "STZlife",
 		"basePrice" => "18",
 		"description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
 		"images" => array(
 			"main" => array(
-				"graphic-tees/main/stzlife.jpg"
+				"stzlife.jpg"
 			),
-			"thumb" => "graphic-tees/thumbs/stzlife.jpg",
+			"thumb" => "stzlife.jpg",
 		),
 		"options" => array(
 			array(
@@ -410,16 +410,16 @@ $inventory  = array(
 	),
 
 	array(
-		"id" => "17",
-		"line" => "graphic",
-		"title" => "Chemical STZ",
+		"id" => "18",
+		"line" => "graphic-tees",
+		"title" => "Chemical",
 		"basePrice" => "18",
 		"description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
 		"images" => array(
 			"main" => array(
-				"graphic-tees/main/chemicalstz.jpg"
+				"chemical.jpg"
 			),
-			"thumb" => "graphic-tees/thumbs/chemicalstz.jpg",
+			"thumb" => "chemical.jpg",
 		),
 		"options" => array(
 			array(
@@ -430,16 +430,16 @@ $inventory  = array(
 	),
 
 	array(
-		"id" => "18",
-		"line" => "graphic",
+		"id" => "19",
+		"line" => "graphic-tees",
 		"title" => "Charlie Brown",
 		"basePrice" => "18",
 		"description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
 		"images" => array(
 			"main" => array(
-				"graphic-tees/main/charliebrown.jpg"
+				"charliebrown.jpg"
 			),
-			"thumb" => "graphic-tees/thumbs/charliebrown.jpg",
+			"thumb" => "charliebrown.jpg",
 		),
 		"options" => array(
 			array(
@@ -458,16 +458,16 @@ $inventory  = array(
 	),
 
 	array(
-		"id" => "19",
-		"line" => "graphic",
-		"title" => "STZburger",
+		"id" => "20",
+		"line" => "graphic-tees",
+		"title" => "Double STZburger",
 		"basePrice" => "18",
 		"description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
 		"images" => array(
 			"main" => array(
-				"graphic-tees/main/stzburger.jpg"
+				"doublestzburger.jpg"
 			),
-			"thumb" => "graphic-tees/thumbs/stzburger.jpg",
+			"thumb" => "doublestzburger.jpg",
 		),
 		"options" => array(
 			array(
@@ -482,16 +482,16 @@ $inventory  = array(
 	),
 
 	array(
-		"id" => "20",
-		"line" => "graphic",
+		"id" => "21",
+		"line" => "graphic-tees",
 		"title" => "Emergency Mustache",
 		"basePrice" => "18",
 		"description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
 		"images" => array(
 			"main" => array(
-				"stz/emergencymustache.latte.main.jpg"
+				"emergencymustache.jpg"
 			),
-			"thumb" => "graphic-tees/thumbs/emergencymustache.jpg",
+			"thumb" => "emergencymustache.jpg",
 		),
 		"options" => array(
 			array(
@@ -506,16 +506,16 @@ $inventory  = array(
 	),
 
 	array(
-		"id" => "21",
-		"line" => "graphic",
+		"id" => "22",
+		"line" => "graphic-tees",
 		"title" => "KJ Gorilla",
 		"basePrice" => "18",
 		"description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
 		"images" => array(
 			"main" => array(
-				"graphic-tees/main/kjgorilla.jpg"
+				"kjgorilla.jpg"
 			),
-			"thumb" => "graphic-tees/thumbs/kjgorilla.jpg",
+			"thumb" => "kjgorilla.jpg",
 		),
 		"options" => array(
 			array(
@@ -537,15 +537,15 @@ $inventory  = array(
 
 	array(
 		"id" => "101",
-		"line" => "pocket",
+		"line" => "pocket-tees",
 		"title" => "Thatch",
 		"basePrice" => "25",
 		"description" => "",
 		"images" => array(
 			"main" => array(
-				"pocket/main/thatch.jpg"
+				"thatch.sangria.jpg"
 			),
-			"thumb" => "pocket/thumbs/thatch.jpg",
+			"thumb" => "thatch.sangria.jpg",
 		),
 		"options" => array(
 			array(
@@ -562,15 +562,15 @@ $inventory  = array(
 
 	array(
 		"id" => "102",
-		"line" => "pocket",
+		"line" => "pocket-tees",
 		"title" => "Color Aztec",
 		"basePrice" => "25",
 		"description" => "",
 		"images" => array(
 			"main" => array(
-				"pocket-tees/main/coloraztec.jpg"
+				"coloraztec.black.jpg"
 			),
-			"thumb" => "pocket-tees/thumbs/coloraztec.jpg",
+			"thumb" => "coloraztec.black.jpg",
 		),
 		"options" => array(
 			array(
@@ -587,15 +587,15 @@ $inventory  = array(
 
 	array(
 		"id" => "103",
-		"line" => "pocket",
+		"line" => "pocket-tees",
 		"title" => "Jazzercize",
 		"basePrice" => "25",
 		"description" => "",
 		"images" => array(
 			"main" => array(
-				"pocket-tees/main/jazzercize.jpg"
+				"jazzercize.fatigue.jpg"
 			),
-			"thumb" => "pocket-tees/thumbs/jazzercize.jpg",
+			"thumb" => "jazzercize.fatigue.jpg",
 		),
 		"options" => array(
 			array(
@@ -612,15 +612,15 @@ $inventory  = array(
 
 	array(
 		"id" => "104",
-		"line" => "pocket",
+		"line" => "pocket-tees",
 		"title" => "Tan Cord",
 		"basePrice" => "25",
 		"description" => "",
 		"images" => array(
 			"main" => array(
-				"pocket-tees/main/tancord.jpg"
+				"tancord.heathernavy.jpg"
 			),
-			"thumb" => "pocket-tees/thumbs/tancord.jpg",
+			"thumb" => "tancord.heathernavy.jpg",
 		),
 		"options" => array(
 			array(
@@ -637,15 +637,15 @@ $inventory  = array(
 
 	array(
 		"id" => "105",
-		"line" => "pocket",
+		"line" => "pocket-tees",
 		"title" => "Majestically Rad",
 		"basePrice" => "25",
 		"description" => "",
 		"images" => array(
 			"main" => array(
-				"pocket-tees/main/majesticallyrad.jpg"
+				"majesticallyrad.black.jpg"
 			),
-			"thumb" => "pocket-tees/thumbs/majesticallyrad.jpg",
+			"thumb" => "majesticallyrad.black.jpg",
 		),
 		"options" => array(
 			array(
@@ -659,15 +659,15 @@ $inventory  = array(
 
 	array(
 		"id" => "106",
-		"line" => "pocket",
+		"line" => "pocket-tees",
 		"title" => "Polar Bear Club",
 		"basePrice" => "25",
 		"description" => "",
 		"images" => array(
 			"main" => array(
-				"pocket/main/polarbearclub.jpg"
+				"polarbear.sangria.jpg"
 			),
-			"thumb" => "pocket/thumbs/polarbearclub.jpg",
+			"thumb" => "polarbear.sangria.jpg",
 		),
 		"options" => array(
 			array(
@@ -683,15 +683,15 @@ $inventory  = array(
 
 	array(
 		"id" => "201",
-		"line" => "baseball",
+		"line" => "baseball-tees",
 		"title" => "Baseball Tee in White/Black",
 		"basePrice" => "25",
 		"description" => "",
 		"images" => array(
 			"main" => array(
-				"pocket-tees/main/polarbearclub.jpg"
+				"whiteblack.jpg"
 			),
-			"thumb" => "pocket-tees/thumbs/polarbearclub.jpg",
+			"thumb" => "whiteblack.jpg",
 		),
 		"options" => array(
 			array(
@@ -714,15 +714,15 @@ $inventory  = array(
 
 	array(
 		"id" => "202",
-		"line" => "baseball",
+		"line" => "baseball-tees",
 		"title" => "Baseball Tee in White/Hunter",
 		"basePrice" => "25",
 		"description" => "",
 		"images" => array(
 			"main" => array(
-				"pocket-tees/main/polarbearclub.jpg"
+				"whitegreen.jpg"
 			),
-			"thumb" => "pocket-tees/thumbs/polarbearclub.jpg",
+			"thumb" => "whitegreen.jpg",
 		),
 		"options" => array(
 			array(
@@ -745,15 +745,15 @@ $inventory  = array(
 
 	array(
 		"id" => "203",
-		"line" => "baseball",
+		"line" => "baseball-tees",
 		"title" => "Baseball Tee in White/Red",
 		"basePrice" => "25",
 		"description" => "",
 		"images" => array(
 			"main" => array(
-				"pocket-tees/main/polarbearclub.jpg"
+				"greyred.jpg"
 			),
-			"thumb" => "pocket-tees/thumbs/polarbearclub.jpg",
+			"thumb" => "greyred.jpg",
 		),
 		"options" => array(
 			array(
@@ -776,15 +776,15 @@ $inventory  = array(
 
 	array(
 		"id" => "204",
-		"line" => "baseball",
+		"line" => "baseball-tees",
 		"title" => "Baseball Tee in White/Purple",
 		"basePrice" => "25",
 		"description" => "",
 		"images" => array(
 			"main" => array(
-				"pocket-tees/main/polarbearclub.jpg"
+				"whitepurple.jpg"
 			),
-			"thumb" => "pocket-tees/thumbs/polarbearclub.jpg",
+			"thumb" => "whitepurple.jpg",
 		),
 		"options" => array(
 			array(
@@ -807,15 +807,15 @@ $inventory  = array(
 
 	array(
 		"id" => "205",
-		"line" => "baseball",
-		"title" => "Baseball Tee in Grey/Burgandy",
+		"line" => "baseball-tees",
+		"title" => "Baseball Tee in Grey/Burgundy",
 		"basePrice" => "25",
 		"description" => "",
 		"images" => array(
 			"main" => array(
-				"pocket-tees/main/polarbearclub.jpg"
+				"greyburgundy.jpg"
 			),
-			"thumb" => "pocket-tees/thumbs/polarbearclub.jpg",
+			"thumb" => "greyburgundy.jpg",
 		),
 		"options" => array(
 			array(
@@ -838,15 +838,15 @@ $inventory  = array(
 
 	array(
 		"id" => "206",
-		"line" => "baseball",
+		"line" => "baseball-tees",
 		"title" => "Baseball Tee in Grey/Black",
 		"basePrice" => "25",
 		"description" => "",
 		"images" => array(
 			"main" => array(
-				"pocket-tees/main/polarbearclub.jpg"
+				"greyblack.jpg"
 			),
-			"thumb" => "pocket-tees/thumbs/polarbearclub.jpg",
+			"thumb" => "greyblack.jpg",
 		),
 		"options" => array(
 			array(
@@ -869,15 +869,15 @@ $inventory  = array(
 
 	array(
 		"id" => "207",
-		"line" => "baseball",
+		"line" => "baseball-tees",
 		"title" => "Baseball Tee in Grey/Royal",
 		"basePrice" => "25",
 		"description" => "",
 		"images" => array(
 			"main" => array(
-				"pocket-tees/main/polarbearclub.jpg"
+				"greyroyal.jpg"
 			),
-			"thumb" => "pocket-tees/thumbs/polarbearclub.jpg",
+			"thumb" => "greyroyal.jpg",
 		),
 		"options" => array(
 			array(
@@ -900,15 +900,15 @@ $inventory  = array(
 
 	array(
 		"id" => "208",
-		"line" => "baseball",
+		"line" => "baseball-tees",
 		"title" => "Baseball Tee in Grey/Hunter",
 		"basePrice" => "25",
 		"description" => "",
 		"images" => array(
 			"main" => array(
-				"pocket-tees/main/polarbearclub.jpg"
+				"greygreen.jpg"
 			),
-			"thumb" => "pocket-tees/thumbs/polarbearclub.jpg",
+			"thumb" => "greygreen.jpg",
 		),
 		"options" => array(
 			array(
@@ -933,15 +933,15 @@ $inventory  = array(
 
 	array(
 		"id" => "301",
-		"line" => "sweater",
-		"title" => "Crewneck Fleece in Heather Grey",
+		"line" => "crewneck",
+		"title" => "Crewneck Fleece in Grey",
 		"basePrice" => "40",
 		"description" => "",
 		"images" => array(
 			"main" => array(
-				"outer/stzlifecrew.red.main.jpg"
+				"greycrew.jpg"
 			),
-			"thumb" => "outer/stzlifecrew.red.products.jpg",
+			"thumb" => "greycrew.jpg",
 		),
 		"options" => array(
 			array(
@@ -961,15 +961,15 @@ $inventory  = array(
 
 	array(
 		"id" => "302",
-		"line" => "sweater",
+		"line" => "crewneck",
 		"title" => "Crewneck Fleece in Heather Red",
 		"basePrice" => "40",
 		"description" => "",
 		"images" => array(
 			"main" => array(
-				"outer/stzlifecrew.red.main.jpg"
+				"redcrew.jpg"
 			),
-			"thumb" => "sweater/thumbs/crewred.jpg",
+			"thumb" => "redcrew.jpg",
 		),
 		"options" => array(
 			array(
@@ -989,15 +989,15 @@ $inventory  = array(
 
 	array(
 		"id" => "303",
-		"line" => "sweater",
-		"title" => "Crewneck Fleece in Heather Black",
+		"line" => "crewneck",
+		"title" => "Crewneck Fleece in Black",
 		"basePrice" => "40",
 		"description" => "",
 		"images" => array(
 			"main" => array(
-				"outer/stzlifecrew.red.main.jpg"
+				"blackcrew.jpg"
 			),
-			"thumb" => "outer/stzlifecrew.red.products.jpg",
+			"thumb" => "blackcrew.jpg",
 		),
 		"options" => array(
 			array(
@@ -1017,15 +1017,15 @@ $inventory  = array(
 
 	array(
 		"id" => "304",
-		"line" => "sweater",
+		"line" => "crewneck",
 		"title" => "Crewneck Fleece in Heather Navy",
 		"basePrice" => "40",
 		"description" => "",
 		"images" => array(
 			"main" => array(
-				"outer/stzlifecrew.red.main.jpg"
+				"navycrew.jpg"
 			),
-			"thumb" => "outer/stzlifecrew.red.products.jpg",
+			"thumb" => "navycrew.jpg",
 		),
 		"options" => array(
 			array(
@@ -1045,15 +1045,15 @@ $inventory  = array(
 
 	array(
 		"id" => "351",
-		"line" => "hoodie",
+		"line" => "zip-up",
 		"title" => "Zip-Up Hoodie in Grey",
 		"basePrice" => "45",
 		"description" => "",
 		"images" => array(
 			"main" => array(
-				"outer/stzlifecrew.red.main.jpg"
+				"greyzip.jpg"
 			),
-			"thumb" => "hoodie/thumbs/zipupgrey.jpg",
+			"thumb" => "greyzip.jpg",
 		),
 		"options" => array(
 			array(
@@ -1070,15 +1070,15 @@ $inventory  = array(
 
 	array(
 		"id" => "352",
-		"line" => "hoodie",
+		"line" => "zip-up",
 		"title" => "Zip-Up Hoodie in Royal",
 		"basePrice" => "45",
 		"description" => "",
 		"images" => array(
 			"main" => array(
-				"outer/stzlifecrew.red.main.jpg"
+				"royalzip.jpg"
 			),
-			"thumb" => "hoodie/thumbs/zipupblue.jpg",
+			"thumb" => "royalzip.jpg",
 		),
 		"options" => array(
 			array(
@@ -1095,15 +1095,15 @@ $inventory  = array(
 
 	array(
 		"id" => "353",
-		"line" => "hoodie",
-		"title" => "Zip-Up Hoodie in Black",
+		"line" => "zip-up",
+		"title" => "Zip-Up Hoodie in Navy Blue",
 		"basePrice" => "45",
 		"description" => "",
 		"images" => array(
 			"main" => array(
-				"outer/stzlifecrew.red.main.jpg"
+				"blackzip.jpg"
 			),
-			"thumb" => "hoodie/thumbs/zipupblack.jpg",
+			"thumb" => "blackzip.jpg",
 		),
 		"options" => array(
 			array(
@@ -1129,9 +1129,9 @@ $inventory  = array(
 		"description" => "",
 		"images" => array(
 			"main" => array(
-				"outer/stzlifecrew.red.main.jpg"
+				"redaloha.sendit.jpg"
 			),
-			"thumb" => "hats/thumbs/redaloha.jpg",
+			"thumb" => "redaloha.sendit.jpg",
 		),
 		"options" => array(
 			array(
@@ -1154,9 +1154,9 @@ $inventory  = array(
 		"description" => "",
 		"images" => array(
 			"main" => array(
-				"outer/stzlifecrew.red.main.jpg"
+				"bluealoha.stzlife.jpg"
 			),
-			"thumb" => "hats/thumbs/bluealoha.jpg",
+			"thumb" => "bluealoha.stzlife.jpg",
 		),
 		"options" => array(
 			array(
@@ -1179,9 +1179,9 @@ $inventory  = array(
 		"description" => "",
 		"images" => array(
 			"main" => array(
-				"outer/stzlifecrew.red.main.jpg"
+				"swcharcoal.happyshredding.jpg"
 			),
-			"thumb" => "outer/stzlifecrew.red.products.jpg",
+			"thumb" => "swcharcoal.happyshredding.jpg",
 		),
 		"options" => array(
 			array(
@@ -1204,9 +1204,9 @@ $inventory  = array(
 		"description" => "",
 		"images" => array(
 			"main" => array(
-				"outer/stzlifecrew.red.main.jpg"
+				"swgreenblue.stzlife.jpg"
 			),
-			"thumb" => "outer/stzlifecrew.red.products.jpg",
+			"thumb" => "swgreenblue.stzlife.jpg",
 		),
 		"options" => array(
 			array(
@@ -1225,13 +1225,13 @@ $inventory  = array(
 		"id" => "405",
 		"line" => "hats",
 		"title" => "The Khaki Cord",
-		"basePrice" => "35",
+		"basePrice" => "20",
 		"description" => "",
 		"images" => array(
 			"main" => array(
-				"outer/stzlifecrew.red.main.jpg"
+				"tancord.happyshredding.jpg"
 			),
-			"thumb" => "outer/stzlifecrew.red.products.jpg",
+			"thumb" => "tancord.happyshredding.jpg",
 		),
 		"options" => array(
 			array(
@@ -1250,13 +1250,13 @@ $inventory  = array(
 		"id" => "406",
 		"line" => "hats",
 		"title" => "The Green Cord",
-		"basePrice" => "35",
+		"basePrice" => "20",
 		"description" => "",
 		"images" => array(
 			"main" => array(
-				"outer/stzlifecrew.red.main.jpg"
+				"greencord.sendit.jpg"
 			),
-			"thumb" => "hats/thumbs/greencord.jpg",
+			"thumb" => "greencord.sendit.jpg",
 		),
 		"options" => array(
 			array(
@@ -1275,13 +1275,13 @@ $inventory  = array(
 		"id" => "407",
 		"line" => "hats",
 		"title" => "The Navy Cord",
-		"basePrice" => "35",
+		"basePrice" => "20",
 		"description" => "",
 		"images" => array(
 			"main" => array(
-				"outer/stzlifecrew.red.main.jpg"
+				"navycord.happyshredding.jpg"
 			),
-			"thumb" => "outer/stzlifecrew.red.products.jpg",
+			"thumb" => "navycord.happyshredding.jpg",
 		),
 		"options" => array(
 			array(
@@ -1300,13 +1300,13 @@ $inventory  = array(
 		"id" => "408",
 		"line" => "hats",
 		"title" => "The Royal Cord",
-		"basePrice" => "35",
+		"basePrice" => "20",
 		"description" => "",
 		"images" => array(
 			"main" => array(
-				"outer/stzlifecrew.red.main.jpg"
+				"royalcord.sendit.jpg"
 			),
-			"thumb" => "hats/thumbs/royalcord.jpg",
+			"thumb" => "royalcord.sendit.jpg",
 		),
 		"options" => array(
 			array(
@@ -1325,13 +1325,13 @@ $inventory  = array(
 		"id" => "409",
 		"line" => "hats",
 		"title" => "The Red Cord",
-		"basePrice" => "35",
+		"basePrice" => "20",
 		"description" => "",
 		"images" => array(
 			"main" => array(
-				"outer/stzlifecrew.red.main.jpg"
+				"redcord.stzlife.jpg"
 			),
-			"thumb" => "hats/thumbs/redcord.jpg",
+			"thumb" => "redcord.stzlife.jpg",
 		),
 		"options" => array(
 			array(
@@ -1350,13 +1350,13 @@ $inventory  = array(
 		"id" => "410",
 		"line" => "hats",
 		"title" => "The Fatigue Cord",
-		"basePrice" => "35",
+		"basePrice" => "20",
 		"description" => "",
 		"images" => array(
 			"main" => array(
-				"outer/stzlifecrew.red.main.jpg"
+				"fatiguecord.sendit.jpg"
 			),
-			"thumb" => "outer/stzlifecrew.red.products.jpg",
+			"thumb" => "fatiguecord.sendit.jpg",
 		),
 		"options" => array(
 			array(
@@ -1372,13 +1372,13 @@ $inventory  = array(
 		"id" => "411",
 		"line" => "hats",
 		"title" => "Embroidered Fatigue",
-		"basePrice" => "35",
+		"basePrice" => "15",
 		"description" => "",
 		"images" => array(
 			"main" => array(
-				"outer/stzlifecrew.red.main.jpg"
+				"fatiguecord.logo.jpg"
 			),
-			"thumb" => "outer/stzlifecrew.red.products.jpg",
+			"thumb" => "fatiguecord.logo.jpg",
 		),
 		"options" => array(
 			array(
@@ -1393,13 +1393,13 @@ $inventory  = array(
 		"id" => "451",
 		"line" => "beanies",
 		"title" => "Slub Beanie in Pink",
-		"basePrice" => "35",
+		"basePrice" => "20",
 		"description" => "",
 		"images" => array(
 			"main" => array(
-				"outer/stzlifecrew.red.main.jpg"
+				"beanie.pink.jpg"
 			),
-			"thumb" => "outer/stzlifecrew.red.products.jpg",
+			"thumb" => "beanie.pink.jpg",
 		),
 		"options" => array(
 			
@@ -1409,14 +1409,14 @@ $inventory  = array(
 	array(
 		"id" => "452",
 		"line" => "beanies",
-		"title" => "Slub Beanie in Black",
-		"basePrice" => "35",
+		"title" => "Slub Beanie in Charcoal",
+		"basePrice" => "20",
 		"description" => "",
 		"images" => array(
 			"main" => array(
-				"outer/stzlifecrew.red.main.jpg"
+				"beanie.charcoal.jpg"
 			),
-			"thumb" => "outer/stzlifecrew.red.products.jpg",
+			"thumb" => "beanie.charcoal.jpg",
 		),
 		"options" => array(
 			
@@ -1427,13 +1427,13 @@ $inventory  = array(
 		"id" => "453",
 		"line" => "beanies",
 		"title" => "Slub Beanie in Heather Grey",
-		"basePrice" => "35",
+		"basePrice" => "20",
 		"description" => "",
 		"images" => array(
 			"main" => array(
-				"outer/stzlifecrew.red.main.jpg"
+				"beanie.grey.jpg"
 			),
-			"thumb" => "outer/stzlifecrew.red.products.jpg",
+			"thumb" => "beanie.grey.jpg",
 		),
 		"options" => array(
 			
@@ -1443,14 +1443,14 @@ $inventory  = array(
 	array(
 		"id" => "454",
 		"line" => "beanies",
-		"title" => "Slub Beanie in Heather Forest",
-		"basePrice" => "35",
+		"title" => "Slub Beanie in Hunter",
+		"basePrice" => "20",
 		"description" => "",
 		"images" => array(
 			"main" => array(
-				"outer/stzlifecrew.red.main.jpg"
+				"beanie.hunter.jpg"
 			),
-			"thumb" => "outer/stzlifecrew.red.products.jpg",
+			"thumb" => "beanie.hunter.jpg",
 		),
 		"options" => array(
 			
@@ -1467,9 +1467,9 @@ $inventory  = array(
 		"description" => "",
 		"images" => array(
 			"main" => array(
-				"outer/stzlifecrew.red.main.jpg"
+				"red.sendit.jpg"
 			),
-			"thumb" => "outer/stzlifecrew.red.products.jpg",
+			"thumb" => "red.sendit.jpg",
 		),
 		"options" => array(
 			array(
@@ -1492,9 +1492,9 @@ $inventory  = array(
 		"description" => "",
 		"images" => array(
 			"main" => array(
-				"outer/stzlifecrew.red.main.jpg"
+				"blue.happyshredding.jpg"
 			),
-			"thumb" => "outer/stzlifecrew.red.products.jpg",
+			"thumb" => "blue.happyshredding.jpg",
 		),
 		"options" => array(
 			array(
@@ -1511,7 +1511,142 @@ $inventory  = array(
 
 /********* Women's Products *********/
 
+	array(
+		"id" => "601",
+		"line" => "wmns",
+		"title" => "Purple Charlie Brown",
+		"basePrice" => "40",
+		"description" => "",
+		"images" => array(
+			"main" => array(
+				"charliebrown.purple.jpg"
+			),
+			"thumb" => "charliebrown.purple.jpg",
+		),
+		"options" => array()
+	),
+
+	array(
+		"id" => "602",
+		"line" => "wmns",
+		"title" => "Pink Crest",
+		"basePrice" => "40",
+		"description" => "",
+		"images" => array(
+			"main" => array(
+				"crest.pink.jpg"
+			),
+			"thumb" => "crest.pink.jpg",
+		),
+		"options" => array()
+	),
+
+	array(
+		"id" => "603",
+		"line" => "wmns",
+		"title" => "Teal Helloha",
+		"basePrice" => "40",
+		"description" => "",
+		"images" => array(
+			"main" => array(
+				"helloha.teal.jpg"
+			),
+			"thumb" => "helloha.teal.jpg",
+		),
+		"options" => array()
+	),
+
+	array(
+		"id" => "604",
+		"line" => "wmns",
+		"title" => "Blue STZlife",
+		"basePrice" => "40",
+		"description" => "",
+		"images" => array(
+			"main" => array(
+				"stzlife.blue.jpg"
+			),
+			"thumb" => "stzlife.blue.jpg",
+		),
+		"options" => array()
+	),
+
+	array(
+		"id" => "605",
+		"line" => "wmns",
+		"title" => "Grey STZlife",
+		"basePrice" => "40",
+		"description" => "",
+		"images" => array(
+			"main" => array(
+				"stzlife.grey.jpg"
+			),
+			"thumb" => "stzlife.grey.jpg",
+		),
+		"options" => array()
+	),
+
 /********* Tanks *********/
+
+	array(
+		"id" => "701",
+		"line" => "tanks",
+		"title" => "Bay Blue Tank",
+		"basePrice" => "20",
+		"description" => "",
+		"images" => array(
+			"main" => array(
+				"bayblue.jpg"
+			),
+			"thumb" => "bayblue.jpg",
+		),
+		"options" => array()
+	),
+
+	array(
+		"id" => "702",
+		"line" => "tanks",
+		"title" => "Celery Tank",
+		"basePrice" => "20",
+		"description" => "",
+		"images" => array(
+			"main" => array(
+				"celery.jpg"
+			),
+			"thumb" => "celery.jpg",
+		),
+		"options" => array()
+	),
+
+	array(
+		"id" => "703",
+		"line" => "tanks",
+		"title" => "Khaki Green Tank",
+		"basePrice" => "20",
+		"description" => "",
+		"images" => array(
+			"main" => array(
+				"khakigreen.jpg"
+			),
+			"thumb" => "khakigreen.jpg",
+		),
+		"options" => array()
+	),
+
+	array(
+		"id" => "704",
+		"line" => "tanks",
+		"title" => "Nautical Red Tank",
+		"basePrice" => "20",
+		"description" => "",
+		"images" => array(
+			"main" => array(
+				"nauticalred.jpg"
+			),
+			"thumb" => "nauticalred.jpg",
+		),
+		"options" => array()
+	),
 
 /********* Custom Products *********/
 
@@ -1548,6 +1683,34 @@ $inventory  = array(
 		"line" => "custom",
 		"title" => "Custom Graphic Tee",
 		"basePrice" => "22",
+		"description" => "",
+		"images" => array(
+			"main" => array(
+				"outer/stzlifecrew.red.main.jpg"
+			),
+			"thumb" => "outer/stzlifecrew.red.products.jpg",
+		)
+	),
+
+	array(
+		"id" => "921",
+		"line" => "custom",
+		"title" => "Mystery Graphic Tee",
+		"basePrice" => "12",
+		"description" => "",
+		"images" => array(
+			"main" => array(
+				"outer/stzlifecrew.red.main.jpg"
+			),
+			"thumb" => "outer/stzlifecrew.red.products.jpg",
+		)
+	),
+
+	array(
+		"id" => "922",
+		"line" => "custom",
+		"title" => "Mystery Graphic Tank",
+		"basePrice" => "12",
 		"description" => "",
 		"images" => array(
 			"main" => array(

@@ -25,16 +25,20 @@
 			  <div class="flexslider">
           <ul class="slides">
             <li>
-              <img src="images/banners/banner1.jpg" class="index-banner-image">
+              <img src="images/banners/andrewkris.jpg" class="index-banner-image">
             </li>
             <li>
-              <img src="images/banners/banner2.jpg" class="index-banner-image">
+              <a href="/products.line.php?line=hats">
+                <img src="images/banners/hats.jpg" class="index-banner-image">
+              </a>
             </li>
             <li>
-              <img src="images/banners/banner3.jpg" class="index-banner-image">
+              <img src="images/banners/jeffgrass.jpg" class="index-banner-image">
             </li>
             <li>
-              <img src="images/banners/banner4.jpg" class="index-banner-image">
+              <a href="/products.line.php?line=outer">
+                <img src="images/banners/zipup.jpg" class="index-banner-image">
+              </a>
             </li>
           </ul>
         </div>
@@ -44,21 +48,25 @@
 
 		<div class="row">
 			<div class="span6">
-				<a href="/products.php">
-					<img src="/images/index/index-products.png">
+				<a href="/mystery.php?type=tee">
+					<img src="/images/index/mysterytee.jpg">
 				</a>
+
+        <a href="/mystery.php?type=tank">
+          <img src="/images/index/mysterytank.jpg"  style="margin-top: 30px;">
+        </a>
 			</div>
 
 			<div class="span6">
 				<a href="/shirtbuilder.select.php">
-					<img src="/images/index/index-custom-shirt.png">
+					<img src="/images/index/products.jpg">
 				</a>
 			</div>
 		</div>
 
 		<div class="row">
-			<div class="span6" >
-				<iframe src="http://player.vimeo.com/video/64464459?autoplay=0" width="100%" frameborder="0" style="min-height: 333px;" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+			<div class="span6">
+				<iframe src="http://player.vimeo.com/video/70168317?autoplay=0" width="100%" frameborder="0" style="min-height: 333px;" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 			</div>
 
 			<div class="span6">

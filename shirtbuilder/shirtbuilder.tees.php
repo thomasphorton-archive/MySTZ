@@ -1,26 +1,26 @@
 <? 
 
-$shirtbase = "images/shirtbuilder/tees/full";
-$thumbbase = "images/shirtbuilder/tees/thumbs";
+$shirtbase = "images/shirtbuilder/blanks/blanks";
+$thumbbase = "images/shirtbuilder/blanks/blank-thumbs";
 
 $item_color = array(
-	"Heather Charcoal" => array(
-  	"title" => "Heather Charcoal",
-  	"normalized" => "heathercharcoal",
-   	"shirt" => "$shirtbase/hthrcharc.png",
-   	"thumb" => "$thumbbase/Charcoal.png"
+	"Black" => array(
+  	"title" => "Black",
+  	"normalized" => "black",
+   	"shirt" => "$shirtbase/black.png",
+   	"thumb" => "$thumbbase/black.png"
   ),
-	"Grey" => array(
-  	"title" => "Heather Grey",
-  	"normalized" => "heathergrey",
-    "shirt" => "$shirtbase/hthrgrey.png",
-    "thumb" => "$thumbbase/Grey.png"
+	"Charcoal" => array(
+  	"title" => "Charcoal",
+  	"normalized" => "charcoal",
+    "shirt" => "$shirtbase/charcoal.png",
+    "thumb" => "$thumbbase/charcoal.png"
   ),
-  "Maroon" => array(
-		"title" => "Maroon",
-		"normalized" => "maroon",
- 		"shirt" => "$shirtbase/maroon.png",
- 		"thumb" => "$thumbbase/Maroon.png"
+  "Espresso" => array(
+		"title" => "Espresso",
+		"normalized" => "espresso",
+ 		"shirt" => "$shirtbase/espresso.png",
+ 		"thumb" => "$thumbbase/espresso.png"
  	),
  	"Fatigue" => array(
  		"title" => "Fatigue",
@@ -28,53 +28,83 @@ $item_color = array(
  		"shirt" => "$shirtbase/fatigue.png",
  		"thumb" => "$thumbbase/Fatigue.png"
  	),
- 	"Gold" => array(
- 		"title" => "Gold",
- 		"normalized" => "gold",
- 		"shirt" => "$shirtbase/gold.png",
- 		"thumb" => "$thumbbase/Gold.png"
- 	),
- 	"Green" => array (
- 		"title" => "Green",
- 		"normalized" => "green",
- 		"shirt" => "$shirtbase/green.png",
- 		"thumb" => "$thumbbase/Green.png"
- 	),
- 	"Blue" => array(
- 		"title" => "Heather Blue",
- 		"normalized" => "heatherblue",
- 		"shirt" => "$shirtbase/hthrblue.png",
- 		"thumb" => "$thumbbase/Blue.png"
- 	),
- 	"Dark Navy" => array(
- 		"title" => "Heather Navy",
- 		"normalized" => "heathernavy",
- 		"shirt" => "$shirtbase/hthrnavy.png",
- 		"thumb" => "$thumbbase/Dark%20Navy.png"
- 	),
- 	"Latte" => array(
+  "Heather Blue" => array(
+    "title" => "Heather Blue",
+    "normalized" => "heatherblue",
+    "shirt" => "$shirtbase/heatherblue.png",
+    "thumb" => "$thumbbase/heatherblue.png"
+  ),
+  "Heather Charcoal" => array(
+    "title" => "Heather Charcoal",
+    "normalized" => "heathercharcoal",
+    "shirt" => "$shirtbase/heathercharcoal.png",
+    "thumb" => "$thumbbase/heathercharcoal.png"
+  ),
+  "Heather Grey" => array(
+    "title" => "Heather Grey",
+    "normalized" => "heathergrey",
+    "shirt" => "$shirtbase/heathergrey.png",
+    "thumb" => "$thumbbase/heathergrey.png"
+  ),
+ 	"Heather Latte" => array(
  		"title" => "Heather Latte",
  		"normalized" => "heatherlatte",
- 		"shirt" => "$shirtbase/hthrlatte.png",
- 		"thumb" => "$thumbbase/Latte.png"
+ 		"shirt" => "$shirtbase/heatherlatte.png",
+ 		"thumb" => "$thumbbase/heatherlatte.png"
  	),
- 	"Orange" => array(
- 		"title" => "Orange",
- 		"normalized" => "orange",
- 		"shirt" => "$shirtbase/orange.png",
- 		"thumb" => "$thumbbase/Orange.png"
+  "Heather Navy" => array(
+    "title" => "Heather Navy",
+    "normalized" => "heathernavy",
+    "shirt" => "$shirtbase/heathernavy.png",
+    "thumb" => "$thumbbase/heathernavy.png"
+  ),
+  "Heather Red" => array(
+    "title" => "Heather Red",
+    "normalized" => "heatherred",
+    "shirt" => "$shirtbase/heatherred.png",
+    "thumb" => "$thumbbase/heatherred.png"
+  ),
+ 	"Maritime Blue" => array(
+ 		"title" => "Maritime Blue",
+ 		"normalized" => "maritimeblue",
+ 		"shirt" => "$shirtbase/maritimeblue.png",
+ 		"thumb" => "$thumbbase/maritimeblue.png"
  	),
  	"Purple" => array(
  		"title" => "Purple",
  		"normalized" => "purple",
  		"shirt" => "$shirtbase/purple.png",
- 		"thumb" => "$thumbbase/Purple.png"
+ 		"thumb" => "$thumbbase/purple.png"
  	),
  	"Red" => array(
  		"title" => "Red",
  		"normalized" => "red",
  		"shirt" => "$shirtbase/red.png",
- 		"thumb" => "$thumbbase/Red.png"
+ 		"thumb" => "$thumbbase/red.png"
+ 	),
+ 	"Royal" => array(
+ 		"title" => "Royal",
+ 		"normalized" => "royal",
+ 		"shirt" => "$shirtbase/royal.png",
+ 		"thumb" => "$thumbbase/royal.png"
+ 	),
+ 	"Sangria" => array(
+ 		"title" => "Sangria",
+ 		"normalized" => "sangria",
+ 		"shirt" => "$shirtbase/sangria.png",
+ 		"thumb" => "$thumbbase/sangria.png"
+ 	),
+ 	"Silver" => array(
+ 		"title" => "Silver",
+ 		"normalized" => "silver",
+ 		"shirt" => "$shirtbase/silver.png",
+ 		"thumb" => "$thumbbase/silver.png"
+ 	),
+ 	"Thyme" => array(
+ 		"title" => "Thyme",
+ 		"normalized" => "thyme",
+ 		"shirt" => "$shirtbase/thyme.png",
+ 		"thumb" => "$thumbbase/thyme.png"
  	),
  	"White" => array(
  		"title" => "White",
@@ -82,17 +112,5 @@ $item_color = array(
  		"shirt" => "$shirtbase/white.png",
  		"thumb" => "$thumbbase/White.png"
  	),	
- 	"Black" => array(
- 		"title" => "Black",
- 		"normalized" => "black",
- 		"shirt" => "$shirtbase/black.png",
- 		"thumb" => "$thumbbase/Black.png"
- 	),
- 		"Heather Red" => array(
- 		"title" => "Heather Red",
- 		"normalized" => "heatherred",
- 		"shirt" => "$shirtbase/hthrred.png",
- 		"thumb" => "$thumbbase/hthrred.png"
- 	)		
 );
       ?>

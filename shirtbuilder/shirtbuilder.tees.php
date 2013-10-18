@@ -26,7 +26,7 @@ $item_color = array(
  		"title" => "Fatigue",
  		"normalized" => "fatigue",
  		"shirt" => "$shirtbase/fatigue.png",
- 		"thumb" => "$thumbbase/Fatigue.png"
+ 		"thumb" => "$thumbbase/fatigue.png"
  	),
   "Heather Blue" => array(
     "title" => "Heather Blue",
@@ -110,7 +110,7 @@ $item_color = array(
  		"title" => "White",
  		"normalized" => "white",
  		"shirt" => "$shirtbase/white.png",
- 		"thumb" => "$thumbbase/White.png"
+ 		"thumb" => "$thumbbase/white.png"
  	),	
 );
       ?>

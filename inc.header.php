@@ -51,13 +51,13 @@
 						<li class="dropdown">
 							<a class="dropdown-toggle disabled" data-toggle="dropdown" href="products.php">products <b class="caret"></b></a>
 							<ul class="dropdown-menu">
-								<li><a href="products.line.php?line=stz">graphic.STZ</a></li>
-								<li><a href="products.line.php?line=pocket">pocket.STZ</a></li>
-								<li><a href="products.line.php?line=outer">outer.STZ</a></li>
-								<li><a href="products.line.php?line=ladies">lady.STZ</a></li>
+								<li><a href="products.line.php?line=graphic-tees">graphic tees</a></li>
+								<li><a href="products.line.php?line=pocket-tees">pocket tees</a></li>
+								<li><a href="products.line.php?line=outer">outerwear</a></li>
+								<li><a href="products.line.php?line=ladies">ladies</a></li>
 								<li><a href="products.line.php?line=hats">hats</a></li>
-								<li><a href="products.tanks.php">NEW! tanks</a></li>
-
+								<li><a href="products.line.php?line=accessories">bags & accessories</a></li>
+								<li><a href="products.line.php?line=tanks">tanks</a></li>
 							</ul>
 						</li>
 						<li class="dropdown">

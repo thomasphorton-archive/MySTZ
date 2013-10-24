@@ -1,152 +1,267 @@
 <?
 
-$designbase = "images/shirtbuilder/pockets/full";
-$thumbbase = "images/shirtbuilder/pockets/thumbs";
+$path = "/images/shirtbuilder/pockets/";
 
 $design_options = array(
-	"Wolf" => array(
- 		"title" => "Wolf",
- 		"normalized" => "wolf",
- 		"full_size" => "$designbase/wolf.png",
- 		"thumb" => "$thumbbase/wolf.jpg"
- 	),
- 	"Aztec" => array(
- 		"title" => "Aztec",
- 		"normalized" => "aztec",
- 		"full_size" => "$designbase/aztec.png",
- 		"thumb" => "$thumbbase/aztec.jpg"
- 	),
-	"Flamingo" => array(
- 		"title" => "Flamingo",
- 		"normalized" => "flamingo",
- 		"full_size" => "$designbase/flamingo.png",
- 		"thumb" => "$thumbbase/flamingo.thumb.jpg"
- 	),
- 	"leaftiedye" => array(
- 		"title" => "leaftiedye",
- 		"normalized" => "leaftiedye",
- 		"full_size" => "$designbase/leaftiedye.png",
- 		"thumb" => "$thumbbase/leaftiedye.thumb.png"
- 	),
- 	"70stiedye" => array(
- 		"title" => "70stiedye",
- 		"normalized" => "70stiedye",
- 		"full_size" => "$designbase/70stiedye.png",
- 		"thumb" => "$thumbbase/70stiedye.thumb.png"
- 	),
-	"camo" => array(
- 		"title" => "camo",
- 		"normalized" => "camo",
- 		"full_size" => "$designbase/camo.png",
- 		"thumb" => "$thumbbase/camo.thumb.png"
- 	),
- 	"Grapefruit" => array(
- 		"title" => "Grapefruit",
- 		"normalized" => "grapefruit",
- 		"full_size" => "$designbase/gfruit.png",
- 		"thumb" => "$thumbbase/grapefruit.thumb.jpg"
- 	),
- 	"Jazzercize" => array(
- 		"title" => "Jazzercise",
- 		"normalized" => "jazzercise",
- 		"full_size" => "$designbase/jazzercise.png",
- 		"thumb" => "$thumbbase/jazzercize.thumb.jpg"
- 	),
- 	"Zig Zig" => array(
- 		"title" => "Zig Zig",
- 		"normalized" => "zigzig",
- 		"full_size" => "$designbase/zigzig.png",
- 		"thumb" => "$thumbbase/zigzig.png"
- 	),
- 	"'Merica" => array(
- 		"title" => "'Merica",
- 		"normalized" => "merica",
- 		"full_size" => "$designbase/merica.png",
- 		"thumb" => "$thumbbase/merica.thumb.jpg"
- 	),
- 	"Nerd" => array(
- 		"title" => "Nerd",
- 		"normalized" => "nerd",
- 		"full_size" => "$designbase/nerd.png",
- 		"thumb" => "$thumbbase/nerd.thumb.jpg"
- 	),
- 	"Polar Bear" => array(
- 		"title" => "Polar Bear",
- 		"normalized" => "polarbear",
- 		"full_size" => "$designbase/polarbear.png",
- 		"thumb" => "$thumbbase/polarbear.thumb.jpg"
- 	),
- 	"Tie Dye" => array(
- 		"title" => "Tie Dye",
- 		"normalized" => "tiedye",
- 		"full_size" => "$designbase/tiedye.png",
- 		"thumb" => "$thumbbase/tiedye.thumb.jpg"
- 	),
- 	"Parrots" => array(
- 		"title" => "Parrots",
- 		"normalized" => "parrots",
- 		"full_size" => "$designbase/parrots.png",
- 		"thumb" => "$thumbbase/parrots.png"
- 	),
- 	"lime" => array(
- 		"title" => "lime",
- 		"normalized" => "lime",
- 		"full_size" => "$designbase/lime.png",
- 		"thumb" => "$thumbbase/lime.thumb.png"
- 	),
- 	"Mint" => array(
- 		"title" => "Mint",
- 		"normalized" => "mint",
- 		"full_size" => "$designbase/mint.png",
- 		"thumb" => "$thumbbase/mint.thumb.png"
- 	),
- 	"Charcoal" => array(
- 		"title" => "Charcoal",
- 		"normalized" => "charcoal",
- 		"full_size" => "$designbase/charcoal.png",
- 		"thumb" => "$thumbbase/charcoal.png"
- 	),
- 	"Creamsicle" => array(
- 		"title" => "Creamsicle",
- 		"normalized" => "creamsicle",
- 		"full_size" => "$designbase/creamsicle.png",
- 		"thumb" => "$thumbbase/creamsicle.png"
- 	),
- 	"pink" => array(
- 		"title" => "pink",
- 		"normalized" => "pink",
- 		"full_size" => "$designbase/pink.png",
- 		"thumb" => "$thumbbase/pink.thumb.png"
- 	),
- 	"purple" => array(
- 		"title" => "purple",
- 		"normalized" => "purple",
- 		"full_size" => "$designbase/purple.png",
- 		"thumb" => "$thumbbase/purple.thumb.png"
- 	),
- 	"red" => array(
- 		"title" => "red",
- 		"normalized" => "red",
- 		"full_size" => "$designbase/red.png",
- 		"thumb" => "$thumbbase/red.thumb.png"
- 	),
- 	"teal" => array(
- 		"title" => "teal",
- 		"normalized" => "teal",
- 		"full_size" => "$designbase/teal.png",
- 		"thumb" => "$thumbbase/teal.thumb.png"
- 	),
- 	"Wine" => array(
- 		"title" => "Wine",
- 		"normalized" => "wine",
- 		"full_size" => "$designbase/wine.png",
- 		"thumb" => "$thumbbase/wine.png"
- 	),
- 	"Yellow" => array(
- 		"title" => "Yellow",
- 		"normalized" => "yellow",
- 		"full_size" => "$designbase/yellow.png",
- 		"thumb" => "$thumbbase/yellow.png"
- 	)
- );
- ?>
+
+  "Aztec" => array(
+    "title" => "Aztec",
+    "normalized" => "aztec",
+    "full_size" => $path . "pockets/aztec.png",
+    "thumb" => $path . "pocket-thumbs/aztec.png",
+  ),
+
+  "Black Aztec" => array(
+    "title" => "Black Aztec",
+    "normalized" => "blackaztec",
+    "full_size" => $path . "pockets/blackaztec.png",
+    "thumb" => $path . "pocket-thumbs/blackaztec.png",
+  ),
+  
+  "Burgundy" => array(
+    "title" => "Burgundy",
+    "normalized" => "burgundy",
+    "full_size" => $path . "pockets/burgundy.png",
+    "thumb" => $path . "pocket-thumbs/burgundy.png",
+  ),
+
+  "Camo" => array(
+    "title" => "Camo",
+    "normalized" => "camo",
+    "full_size" => $path . "pockets/camo.png",
+    "thumb" => $path . "pocket-thumbs/camo.png",
+  ),
+
+  "Charcoal" => array(
+    "title" => "Charcoal",
+    "normalized" => "charcoal",
+    "full_size" => $path . "pockets/charcoal.png",
+    "thumb" => $path . "pocket-thumbs/charcoal.png",
+  ),
+
+  "Charlotte" => array(
+    "title" => "Charlotte",
+    "normalized" => "charlotte",
+    "full_size" => $path . "pockets/charlotte.png",
+    "thumb" => $path . "pocket-thumbs/charlotte.png",
+  ),
+
+  "Chevron" => array(
+    "title" => "Chevron",
+    "normalized" => "chevron",
+    "full_size" => $path . "pockets/chevron.png",
+    "thumb" => $path . "pocket-thumbs/chevron.png",
+  ),
+
+  "Color Aztec" => array(
+    "title" => "Color Aztec",
+    "normalized" => "coloraztec",
+    "full_size" => $path . "pockets/coloraztec.png",
+    "thumb" => $path . "pocket-thumbs/coloraztec.png",
+  ),
+  "Elephants" => array(
+    "title" => "Elephants",
+    "normalized" => "elephants",
+    "full_size" => $path . "pockets/elephants.png",
+    "thumb" => $path . "pocket-thumbs/elephants.png",
+  ),
+  "Flamingo" => array(
+    "title" => "Flamingo",
+    "normalized" => "flamingo",
+    "full_size" => $path . "pockets/flamingo.png",
+    "thumb" => $path . "pocket-thumbs/flamingo.png",
+  ),
+  "Grapefruit" => array(
+    "title" => "Grapefruit",
+    "normalized" => "grapefruit",
+    "full_size" => $path . "pockets/grapefruit.png",
+    "thumb" => $path . "pocket-thumbs/grapefruit.png",
+  ),
+  "Hippie Tie Dye" => array(
+    "title" => "Hippie Tie Dye",
+    "normalized" => "hippietiedye",
+    "full_size" => $path . "pockets/hippietiedye.png",
+    "thumb" => $path . "pocket-thumbs/hippietiedye.png",
+  ),
+  "Honeycomb" => array(
+    "title" => "Honeycomb",
+    "normalized" => "honeycomb",
+    "full_size" => $path . "pockets/honeycomb.png",
+    "thumb" => $path . "pocket-thumbs/honeycomb.png",
+  ),
+  "Jazzercise" => array(
+    "title" => "Jazzercise",
+    "normalized" => "jazzercise",
+    "full_size" => $path . "pockets/jazzercise.png",
+    "thumb" => $path . "pocket-thumbs/jazzercise.png",
+  ),
+  "Lime" => array(
+    "title" => "Lime",
+    "normalized" => "lime",
+    "full_size" => $path . "pockets/lime.png",
+    "thumb" => $path . "pocket-thumbs/lime.png",
+  ),
+  "Majestically Rad" => array(
+    "title" => "Majestically Rad",
+    "normalized" => "majesticallyrad",
+    "full_size" => $path . "pockets/majesticallyrad.png",
+    "thumb" => $path . "pocket-thumbs/majesticallyrad.png",
+  ),
+  "Merica" => array(
+    "title" => "Merica",
+    "normalized" => "merica",
+    "full_size" => $path . "pockets/merica.png",
+    "thumb" => $path . "pocket-thumbs/merica.png",
+  ),
+  "Mint" => array(
+    "title" => "Mint",
+    "normalized" => "mint",
+    "full_size" => $path . "pockets/mint.png",
+    "thumb" => $path . "pocket-thumbs/mint.png",
+  ),
+  "NC STZ (Blue)" => array(
+    "title" => "NC STZ (Blue)",
+    "normalized" => "ncstz.blue",
+    "full_size" => $path . "pockets/ncstz.blue.png",
+    "thumb" => $path . "pocket-thumbs/ncstz.blue.png",
+  ),
+  "NC STZ (Yellow)" => array(
+    "title" => "NC STZ (Yellow)",
+    "normalized" => "ncstz.yellow",
+    "full_size" => $path . "pockets/ncstz.yellow.png",
+    "thumb" => $path . "pocket-thumbs/ncstz.yellow.png",
+  ),
+  "Nerd" => array(
+    "title" => "Nerd",
+    "normalized" => "nerd",
+    "full_size" => $path . "pockets/nerd.png",
+    "thumb" => $path . "pocket-thumbs/nerd.png",
+  ),
+  "Orange" => array(
+    "title" => "Orange",
+    "normalized" => "orange",
+    "full_size" => $path . "pockets/orange.png",
+    "thumb" => $path . "pocket-thumbs/orange.png",
+  ),
+  "Paper Baggin" => array(
+    "title" => "Paper Baggin",
+    "normalized" => "paperbaggin",
+    "full_size" => $path . "pockets/paperbaggin.png",
+    "thumb" => $path . "pocket-thumbs/paperbaggin.png",
+  ),
+  "Parrots" => array(
+    "title" => "Parrots",
+    "normalized" => "parrots",
+    "full_size" => $path . "pockets/parrots.png",
+    "thumb" => $path . "pocket-thumbs/parrots.png",
+  ),
+  "Pink" => array(
+    "title" => "Pink",
+    "normalized" => "pink",
+    "full_size" => $path . "pockets/pink.png",
+    "thumb" => $path . "pocket-thumbs/pink.png",
+  ),
+  "Polar Bear" => array(
+    "title" => "Polar Bear",
+    "normalized" => "polarbear",
+    "full_size" => $path . "pockets/polarbear.png",
+    "thumb" => $path . "pocket-thumbs/polarbear.png",
+  ),
+  "Purple" => array(
+    "title" => "Purple",
+    "normalized" => "purple",
+    "full_size" => $path . "pockets/purple.png",
+    "thumb" => $path . "pocket-thumbs/purple.png",
+  ),
+  "Red" => array(
+    "title" => "Red",
+    "normalized" => "red",
+    "full_size" => $path . "pockets/red.png",
+    "thumb" => $path . "pocket-thumbs/red.png",
+  ),
+  "Stumped" => array(
+    "title" => "Stumped",
+    "normalized" => "stumped",
+    "full_size" => $path . "pockets/stumped.png",
+    "thumb" => $path . "pocket-thumbs/stumped.png",
+  ),
+  "STZlife Galaxy" => array(
+    "title" => "STZlife Galaxy",
+    "normalized" => "stzlifegalaxy",
+    "full_size" => $path . "pockets/stzlifegalaxy.png",
+    "thumb" => $path . "pocket-thumbs/stzlifegalaxy.png",
+  ),
+  "STZ Repeat" => array(
+    "title" => "STZ Repeat",
+    "normalized" => "stzrepeat",
+    "full_size" => $path . "pockets/stzrepeat.png",
+    "thumb" => $path . "pocket-thumbs/stzrepeat.png",
+  ),
+  "Sunrise Palms" => array(
+    "title" => "Sunrise Palms",
+    "normalized" => "sunrisepalms",
+    "full_size" => $path . "pockets/sunrisepalms.png",
+    "thumb" => $path . "pocket-thumbs/sunrisepalms.png",
+  ),
+  "Teal" => array(
+    "title" => "Teal",
+    "normalized" => "teal",
+    "full_size" => $path . "pockets/teal.png",
+    "thumb" => $path . "pocket-thumbs/teal.png",
+  ),
+  "Tie Dye" => array(
+    "title" => "Tie Dye",
+    "normalized" => "tiedye",
+    "full_size" => $path . "pockets/tiedye.png",
+    "thumb" => $path . "pocket-thumbs/tiedye.png",
+  ),
+  "Tie Dye (Palms)" => array(
+    "title" => "Tie Dye (Palms)",
+    "normalized" => "tiedyepalms",
+    "full_size" => $path . "pockets/tiedyepalms.png",
+    "thumb" => $path . "pocket-thumbs/tiedyepalms.png",
+  ),
+  "Triangles (Khaki)" => array(
+    "title" => "Triangles (Khaki)",
+    "normalized" => "triangles.khaki",
+    "full_size" => $path . "pockets/triangles.khaki.png",
+    "thumb" => $path . "pocket-thumbs/triangles.khaki.png",
+  ),
+  "Triangles (Multi)" => array(
+    "title" => "Triangles (Multi)",
+    "normalized" => "triangles.multi",
+    "full_size" => $path . "pockets/triangles.multi.png",
+    "thumb" => $path . "pocket-thumbs/triangles.multi.png",
+  ),
+  "Triangles (Purple)" => array(
+    "title" => "Triangles (Purple)",
+    "normalized" => "triangles.purple",
+    "full_size" => $path . "pockets/triangles.purple.png",
+    "thumb" => $path . "pocket-thumbs/triangles.purple.png",
+  ),
+  "Wolf" => array(
+    "title" => "Wolf",
+    "normalized" => "wolf",
+    "full_size" => $path . "pockets/wolf.png",
+    "thumb" => $path . "pocket-thumbs/wolf.png",
+  ),
+  "Word Search (Blue)" => array(
+    "title" => "Word Search (Blue)",
+    "normalized" => "wordsearch.blue",
+    "full_size" => $path . "pockets/wordsearch.blue.png",
+    "thumb" => $path . "pocket-thumbs/wordsearch.blue.png",
+  ),
+  "Word Search (White)" => array(
+    "title" => "Word Search (White)",
+    "normalized" => "wordsearch.white",
+    "full_size" => $path . "pockets/wordsearch.white.png",
+    "thumb" => $path . "pocket-thumbs/wordsearch.white.png",
+  ),
+  "Yellow" => array(
+    "title" => "Yellow",
+    "normalized" => "yellow",
+    "full_size" => $path . "pockets/yellow.png",
+    "thumb" => $path . "pocket-thumbs/yellow.png",
+  ),
+);
+?>

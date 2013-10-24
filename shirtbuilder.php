@@ -44,17 +44,17 @@
 
 	if ($style == 'graphic' && $item == 'tee') {
 		$item_name = 'Custom Graphic Tee';
-		$item_number = '99998';
+		$item_number = '911';
 		$item_price = '$22';
-		$default_color = 'Heather Charcoal';
+		$default_color = 'Black';
 		$default_design = 'Beast Mode';
 		$production_time = '3-5 days';
 	}
 	elseif ($style == 'pocket' && $item == 'tee') {
 		$item_name = 'Custom Pocket Tee';
-		$item_number = '99999';
+		$item_number = '901';
 		$item_price = '$25';
-		$default_color = 'Heather Charcoal';
+		$default_color = 'Black';
 		$default_design = 'Flamingo';
 		$production_time = '5-7 days';
 	}

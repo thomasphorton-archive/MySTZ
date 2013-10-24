@@ -1,196 +1,211 @@
 <?
+
+$path = "/images/shirtbuilder/graphics/";
+
 $design_options = array(
-	"STZ Life Vintage" => array(
-		"title" => "STZ Life Vintage",
-		"normalized" => "stzlifevintage",
-		"full_size" => "images/shirtbuilder/graphics/stzlifevintage.png",
-		"thumb" => "images/shirtbuilder/graphicthumbs/stzlifevintage.jpg",
-	),
-	"Send It To The Flats" => array(
-		"title" => "Send It To The Flats",
-		"normalized" => "sendittotheflats",
-		"full_size" => "images/shirtbuilder/graphics/sendittotheflats.png",
-		"thumb" => "images/shirtbuilder/graphicthumbs/sendittotheflats.jpg",
-	),
-	"Chemical STZ" => array(
-		"title" => "Chemical STZ",
-		"normalized" => "chemicalstz",
-		"full_size" => "images/shirtbuilder/graphics/chemicalstz.png",
-		"thumb" => "images/shirtbuilder/graphicthumbs/chemicalstz.jpg",
-	),
-	"Charlie Brown" => array(
-		"title" => "Charlie Brown",
-		"normalized" => "charliebrown",
-		"full_size" => "images/shirtbuilder/graphics/charliebrown.png",
-		"thumb" => "images/shirtbuilder/graphicthumbs/charliebrown.jpg",
-	),
+	
+
 	"Beast Mode" => array(
 		"title" => "Beast Mode",
 		"normalized" => "beastmode",
-		"full_size" => "images/shirtbuilder/graphics/beastmode.black.png",
-		"thumb" => "images/shirtbuilder/graphicthumbs/beastmode.black.thumb.png",
+		"full_size" => $path . "graphics/beastmode.black.png",
+		"thumb" => $path . "graphic-thumbs/beastmode.black.png",
 	),
-	"Daps n Pounds" => array(
-		"title" => "Daps n Pounds",
-		"normalized" => "dapsnpounds",
-		"full_size" => "images/shirtbuilder/graphics/dapsnpounds.grey.png",
-		"thumb" => "images/shirtbuilder/graphicthumbs/dapsnpounds.grey.thumb.png",
+
+	"Charlie Brown" => array(
+		"title" => "Charlie Brown",
+		"normalized" => "charliebrown",
+		"full_size" => $path . "graphics/charliebrown.black.png",
+		"thumb" => $path . "graphic-thumbs/charliebrown.black.png",
 	),
-	"Double STZ Burger" => array(
-		"title" => "Double STZ Burger",
+	
+	"Crest" => array(
+		"title" => "Crest",
+		"normalized" => "crest",
+		"full_size" => $path . "graphics/crest.black.png",
+		"thumb" => $path . "graphic-thumbs/crest.black.png",
+	),
+
+	"Double STZburger" => array(
+		"title" => "Double STZburger",
 		"normalized" => "doublestzburger",
-		"full_size" => "images/shirtbuilder/graphics/doublestzburger.black.png",
-		"thumb" => "images/shirtbuilder/graphicthumbs/doublestzburger.black.thumb.png",
+		"full_size" => $path . "graphics/doublestzburger.black.png",
+		"thumb" => $path . "graphic-thumbs/doublestzburger.black.png",
 	),
+
 	"El Caputo" => array(
 		"title" => "El Caputo",
 		"normalized" => "elcaputo",
-		"full_size" => "images/shirtbuilder/graphics/elcaputo.black.png",
-		"thumb" => "images/shirtbuilder/graphicthumbs/elcaputo.black.thumb.png",
+		"full_size" => $path . "graphics/elcaputo.black.png",
+		"thumb" => $path . "graphic-thumbs/elcaputo.black.png",
 	),
+
 	"Emergency Mustache" => array(
 		"title" => "Emergency Mustache",
 		"normalized" => "emergencymustache",
-		"full_size" => "images/shirtbuilder/graphics/emergencymustache.black.png",
-		"thumb" => "images/shirtbuilder/graphicthumbs/emergencymustache.black.thumb.png",
+		"full_size" => $path . "graphics/emergencymustache.black.png",
+		"thumb" => $path . "graphic-thumbs/emergencymustache.black.png",
 	),
+
 	"Gorilla Boombox" => array(
 		"title" => "Gorilla Boombox",
 		"normalized" => "gorillaboombox",
-		"full_size" => "images/shirtbuilder/graphics/gorillaboombox.black.png",
-		"thumb" => "images/shirtbuilder/graphicthumbs/gorillaboombox.black.thumb.png",
+		"full_size" => $path . "graphics/gorillaboombox.black.png",
+		"thumb" => $path . "graphic-thumbs/gorillaboombox.black.png",
 	),
-	"Skyline" => array(
-		"title" => "Skyline",
-		"normalized" => "skyline",
-		"full_size" => "images/shirtbuilder/graphics/skyline.black.png",
-		"thumb" => "images/shirtbuilder/graphicthumbs/skyline.black.thumb.png",
-	),
-	"I Skate NC" => array(
-		"title" => "I Skate NC",
-		"normalized" => "iskatenc",
-		"full_size" => "images/shirtbuilder/graphics/iskatenc.black.png",
-		"thumb" => "images/shirtbuilder/graphicthumbs/iskatenc.black.thumb.png",
-	),
-	"I Skate NC" => array(
-		"title" => "I Skate NC (Blue)",
-		"normalized" => "iskatencblue",
-		"full_size" => "images/shirtbuilder/graphics/iskatenc.blue.png",
-		"thumb" => "images/shirtbuilder/graphicthumbs/iskatenc.blue.thumb.png",
-	),
-	"Moostache" => array(
-		"title" => "Moostache",
-		"normalized" => "moostache",
-		"full_size" => "images/shirtbuilder/graphics/moostache.black.png",
-		"thumb" => "images/shirtbuilder/graphicthumbs/moostache.black.thumb.png",
-	),
-	"Party Animals" => array(
-		"title" => "Party Animals",
-		"normalized" => "partyanimals",
-		"full_size" => "images/shirtbuilder/graphics/partyanimals.grey.png",
-		"thumb" => "images/shirtbuilder/graphicthumbs/partyanimals.grey.thumb.png",
-	),
-	"Peace" => array(
-		"title" => "Peace (Black)",
-		"normalized" => "peaceblack",
-		"full_size" => "images/shirtbuilder/graphics/peace.black.png",
-		"thumb" => "images/shirtbuilder/graphicthumbs/peace.black.thumb.png",
-	),
-	"Peace" => array(
-		"title" => "Peace (Blue)",
-		"normalized" => "peaceblue",
-		"full_size" => "images/shirtbuilder/graphics/peace.blue.png",
-		"thumb" => "images/shirtbuilder/graphicthumbs/peace.blue.thumb.png",
-	),
-	"Ride NC Black" => array(
-		"title" => "Ride NC (Black)",
-		"normalized" => "ridencblack",
-		"full_size" => "images/shirtbuilder/graphics/ridenc.black.png",
-		"thumb" => "images/shirtbuilder/graphicthumbs/ridenc.black.thumb.png",
-	),
-	"Ride NC Orange" => array(
-		"title" => "Ride NC (Orange)",
-		"normalized" => "ridencorange",
-		"full_size" => "images/shirtbuilder/graphics/ridenc.orange.png",
-		"thumb" => "images/shirtbuilder/graphicthumbs/ridenc.orange.thumb.png",
-	),
-	"Right Coast" => array(
-		"title" => "Right Coast",
-		"normalized" => "rightcoast",
-		"full_size" => "images/shirtbuilder/graphics/rightcoast.black.png",
-		"thumb" => "images/shirtbuilder/graphicthumbs/rightcoast.black.thumb.png",
-	),
-	"Shoot All Shred" => array(
-		"title" => "Shoot All Shred",
-		"normalized" => "shootallshred",
-		"full_size" => "images/shirtbuilder/graphics/shootallshred.black.png",
-		"thumb" => "images/shirtbuilder/graphicthumbs/shootallshred.black.thumb.png",
-	),
-	"Shred Til You're Dead" => array(
-		"title" => "Shred Til You're Dead",
-		"normalized" => "shredtilyouredead",
-		"full_size" => "images/shirtbuilder/graphics/shredtilyouredead.black.png",
-		"thumb" => "images/shirtbuilder/graphicthumbs/shredtilyouredead.black.thumb.png",
-	),
-	"Triangles" => array(
-		"title" => "Triangles",
-		"normalized" => "triangles",
-		"full_size" => "images/shirtbuilder/graphics/triangles.black.png",
-		"thumb" => "images/shirtbuilder/graphicthumbs/triangles.black.thumb.png",
-	),
+
 	"Hand Shredded" => array(
 		"title" => "Hand Shredded",
 		"normalized" => "handshredded",
-		"full_size" => "images/shirtbuilder/graphics/handshredded.black.png",
-		"thumb" => "images/shirtbuilder/graphicthumbs/handshredded.black.thumb.png",
+		"full_size" => $path . "graphics/handshredded.black.png",
+		"thumb" => $path . "graphic-thumbs/handshredded.black.png",
 	),
-	"We Can Do It" => array(
-		"title" => "We Can Do It",
-		"normalized" => "wecandoit",
-		"full_size" => "images/shirtbuilder/graphics/wecandoit.black.png",
-		"thumb" => "images/shirtbuilder/graphicthumbs/wecandoit.black.thumb.png",
-	),
+
 	"Happy Shredding" => array(
 		"title" => "Happy Shredding",
-		"normalized" => "happyshredding",
-		"full_size" => "images/shirtbuilder/graphics/happyshredding.orange.png",
-		"thumb" => "images/shirtbuilder/graphicthumbs/happyshredding.orange.thumb.png",
+		"normalized" => "happyshreddingblack",
+		"full_size" => $path . "graphics/happyshredding.black.png",
+		"thumb" => $path . "graphic-thumbs/happyshredding.black.png",
 	),
+
+	"Happy Shredding (Orange)" => array(
+		"title" => "Happy Shredding (Orange)",
+		"normalized" => "happyshreddingorange",
+		"full_size" => $path . "graphics/happyshredding.orange.png",
+		"thumb" => $path . "graphic-thumbs/happyshredding.orange.png",
+	),
+
+	"Helloha" => array(
+		"title" => "Helloha",
+		"normalized" => "Helloha",
+		"full_size" => $path . "graphics/helloha.black.png",
+		"thumb" => $path . "graphic-thumbs/helloha.black.png",
+	),
+
+	"Homegrown" => array(
+		"title" => "Homegrown",
+		"normalized" => "homegrown",
+		"full_size" => $path . "graphics/homegrown.black.png",
+		"thumb" => $path . "graphic-thumbs/homegrown.black.png",
+	),
+
 	"KJ Gorilla" => array(
 		"title" => "KJ Gorilla",
-		"normalized" => "kjgorilla",
-		"full_size" => "images/shirtbuilder/graphics/kjgorilla.black.png",
-		"thumb" => "images/shirtbuilder/graphicthumbs/kjgorilla.black.thumb.png",
+		"normalized" => "crest",
+		"full_size" => $path . "graphics/kjgorilla.black.png",
+		"thumb" => $path . "graphic-thumbs/kjgorilla.black.png",
 	),
-	"OG Whaler Black" => array(
-		"title" => "OG Whaler (Black)",
-		"normalized" => "ogwhalerblack",
-		"full_size" => "images/shirtbuilder/graphics/ogwhaler.black.png",
-		"thumb" => "images/shirtbuilder/graphicthumbs/ogwhaler.black.thumb.png",
+
+	"Majestically Rad" => array(
+		"title" => "Majestically Rad",
+		"normalized" => "majesticallyrad",
+		"full_size" => $path . "graphics/majesticallyrad.black.png",
+		"thumb" => $path . "graphic-thumbs/majesticallyrad.black.png",
 	),
-	"OG Whaler White" => array(
+
+	"OG Whaler" => array(
+		"title" => "OG Whaler",
+		"normalized" => "ogwhaler",
+		"full_size" => $path . "graphics/ogwhaler.black.png",
+		"thumb" => $path . "graphic-thumbs/ogwhaler.black.png",
+	),
+
+	"OG Whaler (White)" => array(
 		"title" => "OG Whaler (White)",
 		"normalized" => "ogwhalerwhite",
-		"full_size" => "images/shirtbuilder/graphics/ogwhaler.white.png",
-		"thumb" => "images/shirtbuilder/graphicthumbs/ogwhaler.white.thumb.png",
+		"full_size" => $path . "graphics/ogwhaler.white.png",
+		"thumb" => $path . "graphic-thumbs/ogwhaler.white.png",
 	),
+
+	"Party Animals" => array(
+		"title" => "Party Animals",
+		"normalized" => "partyanimals",
+		"full_size" => $path . "graphics/partyanimals.grey.png",
+		"thumb" => $path . "graphic-thumbs/partyanimals.grey.png",
+	),
+
+	"Peace" => array(
+		"title" => "Peace",
+		"normalized" => "peace",
+		"full_size" => $path . "graphics/peace.blue.png",
+		"thumb" => $path . "graphic-thumbs/peace.blue.png",
+	),
+
+	"Ride NC" => array(
+		"title" => "Ride NC",
+		"normalized" => "ridenc",
+		"full_size" => $path . "graphics/ridenc.black.png",
+		"thumb" => $path . "graphic-thumbs/ridenc.black.png",
+	),
+
+	"Ride NC (Orange)" => array(
+		"title" => "Ride NC (Orange)",
+		"normalized" => "ridencorange",
+		"full_size" => $path . "graphics/ridenc.orange.png",
+		"thumb" => $path . "graphic-thumbs/ridenc.orange.png",
+	),
+
+	"Right Coast" => array(
+		"title" => "Right Coast",
+		"normalized" => "rightcoast",
+		"full_size" => $path . "graphics/rightcoast.black.png",
+		"thumb" => $path . "graphic-thumbs/rightcoast.black.png",
+	),
+
+	"Shoot All Shred" => array(
+		"title" => "Shoot All Shred",
+		"normalized" => "shootallshred",
+		"full_size" => $path . "graphics/shootallshred.black.png",
+		"thumb" => $path . "graphic-thumbs/shootallshred.black.png",
+	),
+
+	"Shred Til You're Dead" => array(
+		"title" => "Sjred Til You're Dead",
+		"normalized" => "shredtilyouredead",
+		"full_size" => $path . "graphics/shredtilyouredead.black.png",
+		"thumb" => $path . "graphic-thumbs/shredtilyouredead.black.png",
+	),
+/*
 	"Slush Buddie" => array(
-		"title" => "Slush Buddie (White)",
+		"title" => "Slush Buddie",
 		"normalized" => "slushbuddie",
-		"full_size" => "images/shirtbuilder/graphics/slushbuddie.white.png",
-		"thumb" => "images/shirtbuilder/graphicthumbs/slushbuddie.white.thumb.png",
+		"full_size" => $path . "graphics/slushbuddie.white.png",
+		"thumb" => $path . "graphic-thumbs/slushbuddie.white.png",
 	),
+*/
 	"STZ Life" => array(
 		"title" => "STZ Life",
 		"normalized" => "stzlife",
-		"full_size" => "images/shirtbuilder/graphics/stzlife.black.png",
-		"thumb" => "images/shirtbuilder/graphicthumbs/stzlife.black.thumb.png",
+		"full_size" => $path . "graphics/stzlife.black.png",
+		"thumb" => $path . "graphic-thumbs/stzlife.black.png",
 	),
-	"Too Fresh" => array(
-		"title" => "Too Fresh",
-		"normalized" => "toofresh",
-		"full_size" => "images/shirtbuilder/graphics/toofresh.blue.png",
-		"thumb" => "images/shirtbuilder/graphicthumbs/toofresh.blue.thumb.png",
+
+	"Three Flamingos" => array(
+		"title" => "Three Flamingos",
+		"normalized" => "crest",
+		"full_size" => $path . "graphics/threeflamingos.black.png",
+		"thumb" => $path . "graphic-thumbs/threeflamingos.black.png",
+	),
+
+	"Triangles" => array(
+		"title" => "Triangles",
+		"normalized" => "triangles",
+		"full_size" => $path . "graphics/triangles.black.png",
+		"thumb" => $path . "graphic-thumbs/triangles.black.png",
+	),
+
+	"Vintage STZLife" => array(
+		"title" => "Vintage STZLife",
+		"normalized" => "vintagestzlife",
+		"full_size" => $path . "graphics/vintagestzlfe.black.png",
+		"thumb" => $path . "graphic-thumbs/vintagestzlife.black.png",
+	),
+
+	"Word Search" => array(
+		"title" => "Word Search",
+		"normalized" => "wordsearch",
+		"full_size" => $path . "graphics/wordsearch.black.png",
+		"thumb" => $path . "graphic-thumbs/wordsearch.black.png",
 	),
 );
 ?>

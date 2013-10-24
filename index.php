@@ -48,11 +48,11 @@
 
 		<div class="row">
 			<div class="span6">
-				<a href="/mystery.php?type=tee">
+				<a href="/products.individual.php?id=921">
 					<img src="/images/index/mysterytee.jpg">
 				</a>
 
-        <a href="/mystery.php?type=tank">
+        <a href="/products.individual.php?id=922">
           <img src="/images/index/mysterytank.jpg"  style="margin-top: 30px;">
         </a>
 			</div>

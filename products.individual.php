@@ -1,14 +1,25 @@
 <?
+
 	include 'inventory.php';
+
 	$id = $_GET['id'];
+
 	$numProducts = count($inventory);
-	for($i=0;$i<$numProducts;$i++){
-		if ($inventory[$i]["id"] == $id){
+
+	for ($i=0; $i<$numProducts; $i++) {
+
+		if ($inventory[$i]["id"] == $id) {
+
 			$product = $inventory[$i];
+
 			$line = $inventory[$i]["line"];
+
 		}
+
 	}
+
 	$title = $product["title"] . ' | STZ | Custom Tees and Outerwear';
+
 	include 'inc.header.html.php';
 	include 'inc.header.php';
 
@@ -18,11 +29,15 @@
 
 			$cat_name = "graphic-tees";
 
+			$mod = "tees.php";
+
 			break;
 
 		case "pocket-tees":
 
 			$cat_name = "pocket-tees";
+
+			$mod = "tees.php";
 
 			break;
 
@@ -30,11 +45,15 @@
 
 			$cat_name = "outer";
 
+			$mod = "tees.php";
+
 			break;
 
 		case "baseball-tees":
 
 			$cat_name = "outer";
+
+			$mod = "tees.php";
 
 			break;
 
@@ -42,18 +61,23 @@
 
 			$cat_name = "outer";
 
+			$mod = "tees.php";
+
 			break;
 
 		case "zip-up":
 
 			$cat_name = "outer";
 
-			break;
+			$mod = "tees.php";
 
+			break;
 
 		case "hats":
 
 			$cat_name = "hats";
+
+			$mod = "hats.php";
 
 			break;
 
@@ -61,11 +85,15 @@
 
 			$cat_name = "hats";
 
+			$mod = "hats.php";
+
 			break;
 
 		case "tanks":
 
 			$cat_name = "tanks";
+
+			$mod = "tees.php";
 
 			break;
 
@@ -73,11 +101,23 @@
 
 			$cat_name = "ladies";
 
+			$mod = "tees.php";
+
 			break;
 
-		case "accessories";
+		case "backpacks";
 
-			$cat_name = "bags & accessories";
+			$cat_name = "backpacks";
+
+			$mod = "hats.php";
+
+			break;
+
+		case "mystery":
+
+			$cat_name = "mystery";
+
+			$mod = "mystery.php";
 
 			break;
 
@@ -86,6 +126,7 @@
 			$cat_name = "all";
 
 	}
+
 ?>
 
 <div class="container">
@@ -94,64 +135,33 @@
 			<span class="breadCrumb"><a href="index.php">home</a> > <a href="products.php">products</a> > <a href="products.line.php?line=<?=$cat_name?>"><?=$product["line"]?></a> > <?=$product["title"]?></span>
 		</div>
 	</div>
+
 	<div class="row">
+
 	  <div class="span9" style="position: relative;">
-		<img src="images/catalog/<?= $product["line"]?>/main/<?= $product["images"]["main"][0]?>" class="productBigImage">
-	  <? if ($product["message"]) { ?>
-    <span class="productMessage"><?= $product["message"]?></span>
-  	<? } ?>
+
+			<img src="images/catalog/<?= $product["line"]?>/main/<?= $product["images"]["main"][0]?>" class="productBigImage">
+
+		  <? if ($product["message"]) { ?>
+
+	    <span class="productMessage"><?= $product["message"]?></span>
+
+	  	<? } ?>
+
 	  </div>
-		<div class="span3">
-		<div class="product-data simpleCart_shelfItem">
 
-			<span class="item_number" style="display:none;"><?=$product["id"]?></span>
-			<h1 class="product-title item_name"><?=$product["title"]?></h1>
-			<h2 class="product-price">
-				<span class="item_price">$<?=$product["basePrice"]?></span>
-				<span class="discount">Now:
-					<span class="discounted_price"></span>
-				</span>
-			</h2>
+	  <? 
 
-			<p class="product-description-large item_description"><?=$product["description"]?></p>
+	  include "modules/catalog/$mod"; 
 
-			<?
-				if ($product["line"]!= "hats"){
-					include 'inc.select-size.php';
-				}
-			?>
-			<p class="product-description-small"><?=$product["small_description"]?></p>
-			<a href="javascript:;" class="item_add btn <? if ($product["soldout"]) echo 'disabled'; ?>" >Add to Cart</a>
+	  ?>
+		
+	</div><!--.row-->
 
-			<? if ($product["line"] == "stz" || $product["line"] =="pocket") {
+	<div class="row">
 
-				$color = $product["color_normalized"];
+		<h2 class="span12">You also might like:</h2>
 
-				$item = "tee";
-
-				switch ($product["line"]) {
-					case "stz":
-						$style = "style";
-						break;
-					case "pocket":
-						$style = "pocket";
-						break;
-				}
-
-					$design = $product["design_normalized"];
-
-					$custom_url = "/shirtbuilder.php?item=" . $item . "&design=" . $design . "&style=" . $style . "&color=" . $color;
-			?>
-				<a href="<?=$custom_url?>">Want to make it unique? Load it in the customizer</a>
-			<?
-				}
-			?>
-		</div>
-	</div><!--.productData-->
-</div><!--.row-->
-<div class="row">
-
-	<h2 class="span12">You also might like:</h2>
 		<?
 			$dontShow = array((int) $product["id"], 901, 902, 911);
 
@@ -176,12 +186,13 @@
 			}
 		?>
 
-</div>
-<div class="row">
-	<div class="span12">
-		<span class="breadCrumb"><a href="index.php">home</a> > <a href="products.php">products</a> > <a href="products.line.php?line=<?=$cat_name?>"><?=$product["line"]?></a> > <?=$product["title"]?></span>
 	</div>
-</div>
+
+	<div class="row">
+		<div class="span12">
+			<span class="breadCrumb"><a href="index.php">home</a> > <a href="products.php">products</a> > <a href="products.line.php?line=<?=$cat_name?>"><?=$product["line"]?></a> > <?=$product["title"]?></span>
+		</div>
+	</div>
 </div><!--.container-->
 <?
 	include 'inc.footer.php';

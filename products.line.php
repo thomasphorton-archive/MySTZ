@@ -51,6 +51,12 @@
 
 			break;
 
+		case "mystery";
+
+			$line_name = "mystery";
+
+			break;
+
 		default:
 
 			$line_name = "all products";
@@ -130,6 +136,12 @@
 		case "accessories":
 
 			display_items("backpacks", "backpacks", $inventory);
+
+			break;
+
+		case "mystery":
+
+			display_items("mystery", "mystery", $inventory);
 
 			break;
 

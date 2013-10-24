@@ -7,7 +7,8 @@ $inventory  = array(
 		"line" => "graphic-tees",
 		"title" => "Vintage STZlife",
 		"basePrice" => "18",
-		"description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
+		"description" => "wake | skate | surf | snow  #stzlife your photos so they show up on the site!",
+		"small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
 		"images" => array(
 			"main" => array(
 				"vintagestzlife.jpg"
@@ -31,6 +32,7 @@ $inventory  = array(
 		"line" => "graphic-tees",
 		"title" => "Helloha",
 		"basePrice" => "18",
+		"description" => "Team rider matt deal said this during a wakeskate sesh one day and it stuck. Island life wherever you are, Helloha!",
 		"images" => array(
 			"main" => array(
 				"helloha.jpg"
@@ -54,7 +56,8 @@ $inventory  = array(
 		"line" => "graphic-tees",
 		"title" => "Slush Buddie",
 		"basePrice" => "18",
-		"description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
+		"description" => "Hand drawn by our homie Nicky. Riding on the east coast you get used to any conditions and take what you can get.",
+		"small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
 		"images" => array(
 			"main" => array(
 				"slushbuddie.jpg"
@@ -78,7 +81,8 @@ $inventory  = array(
 		"line" => "graphic-tees",
 		"title" => "3 Flamingos",
 		"basePrice" => "18",
-		"description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
+		"description" => "Flamingos have been part of STZ since the early days. From the pocket tee to plastic flamingos at all our events. Hand drawn by STZ homie Joseph Toney.",
+		"small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
 		"images" => array(
 			"main" => array(
 				"threeflamingos.jpg"
@@ -98,6 +102,7 @@ $inventory  = array(
 		"line" => "graphic-tees",
 		"title" => "Crest",
 		"basePrice" => "18",
+		"description" => "Established in '08 MMVII in North Carolina. wake | skate | surf | snow , Know your roots.",
 		"description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
 		"images" => array(
 			"main" => array(
@@ -126,7 +131,8 @@ $inventory  = array(
 		"line" => "graphic-tees",
 		"title" => "Send It To The Flats",
 		"basePrice" => "18",
-		"description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
+		"description" => "Sometimes its more fun to send it to the flats, when referring to partying with the crew. Otherwise, find that sweet spot.",
+		"small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
 		"images" => array(
 			"main" => array(
 				"sendittotheflats.jpg"
@@ -146,7 +152,8 @@ $inventory  = array(
 		"line" => "graphic-tees",
 		"title" => "Word Search",
 		"basePrice" => "18",
-		"description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
+		"description" => "Can you find all the words? Send us a picture with all the words circled for a prize! <a href='/images/misc/wordsearch.png' target='_blank'>Answer Key</a>",
+		"small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
 		"images" => array(
 			"main" => array(
 				"wordsearch.jpg"
@@ -170,7 +177,8 @@ $inventory  = array(
 		"line" => "graphic-tees",
 		"title" => "Hand Shredded",
 		"basePrice" => "18",
-		"description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
+		"description" => "wake | skate | surf | snow ... hand printed by riders. keep building, keep creating.",
+		"small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
 		"images" => array(
 			"main" => array(
 				"handshredded.jpg"
@@ -194,7 +202,8 @@ $inventory  = array(
 		"line" => "graphic-tees",
 		"title" => "Majestically Rad",
 		"basePrice" => "18",
-		"description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
+		"description" => "Unicorns are rad!",
+		"small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
 		"images" => array(
 			"main" => array(
 				"majesticallyrad.jpg"
@@ -218,7 +227,8 @@ $inventory  = array(
 		"line" => "graphic-tees",
 		"title" => "Right Coast",
 		"basePrice" => "18",
-		"description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
+		"description" => "Rep where you're from. Coast Life.",
+		"small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
 		"images" => array(
 			"main" => array(
 				"rightcoast.jpg"
@@ -246,7 +256,8 @@ $inventory  = array(
 		"line" => "graphic-tees",
 		"title" => "El Caputo",
 		"basePrice" => "18",
-		"description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
+		"description" => "Snowboarding is a party, Enjoy it!",
+		"small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
 		"images" => array(
 			"main" => array(
 				"elcaputo.jpg"
@@ -270,7 +281,8 @@ $inventory  = array(
 		"line" => "graphic-tees",
 		"title" => "Happy Shredding",
 		"basePrice" => "18",
-		"description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
+		"description" => "Shredding with the homies and having fun is what its all about.",
+		"small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
 		"images" => array(
 			"main" => array(
 				"happyshredding.jpg"
@@ -294,7 +306,8 @@ $inventory  = array(
 		"line" => "graphic-tees",
 		"title" => "Shred Til You're Dead",
 		"basePrice" => "18",
-		"description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
+		"description" => "Hand drawn by STZ homie Josh Varnum. Concept by team rider Jeff Mathis. The graphic says it all.",
+		"small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
 		"images" => array(
 			"main" => array(
 				"shredtilyouredead.jpg"
@@ -318,7 +331,8 @@ $inventory  = array(
 		"line" => "graphic-tees",
 		"title" => "Triangles",
 		"basePrice" => "18",
-		"description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
+		"description" => "Triangles are my favorite shape.",
+		"small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
 		"images" => array(
 			"main" => array(
 				"triangles.jpg"
@@ -342,7 +356,8 @@ $inventory  = array(
 		"line" => "graphic-tees",
 		"title" => "Shoot All Shred",
 		"basePrice" => "18",
-		"description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
+		"description" => "Filming is a big part of our brand and is always fun. Shoot and share!",
+		"small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
 		"images" => array(
 			"main" => array(
 				"shootallshred.jpg"
@@ -366,7 +381,8 @@ $inventory  = array(
 		"line" => "graphic-tees",
 		"title" => "OG Whaler",
 		"basePrice" => "18",
-		"description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
+		"description" => "This is the first graphic ever printed by the STZ crew as a school project. Drunken concept by homie John Green, over some wings and beer way back.",
+		"small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
 		"images" => array(
 			"main" => array(
 				"ogwhaler.jpg"
@@ -386,7 +402,8 @@ $inventory  = array(
 		"line" => "graphic-tees",
 		"title" => "STZlife",
 		"basePrice" => "18",
-		"description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
+		"description" => "wake | skate | surf | snow  #stzlife your photos so they show up on the site!",
+		"small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
 		"images" => array(
 			"main" => array(
 				"stzlife.jpg"
@@ -414,7 +431,8 @@ $inventory  = array(
 		"line" => "graphic-tees",
 		"title" => "Chemical",
 		"basePrice" => "18",
-		"description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
+		"description" => "STZ is also an abbreviation for a chemical... Google it.",
+		"small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
 		"images" => array(
 			"main" => array(
 				"chemical.jpg"
@@ -434,7 +452,8 @@ $inventory  = array(
 		"line" => "graphic-tees",
 		"title" => "Charlie Brown",
 		"basePrice" => "18",
-		"description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
+		"description" => "You Zigged when I Zagged.",
+		"small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
 		"images" => array(
 			"main" => array(
 				"charliebrown.jpg"
@@ -462,7 +481,8 @@ $inventory  = array(
 		"line" => "graphic-tees",
 		"title" => "Double STZburger",
 		"basePrice" => "18",
-		"description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
+		"description" => "Because its funny... Hand drawn by a STZ homie in school.",
+		"small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
 		"images" => array(
 			"main" => array(
 				"doublestzburger.jpg"
@@ -486,7 +506,8 @@ $inventory  = array(
 		"line" => "graphic-tees",
 		"title" => "Emergency Mustache",
 		"basePrice" => "18",
-		"description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
+		"description" => "The perfect pick-up line. Also great for any photo op. Girls love a good 'stache.",
+		"small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
 		"images" => array(
 			"main" => array(
 				"emergencymustache.jpg"
@@ -510,7 +531,8 @@ $inventory  = array(
 		"line" => "graphic-tees",
 		"title" => "KJ Gorilla",
 		"basePrice" => "18",
-		"description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
+		"description" => "Hand drawn by team rider Kris Jones. Killing it on and off the mountain.",
+		"small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
 		"images" => array(
 			"main" => array(
 				"kjgorilla.jpg"
@@ -540,7 +562,7 @@ $inventory  = array(
 		"line" => "pocket-tees",
 		"title" => "Thatch",
 		"basePrice" => "25",
-		"description" => "",
+		"description" => "We have been doing custom pockets since way back in '08. We like these styles but check out the builder and show us your style! All pockets fully customizable- any shirt, any pocket!",
 		"images" => array(
 			"main" => array(
 				"thatch.sangria.jpg"
@@ -565,7 +587,7 @@ $inventory  = array(
 		"line" => "pocket-tees",
 		"title" => "Color Aztec",
 		"basePrice" => "25",
-		"description" => "",
+		"description" => "We have been doing custom pockets since way back in '08. We like these styles but check out the builder and show us your style! All pockets fully customizable- any shirt, any pocket!",
 		"images" => array(
 			"main" => array(
 				"coloraztec.black.jpg"
@@ -590,7 +612,7 @@ $inventory  = array(
 		"line" => "pocket-tees",
 		"title" => "Jazzercize",
 		"basePrice" => "25",
-		"description" => "",
+		"description" => "We have been doing custom pockets since way back in '08. We like these styles but check out the builder and show us your style! All pockets fully customizable- any shirt, any pocket!",
 		"images" => array(
 			"main" => array(
 				"jazzercize.fatigue.jpg"
@@ -615,7 +637,7 @@ $inventory  = array(
 		"line" => "pocket-tees",
 		"title" => "Tan Cord",
 		"basePrice" => "25",
-		"description" => "",
+		"description" => "We have been doing custom pockets since way back in '08. We like these styles but check out the builder and show us your style! All pockets fully customizable- any shirt, any pocket!",
 		"images" => array(
 			"main" => array(
 				"tancord.heathernavy.jpg"
@@ -640,7 +662,7 @@ $inventory  = array(
 		"line" => "pocket-tees",
 		"title" => "Majestically Rad",
 		"basePrice" => "25",
-		"description" => "",
+		"description" => "We have been doing custom pockets since way back in '08. We like these styles but check out the builder and show us your style! All pockets fully customizable- any shirt, any pocket!",
 		"images" => array(
 			"main" => array(
 				"majesticallyrad.black.jpg"
@@ -662,7 +684,7 @@ $inventory  = array(
 		"line" => "pocket-tees",
 		"title" => "Polar Bear Club",
 		"basePrice" => "25",
-		"description" => "",
+		"description" => "We have been doing custom pockets since way back in '08. We like these styles but check out the builder and show us your style! All pockets fully customizable- any shirt, any pocket!",
 		"images" => array(
 			"main" => array(
 				"polarbear.sangria.jpg"
@@ -936,7 +958,7 @@ $inventory  = array(
 		"line" => "crewneck",
 		"title" => "Crewneck Fleece in Grey",
 		"basePrice" => "40",
-		"description" => "",
+		"description" => "Super soft and super comfy. Perfect for those chilly fall/winter days.",
 		"images" => array(
 			"main" => array(
 				"greycrew.jpg"
@@ -964,7 +986,7 @@ $inventory  = array(
 		"line" => "crewneck",
 		"title" => "Crewneck Fleece in Heather Red",
 		"basePrice" => "40",
-		"description" => "",
+		"description" => "Super soft and super comfy. Perfect for those chilly fall/winter days.",
 		"images" => array(
 			"main" => array(
 				"redcrew.jpg"
@@ -992,7 +1014,7 @@ $inventory  = array(
 		"line" => "crewneck",
 		"title" => "Crewneck Fleece in Black",
 		"basePrice" => "40",
-		"description" => "",
+		"description" => "Super soft and super comfy. Perfect for those chilly fall/winter days.",
 		"images" => array(
 			"main" => array(
 				"blackcrew.jpg"
@@ -1020,7 +1042,7 @@ $inventory  = array(
 		"line" => "crewneck",
 		"title" => "Crewneck Fleece in Heather Navy",
 		"basePrice" => "40",
-		"description" => "",
+		"description" => "Super soft and super comfy. Perfect for those chilly fall/winter days.",
 		"images" => array(
 			"main" => array(
 				"navycrew.jpg"
@@ -1048,7 +1070,7 @@ $inventory  = array(
 		"line" => "zip-up",
 		"title" => "Zip-Up Hoodie in Grey",
 		"basePrice" => "45",
-		"description" => "",
+		"description" => "Super soft and super comfy. Perfect for those chilly fall/winter days.",
 		"images" => array(
 			"main" => array(
 				"greyzip.jpg"
@@ -1073,7 +1095,7 @@ $inventory  = array(
 		"line" => "zip-up",
 		"title" => "Zip-Up Hoodie in Royal",
 		"basePrice" => "45",
-		"description" => "",
+		"description" => "Super soft and super comfy. Perfect for those chilly fall/winter days.",
 		"images" => array(
 			"main" => array(
 				"royalzip.jpg"
@@ -1098,7 +1120,7 @@ $inventory  = array(
 		"line" => "zip-up",
 		"title" => "Zip-Up Hoodie in Navy Blue",
 		"basePrice" => "45",
-		"description" => "",
+		"description" => "Super soft and super comfy. Perfect for those chilly fall/winter days.",
 		"images" => array(
 			"main" => array(
 				"blackzip.jpg"
@@ -1126,7 +1148,7 @@ $inventory  = array(
 		"line" => "hats",
 		"title" => "Red Aloha",
 		"basePrice" => "35",
-		"description" => "",
+		"description" => "True snapback fit, great for any occasion.",
 		"images" => array(
 			"main" => array(
 				"redaloha.sendit.jpg"
@@ -1151,7 +1173,7 @@ $inventory  = array(
 		"line" => "hats",
 		"title" => "Blue Aloha",
 		"basePrice" => "35",
-		"description" => "",
+		"description" => "True snapback fit, great for any occasion.",
 		"images" => array(
 			"main" => array(
 				"bluealoha.stzlife.jpg"
@@ -1176,7 +1198,7 @@ $inventory  = array(
 		"line" => "hats",
 		"title" => "Charcoal Stone Wash",
 		"basePrice" => "25",
-		"description" => "",
+		"description" => "True snapback fit, made in the USA.",
 		"images" => array(
 			"main" => array(
 				"swcharcoal.happyshredding.jpg"
@@ -1201,7 +1223,7 @@ $inventory  = array(
 		"line" => "hats",
 		"title" => "Green/Blue Stone Wash",
 		"basePrice" => "25",
-		"description" => "",
+		"description" => "True snapback fit, made in the USA.",
 		"images" => array(
 			"main" => array(
 				"swgreenblue.stzlife.jpg"
@@ -1226,7 +1248,7 @@ $inventory  = array(
 		"line" => "hats",
 		"title" => "The Khaki Cord",
 		"basePrice" => "20",
-		"description" => "",
+		"description" => "True snapback fit, made in the USA.",
 		"images" => array(
 			"main" => array(
 				"tancord.happyshredding.jpg"
@@ -1251,7 +1273,7 @@ $inventory  = array(
 		"line" => "hats",
 		"title" => "The Green Cord",
 		"basePrice" => "20",
-		"description" => "",
+		"description" => "True snapback fit, made in the USA.",
 		"images" => array(
 			"main" => array(
 				"greencord.sendit.jpg"
@@ -1276,7 +1298,7 @@ $inventory  = array(
 		"line" => "hats",
 		"title" => "The Navy Cord",
 		"basePrice" => "20",
-		"description" => "",
+		"description" => "True snapback fit, made in the USA.",
 		"images" => array(
 			"main" => array(
 				"navycord.happyshredding.jpg"
@@ -1301,7 +1323,7 @@ $inventory  = array(
 		"line" => "hats",
 		"title" => "The Royal Cord",
 		"basePrice" => "20",
-		"description" => "",
+		"description" => "True snapback fit, made in the USA.",
 		"images" => array(
 			"main" => array(
 				"royalcord.sendit.jpg"
@@ -1326,7 +1348,7 @@ $inventory  = array(
 		"line" => "hats",
 		"title" => "The Red Cord",
 		"basePrice" => "20",
-		"description" => "",
+		"description" => "True snapback fit, made in the USA.",
 		"images" => array(
 			"main" => array(
 				"redcord.stzlife.jpg"
@@ -1351,7 +1373,7 @@ $inventory  = array(
 		"line" => "hats",
 		"title" => "The Fatigue Cord",
 		"basePrice" => "20",
-		"description" => "",
+		"description" => "More of a shollow 5-panel fit, without the 5-panel look. Custom designed by the STZ crew.",
 		"images" => array(
 			"main" => array(
 				"fatiguecord.sendit.jpg"
@@ -1373,7 +1395,7 @@ $inventory  = array(
 		"line" => "hats",
 		"title" => "Embroidered Fatigue",
 		"basePrice" => "15",
-		"description" => "",
+		"description" => "More of a shollow 5-panel fit, without the 5-panel look. Custom designed by the STZ crew.",
 		"images" => array(
 			"main" => array(
 				"fatiguecord.logo.jpg"
@@ -1514,9 +1536,9 @@ $inventory  = array(
 	array(
 		"id" => "601",
 		"line" => "wmns",
-		"title" => "Purple Charlie Brown",
+		"title" => "Scoopneck in Purple",
 		"basePrice" => "40",
-		"description" => "",
+		"description" => "Soft, comfy and stylish. Great for chilling after a long day of shredding. Like this color but want a different graphic? <a href='mailto:info@mystz.com'>Contact us</a>.",
 		"images" => array(
 			"main" => array(
 				"charliebrown.purple.jpg"
@@ -1529,9 +1551,9 @@ $inventory  = array(
 	array(
 		"id" => "602",
 		"line" => "wmns",
-		"title" => "Pink Crest",
+		"title" => "Scoopneck in Pink",
 		"basePrice" => "40",
-		"description" => "",
+		"description" => "Soft, comfy and stylish. Great for chilling after a long day of shredding. Like this color but want a different graphic? <a href='mailto:info@mystz.com'>Contact us</a>.",
 		"images" => array(
 			"main" => array(
 				"crest.pink.jpg"
@@ -1544,9 +1566,9 @@ $inventory  = array(
 	array(
 		"id" => "603",
 		"line" => "wmns",
-		"title" => "Teal Helloha",
+		"title" => "Scoopneck in Teal",
 		"basePrice" => "40",
-		"description" => "",
+		"description" => "Soft, comfy and stylish. Great for chilling after a long day of shredding. Like this color but want a different graphic? <a href='mailto:info@mystz.com'>Contact us</a>.",
 		"images" => array(
 			"main" => array(
 				"helloha.teal.jpg"
@@ -1559,9 +1581,9 @@ $inventory  = array(
 	array(
 		"id" => "604",
 		"line" => "wmns",
-		"title" => "Blue STZlife",
+		"title" => "Scoopneck in Blue",
 		"basePrice" => "40",
-		"description" => "",
+		"description" => "Soft, comfy and stylish. Great for chilling after a long day of shredding. Like this color but want a different graphic? <a href='mailto:info@mystz.com'>Contact us</a>.",
 		"images" => array(
 			"main" => array(
 				"stzlife.blue.jpg"
@@ -1574,9 +1596,9 @@ $inventory  = array(
 	array(
 		"id" => "605",
 		"line" => "wmns",
-		"title" => "Grey STZlife",
+		"title" => "Scoopneck in Grey",
 		"basePrice" => "40",
-		"description" => "",
+		"description" => "Soft, comfy and stylish. Great for chilling after a long day of shredding. Like this color but want a different graphic? <a href='mailto:info@mystz.com'>Contact us</a>.",
 		"images" => array(
 			"main" => array(
 				"stzlife.grey.jpg"
@@ -1694,29 +1716,31 @@ $inventory  = array(
 
 	array(
 		"id" => "921",
-		"line" => "custom",
+		"line" => "mystery",
 		"title" => "Mystery Graphic Tee",
 		"basePrice" => "12",
-		"description" => "",
+		"description" => "Who doesn't love a good mystery? Twelve bucks gets you one of the graphics featured in our product line and/or custom shirt builder. If you've already ordered one and want to scoop another, just leave a comment during checkout telling us what you have and we will try to send a different graphic.",
+		"small_description" => "Not elegible for discounts.",
 		"images" => array(
 			"main" => array(
-				"outer/stzlifecrew.red.main.jpg"
+				"tee.jpg"
 			),
-			"thumb" => "outer/stzlifecrew.red.products.jpg",
+			"thumb" => "tee.jpg",
 		)
 	),
 
 	array(
 		"id" => "922",
-		"line" => "custom",
+		"line" => "mystery",
 		"title" => "Mystery Graphic Tank",
 		"basePrice" => "12",
-		"description" => "",
+		"description" => "Who doesn't love a good mystery? Here's how it works... Choose whether you want a unisex or women's fit and pick your size. You will get one of the tank styles featured in our product line. If you've already ordered one and want to scoop another, just leave a comment during checkout telling us what you have and we will try to send a different graphic.",
+		"small_description" => "Not elegible for discounts.",
 		"images" => array(
 			"main" => array(
-				"outer/stzlifecrew.red.main.jpg"
+				"tank.jpg"
 			),
-			"thumb" => "outer/stzlifecrew.red.products.jpg",
+			"thumb" => "tank.jpg",
 		)
 	)
 

@@ -1,7 +1,9 @@
 <?
 	$promo_code = preg_replace("/[^A-Za-z0-9 ]/", '', $_POST['data']);
+	
+	$promo_code = strtoupper($promo_code);
 
-	if ($promo_code == 'STZ20') {
+	if ($promo_code == 'STZ20' || $promo_code == 'GOBBLE20') {
 ?>
 
 (function() {
@@ -22,7 +24,7 @@
 
 	})();
 <?
-	} else if ($promo_code == 'beta10' || $promo_code == 'hunter10' || $promo_code == 'tucker10' || $promo_code == 'chez10') {
+	} else if ($promo_code == 'HUNTER10' || $promo_code == 'TUCKER10' || $promo_code == 'CHEZ10') {
 ?>
 
 	(function() {
@@ -44,7 +46,31 @@
 	})();
 
 <?
-	} else if ($promo_code == 'surfexpo15' || $promo_code == 'launchday15' || $promo_code == 'SURFEXPO15') {
+
+} else if ($promo_code == 'SPOOKYSTZ' || $promo_code == 'EARLYXMAS25') {
+?>
+
+	(function() {
+		simpleCart.each(function (item, x){
+			item.price(item.price()*0.75);
+			item.set('promocode', user.promoCode);
+		});
+		simpleCart.update();
+		showResult( user.promoCode + ': <br> 25% discount');
+
+		price = $('.item_price')
+
+		discountPrice = price.text().replace('$', '') * 0.75;
+		price.addClass('strikethrough');
+
+		$('.discounted_price').text('$' + discountPrice);
+		$('.discount').show();
+
+	})();
+
+<?
+
+	} else if ($promo_code == 'surfexpo15' ||  $promo_code == 'SURFEXPO15') {
 ?>
 
 	(function() {
@@ -66,7 +92,7 @@
 	})();
 
 <?
-	} else if ($promo_code == 'stzcrew30') {
+	} else if ($promo_code == 'STZCREW30') {
 ?>
 
 	(function() {
@@ -88,7 +114,7 @@
 	})();
 
 <?
-	} else if ($promo_code == 'superdupertopsecret') {
+	} else if ($promo_code == 'SUPERDUPERTOPSECRET') {
 ?>
 
 	(function() {

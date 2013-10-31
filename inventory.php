@@ -32,7 +32,7 @@ $inventory  = array(
 		"line" => "graphic-tees",
 		"title" => "Helloha",
 		"basePrice" => "18",
-		"description" => "Team rider matt deal said this during a wakeskate sesh one day and it stuck. Island life wherever you are, Helloha!",
+		"description" => "Team rider Matt Deal said this during a wakeskate sesh one day and it stuck. Island life wherever you are, Helloha!",
 		"images" => array(
 			"main" => array(
 				"helloha.jpg"
@@ -42,11 +42,11 @@ $inventory  = array(
 		"options" => array(
 			array(
 				"shirt" => "Fatigue",
-				"graphic" => "Burgandy"
+				"graphic" => "Burgundy"
 			),
 			array(
 				"shirt" => "Latte",
-				"graphic" => "Burgandy"
+				"graphic" => "Burgundy"
 			)
 		)
 	),
@@ -56,7 +56,7 @@ $inventory  = array(
 		"line" => "graphic-tees",
 		"title" => "Slush Buddie",
 		"basePrice" => "18",
-		"description" => "Hand drawn by our homie Nicky. Riding on the east coast you get used to any conditions and take what you can get.",
+		"description" => "Hand drawn by our homie Nicky Lovejoy. Riding on the east coast you get used to any conditions and take what you can get.",
 		"small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
 		"images" => array(
 			"main" => array(
@@ -131,7 +131,7 @@ $inventory  = array(
 		"line" => "graphic-tees",
 		"title" => "Send It To The Flats",
 		"basePrice" => "18",
-		"description" => "Sometimes its more fun to send it to the flats, when referring to partying with the crew. Otherwise, find that sweet spot.",
+		"description" => "Sometimes it’s more fun to send it to the flats. Whether you’re partying or going big, send it.",
 		"small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
 		"images" => array(
 			"main" => array(
@@ -256,7 +256,7 @@ $inventory  = array(
 		"line" => "graphic-tees",
 		"title" => "El Caputo",
 		"basePrice" => "18",
-		"description" => "Snowboarding is a party, Enjoy it!",
+		"description" => "Snowboarding is a party, enjoy it!",
 		"small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
 		"images" => array(
 			"main" => array(
@@ -281,7 +281,7 @@ $inventory  = array(
 		"line" => "graphic-tees",
 		"title" => "Happy Shredding",
 		"basePrice" => "18",
-		"description" => "Shredding with the homies and having fun is what its all about.",
+		"description" => "Shredding with the homies and having fun is what it's all about.",
 		"small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
 		"images" => array(
 			"main" => array(
@@ -381,7 +381,7 @@ $inventory  = array(
 		"line" => "graphic-tees",
 		"title" => "OG Whaler",
 		"basePrice" => "18",
-		"description" => "This is the first graphic ever printed by the STZ crew as a school project. Drunken concept by homie John Green, over some wings and beer way back.",
+		"description" => "This is the first graphic ever printed by the STZ crew as a school project. Concept by good friend, Jon Green, way back in the day.",
 		"small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
 		"images" => array(
 			"main" => array(
@@ -506,7 +506,7 @@ $inventory  = array(
 		"line" => "graphic-tees",
 		"title" => "Emergency Mustache",
 		"basePrice" => "18",
-		"description" => "The perfect pick-up line. Also great for any photo op. Girls love a good 'stache.",
+		"description" => "The perfect pick-up line. Also great for any photo op. Ladies love a good 'stache.",
 		"small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
 		"images" => array(
 			"main" => array(
@@ -730,6 +730,9 @@ $inventory  = array(
 			),
 			array(
 				"graphic" => "Majestically Rad"
+			),
+			array(
+				"graphic" => "Crest"
 			)
 		)
 	),
@@ -761,6 +764,9 @@ $inventory  = array(
 			),
 			array(
 				"graphic" => "Majestically Rad"
+			),
+			array(
+				"graphic" => "Crest"
 			)
 		)
 	),
@@ -792,6 +798,9 @@ $inventory  = array(
 			),
 			array(
 				"graphic" => "Majestically Rad"
+			),
+			array(
+				"graphic" => "Crest"
 			)
 		)
 	),
@@ -823,6 +832,9 @@ $inventory  = array(
 			),
 			array(
 				"graphic" => "Majestically Rad"
+			),
+			array(
+				"graphic" => "Crest"
 			)
 		)
 	),
@@ -854,6 +866,9 @@ $inventory  = array(
 			),
 			array(
 				"graphic" => "Majestically Rad"
+			),
+			array(
+				"graphic" => "Crest"
 			)
 		)
 	),
@@ -885,6 +900,9 @@ $inventory  = array(
 			),
 			array(
 				"graphic" => "Majestically Rad"
+			),
+			array(
+				"graphic" => "Crest"
 			)
 		)
 	),
@@ -916,6 +934,9 @@ $inventory  = array(
 			),
 			array(
 				"graphic" => "Majestically Rad"
+			),
+			array(
+				"graphic" => "Crest"
 			)
 		)
 	),
@@ -947,6 +968,9 @@ $inventory  = array(
 			),
 			array(
 				"graphic" => "Majestically Rad"
+			),
+			array(
+				"graphic" => "Crest"
 			)
 		)
 	),

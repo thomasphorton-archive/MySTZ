@@ -47,7 +47,7 @@
 
 <?
 
-} else if ($promo_code == 'SPOOKYSTZ' || $promo_code == 'EARLYXMAS25') {
+} else if ($promo_code == 'EARLYXMAS25') {
 ?>
 
 	(function() {

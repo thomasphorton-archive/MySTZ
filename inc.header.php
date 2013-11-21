@@ -65,6 +65,7 @@
 							<ul class="dropdown-menu">
 								<li><a href="shirtbuilder.php?item=tee&style=graphic">custom graphic</a></li>
 								<li><a href="shirtbuilder.php?item=tee&style=pocket">custom pocket</a></li>
+								<li><a href="builder.php">finally! hoodies!</a></li>
 							</ul>
 						</li>
 						<li class="dropdown">

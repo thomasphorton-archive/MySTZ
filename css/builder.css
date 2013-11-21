@@ -1,0 +1,146 @@
+.builder-wrapper {
+  position: relative;
+}
+
+.builder-hider {
+  background: white;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: white url('/images/loading.gif') 50% 50% no-repeat;
+}
+
+#builder-view {
+  position: relative;
+  width: 370px;
+  height: 472px;
+  margin: 10px auto;
+
+}
+
+.slider {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.flexslider {
+  width: 370px;
+  margin: 0px auto;
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.control-group-wrapper {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.control-group-wrapper:hover .control-group-header {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.control-group-wrapper:last-child{
+
+}
+
+.control-group-header,
+.product-length-label {
+  cursor: pointer;
+  padding: 4px;
+  margin: 0;
+}
+
+.control-group {
+  padding: 4px;
+}
+
+.control {
+  width: 32px;
+  float: left;
+  background: transparent;
+  padding: 10px;
+  position: relative;
+  cursor: pointer;
+}
+
+.control-swatch {
+  position: relative;
+  z-index: 2;
+  border:1px solid rgba(0, 0, 0, 0.1);
+}
+
+.control-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  background-size: 30px 30px;
+  background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.1) 25%, transparent 25%, transparent 50%, rgba(0, 0, 0, 0.1) 50%, rgba(0, 0, 0, 0.1) 75%, transparent 75%, transparent);
+  -webkit-animation: barberpole 1s linear infinite;
+}
+
+.control:hover .control-hover, .control:active .control-hover {
+  opacity: 1;
+}
+
+@-webkit-keyframes barberpole {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: 60px 30px;
+  }
+}
+
+/********* Responsive boilerplate **********/
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  /* Styles */
+}
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width: 321px) {
+  /* Styles */
+}
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width: 320px) {
+  #builder-view {
+    width: 300px;
+    height: 383px;
+  }
+
+  .flexslider {
+    width: 300px;
+  }
+  /* Styles */
+}
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* Styles */
+}
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* Styles */
+}
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+
+}
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1224px) {
+  /* Styles */
+}
+/* Large screens ----------- */
+@media only screen and (min-width: 1824px) {
+  /* Styles */
+}
+/* iPhone 4 ----------- */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+
+}

@@ -27,6 +27,5 @@
 	</div>
 </div><!--.container-->
 <? 
-	include 'inc.social.php'; 
 	include 'inc.footer.php';
 ?>

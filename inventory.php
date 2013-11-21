@@ -1766,6 +1766,15 @@ $inventory  = array(
 			),
 			"thumb" => "tank.jpg",
 		)
+	),
+
+	array(
+		"id" => "931",
+		"line" => "custom",
+		"title" => "Custom Hoodie",
+		"basePrice" => "85",
+		"description" => "One of a kind.",
+		"small_description" => "Not elegible for discounts."
 	)
 
 );

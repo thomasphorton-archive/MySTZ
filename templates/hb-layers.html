@@ -1,0 +1,17 @@
+<div class="slider">
+  <div id="<%= id %>" class="flexslider" >
+    <ul class="slides">
+    <%
+      _.each(options,function(option,key,list) {
+    %>
+
+      <li>
+        <img src="/images/hoodiebuilder/<%= id %>/<%= option.color %>.png">
+      </li>
+
+    <%
+      });
+    %>
+    </ul>
+  </div>
+</div>

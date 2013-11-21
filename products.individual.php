@@ -137,7 +137,6 @@
 	</div>
 
 	<div class="row">
-
 	  <div class="span9" style="position: relative;">
 
 			<img src="images/catalog/<?= $product["line"]?>/main/<?= $product["images"]["main"][0]?>" class="productBigImage">

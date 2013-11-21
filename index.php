@@ -4,9 +4,10 @@
 	include 'inc.header.html.php';
 	include 'inventory.php';
 ?>
-<link rel="stylesheet" href="libraries/flexslider/flexslider.css" type="text/css" />
 <link rel="icon" href="images/favicon.ico">
-<script src="libraries/flexslider/jquery.flexslider.js"></script>
+
+<link rel="stylesheet" href="/css/libs/flexslider/flexslider.css" type="text/css" />
+<script src="/js/libs/flexslider/jquery.flexslider-min.js"></script>
 <script type="text/javascript">
 	$(document).ready(function() {
     $('.flexslider').flexslider({

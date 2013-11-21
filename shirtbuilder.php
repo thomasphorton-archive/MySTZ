@@ -63,12 +63,11 @@
 	include 'inc.header.html.php';
 	include 'inc.header.php';
 ?>
-<link rel="stylesheet" type="text/css" href="css/shirtmaker.css" />
-<link rel="stylesheet" href="libraries/flexslider/flexslider.css" type="text/css" />
-<script src="libraries/flexslider/jquery.flexslider.js"></script>
-<script type="text/javascript">
 
-
+<link rel="stylesheet" type="text/css" href="/css/libs/flexslider/flexslider.css" />
+<link rel="stylesheet" type="text/css" href="/css/shirtmaker.css" />
+<script src="/js/libs/flexslider/jquery.flexslider-min.js"></script>
+<script>
 
 var item = '<?=$item?>';
 var style = '<?=$style?>';
@@ -79,11 +78,11 @@ var designNormalized;
 
 var customString;
 
-$(document).ready(function() {
+$(function() {
 
   <? if ($design) { ?>
 		design = '<?=$design?>';
-		console.log(design);
+		//console.log(design);
 		var designStart = ($('#designContainer').find("[data-design-normalized='" + design + "']").index());
 <? } else { ?>
 		var designStart = 0;
@@ -93,7 +92,7 @@ $(document).ready(function() {
 
  	if ($color) { ?>
 		color = '<?=$color?>';
-		console.log(color);
+		//console.log(color);
 		var colorStart = ($('#swatchContainer').find("[data-color-normalized='" + color + "']").index());
 <? } else { ?>
 		var colorStart = 0;
@@ -237,13 +236,7 @@ function updateShirtString() {
 	  </div>
 	</div>
 </div><!--#pageWrapper-->
-	<script>
 
-      $("img.lazy").show().lazyload({
-        effect: 'fadeIn'
-      });
-  </script>
 <?
-	include 'inc.social.php';
 	include 'inc.footer.php';
 ?>

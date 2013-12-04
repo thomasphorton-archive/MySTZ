@@ -78,7 +78,7 @@ width: 20px;
 height: 20px;
 line-height: 20px;
 vertical-align: text-top;
-background-image: url("../img/glyphicons-halflings.png");
+background-image: url("/css/images/glyphicons-halflings.png");
 background-position: 20px 20px;
 background-repeat: no-repeat;
 }
@@ -325,79 +325,6 @@ footer {
 
 }
 
-.index-facebook {
-	background-size: contain;
-	background-image: url('../images/index/index-facebook.png');
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
-src='../images/index/index-facebook.png',
-sizingMethod='scale');
-
-	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(
-	src='../images/index/index-facebook.png',
-	sizingMethod='scale')";
-}
-
-.index-instagram {
-	background-size: contain;
-	background-image: url('../images/index/index-instagram.png');
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
-src='../images/index/index-instagram.png',
-sizingMethod='scale');
-
-	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(
-	src='../images/index/index-instagram.png',
-	sizingMethod='scale')";
-}
-
-.index-blog {
-	background-size: contain;
-	background-image: url('../images/index/index-blog.png');
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
-src='../images/index/index-blog.png',
-sizingMethod='scale');
-
-	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(
-	src='../images/index/index-blog.png',
-	sizingMethod='scale')";
-}
-
-.index-products {
-	background-size: contain;
-	background-image: url('../images/index/index-products.png');
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
-src='../images/index/index-products.png',
-sizingMethod='scale');
-
-	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(
-	src='../images/index/index-products.png',
-	sizingMethod='scale')";
-}
-
-
-.index-custom-shirt {
-	background-size: contain;
-	background-image: url('../images/index/index-custom-shirt.png');
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
-src='../images/index/index-custom-shirt.png',
-sizingMethod='scale');
-
-	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(
-	src='../images/index/index-custom-shirt.png',
-	sizingMethod='scale')";
-}
-
-.index-instagram-logo {
-	background-size: contain;
-	background-image: url('../images/index/index-instagram-logo.png');
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
-src='../images/index/index-instagram-logo.png',
-sizingMethod='scale');
-
-	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(
-	src='../images/index/index-instagram-logo.png',
-	sizingMethod='scale')";
-}
-
 .index-happy-shredding {
 	background-size: contain;
 	background-image: url('../images/index/index-happy-shredding.png');
@@ -441,7 +368,14 @@ sizingMethod='scale');
   display: inline;
   float: left;
 }
+
+.category-title {
+  margin-top: -25px;
+  padding-top: 25px;
+}
+
 /********** products **********/
+
 .productWrapper {
   position: relative;
   float: left;
@@ -692,19 +626,6 @@ input {
 	text-align: center;
 }
 
-/********** Blog **********/
-
-.blog-wrapper article {
-	background: white;
-	padding: 10px 20px;
-	margin-bottom: 10px;
-}
-
-.blog-sidebar {
-	background: white;
-	padding: 10px 20px;
-}
-
 /********** Cart **********/
 
 .cart-show {
@@ -895,6 +816,10 @@ html[xmlns] .clearfix {
   height: 1%;
 }
 
+.hidden {
+  display: none;
+}
+
 /********* Bootstrap overrides **********/
 select {
 	width: 100%;
@@ -978,6 +903,13 @@ ul.nav li.dropdown:hover > ul.dropdown-menu{
 
   .index-instagram-plugin {
     display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-fixed-top {
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 

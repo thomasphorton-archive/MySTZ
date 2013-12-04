@@ -61,10 +61,11 @@
 							</ul>
 						</li>
 						<li class="dropdown">
-							<a class="dropdown-toggle disabled" data-toggle="dropdown" href="shirtbuilder.select.php">shirtbuilder <b class="caret"></b></a>
+							<a class="dropdown-toggle disabled" data-toggle="dropdown" href="shirtbuilder.select.php">custom builder <b class="caret"></b></a>
 							<ul class="dropdown-menu">
 								<li><a href="shirtbuilder.php?item=tee&style=graphic">custom graphic</a></li>
 								<li><a href="shirtbuilder.php?item=tee&style=pocket">custom pocket</a></li>
+								<li><a href="/builder.php#heather-charcoal/heather-charcoal/heather-charcoal/heather-charcoal/heather-charcoal/black/black/black/black/">hoodie</a></li>
 							</ul>
 						</li>
 						<li class="dropdown">

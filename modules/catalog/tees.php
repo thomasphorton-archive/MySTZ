@@ -2,7 +2,7 @@
 
   <div class="product-data simpleCart_shelfItem">
 
-    <span class="item_number" style="display:none;"><?=$product["id"]?></span>
+    <span class="item_number hidden"><?=$product["id"]?></span>
 
     <h1 class="product-title item_name"><?=$product["title"]?></h1>
 

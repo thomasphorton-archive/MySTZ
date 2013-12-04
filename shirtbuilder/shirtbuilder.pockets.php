@@ -89,12 +89,12 @@ $design_options = array(
     "full_size" => $path . "pockets/honeycomb.png",
     "thumb" => $path . "pocket-thumbs/honeycomb.png",
   ),
-  "Jazzercise" => array(
-    "title" => "Jazzercise",
-    "normalized" => "jazzercise",
-    "full_size" => $path . "pockets/jazzercise.png",
-    "thumb" => $path . "pocket-thumbs/jazzercise.png",
-  ),
+  // "Jazzercise" => array(
+  //   "title" => "Jazzercise",
+  //   "normalized" => "jazzercise",
+  //   "full_size" => $path . "pockets/jazzercise.png",
+  //   "thumb" => $path . "pocket-thumbs/jazzercise.png",
+  // ),
   "Lime" => array(
     "title" => "Lime",
     "normalized" => "lime",

@@ -6,6 +6,3 @@
 <script src="/js/tracking.js"></script>
 <script src="/js/collapsible.js"></script>
 <script src="/js/lazyload.min.js"></script>
-<script src="/js/google-analytics.js"></script>
-<script>document.write('<script src="http://' + (location.host || 'localhost')
-.split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>

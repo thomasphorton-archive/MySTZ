@@ -1,5 +1,5 @@
 <?
-	include("libraries/php/class.phpmailer.php");
+	include("/js/libs/php/class.phpmailer.php");
 
 	function died($error) {
 	        // your error code can go here

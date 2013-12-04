@@ -17,7 +17,8 @@
   width: 370px;
   height: 472px;
   margin: 10px auto;
-
+  background: url('/images/hoodiebuilder/shadow.png');
+  background-size:  370px;
 }
 
 .slider {

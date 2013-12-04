@@ -105,6 +105,14 @@
 
 			break;
 
+		case "accessories";
+
+			$cat_name = "accessories";
+
+			$mod = "hats.php";
+
+			break;
+
 		case "backpacks";
 
 			$cat_name = "backpacks";
@@ -132,7 +140,7 @@
 <div class="container">
 	<div class="row">
 		<div class="span12">
-			<span class="breadCrumb"><a href="index.php">home</a> > <a href="products.php">products</a> > <a href="products.line.php?line=<?=$cat_name?>"><?=$product["line"]?></a> > <?=$product["title"]?></span>
+			<span class="breadCrumb"><a href="index.php">home</a> > <a href="products.php">products</a> > <a href="products.line.php?line=<?=$cat_name?>#<?=$product["line"]?>"><?=$product["line"]?></a> > <?=$product["title"]?></span>
 		</div>
 	</div>
 
@@ -146,6 +154,8 @@
 	    <span class="productMessage"><?= $product["message"]?></span>
 
 	  	<? } ?>
+
+	  	<span class="item_discountEligible hidden"><?= $product["discount_eligible"] ?> </span>
 
 	  </div>
 
@@ -171,7 +181,7 @@
 
 				if (!in_array($inventory[$randInv]["id"], $dontShow)){
 					$dontShow[] = (int) $inventory[$randInv]["id"];
-					if(isset($inventory[$randInv])){
+					if(isset($inventory[$randInv]) && $inventory[$randInv] != false){
 					?>
 
 					<a href="products.individual.php?id=<?=$inventory[$randInv]["id"]?>" onclick="_gaq.push(['_trackEvent', 'View Product', 'More Products', '<?= $inventory[$randInv]["title"];?>']);" class="span3 randThumbAnchor">

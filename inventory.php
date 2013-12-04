@@ -629,7 +629,9 @@ $inventory  = array(
 			array(
 				"shirt" => "Black"
 			)
-		)
+		),
+		"soldout" => "true",
+		"message" => "Sold Out!"
 	),
 
 	array(
@@ -991,16 +993,13 @@ $inventory  = array(
 		),
 		"options" => array(
 			array(
-				"patch" => "stzlife print"
-			),
-			array(
-				"patch" => "stzlife patch"
+				"patch" => "happy shredding patch"
 			),
 			array(
 				"patch" => "send it patch"
 			),
 			array(
-				"patch" => "happy shredding patch"
+				"patch" => "stzlife patch"
 			)
 		)
 	),
@@ -1010,7 +1009,7 @@ $inventory  = array(
 		"line" => "crewneck",
 		"title" => "Crewneck Fleece in Heather Red",
 		"basePrice" => "40",
-		"description" => "Super soft and super comfy. Perfect for those chilly fall/winter days.",
+		"description" => "Super soft and super comfy. Perfect for those chilly fall/winter days. Made in the USA.",
 		"images" => array(
 			"main" => array(
 				"redcrew.jpg"
@@ -1018,9 +1017,6 @@ $inventory  = array(
 			"thumb" => "redcrew.jpg",
 		),
 		"options" => array(
-			array(
-				"patch" => "stzlife print"
-			),
 			array(
 				"patch" => "stzlife patch"
 			),
@@ -1038,7 +1034,7 @@ $inventory  = array(
 		"line" => "crewneck",
 		"title" => "Crewneck Fleece in Black",
 		"basePrice" => "40",
-		"description" => "Super soft and super comfy. Perfect for those chilly fall/winter days.",
+		"description" => "Super soft and super comfy. Perfect for those chilly fall/winter days. Made in the USA",
 		"images" => array(
 			"main" => array(
 				"blackcrew.jpg"
@@ -1046,9 +1042,6 @@ $inventory  = array(
 			"thumb" => "blackcrew.jpg",
 		),
 		"options" => array(
-			array(
-				"patch" => "stzlife print"
-			),
 			array(
 				"patch" => "stzlife patch"
 			),
@@ -1066,7 +1059,7 @@ $inventory  = array(
 		"line" => "crewneck",
 		"title" => "Crewneck Fleece in Heather Navy",
 		"basePrice" => "40",
-		"description" => "Super soft and super comfy. Perfect for those chilly fall/winter days.",
+		"description" => "Super soft and super comfy. Perfect for those chilly fall/winter days. Made in the USA",
 		"images" => array(
 			"main" => array(
 				"navycrew.jpg"
@@ -1075,16 +1068,13 @@ $inventory  = array(
 		),
 		"options" => array(
 			array(
-				"patch" => "stzlife print"
+				"patch" => "happy shredding patch"
 			),
 			array(
 				"patch" => "stzlife patch"
 			),
 			array(
 				"patch" => "send it patch"
-			),
-			array(
-				"patch" => "happy shredding patch"
 			)
 		)
 	),
@@ -1094,7 +1084,7 @@ $inventory  = array(
 		"line" => "zip-up",
 		"title" => "Zip-Up Hoodie in Grey",
 		"basePrice" => "45",
-		"description" => "Super soft and super comfy. Perfect for those chilly fall/winter days.",
+		"description" => "Super soft and super comfy. Perfect for those chilly fall/winter days. (8.3 oz, 60/40 cotton/poly)",
 		"images" => array(
 			"main" => array(
 				"greyzip.jpg"
@@ -1119,7 +1109,7 @@ $inventory  = array(
 		"line" => "zip-up",
 		"title" => "Zip-Up Hoodie in Royal",
 		"basePrice" => "45",
-		"description" => "Super soft and super comfy. Perfect for those chilly fall/winter days.",
+		"description" => "Super soft and super comfy. Perfect for those chilly fall/winter days. (8.3 oz, 60/40 cotton/poly)",
 		"images" => array(
 			"main" => array(
 				"royalzip.jpg"
@@ -1144,7 +1134,7 @@ $inventory  = array(
 		"line" => "zip-up",
 		"title" => "Zip-Up Hoodie in Navy Blue",
 		"basePrice" => "45",
-		"description" => "Super soft and super comfy. Perfect for those chilly fall/winter days.",
+		"description" => "Super soft and super comfy. Perfect for those chilly fall/winter days. (8.3 oz, 60/40 cotton/poly)",
 		"images" => array(
 			"main" => array(
 				"blackzip.jpg"
@@ -1164,6 +1154,58 @@ $inventory  = array(
 		)
 	),
 
+	array(
+		"id" => "354",
+		"line" => "zip-up",
+		"title" => "Zip-Up Hoodie in Black",
+		"basePrice" => "40",
+		"description" => "Super soft and comfy, light-weight full-zip hoodie. (7.8 oz, 50/50 cotton/poly)",
+		"images" => array(
+			"main" => array(
+				"lightzip.black.jpg"
+			),
+			"thumb" => "lightzip.black.jpg",
+		),
+		"options" => array(
+			array(
+				"patch" => "happy shredding patch"
+			),
+			array(
+				"patch" => "stzlife patch"
+			),
+			array(
+				"patch" => "send it patch"
+			)
+		),
+		"featured" => true
+	),
+
+	array(
+		"id" => "355",
+		"line" => "zip-up",
+		"title" => "Zip-Up Hoodie in Hunter",
+		"basePrice" => "40",
+		"description" => "Super soft and comfy, light-weight full-zip hoodie. (7.8 oz, 50/50 cotton/poly)",
+		"images" => array(
+			"main" => array(
+				"lightzip.hunter.jpg"
+			),
+			"thumb" => "lightzip.hunter.jpg",
+		),
+		"options" => array(
+			array(
+				"patch" => "happy shredding patch"
+			),
+			array(
+				"patch" => "stzlife patch"
+			),
+			array(
+				"patch" => "send it patch"
+			)
+		),
+		"featured" => true
+	),
+
 
 /********** Hats **********/
 
@@ -1181,10 +1223,10 @@ $inventory  = array(
 		),
 		"options" => array(
 			array(
-				"patch" => "stzlife patch"
+				"patch" => "send it patch"
 			),
 			array(
-				"patch" => "send it patch"
+				"patch" => "stzlife patch"
 			),
 			array(
 				"patch" => "happy shredding patch"
@@ -1231,13 +1273,13 @@ $inventory  = array(
 		),
 		"options" => array(
 			array(
+				"patch" => "happy shredding patch"
+			),
+			array(
 				"patch" => "stzlife patch"
 			),
 			array(
 				"patch" => "send it patch"
-			),
-			array(
-				"patch" => "happy shredding patch"
 			)
 		)
 	),
@@ -1281,13 +1323,13 @@ $inventory  = array(
 		),
 		"options" => array(
 			array(
+				"patch" => "happy shredding patch"
+			),
+			array(
 				"patch" => "stzlife patch"
 			),
 			array(
 				"patch" => "send it patch"
-			),
-			array(
-				"patch" => "happy shredding patch"
 			)
 		)
 	),
@@ -1306,10 +1348,10 @@ $inventory  = array(
 		),
 		"options" => array(
 			array(
-				"patch" => "stzlife patch"
+				"patch" => "send it patch"
 			),
 			array(
-				"patch" => "send it patch"
+				"patch" => "stzlife patch"
 			),
 			array(
 				"patch" => "happy shredding patch"
@@ -1331,13 +1373,13 @@ $inventory  = array(
 		),
 		"options" => array(
 			array(
+				"patch" => "happy shredding patch"
+			),
+			array(
 				"patch" => "stzlife patch"
 			),
 			array(
 				"patch" => "send it patch"
-			),
-			array(
-				"patch" => "happy shredding patch"
 			)
 		)
 	),
@@ -1356,10 +1398,10 @@ $inventory  = array(
 		),
 		"options" => array(
 			array(
-				"patch" => "stzlife patch"
+				"patch" => "send it patch"
 			),
 			array(
-				"patch" => "send it patch"
+				"patch" => "stzlife patch"
 			),
 			array(
 				"patch" => "happy shredding patch"
@@ -1397,7 +1439,7 @@ $inventory  = array(
 		"line" => "hats",
 		"title" => "The Fatigue Cord",
 		"basePrice" => "20",
-		"description" => "More of a shollow 5-panel fit, without the 5-panel look. Custom designed by the STZ crew.",
+		"description" => "More of a shallow 5-panel fit, without the 5-panel look. Custom designed by the STZ crew.",
 		"images" => array(
 			"main" => array(
 				"fatiguecord.sendit.jpg"
@@ -1406,10 +1448,10 @@ $inventory  = array(
 		),
 		"options" => array(
 			array(
-				"patch" => "stzlife patch"
+				"patch" => "send it patch"
 			),
 			array(
-				"patch" => "send it patch"
+				"patch" => "stzlife patch"
 			)
 		)
 	),
@@ -1419,7 +1461,7 @@ $inventory  = array(
 		"line" => "hats",
 		"title" => "Embroidered Fatigue",
 		"basePrice" => "15",
-		"description" => "More of a shollow 5-panel fit, without the 5-panel look. Custom designed by the STZ crew.",
+		"description" => "More of a shallow 5-panel fit, without the 5-panel look. Custom designed by the STZ crew.",
 		"images" => array(
 			"main" => array(
 				"fatiguecord.logo.jpg"
@@ -1431,6 +1473,104 @@ $inventory  = array(
 				"patch" => "embroidered stz"
 			)
 		)
+	),
+
+	array(
+		"id" => "412",
+		"line" => "hats",
+		"title" => "The Bucket",
+		"basePrice" => "25",
+		"description" => "Fish in it, shred in it, party in it… Send it anywhere.",
+		"images" => array(
+			"main" => array(
+				"bucket.jpg"
+			),
+			"thumb" => "bucket.jpg",
+		),
+		"options" => array(
+			array(
+				"patch" => "happy shredding patch"
+			),
+			array(
+				"patch" => "stzlife patch"
+			),
+			array(
+				"patch" => "send it patch"
+			)
+		),
+		"featured" => true
+	),
+
+	array(
+		"id" => "413",
+		"line" => "hats",
+		"title" => "The Grey Cord",
+		"basePrice" => "20",
+		"description" => "True snapback fit, made in the USA.",
+		"images" => array(
+			"main" => array(
+				"greycord.jpg"
+			),
+			"thumb" => "greycord.jpg",
+		),
+		"options" => array(
+			array(
+				"patch" => "stzlife patch"
+			),
+			array(
+				"patch" => "happy shredding patch"
+			),
+			array(
+				"patch" => "send it patch"
+			)
+		),
+		"featured" => true
+	),
+
+	array(
+		"id" => "414",
+		"line" => "hats",
+		"title" => "Hang Ten",
+		"basePrice" => "25",
+		"description" => "Five panel design for low-profile fit, adjustable leather strap in back.",
+		"images" => array(
+			"main" => array(
+				"hangten.jpg"
+			),
+			"thumb" => "hangten.jpg",
+		),
+		"options" => array(
+			array(
+				"patch" => "Red Leather Patch"
+			),
+			array(
+				"patch" => "STZ Tag"
+			)
+		),
+		"featured" => true
+	),
+
+	array(
+		"id" => "415",
+		"line" => "hats",
+		"title" => "The Ross",
+		"basePrice" => "25",
+		"description" => "Five panel design for low-profile fit, adjustable leather strap in back.",
+		"images" => array(
+			"main" => array(
+				"theross.jpg"
+			),
+			"thumb" => "theross.jpg",
+		),
+		"options" => array(
+			array(
+				"patch" => "STZ Tag"
+			),
+			array(
+				"patch" => "Red Leather Patch"
+			)
+		),
+		"featured" => true
 	),
 
 	/********* Beanies *********/
@@ -1554,6 +1694,55 @@ $inventory  = array(
 			)
 		)
 	),
+
+	array(
+		"id" => "551",
+		"line" => "accessories",
+		"title" => "Neckwarmer in Aztec",
+		"basePrice" => "14",
+		"description" => "Keep your face warm with a super soft fleece neck gaiter.",
+		"images" => array(
+			"main" => array(
+				"neckwarmer.aztec.jpg"
+			),
+			"thumb" => "neckwarmer.aztec.jpg",
+		),
+		"options" => array(
+		)
+	),
+
+	array(
+		"id" => "552",
+		"line" => "accessories",
+		"title" => "Neckwarmer in Grey",
+		"basePrice" => "14",
+		"description" => "Keep your face warm with a super soft fleece neck gaiter.",
+		"images" => array(
+			"main" => array(
+				"neckwarmer.grey.jpg"
+			),
+			"thumb" => "neckwarmer.grey.jpg",
+		),
+		"options" => array(
+		)
+	),
+
+	array(
+		"id" => "553",
+		"line" => "accessories",
+		"title" => "Neckwarmer in Pink/Orange",
+		"basePrice" => "14",
+		"description" => "Keep your face warm with a super soft fleece neck gaiter.",
+		"images" => array(
+			"main" => array(
+				"neckwarmer.orangepink.jpg"
+			),
+			"thumb" => "neckwarmer.orangepink.jpg",
+		),
+		"options" => array(
+		)
+	),
+
 
 /********* Women's Products *********/
 
@@ -1743,8 +1932,9 @@ $inventory  = array(
 		"line" => "mystery",
 		"title" => "Mystery Graphic Tee",
 		"basePrice" => "12",
-		"description" => "Who doesn't love a good mystery? Twelve bucks gets you one of the graphics featured in our product line and/or custom shirt builder. If you've already ordered one and want to scoop another, just leave a comment during checkout telling us what you have and we will try to send a different graphic.",
-		"small_description" => "Not elegible for discounts.",
+		"small_description" => "Who doesn't love a good mystery? Twelve bucks gets you one of the graphics featured in our product line and/or custom shirt builder. If you've already ordered one and want to scoop another, just leave a comment during checkout telling us what you have and we will try to send a different graphic.",
+		"description" => "Not eligible for discounts.",
+		"discount_eligible" => false,
 		"images" => array(
 			"main" => array(
 				"tee.jpg"
@@ -1758,8 +1948,9 @@ $inventory  = array(
 		"line" => "mystery",
 		"title" => "Mystery Graphic Tank",
 		"basePrice" => "12",
-		"description" => "Who doesn't love a good mystery? Here's how it works... Choose whether you want a unisex or women's fit and pick your size. You will get one of the tank styles featured in our product line. If you've already ordered one and want to scoop another, just leave a comment during checkout telling us what you have and we will try to send a different graphic.",
-		"small_description" => "Not elegible for discounts.",
+		"small_description" => "Who doesn't love a good mystery? Here's how it works... Choose whether you want a unisex or women's fit and pick your size. You will get one of the tank styles featured in our product line. If you've already ordered one and want to scoop another, just leave a comment during checkout telling us what you have and we will try to send a different graphic.",
+		"description" => "Not eligible for discounts.",
+		"discount_eligible" => false,
 		"images" => array(
 			"main" => array(
 				"tank.jpg"
@@ -1772,9 +1963,11 @@ $inventory  = array(
 		"id" => "931",
 		"line" => "custom",
 		"title" => "Custom Hoodie",
-		"basePrice" => "85",
+		"basePrice" => "65",
 		"description" => "One of a kind.",
-		"small_description" => "Not elegible for discounts."
+		"small_description" => "Not eligible for discounts.",
+		"discount_eligible" => "false",
+		"show_in_more" => false
 	)
 
 );

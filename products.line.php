@@ -135,6 +135,8 @@
 
 		case "accessories":
 
+			display_items("accessories", "accessories", $inventory);
+
 			display_items("backpacks", "backpacks", $inventory);
 
 			break;

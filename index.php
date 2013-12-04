@@ -26,18 +26,23 @@
 			  <div class="flexslider">
           <ul class="slides">
             <li>
-              <img src="images/banners/andrewkris.jpg" class="index-banner-image">
-            </li>
-            <li>
-              <a href="/products.line.php?line=hats">
-                <img src="images/banners/hats.jpg" class="index-banner-image">
+              <a href="/builder.php">
+                <img src="/images/banners/hoodie.jpg" class="index-banner-image">
               </a>
             </li>
             <li>
-              <img src="images/banners/jeffgrass.jpg" class="index-banner-image">
+              <img src="/images/banners/sanchezkris.jpg" class="index-banner-image">
             </li>
             <li>
-              <a href="/products.line.php?line=outer">
+              <a href="/products.line.php?line=hats">
+                <img src="/images/banners/hats.jpg" class="index-banner-image">
+              </a>
+            </li>
+            <li>
+              <img src="/images/banners/jeff.jpg" class="index-banner-image">
+            </li>
+            <li>
+              <a href="/products.line.php?line=outer#zip-up">
                 <img src="images/banners/zipup.jpg" class="index-banner-image">
               </a>
             </li>
@@ -49,11 +54,11 @@
 
 		<div class="row">
 			<div class="span6">
-				<a href="/mystery.php?type=tee">
+				<a href="/products.individual.php?id=921">
 					<img src="/images/index/mysterytee.jpg">
 				</a>
 
-        <a href="/mystery.php?type=tank">
+        <a href="/products.individual.php?id=922">
           <img src="/images/index/mysterytank.jpg"  style="margin-top: 30px;">
         </a>
 			</div>
@@ -67,16 +72,11 @@
 
 		<div class="row">
 			<div class="span6">
-				<iframe src="http://player.vimeo.com/video/70168317?autoplay=0" width="100%" frameborder="0" style="min-height: 333px;" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+				<iframe src="http://player.vimeo.com/video/80473798?autoplay=0" width="100%" frameborder="0" style="min-height: 333px;" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 			</div>
 
 			<div class="span6">
-				<div class="row" style="margin-top: 0;">
-				<?php include 'inc.instagram.php'; ?>
-					<div class="span2">
-						<img src="/images/index/index-instagram-logo.png">
-					</div>
-				</div>
+        <iframe src="http://snapwidget.com/in/?h=c3R6bGlmZXxpbnw3MHw2fDN8fG5vfDMwfG5vbmV8b25TdGFydHxubw==&v=251113" title="Instagram Widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:600px; height:300px"></iframe>
 			</div>
 		</div>
 

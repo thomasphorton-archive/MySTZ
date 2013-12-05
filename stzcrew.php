@@ -1,6 +1,14 @@
 <?
 	$title = "The STZCrew";
 	include 'inc.header.html.php';
+
+?>
+
+</head>
+
+<body>
+
+<?
 	include 'inc.header.php';
 ?>
 

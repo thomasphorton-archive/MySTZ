@@ -1,7 +1,7 @@
 <?
 	$title = "About STZ | Custom Tees and Hoodies";
 	include 'inc.header.html.php';
-	include 'inc.header.php';
+
 ?>
 
 <style>
@@ -17,6 +17,14 @@
     cursor: pointer;
   }
 </style>
+
+</head>
+
+<body>
+
+<?
+	include 'inc.header.php';
+?>
 
 <div class="container">
   <div class="row">

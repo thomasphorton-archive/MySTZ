@@ -1,6 +1,13 @@
 <?
 	$title = "About STZ | Custom Tees and Hoodies";
 	include 'inc.header.html.php';
+?>
+
+</head>
+
+<body>
+
+<?
 	include 'inc.header.php';
 ?>
 

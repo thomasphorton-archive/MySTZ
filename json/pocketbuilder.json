@@ -1,0 +1,32 @@
+[
+  {
+    "id": "pocket",
+    "name": "Pocket",
+    "options": [
+      { "color": "black", "swatch": "black.png"},
+      { "color": "burgundy", "swatch": "burgundy.png"},
+      { "color": "forest", "swatch": "forest.png"},
+      { "color": "khaki", "swatch": "khaki.png"},
+      { "color": "navy", "swatch": "navy.png"},
+      { "color": "red", "swatch": "red.png"},
+      { "color": "ash", "swatch": "ash.png"},
+      { "color": "heather-charcoal", "swatch": "heather-charcoal.png"},
+      { "color": "royal", "swatch": "royal.png"}
+    ]
+  },
+  {
+    "id": "tee",
+    "name": "Tee",
+    "options": [
+      { "color": "black", "swatch": "black.png"},
+      { "color": "burgundy", "swatch": "burgundy.png"},
+      { "color": "forest", "swatch": "forest.png"},
+      { "color": "khaki", "swatch": "khaki.png"},
+      { "color": "navy", "swatch": "navy.png"},
+      { "color": "red", "swatch": "red.png"},
+      { "color": "ash", "swatch": "ash.png"},
+      { "color": "heather-charcoal", "swatch": "heather-charcoal.png"},
+      { "color": "royal", "swatch": "royal.png"}
+    ]
+  }
+]

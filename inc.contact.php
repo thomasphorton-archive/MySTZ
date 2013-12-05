@@ -1,4 +1,4 @@
-<form id="messageForm" class="contactForm" method="post" action="form.send.contact.php">
+<form id="messageForm" class="contactForm" method="post" action="/forms/send.contact.php">
 	<h2>Send Us A Message</h2>
 	<label for="messageName">Name*</label>
 	<input type="text" placeholder="name" id="messageName" name="name" required="required" class="span4"/>

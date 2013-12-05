@@ -2,10 +2,18 @@
 	$line = $_GET['line'];
 	$title = $line . " from STZ | Custom Tees and Hoodies";
 	include 'inc.header.html.php';
+
+?>
+
+</head>
+
+<body>
+
+<?
+
 	include 'inc.header.php';
 	include 'inventory.php';
 	include 'functions.php';
-
 
 	switch ($line) {
 

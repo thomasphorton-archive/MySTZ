@@ -2,22 +2,30 @@
 	$title = "MySTZ | Custom T-Shirts and Hoodies | Wake Skate Surf Snow";
 	$meta_description = "custom built graphic tees, pocket tees, and hoodies. happy shredding.";
 	include 'inc.header.html.php';
-	include 'inventory.php';
 ?>
-<link rel="icon" href="images/favicon.ico">
 
 <link rel="stylesheet" href="/css/libs/flexslider/flexslider.css" type="text/css" />
 <script src="/js/libs/flexslider/jquery.flexslider-min.js"></script>
 <script type="text/javascript">
-	$(document).ready(function() {
+  $(document).ready(function() {
     $('.flexslider').flexslider({
       animation: "slide",
-			animationLoop: true,
-			controlNav: false,
-			slideshowSpeed: 4000,
+      animationLoop: true,
+      controlNav: false,
+      slideshowSpeed: 4000,
     });
-	 });
+   });
 </script>
+
+</head>
+
+
+<?
+	include 'inventory.php';
+?>
+
+<body>
+
 <? include 'inc.header.php';  ?>
 
 	<div class="container index-container">
@@ -48,7 +56,6 @@
             </li>
           </ul>
         </div>
-
 			</div>
 		</div>
 

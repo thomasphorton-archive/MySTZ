@@ -1,5 +1,3 @@
-<body>
-
 <div class="lightbox">
 	<div class="cart-wrapper span8">
 		<span class="cart-close">X</span>

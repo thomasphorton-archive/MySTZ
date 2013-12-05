@@ -1940,7 +1940,9 @@ $inventory  = array(
 				"tee.jpg"
 			),
 			"thumb" => "tee.jpg",
-		)
+		),
+		"soldout" => "true",
+		"message" => "Sold Out!"
 	),
 
 	array(
@@ -1956,7 +1958,9 @@ $inventory  = array(
 				"tank.jpg"
 			),
 			"thumb" => "tank.jpg",
-		)
+		),
+		"soldout" => "true",
+		"message" => "Sold Out!"
 	),
 
 	array(

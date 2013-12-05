@@ -74,5 +74,5 @@
 	$mail->Send();
 
 	//echo "1";
-	header("Location: form.thanks.contact.php");
+	header("Location: /forms/thanks.contact.php");
 ?>

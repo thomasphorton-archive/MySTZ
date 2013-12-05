@@ -42,7 +42,7 @@ $(function() {
 
     model: App.Models.Layer,
     
-    url: '/hoodiebuilder.json'
+    url: '/json/hoodiebuilder.json'
 
   });
 

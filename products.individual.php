@@ -21,6 +21,15 @@
 	$title = $product["title"] . ' | STZ | Custom Tees and Outerwear';
 
 	include 'inc.header.html.php';
+
+?>
+
+</head>
+
+<body>
+
+<?
+
 	include 'inc.header.php';
 
 	switch ($line) {

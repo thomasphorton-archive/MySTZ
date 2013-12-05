@@ -1,6 +1,13 @@
 <?
 	$title = "Thank You For Your Order";
 	include 'inc.header.html.php';
+?>
+
+</head>
+
+<body>
+
+<?
 	include 'inc.header.php';
 ?>
 

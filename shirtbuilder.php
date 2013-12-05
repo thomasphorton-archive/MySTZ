@@ -61,7 +61,7 @@
 
 	$title = "STZ Shirtbuilder | Custom Graphics and Pocket Tees | MySTZ";
 	include 'inc.header.html.php';
-	include 'inc.header.php';
+
 ?>
 
 <link rel="stylesheet" type="text/css" href="/css/libs/flexslider/flexslider.css" />
@@ -155,11 +155,18 @@ $(function() {
 
 function updateShirtString() {
 	customString = (color + ' ' + item +', ' + design + ' ' + style).toLowerCase();
-	customURL = "http://beta.mystz.com/shirtbuilder.php?color=" + colorNormalized + "&item=" + item + "&design=" + designNormalized + "&style=" + style;
-	console.log(customURL);
+	customURL = "/shirtbuilder.php?color=" + colorNormalized + "&item=" + item + "&design=" + designNormalized + "&style=" + style;
 	customDetail.val(customString);
 }
 </script>
+
+</head>
+
+<body>
+
+<?
+	include 'inc.header.php';
+?>
 
 <div class="container">
 	<div class="row">

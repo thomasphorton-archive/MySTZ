@@ -3,7 +3,7 @@
 	
 	$promo_code = strtoupper($promo_code);
 
-	if ($promo_code == 'STZ20' || $promo_code == 'GREG20' || $promo_code == 'DIXON20' || $promo_code == 'HUNTER20') {
+	if ($promo_code == 'STZ20' || $promo_code == 'GREG20' || $promo_code == 'DIXON20' || $promo_code == 'HUNTER20' || $promo_code == 'GARETTGINNER') {
 ?>
 
 (function() {
@@ -70,7 +70,7 @@
 
 <?
 
-	} else if ($promo_code == 'surfexpo15' ||  $promo_code == 'SURFEXPO15') {
+	} else if ($promo_code == 'surfexpo15' ||  $promo_code == 'SURFEXPO15' || $promo_code == 'ALI15') {
 ?>
 
 	(function() {

@@ -55,7 +55,7 @@ foreach ($inv as $product) {
   <? if ($product["message"]) { ?>
   <span class="productMessage"><?= $product["message"]?></span>
   <? } ?>
-  <img src="/images/placeholder.products.png" data-original="/images/catalog/<?= $product["line"] ?>/thumbs/<?= $product["images"]["thumb"]; ?>" title="<?= $product["title"]; ?>" class="productImage lazy">
+  <img src="/images/placeholder.products.png" data-original="/images/catalog/<?= $product["line"] ?>/thumbs/<?= $product["images"]["thumb"]; ?>" alt="<?= $product["title"]; ?>" title="<?= $product["title"]; ?>" class="productImage lazy">
   <span class="productDesc"><?= $product["title"]; ?></span>
 </a>
 <?
@@ -85,7 +85,7 @@ foreach ($inv as $product) {
   <? if ($product["message"]) { ?>
   <span class="productMessage"><?= $product["message"]?></span>
   <? } ?>
-  <img src="/images/placeholder.products.png" data-original="/images/catalog/<?= $product["line"] ?>/thumbs/<?= $product["images"]["thumb"]; ?>" title="<?= $product["title"]; ?>" class="productImage lazy">
+  <img src="/images/placeholder.products.png" data-original="/images/catalog/<?= $product["line"] ?>/thumbs/<?= $product["images"]["thumb"]; ?>" alt="<?= $product["title"]; ?>" title="<?= $product["title"]; ?>" class="productImage lazy">
   <span class="productDesc"><?= $product["title"]; ?></span>
 </a>
 <?
@@ -115,7 +115,7 @@ foreach ($inv as $product) {
   <? if ($product["message"]) { ?>
   <span class="productMessage"><?= $product["message"]?></span>
   <? } ?>
-  <img src="/images/placeholder.products.png" data-original="/images/catalog/<?= $product["line"] ?>/thumbs/<?= $product["images"]["thumb"]; ?>" title="<?= $product["title"]; ?>" class="productImage lazy">
+  <img src="/images/placeholder.products.png" data-original="/images/catalog/<?= $product["line"] ?>/thumbs/<?= $product["images"]["thumb"]; ?>" alt="<?= $product["title"]; ?>" title="<?= $product["title"]; ?>" class="productImage lazy">
   <span class="productDesc"><?= $product["title"]; ?></span>
 </a>
 <?

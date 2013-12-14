@@ -63,8 +63,8 @@
 	//print_r($_POST);
 		
 	/////////////////////// 	 	
-	//$mail->AddAddress("contact@mystz.com");
-	$mail->AddAddress("thomasphorton@gmail.com");
+	$mail->AddAddress("contact@mystz.com");
+	//$mail->AddAddress("thomasphorton@gmail.com");
 	///////////////////////
 	
 	$mail->WordWrap = 80;                                 	// set word wrap to 50 characters

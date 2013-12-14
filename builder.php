@@ -37,6 +37,13 @@
   include 'inc.header.php';
 ?>
 
+</head>
+
+<body>
+<?
+  include 'inc.header.php';
+?>
+
 <div class="container">    
   <div class="row">
     <div class="span12">

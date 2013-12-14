@@ -1,5 +1,5 @@
 <?
-	include("/js/libs/php/class.phpmailer.php");
+	include("../php/libs/class.phpmailer.php");
 
 	function died($error) {
 	        // your error code can go here
@@ -73,6 +73,6 @@
 
 	$mail->Send();
 
-	//echo "1";
-	header("Location: /forms/thanks.contact.php");
+	echo "1";
+	//header("Location: /forms/thanks.contact.php");
 ?>

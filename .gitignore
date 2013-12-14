@@ -2,6 +2,8 @@ error_log
 
 node_modules/*
 
+.ftppass
+
 *.jpg
 *.png
 *.gif

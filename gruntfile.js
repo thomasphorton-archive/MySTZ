@@ -51,6 +51,30 @@ module.exports = function(grunt) {
           spawn: false,
         },
       } 
+    },
+
+    "ftp-deploy": {
+      build: {
+        auth: {
+          host: 'canvassedapparel.com',
+          port: 21,
+          authKey: 'key1'
+        },
+        src: './',
+        dest: '/beta',
+        exclusions: [
+          '**/.DS_Store',
+          './.git/**/*',
+          './images/**/*',
+          './js/src/**/*',
+          './node_modules/**/*',
+          '.gitignore',
+          'README.md',
+          'gruntfile.js',
+          'dist/tmp',
+          '.ftppass',
+        ]
+      }
     }
 
   });
@@ -64,7 +88,11 @@ module.exports = function(grunt) {
 
   grunt.loadNpmTasks('grunt-contrib-watch');
 
+  grunt.loadNpmTasks('grunt-ftp-deploy');
+
   // 4. Where we tell Grunt what to do when we type "grunt" into the terminal.
   grunt.registerTask('default', ['watch']);
+
+  grunt.registerTask('beta', ['ftp-deploy']);
 
 };

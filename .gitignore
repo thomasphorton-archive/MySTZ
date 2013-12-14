@@ -1,5 +1,7 @@
 error_log
 
+node_modules/*
+
 *.jpg
 *.png
 *.gif

@@ -10,7 +10,7 @@
 <link rel="stylesheet" type="text/css" href="css/style.css" />
 <link rel="icon" href="images/favicon.ico">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<? include 'inc.js.php'; ?>
+<script src="/js/build/production.min.js"></script>
 <script>
 var _gaq = _gaq || [];
 _gaq.push(['_setAccount', 'UA-31771252-1']);

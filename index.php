@@ -7,7 +7,6 @@
 <link rel="icon" href="images/favicon.ico">
 
 <link rel="stylesheet" href="/css/libs/flexslider/flexslider.css" type="text/css" />
-<script src="/js/libs/flexslider/jquery.flexslider-min.js"></script>
 <script type="text/javascript">
 	$(document).ready(function() {
     $('.flexslider').flexslider({

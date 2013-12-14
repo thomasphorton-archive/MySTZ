@@ -876,6 +876,15 @@ ul.nav li.dropdown:hover > ul.dropdown-menu{
     display: block;
 }
 
+.form-success {
+  display: none;
+}
+
+input[type="checkbox"] {
+  display: inline;
+  margin: 0 5px 0 0;
+}
+
 @media (max-width: 979px) {
 	body {
 		padding: 0;

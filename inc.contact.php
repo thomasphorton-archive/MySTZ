@@ -1,4 +1,4 @@
-<form id="messageForm" class="contactForm form-ajax" method="post" action="/forms/send.contact.php">
+<form id="messageForm" class="contactForm form-ajax" id="form-contact" method="post" action="/forms/send.contact.php">
 	<fieldset>
 		<h2>Send Us A Message</h2>
 		<label for="messageName">Name*</label>

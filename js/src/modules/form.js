@@ -7,10 +7,9 @@ $(function() {
     e.preventDefault();
 
     var $this = $(this),
+      id = $this.attr('id'),
       url = $this.attr('action'),
       data = $this.serialize();
-
-      console.log(data);
 
     $.post(url, data, function(resp) {
 
@@ -20,9 +19,13 @@ $(function() {
 
         $this.find('.form-success').fadeIn();
 
+        track('Forms', 'Form Submit', id);
+
       } else {
 
         console.log('ajax form failure');
+
+        track('Forms', 'Form Error', id);
 
       }
 

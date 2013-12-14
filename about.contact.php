@@ -18,7 +18,7 @@
 
 <div class="row">
 	<div class="span4">
-		<form id="stickerPackForm" class="form-ajax" action="forms/send.sticker.php" method="post">
+		<form id="stickerPackForm" class="form-ajax" id="form-sticker" action="forms/send.sticker.php" method="post">
 			<fieldset>
 				<h2>Request a Sticker Pack</h2>
 

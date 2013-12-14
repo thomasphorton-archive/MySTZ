@@ -22,7 +22,6 @@
 <? } else { ?>
 <script src="/js/build/production.min.js"></script>
 <? } ?>
-
 <script>
 var _gaq = _gaq || [];
 _gaq.push(['_setAccount', 'UA-31771252-1']);

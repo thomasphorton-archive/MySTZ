@@ -1,6 +1,13 @@
 <?
 	$title = "About STZ | Custom Tees and Hoodies";
 	include 'inc.header.html.php';
+?>
+
+</head>
+
+<body>
+
+<?
 	include 'inc.header.php';
 ?>
 
@@ -18,8 +25,8 @@
 	<div class="span4">
 	  <div class="text-content">
 	  	<h2>Available At</h2>
-			<a href="http://www.valdostawakecompound.com/" target="_blank"><img src="/images/retail/vwc.png"></a>
-			<a href="http://icywakessurfshop.com/" target="_blank"><img src="/images/retail/icywakes.png"></a>
+			<a href="http://www.valdostawakecompound.com/" target="_blank"><img src="/images/retail/vwc.png" alt="Valdosta Wake Compound"></a>
+			<a href="http://icywakessurfshop.com/" target="_blank"><img src="/images/retail/icywakes.png" alt="IcyWakes Surf Shop"></a>
 	  </div>
 	</div>
 </div>

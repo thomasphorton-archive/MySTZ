@@ -1,5 +1,3 @@
-<body>
-
 <div class="lightbox">
 	<div class="cart-wrapper span8">
 		<span class="cart-close">X</span>
@@ -45,7 +43,7 @@
 <div class="navbar navbar-fixed-top">
 	<div class="navbar-inner">
 		<div class="container">
-			<a class="brand" href="./"><img src="/images/smallstzlogo.png"></a>
+			<a class="brand" href="./"><img src="/images/smallstzlogo.png" alt="STZ Life"></a>
 			<div id="main-menu">
 					<ul class="nav pull-right" id="main-menu-right">
 						<li class="dropdown">
@@ -63,8 +61,8 @@
 						<li class="dropdown">
 							<a class="dropdown-toggle disabled" data-toggle="dropdown" href="shirtbuilder.select.php">custom builder <b class="caret"></b></a>
 							<ul class="dropdown-menu">
-								<li><a href="shirtbuilder.php?item=tee&style=graphic">custom graphic</a></li>
-								<li><a href="shirtbuilder.php?item=tee&style=pocket">custom pocket</a></li>
+								<li><a href="shirtbuilder.php?item=tee&amp;style=graphic">custom graphic</a></li>
+								<li><a href="shirtbuilder.php?item=tee&amp;style=pocket">custom pocket</a></li>
 								<li><a href="/builder.php#heather-charcoal/heather-charcoal/heather-charcoal/heather-charcoal/heather-charcoal/black/black/black/black/">hoodie</a></li>
 							</ul>
 						</li>

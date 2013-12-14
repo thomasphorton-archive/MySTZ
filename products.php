@@ -1,6 +1,13 @@
 <?
 	$title = "STZ Custom Clothing | Wake Skate Surf Snow";
 	include 'inc.header.html.php';
+?>
+
+</head>
+
+</body>
+
+<?
 	include 'inc.header.php';
 ?>
 

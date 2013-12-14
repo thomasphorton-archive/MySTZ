@@ -2,21 +2,29 @@
 	$title = "MySTZ | Custom T-Shirts and Hoodies | Wake Skate Surf Snow";
 	$meta_description = "custom built graphic tees, pocket tees, and hoodies. happy shredding.";
 	include 'inc.header.html.php';
-	include 'inventory.php';
 ?>
-<link rel="icon" href="images/favicon.ico">
 
 <link rel="stylesheet" href="/css/libs/flexslider/flexslider.css" type="text/css" />
 <script type="text/javascript">
-	$(document).ready(function() {
+  $(document).ready(function() {
     $('.flexslider').flexslider({
       animation: "slide",
-			animationLoop: true,
-			controlNav: false,
-			slideshowSpeed: 4000,
+      animationLoop: true,
+      controlNav: false,
+      slideshowSpeed: 4000,
     });
-	 });
+   });
 </script>
+
+</head>
+
+
+<?
+	include 'inventory.php';
+?>
+
+<body>
+
 <? include 'inc.header.php';  ?>
 
 	<div class="container index-container">
@@ -26,45 +34,44 @@
           <ul class="slides">
             <li>
               <a href="/builder.php">
-                <img src="/images/banners/hoodie.jpg" class="index-banner-image">
+                <img src="/images/banners/hoodie.jpg" class="index-banner-image" alt="Custom Hoodies for Snowboarding">
               </a>
             </li>
             <li>
-              <img src="/images/banners/sanchezkris.jpg" class="index-banner-image">
+              <img src="/images/banners/sanchezkris.jpg" class="index-banner-image" alt="Snowboarding at App Ski Mountain">
             </li>
             <li>
               <a href="/products.line.php?line=hats">
-                <img src="/images/banners/hats.jpg" class="index-banner-image">
+                <img src="/images/banners/hats.jpg" class="index-banner-image" alt="Snapback Hats and Beanies">
               </a>
             </li>
             <li>
-              <img src="/images/banners/jeff.jpg" class="index-banner-image">
+              <img src="/images/banners/jeff.jpg" class="index-banner-image" alt="Jeff Mathis Wakeboarding">
             </li>
             <li>
               <a href="/products.line.php?line=outer#zip-up">
-                <img src="images/banners/zipup.jpg" class="index-banner-image">
+                <img src="images/banners/zipup.jpg" class="index-banner-image" alt="Zip-up Hoodies Custom Made">
               </a>
             </li>
           </ul>
         </div>
-
 			</div>
 		</div>
 
 		<div class="row">
 			<div class="span6">
 				<a href="/products.individual.php?id=921">
-					<img src="/images/index/mysterytee.jpg">
+					<img src="/images/index/mysterytee.jpg" alt="Grab a Mystery Graphic Tee">
 				</a>
 
         <a href="/products.individual.php?id=922">
-          <img src="/images/index/mysterytank.jpg"  style="margin-top: 30px;">
+          <img src="/images/index/mysterytank.jpg"  alt="Mystery Tanks from STZ" style="margin-top: 30px;">
         </a>
 			</div>
 
 			<div class="span6">
 				<a href="/products.php">
-					<img src="/images/index/products.jpg">
+					<img src="/images/index/products.jpg" alt="Gear for Wake, Skate, Surf or Snow">
 				</a>
 			</div>
 		</div>
@@ -75,7 +82,7 @@
 			</div>
 
 			<div class="span6">
-        <iframe src="http://snapwidget.com/in/?h=c3R6bGlmZXxpbnw3MHw2fDN8fG5vfDMwfG5vbmV8b25TdGFydHxubw==&v=251113" title="Instagram Widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:600px; height:300px"></iframe>
+        <iframe src="http://snapwidget.com/in/?h=c3R6bGlmZXxpbnw3MHw2fDN8fG5vfDMwfG5vbmV8b25TdGFydHxubw==&amp;v=251113" title="Instagram Widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:600px; height:300px"></iframe>
 			</div>
 		</div>
 
@@ -86,13 +93,13 @@
 			  var js, fjs = d.getElementsByTagName(s)[0];
 			  if (d.getElementById(id)) return;
 			  js = d.createElement(s); js.id = id;
-			  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=144825008977547";
+			  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&amp;appId=144825008977547";
 			  fjs.parentNode.insertBefore(js, fjs);
 			}(document, 'script', 'facebook-jssdk'));</script>
 			<div class="fb-like" data-href="https://www.facebook.com/pages/STZ-Canvassed-Apparel/166458200044265?fref=ts" data-send="true" data-width="450" data-show-faces="true" data-colorscheme="dark"></div>
 			</div>
 			<div class="span6">
-				<img src="/images/index/index-happy-shredding.png">
+				<img src="/images/index/index-happy-shredding.png" alt="Happy Shredding!">
 			</div>
 		</div>
 

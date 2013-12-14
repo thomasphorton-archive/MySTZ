@@ -1,6 +1,10 @@
 <?
 	$title = "";
 	include 'inc.header.html.php';
+?>
+</head>
+<body>
+<?
 	include 'inc.header.php'; 
 ?>
 
@@ -11,6 +15,5 @@ Thanks for getting in touch. We'll get back with you soon. Happy shredding!
 </div><!--#pageWrapper-->
 
 <? 
-	include 'inc.social.php'; 
 	include 'inc.footer.php';
 ?>

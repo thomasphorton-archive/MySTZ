@@ -21,6 +21,15 @@
 	$title = $product["title"] . ' | STZ | Custom Tees and Outerwear';
 
 	include 'inc.header.html.php';
+
+?>
+
+</head>
+
+<body>
+
+<?
+
 	include 'inc.header.php';
 
 	switch ($line) {
@@ -147,7 +156,7 @@
 	<div class="row">
 	  <div class="span9" style="position: relative;">
 
-			<img src="images/catalog/<?= $product["line"]?>/main/<?= $product["images"]["main"][0]?>" class="productBigImage">
+			<img src="images/catalog/<?= $product["line"]?>/main/<?= $product["images"]["main"][0]?>" class="productBigImage" alt="<?=$product["title"]?>" title="<?=$product["title"]?>">
 
 		  <? if ($product["message"]) { ?>
 
@@ -185,7 +194,7 @@
 					?>
 
 					<a href="products.individual.php?id=<?=$inventory[$randInv]["id"]?>" onclick="_gaq.push(['_trackEvent', 'View Product', 'More Products', '<?= $inventory[$randInv]["title"];?>']);" class="span3 randThumbAnchor">
-						<img src="/images/catalog/<?=$inventory[$randInv]["line"]?>/thumbs/<?=$inventory[$randInv]["images"]["thumb"]?>" class="randThumb">
+						<img src="/images/catalog/<?=$inventory[$randInv]["line"]?>/thumbs/<?=$inventory[$randInv]["images"]["thumb"]?>" class="randThumb" alt="<?=$inventory[$randInv]["title"]?>" title="<?=$inventory[$randInv]["title"]?>">
 							<span class="productDesc"><?= $inventory[$randInv]["title"] ?></span>
 					</a>
 					<?

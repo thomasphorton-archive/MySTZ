@@ -1,6 +1,10 @@
 <?
 	$title = "";
 	include 'inc.header.html.php';
+?>
+</head>
+<body>
+<?
 	include 'inc.header.php'; 
 ?>
 
@@ -11,6 +15,5 @@ Thanks for your support! Please allow 5-7 days for delivery. Happy shredding!
 </div><!--#pageWrapper-->
 
 <? 
-	include 'inc.social.php'; 
 	include 'inc.footer.php';
 ?>

@@ -1,6 +1,10 @@
 <?
 	$title = "About STZ | Custom Tees and Hoodies";
 	include 'inc.header.html.php';
+?>
+</head>
+<body>
+<?
 	include 'inc.header.php';
 ?>
 
@@ -14,7 +18,7 @@
 
 <div class="row">
 	<div class="span4">
-		<form id="stickerPackForm" class="" action="form.send.sticker.php" method="post">
+		<form id="stickerPackForm" class="" action="forms/send.sticker.php" method="post">
 			<h2>Request a Sticker Pack</h2>
 
 			<label for="stickerName">Name*</label>

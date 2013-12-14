@@ -1,5 +1,4 @@
 <?
-
   include 'inventory.php';
 
   $id = 931;
@@ -20,7 +19,7 @@
 
   $title = "STZ Hoodie Builder | Custom Graphics and Pocket Tees | MySTZ";
   include 'inc.header.html.php';
-  include 'inc.header.php';
+
 ?>
 
 <link rel="stylesheet" type="text/css" href="/css/libs/flexslider/flexslider.css"  />
@@ -30,6 +29,20 @@
 <script src="/js/libs/underscore-min.js"></script>
 <script src="/js/libs/backbone-min.js"></script>
 <script src="/js/builder.js"></script> -->
+
+</head>
+
+<body>
+<?
+  include 'inc.header.php';
+?>
+
+</head>
+
+<body>
+<?
+  include 'inc.header.php';
+?>
 
 <div class="container">    
   <div class="row">

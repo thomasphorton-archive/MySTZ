@@ -43,7 +43,6 @@
 		
 		check_for_spam($name);
 		
-		
 		if (strlen($error_message) > 0){
 			died($error_message);
 		}
@@ -81,37 +80,7 @@
 	$mail->AltBody = $message;
 
 	$mail->Send();
-	/*		
-	$mail2 = new PHPMailer();
-	
-	//$mail->IsSMTP();                                     	// set mailer to use SMTP
-	$mail2->Host = "184.173.174.10";  			// specify main and backup server
-	$mail2->SMTPAuth = "true";     							// turn on SMTP authentication
-	$mail2->Username = "info@rrbuildersnc.com";  		// SMTP username
-	$mail2->Password = "L0ganR1ddle";						// SMTP password
-	
-	$mail2->SetFrom("info@rrbuildersnc.com","R&R Builders");
-		
-	//print_r($_POST);
-		
-	/////////////////////// 	
-	$mail2->AddAddress($email);
-	///////////////////////
-	
-	$mail2->WordWrap = 80;                                 	// set word wrap to 50 characters
-	$mail2->IsHTML(true);                                  	// set email format to HTML
-	
-	$mail2->Subject = "Thank You For Your Interest in R&R Builders!";
 
-	$message = '<p>Hello '.$name.', <br /><br />Thank you for your interest in R&R Builders! We\'re incredibly proud of our work, and we\'re glad to have piqued your interest. We usually respond to online inquiries within 24 hours. Until then, please review the information you submitted to use. If you have any corrections or additional comments, please send them in a reply to this email.<br /><br />
-	Cheers!<br />
-	The R&R Builders Team</p>';
-	
-	$mail2->Body    = $message;
-	$mail2->AltBody = $message;
-
-	$mail2->Send();
-*/
 	//echo "1";
-	header("Location: form.thanks.sticker.php");
+	header("Location: /forms/thanks.sticker.php");
 ?>

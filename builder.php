@@ -24,18 +24,6 @@
 
 <link rel="stylesheet" type="text/css" href="/css/libs/flexslider/flexslider.css"  />
 <link rel="stylesheet" type="text/css" href="/css/builder.css" />
-<!-- <script src="/js/libs/flexslider/jquery.flexslider-min.js"></script>
-
-<script src="/js/libs/underscore-min.js"></script>
-<script src="/js/libs/backbone-min.js"></script>
-<script src="/js/builder.js"></script> -->
-
-</head>
-
-<body>
-<?
-  include 'inc.header.php';
-?>
 
 </head>
 

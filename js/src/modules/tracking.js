@@ -10,5 +10,5 @@ $(function(){
 });
 
 function track(category, action, label){
-	_gaq.push(['_trackEvent', category, action, label]);
+  ga('send', category, action, label);
 }

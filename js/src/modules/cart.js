@@ -24,10 +24,14 @@ simpleCart.shipping(function(){
   if (user.freeshipping) {
     return 0;
   } else {
-    if (simpleCart.quantity() == 1) {
-      return 7;
-    } else if (simpleCart.quantity() == 2) {
+    if (simpleCart.total() <= 40) {
       return 5;
+    } else if (simpleCart.total() <= 60) {
+      return 7;
+    } else if (simpleCart.total() <= 80) {
+      return 10;
+    } else if (simpleCart.total() <= 120) {
+      return 12;
     } else {
       return 0;
     }

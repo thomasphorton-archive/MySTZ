@@ -49,7 +49,7 @@ foreach ($inv as $product) {
 <a href="products.individual.php?id=<?=$product["id"];?>"
   data-product-title="<?= $product["title"]; ?>"
   data-product-color="<?= $product["shirt_color"]; ?>"
-  onclick="_gaq.push(['_trackEvent', 'View Product', 'Product Image', '<?= $product["title"]; ?>']);"
+  onclick="ga('send', 'View Product', 'Product Image', '<?= $product["title"]; ?>');"
   class="productLink column span3"
 >
   <? if ($product["message"]) { ?>
@@ -79,7 +79,7 @@ foreach ($inv as $product) {
 <a href="products.individual.php?id=<?=$product["id"];?>"
   data-product-title="<?= $product["title"]; ?>"
   data-product-color="<?= $product["shirt_color"]; ?>"
-  onclick="_gaq.push(['_trackEvent', 'View Product', 'Product Image', '<?= $product["title"]; ?>']);"
+  onclick="ga('send', 'View Product', 'Product Image', '<?= $product["title"]; ?>');"
   class="productLink column span3"
 >
   <? if ($product["message"]) { ?>
@@ -109,7 +109,7 @@ foreach ($inv as $product) {
 <a href="products.individual.php?id=<?=$product["id"];?>"
   data-product-title="<?= $product["title"]; ?>"
   data-product-color="<?= $product["shirt_color"]; ?>"
-  onclick="_gaq.push(['_trackEvent', 'View Product', 'Product Image', '<?= $product["title"]; ?>']);"
+  onclick="ga('send', 'View Product', 'Product Image', '<?= $product["title"]; ?>');"
   class="productLink column span3"
 >
   <? if ($product["message"]) { ?>

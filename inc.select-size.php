@@ -7,5 +7,5 @@
 	<li class="size-selector-size" data-size="xx-large">XXL</li>
 </ul>
 
-<input type="hidden" class="item_size" value="small">
+<input type="text" class="item_size" value="small" style="display: none;">
 </div>

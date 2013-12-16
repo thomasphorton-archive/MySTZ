@@ -193,7 +193,7 @@
 					if(isset($inventory[$randInv]) && $inventory[$randInv] != false){
 					?>
 
-					<a href="products.individual.php?id=<?=$inventory[$randInv]["id"]?>" onclick="_gaq.push(['_trackEvent', 'View Product', 'More Products', '<?= $inventory[$randInv]["title"];?>']);" class="span3 randThumbAnchor">
+					<a href="products.individual.php?id=<?=$inventory[$randInv]["id"]?>" onclick="ga('send', 'View Product', 'More Products', '<?= $inventory[$randInv]["title"];?>');" class="span3 randThumbAnchor">
 						<img src="/images/catalog/<?=$inventory[$randInv]["line"]?>/thumbs/<?=$inventory[$randInv]["images"]["thumb"]?>" class="randThumb" alt="<?=$inventory[$randInv]["title"]?>" title="<?=$inventory[$randInv]["title"]?>">
 							<span class="productDesc"><?= $inventory[$randInv]["title"] ?></span>
 					</a>

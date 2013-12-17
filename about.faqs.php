@@ -1,22 +1,7 @@
 <?
 	$title = "About STZ | Custom Tees and Hoodies";
 	include 'inc.header.html.php';
-
 ?>
-
-<style>
-  .collapsible-trigger {
-    padding: 15px 0;
-    text-align: center;
-    background-color: #f5f5f5;
-    border-top: 1px solid #fff;
-    border-bottom: 1px solid #ddd;
-  }
-
-  .collapsible-trigger:hover {
-    cursor: pointer;
-  }
-</style>
 
 </head>
 

@@ -12,74 +12,7 @@
 <?
 
 	include 'inc.header.php';
-	include 'inventory.php';
-	include 'functions.php';
 
-	switch ($line) {
-
-		case "graphic-tees":
-
-			$line_name = "graphic tees";
-
-			break;
-
-		case "pocket-tees":
-
-			$line_name = "pocket tees";
-
-			break;
-
-		case "outer":
-
-			$line_name = "outerwear";
-
-			break;
-
-		case "hats":
-
-			$line_name = "headwear";
-
-			break;
-
-		case "tanks":
-
-			$line_name = "tanks";
-
-			break;
-
-		case "ladies":
-
-			$line_name = "ladies";
-
-			break;
-
-		case "accessories";
-
-			$line_name = "bags & accessories";
-
-			break;
-
-		case "mystery";
-
-			$line_name = "mystery";
-
-			break;
-
-		default:
-
-			$line_name = "all products";
-
-	}
-
-	if (isset($_GET['shirtcolor'])){
-		$shirt_color = $_GET['shirtcolor'];
-		$numProducts = count($inventory);
-		for($i=0;$i<$numProducts;$i++){
-			if ($inventory[$i]['shirt_color'] != $shirt_color){
-				unset($inventory[$i]);
-			}
-		}
-	}
 ?>
 
 	<div class="container">
@@ -89,103 +22,86 @@
 	    </div>
 	  </div>
 
-<?
+    <div class="row" id="target"></div>
+  
 
-	
 
-	switch ($line) {
+<script type="text/html" id='catalogItems'>
 
-		case "graphic-tees":
+  <h2 class="span12">Group</h2>
 
-			display_items("graphic tees", "graphic-tees", $inventory);
+  <%
 
-			break;
+  console.log(line);
 
-		case "pocket-tees":
+    _.each(line, function(item) {
 
-			display_items("pocket tees", "pocket-tees", $inventory);
+  %>
 
-			break;
+  <a href="products.individual.php?id=<%= item.id %>" 
+    data-product-title="<%= item.title %>" 
+    data-product-color="" 
+    onclick="ga('send', 'View Product', 'Product Image', '<%= item.title %>');" 
+    class="productLink column span3">
 
-		case "outer":
+    <img src="/images/placeholder.products.png" 
+      data-original="/images/catalog/<%= item.line %>/thumbs/<%= item.image_name %>" 
+      alt="<%= item.title %>" 
+      title="<%= item.title %>" 
+      class="productImage" />
 
-			echo "<h1>$line_name</h1>";
+    <span class="productDesc"><%= item.title %></span>
 
-			display_items("baseball tees", "baseball-tees", $inventory);
+    <% if (item.in_stock === "0") { %>
 
-			display_items("crew neck sweaters", "crewneck", $inventory);
+      <span class="productMessage">Sold Out!</span>
 
-			display_items("zip-up hoodies", "zip-up", $inventory);
+    <% } %>
 
-			break;
+  </a>
 
-		case "hats":
+  <%
 
-			echo "<h1>$line_name</h1>";
+});
 
-			display_items("hats", "hats", $inventory);
+    %>
 
-			display_items("beanies", "beanies", $inventory);
+</script>
 
-			break;
+<script>
 
-		case "tanks":
+$(function() {
 
-			display_items("tanks", "tanks", $inventory);
+  template = $("#catalogItems").html();
 
-			break;
+  $.post('inventory-json.php', function(resp) {
 
-		case "ladies":
+    var inv = $.parseJSON(resp);
 
-			display_items("ladies", "wmns", $inventory);
+    console.log(inv);
 
-			break;
+    items = _.sortBy(inv, function(item) {
+      return -item.in_stock;
+    });
 
-		case "accessories":
+    lines = _.groupBy(items, 'line');
 
-			display_items("accessories", "accessories", $inventory);
+    _.each(lines, function(line) {
 
-			display_items("backpacks", "backpacks", $inventory);
+      $("#target").append(_.template(template,{line:line}));
 
-			break;
+    });
 
-		case "mystery":
+    $(".productImage").show().lazyload({
+      effect: 'fadeIn'
+    });
 
-			display_items("mystery", "mystery", $inventory);
+  });
 
-			break;
+});
 
-		default:
-
-			echo "<h1>$line_name</h1>";
-
-			display_items("graphic tees", "graphic-tees", $inventory);
-
-			display_items("pocket tees", "pocket-tees", $inventory);
-
-			display_items("baseball tees", "baseball", $inventory);
-
-			display_items("crew neck sweaters", "sweater", $inventory);
-
-			display_items("zip-up hoodies", "hoodie", $inventory);
-
-			display_items("hats", "hats", $inventory);
-
-			display_items("tanks", "tanks", $inventory);
-
-			display_items("ladies", "wmns", $inventory);
-
-	}
-
-?>
-
-	<? if ($line == "ladies"){ ?>
-	  <div class="row">
-	    <div class="span12">
-			  <p>All graphics are available on women's styles. <a href="about.php">Contact us</a> for details.</p>
-	    </div>
-	  </div>
-	<? } ?>
+    
+</script>
 
 	  <div class="row">
 	    <div class="span12">
@@ -194,11 +110,6 @@
 	  </div>
 	</div><!--.container-->
 
-	<script>
-    $("img.lazy").show().lazyload({
-      effect: 'fadeIn'
-    });
-  </script>
 <?
 	include 'inc.footer.php';
 ?>

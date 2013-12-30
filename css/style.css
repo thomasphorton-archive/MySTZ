@@ -65,14 +65,14 @@
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 
-.icon-vimeo:before { content: '\e803'; } /* '' */
-.icon-twitter:before { content: '\e802'; } /* '' */
-.icon-facebook:before { content: '\e800'; } /* '' */
-.icon-gplus:before { content: '\e801'; } /* '' */
-.icon-instagram:before { content: '\f32d'; } /* '' */
+.icon-alert:before { content: '\e803'; } /* '' */
+.icon-vimeo:before { content: '\e802'; } /* '' */
+.icon-facebook:before { content: '\e801'; } /* '' */
+.icon-instagram:before { content: '\e800'; } /* '' */
 
-[class^="icon-"],
-[class*=" icon-"] {
+
+.social [class^="icon-"],
+.social [class*=" icon-"] {
   display: inline-block;
 width: 20px;
 height: 20px;
@@ -106,6 +106,10 @@ h1 {
 h2 {
   font-family: 'libel';
   margin: 10px 0;
+}
+h3 {
+  font-family: 'libel';
+  font-size: 22px;
 }
 ::selection {
   background: rgba(45, 182, 116, 0.8);
@@ -384,6 +388,7 @@ sizingMethod='scale');
 .productLink {
   position: relative;
   margin-bottom: 30px;
+  overflow: hidden;
 }
 .productMessage {
   position: absolute;
@@ -393,6 +398,59 @@ sizingMethod='scale');
   left: 0;
   right: 0;
   top: 0;
+}
+
+.product-featured {
+  position: absolute;
+  top: -60px;
+  left: 0;
+  border-top: 60px solid transparent;
+  border-bottom: 60px solid transparent;
+  border-left: 60px solid rgba(0, 85, 128, 1);
+}
+
+.productLink:hover .product-featured:after {
+  color: rgba(0, 136, 204, 1);
+}
+
+.product-featured:after {
+  position: absolute;
+  top: 5px;
+  left: -60px;
+  content: '\e803';
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  margin-right: .2em;
+  text-align: center;
+  opacity: .8; 
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1em;
+  margin-left: .2em;
+}
+
+.product-soldout {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(51, 51, 51, 0.90);
+}
+
+.product-soldout-box {
+  padding: 9px 10px 5px;
+  text-align: center;
+  background: #CCC;
+  color: rgba(51, 51, 51, 0.90);
+  font-family: 'libel';
+  font-size: 24px;
 }
 
 .productBigImage {
@@ -417,15 +475,14 @@ sizingMethod='scale');
   display: block;
   width: 100%;
 }
-.productDesc {
-  color: #555;
+.product-name {
+  color: #333;
   position: absolute;
   bottom: 0;
   right: 0;
   padding: 4px 8px;
-  background-color: white;
-  border-top: 1px solid #BBB;
-  border-left: 1px solid #BBB;
+  background-color: #CCC;
+  text-align: right;
 }
 a:hover .productDesc {
   background-color: #555;

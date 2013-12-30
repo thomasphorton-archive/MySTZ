@@ -55,8 +55,9 @@ foreach ($inv as $product) {
   <? if ($product["message"]) { ?>
   <span class="productMessage"><?= $product["message"]?></span>
   <? } ?>
+  <span class="product-featured"></span>
   <img src="/images/placeholder.products.png" data-original="/images/catalog/<?= $product["line"] ?>/thumbs/<?= $product["images"]["thumb"]; ?>" alt="<?= $product["title"]; ?>" title="<?= $product["title"]; ?>" class="productImage lazy">
-  <span class="productDesc"><?= $product["title"]; ?></span>
+  <h3 class="product-name"><?= $product["title"]; ?></h3>
 </a>
 <?
       $i++;
@@ -86,7 +87,7 @@ foreach ($inv as $product) {
   <span class="productMessage"><?= $product["message"]?></span>
   <? } ?>
   <img src="/images/placeholder.products.png" data-original="/images/catalog/<?= $product["line"] ?>/thumbs/<?= $product["images"]["thumb"]; ?>" alt="<?= $product["title"]; ?>" title="<?= $product["title"]; ?>" class="productImage lazy">
-  <span class="productDesc"><?= $product["title"]; ?></span>
+  <h3 class="product-name"><?= $product["title"]; ?></h3>
 </a>
 <?
       $i++;
@@ -112,11 +113,12 @@ foreach ($inv as $product) {
   onclick="ga('send', 'View Product', 'Product Image', '<?= $product["title"]; ?>');"
   class="productLink column span3"
 >
-  <? if ($product["message"]) { ?>
-  <span class="productMessage"><?= $product["message"]?></span>
-  <? } ?>
+  <div class="product-soldout">
+    <div class="product-soldout-box">Sold Out</div>
+  </div>
+  
   <img src="/images/placeholder.products.png" data-original="/images/catalog/<?= $product["line"] ?>/thumbs/<?= $product["images"]["thumb"]; ?>" alt="<?= $product["title"]; ?>" title="<?= $product["title"]; ?>" class="productImage lazy">
-  <span class="productDesc"><?= $product["title"]; ?></span>
+  <h3 class="product-name"><?= $product["title"]; ?></h3>
 </a>
 <?
       $i++;

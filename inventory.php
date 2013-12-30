@@ -1698,7 +1698,7 @@ $inventory  = array(
 	array(
 		"id" => "551",
 		"line" => "accessories",
-		"title" => "Neckwarmer in Aztec",
+		"title" => "Gaiter in Black Aztec",
 		"basePrice" => "14",
 		"description" => "Keep your face warm with a super soft fleece neck gaiter.",
 		"images" => array(
@@ -1714,7 +1714,7 @@ $inventory  = array(
 	array(
 		"id" => "552",
 		"line" => "accessories",
-		"title" => "Neckwarmer in Grey",
+		"title" => "Gaiter in Grey",
 		"basePrice" => "14",
 		"description" => "Keep your face warm with a super soft fleece neck gaiter.",
 		"images" => array(
@@ -1730,7 +1730,7 @@ $inventory  = array(
 	array(
 		"id" => "553",
 		"line" => "accessories",
-		"title" => "Neckwarmer in Pink/Orange",
+		"title" => "Gaiter in Pink/Orange",
 		"basePrice" => "14",
 		"description" => "Keep your face warm with a super soft fleece neck gaiter.",
 		"images" => array(
@@ -1743,6 +1743,109 @@ $inventory  = array(
 		)
 	),
 
+	array(
+		"id" => "554",
+		"line" => "accessories",
+		"title" => "Aztec",
+		"basePrice" => "14",
+		"description" => "Keep your face warm with a super soft fleece neck gaiter.",
+		"images" => array(
+			"main" => array(
+				"neckgaiter.aztecdos.png"
+			),
+			"thumb" => "neckgaiter.aztecdos.png",
+		),
+		"options" => array(
+		),
+		"featured" => true
+	),
+
+	array(
+		"id" => "555",
+		"line" => "accessories",
+		"title" => "Cats",
+		"basePrice" => "14",
+		"description" => "Keep your face warm with a super soft fleece neck gaiter.",
+		"images" => array(
+			"main" => array(
+				"neckgaiter.cats.png"
+			),
+			"thumb" => "neckgaiter.cats.png",
+		),
+		"options" => array(
+		),
+		"featured" => true
+	),
+
+	array(
+		"id" => "556",
+		"line" => "accessories",
+		"title" => "Hawaii Five-0",
+		"basePrice" => "14",
+		"description" => "Keep your face warm with a super soft fleece neck gaiter.",
+		"images" => array(
+			"main" => array(
+				"neckgaiter.hawaiian.png"
+			),
+			"thumb" => "neckgaiter.hawaiian.png",
+		),
+		"options" => array(
+		),
+		"featured" => true
+	),
+
+	/********* Scarves (still under 'accessories' line) *********/
+
+	array(
+		"id" => "571",
+		"line" => "accessories",
+		"title" => "Black/Yellow Scarf",
+		"basePrice" => "18",
+		"description" => "61\"x8\" knit scarf.",
+		"images" => array(
+			"main" => array(
+				"scarf.blackyellow.png"
+			),
+			"thumb" => "scarf.blackyellow.png",
+		),
+		"options" => array(
+		),
+		"featured" => true
+	),
+
+	array(
+		"id" => "572",
+		"line" => "accessories",
+		"title" => "Orange/Black Scarf",
+		"basePrice" => "18",
+		"description" => "61\"x8\" knit scarf.",
+		"images" => array(
+			"main" => array(
+				"scarf.orangeblack.png"
+			),
+			"thumb" => "scarf.orangeblack.png",
+		),
+		"options" => array(
+		),
+		"featured" => true
+	),
+
+	array(
+		"id" => "573",
+		"line" => "accessories",
+		"title" => "Red/White/Black Scarf",
+		"basePrice" => "18",
+		"description" => "61\"x8\" knit scarf.",
+		"images" => array(
+			"main" => array(
+				"scarf.redwhiteblack.png"
+			),
+			"thumb" => "scarf.redwhiteblack.png",
+		),
+		"options" => array(
+		),
+		"featured" => true
+	),
 
 /********* Women's Products *********/
 

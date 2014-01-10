@@ -1780,7 +1780,7 @@ $inventory  = array(
 	array(
 		"id" => "556",
 		"line" => "accessories",
-		"title" => "Hawaii Five-0",
+		"title" => "Hawaii Five-Oh",
 		"basePrice" => "14",
 		"description" => "Keep your face warm with a super soft fleece neck gaiter.",
 		"images" => array(

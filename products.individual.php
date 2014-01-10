@@ -195,7 +195,7 @@
 
 					<a href="products.individual.php?id=<?=$inventory[$randInv]["id"]?>" onclick="ga('send', 'View Product', 'More Products', '<?= $inventory[$randInv]["title"];?>');" class="span3 randThumbAnchor">
 						<img src="/images/catalog/<?=$inventory[$randInv]["line"]?>/thumbs/<?=$inventory[$randInv]["images"]["thumb"]?>" class="randThumb" alt="<?=$inventory[$randInv]["title"]?>" title="<?=$inventory[$randInv]["title"]?>">
-							<span class="productDesc"><?= $inventory[$randInv]["title"] ?></span>
+							<h3 class="product-name"><?= $inventory[$randInv]["title"] ?></h3>
 					</a>
 					<?
 					$i++;

@@ -8,6 +8,7 @@
           <ul class="nav pull-right" id="main-menu-right">
            
             <li><a href="typography.php">typography</a></li>
+            <li><a href="colors.php">colors</a></li> 
             <li><a href="buttons.php">buttons</a></li>
             <li><a href="devices.php">devices</a></li>  
           </ul>

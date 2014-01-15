@@ -984,7 +984,7 @@ $inventory  = array(
 		"line" => "crewneck",
 		"title" => "Crewneck Fleece in Grey",
 		"basePrice" => "40",
-		"description" => "Super soft and super comfy. Perfect for those chilly fall/winter days.",
+		"description" => "Super soft and super comfy. Perfect for those chilly fall/winter days.<br><br>Check out our <a href='/images/catalog/patch-options.jpg' target='_blank'>patch options</a>.",
 		"images" => array(
 			"main" => array(
 				"greycrew.jpg"
@@ -1009,7 +1009,7 @@ $inventory  = array(
 		"line" => "crewneck",
 		"title" => "Crewneck Fleece in Heather Red",
 		"basePrice" => "40",
-		"description" => "Super soft and super comfy. Perfect for those chilly fall/winter days. Made in the USA.",
+		"description" => "Super soft and super comfy. Perfect for those chilly fall/winter days. Made in the USA.<br><br>Check out our <a href='/images/catalog/patch-options.jpg' target='_blank'>patch options</a>.",
 		"images" => array(
 			"main" => array(
 				"redcrew.jpg"
@@ -1034,7 +1034,7 @@ $inventory  = array(
 		"line" => "crewneck",
 		"title" => "Crewneck Fleece in Black",
 		"basePrice" => "40",
-		"description" => "Super soft and super comfy. Perfect for those chilly fall/winter days. Made in the USA",
+		"description" => "Super soft and super comfy. Perfect for those chilly fall/winter days. Made in the USA.<br><br>Check out our <a href='/images/catalog/patch-options.jpg' target='_blank'>patch options</a>.",
 		"images" => array(
 			"main" => array(
 				"blackcrew.jpg"
@@ -1059,7 +1059,7 @@ $inventory  = array(
 		"line" => "crewneck",
 		"title" => "Crewneck Fleece in Heather Navy",
 		"basePrice" => "40",
-		"description" => "Super soft and super comfy. Perfect for those chilly fall/winter days. Made in the USA",
+		"description" => "Super soft and super comfy. Perfect for those chilly fall/winter days. Made in the USA.<br><br>Check out our <a href='/images/catalog/patch-options.jpg' target='_blank'>patch options</a>.",
 		"images" => array(
 			"main" => array(
 				"navycrew.jpg"
@@ -1084,7 +1084,7 @@ $inventory  = array(
 		"line" => "zip-up",
 		"title" => "Zip-Up Hoodie in Grey",
 		"basePrice" => "45",
-		"description" => "Super soft and super comfy. Perfect for those chilly fall/winter days. (8.3 oz, 60/40 cotton/poly)",
+		"description" => "Super soft and super comfy. Perfect for those chilly fall/winter days. (8.3 oz, 60/40 cotton/poly).<br><br>Check out our <a href='/images/catalog/patch-options.jpg' target='_blank'>patch options</a>.",
 		"images" => array(
 			"main" => array(
 				"greyzip.jpg"
@@ -1109,7 +1109,7 @@ $inventory  = array(
 		"line" => "zip-up",
 		"title" => "Zip-Up Hoodie in Royal",
 		"basePrice" => "45",
-		"description" => "Super soft and super comfy. Perfect for those chilly fall/winter days. (8.3 oz, 60/40 cotton/poly)",
+		"description" => "Super soft and super comfy. Perfect for those chilly fall/winter days. (8.3 oz, 60/40 cotton/poly).<br><br>Check out our <a href='/images/catalog/patch-options.jpg' target='_blank'>patch options</a>.",
 		"images" => array(
 			"main" => array(
 				"royalzip.jpg"
@@ -1134,7 +1134,7 @@ $inventory  = array(
 		"line" => "zip-up",
 		"title" => "Zip-Up Hoodie in Navy Blue",
 		"basePrice" => "45",
-		"description" => "Super soft and super comfy. Perfect for those chilly fall/winter days. (8.3 oz, 60/40 cotton/poly)",
+		"description" => "Super soft and super comfy. Perfect for those chilly fall/winter days. (8.3 oz, 60/40 cotton/poly).<br><br>Check out our <a href='/images/catalog/patch-options.jpg' target='_blank'>patch options</a>.",
 		"images" => array(
 			"main" => array(
 				"blackzip.jpg"
@@ -1159,7 +1159,7 @@ $inventory  = array(
 		"line" => "zip-up",
 		"title" => "Zip-Up Hoodie in Black",
 		"basePrice" => "40",
-		"description" => "Super soft and comfy, light-weight full-zip hoodie. (7.8 oz, 50/50 cotton/poly)",
+		"description" => "Super soft and comfy, light-weight full-zip hoodie. (7.8 oz, 50/50 cotton/poly).<br><br>Check out our <a href='/images/catalog/patch-options.jpg' target='_blank'>patch options</a>.",
 		"images" => array(
 			"main" => array(
 				"lightzip.black.jpg"
@@ -1185,7 +1185,7 @@ $inventory  = array(
 		"line" => "zip-up",
 		"title" => "Zip-Up Hoodie in Hunter",
 		"basePrice" => "40",
-		"description" => "Super soft and comfy, light-weight full-zip hoodie. (7.8 oz, 50/50 cotton/poly)",
+		"description" => "Super soft and comfy, light-weight full-zip hoodie. (7.8 oz, 50/50 cotton/poly).<br><br>Check out our <a href='/images/catalog/patch-options.jpg' target='_blank'>patch options</a>.",
 		"images" => array(
 			"main" => array(
 				"lightzip.hunter.jpg"
@@ -1214,7 +1214,7 @@ $inventory  = array(
 		"line" => "hats",
 		"title" => "Red Aloha",
 		"basePrice" => "35",
-		"description" => "True snapback fit, great for any occasion.",
+		"description" => "True snapback fit, great for any occasion.<br><br>Check out our <a href='/images/catalog/patch-options.jpg' target='_blank'>patch options</a>.",
 		"images" => array(
 			"main" => array(
 				"redaloha.sendit.jpg"
@@ -1239,7 +1239,7 @@ $inventory  = array(
 		"line" => "hats",
 		"title" => "Blue Aloha",
 		"basePrice" => "35",
-		"description" => "True snapback fit, great for any occasion.",
+		"description" => "True snapback fit, great for any occasion.<br><br>Check out our <a href='/images/catalog/patch-options.jpg' target='_blank'>patch options</a>.",
 		"images" => array(
 			"main" => array(
 				"bluealoha.stzlife.jpg"
@@ -1264,7 +1264,7 @@ $inventory  = array(
 		"line" => "hats",
 		"title" => "Charcoal Stone Wash",
 		"basePrice" => "25",
-		"description" => "True snapback fit, made in the USA.",
+		"description" => "True snapback fit, made in the USA.<br><br>Check out our <a href='/images/catalog/patch-options.jpg' target='_blank'>patch options</a>.",
 		"images" => array(
 			"main" => array(
 				"swcharcoal.happyshredding.jpg"
@@ -1289,7 +1289,7 @@ $inventory  = array(
 		"line" => "hats",
 		"title" => "Green/Blue Stone Wash",
 		"basePrice" => "25",
-		"description" => "True snapback fit, made in the USA.",
+		"description" => "True snapback fit, made in the USA.<br><br>Check out our <a href='/images/catalog/patch-options.jpg' target='_blank'>patch options</a>.",
 		"images" => array(
 			"main" => array(
 				"swgreenblue.stzlife.jpg"
@@ -1314,7 +1314,7 @@ $inventory  = array(
 		"line" => "hats",
 		"title" => "The Khaki Cord",
 		"basePrice" => "20",
-		"description" => "True snapback fit, made in the USA.",
+		"description" => "True snapback fit, made in the USA.<br><br>Check out our <a href='/images/catalog/patch-options.jpg' target='_blank'>patch options</a>.",
 		"images" => array(
 			"main" => array(
 				"tancord.happyshredding.jpg"
@@ -1339,7 +1339,7 @@ $inventory  = array(
 		"line" => "hats",
 		"title" => "The Green Cord",
 		"basePrice" => "20",
-		"description" => "True snapback fit, made in the USA.",
+		"description" => "True snapback fit, made in the USA.<br><br>Check out our <a href='/images/catalog/patch-options.jpg' target='_blank'>patch options</a>.",
 		"images" => array(
 			"main" => array(
 				"greencord.sendit.jpg"
@@ -1364,7 +1364,7 @@ $inventory  = array(
 		"line" => "hats",
 		"title" => "The Navy Cord",
 		"basePrice" => "20",
-		"description" => "True snapback fit, made in the USA.",
+		"description" => "True snapback fit, made in the USA.<br><br>Check out our <a href='/images/catalog/patch-options.jpg' target='_blank'>patch options</a>.",
 		"images" => array(
 			"main" => array(
 				"navycord.happyshredding.jpg"
@@ -1389,7 +1389,7 @@ $inventory  = array(
 		"line" => "hats",
 		"title" => "The Royal Cord",
 		"basePrice" => "20",
-		"description" => "True snapback fit, made in the USA.",
+		"description" => "True snapback fit, made in the USA.<br><br>Check out our <a href='/images/catalog/patch-options.jpg' target='_blank'>patch options</a>.",
 		"images" => array(
 			"main" => array(
 				"royalcord.sendit.jpg"
@@ -1414,7 +1414,7 @@ $inventory  = array(
 		"line" => "hats",
 		"title" => "The Red Cord",
 		"basePrice" => "20",
-		"description" => "True snapback fit, made in the USA.",
+		"description" => "True snapback fit, made in the USA.<br><br>Check out our <a href='/images/catalog/patch-options.jpg' target='_blank'>patch options</a>.",
 		"images" => array(
 			"main" => array(
 				"redcord.stzlife.jpg"
@@ -1439,7 +1439,7 @@ $inventory  = array(
 		"line" => "hats",
 		"title" => "The Fatigue Cord",
 		"basePrice" => "20",
-		"description" => "More of a shallow 5-panel fit, without the 5-panel look. Custom designed by the STZ crew.",
+		"description" => "More of a shallow 5-panel fit, without the 5-panel look. Custom designed by the STZ crew.<br><br>Check out our <a href='/images/catalog/patch-options.jpg' target='_blank'>patch options</a>.",
 		"images" => array(
 			"main" => array(
 				"fatiguecord.sendit.jpg"
@@ -1461,7 +1461,7 @@ $inventory  = array(
 		"line" => "hats",
 		"title" => "Embroidered Fatigue",
 		"basePrice" => "15",
-		"description" => "More of a shallow 5-panel fit, without the 5-panel look. Custom designed by the STZ crew.",
+		"description" => "More of a shallow 5-panel fit, without the 5-panel look. Custom designed by the STZ crew.<br><br>Check out our <a href='/images/catalog/patch-options.jpg' target='_blank'>patch options</a>.",
 		"images" => array(
 			"main" => array(
 				"fatiguecord.logo.jpg"
@@ -1480,7 +1480,7 @@ $inventory  = array(
 		"line" => "hats",
 		"title" => "The Bucket",
 		"basePrice" => "25",
-		"description" => "Fish in it, shred in it, party in it… Send it anywhere.",
+		"description" => "Fish in it, shred in it, party in it… Send it anywhere.<br><br>Check out our <a href='/images/catalog/patch-options.jpg' target='_blank'>patch options</a>.",
 		"images" => array(
 			"main" => array(
 				"bucket.jpg"
@@ -1506,7 +1506,7 @@ $inventory  = array(
 		"line" => "hats",
 		"title" => "The Grey Cord",
 		"basePrice" => "20",
-		"description" => "True snapback fit, made in the USA.",
+		"description" => "True snapback fit, made in the USA.<br><br>Check out our <a href='/images/catalog/patch-options.jpg' target='_blank'>patch options</a>.",
 		"images" => array(
 			"main" => array(
 				"greycord.jpg"
@@ -1532,7 +1532,7 @@ $inventory  = array(
 		"line" => "hats",
 		"title" => "Hang Ten",
 		"basePrice" => "25",
-		"description" => "Five panel design for low-profile fit, adjustable leather strap in back.",
+		"description" => "Five panel design for low-profile fit, adjustable leather strap in back.<br><br>Check out our <a href='/images/catalog/patch-options.jpg' target='_blank'>patch options</a>.",
 		"images" => array(
 			"main" => array(
 				"hangten.jpg"
@@ -1555,7 +1555,7 @@ $inventory  = array(
 		"line" => "hats",
 		"title" => "The Ross",
 		"basePrice" => "25",
-		"description" => "Five panel design for low-profile fit, adjustable leather strap in back.",
+		"description" => "Five panel design for low-profile fit, adjustable leather strap in back.<br><br>Check out our <a href='/images/catalog/patch-options.jpg' target='_blank'>patch options</a>.",
 		"images" => array(
 			"main" => array(
 				"theross.jpg"
@@ -1650,7 +1650,7 @@ $inventory  = array(
 		"line" => "backpacks",
 		"title" => "Campus Classic in Red",
 		"basePrice" => "35",
-		"description" => "",
+		"description" => "Check out our <a href='/images/catalog/patch-options.jpg' target='_blank'>patch options</a>",
 		"images" => array(
 			"main" => array(
 				"red.sendit.jpg"
@@ -1675,7 +1675,7 @@ $inventory  = array(
 		"line" => "backpacks",
 		"title" => "Campus Classic in Blue",
 		"basePrice" => "35",
-		"description" => "",
+		"description" => "Check out our <a href='/images/catalog/patch-options.jpg' target='_blank'>patch options</a>",
 		"images" => array(
 			"main" => array(
 				"blue.happyshredding.jpg"

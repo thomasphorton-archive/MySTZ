@@ -47,7 +47,7 @@
 
 <?
 
-	} else if ($promo_code == 'surfexpo15' ||  $promo_code == 'SURFEXPO15' || $promo_code == 'ALI15') {
+	} else if ($promo_code == 'surfexpo15' ||  $promo_code == 'SURFEXPO15' || $promo_code == 'ALI15' || $promo_code == 'ZPALMER15') {
 ?>
 
 	(function() {

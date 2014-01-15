@@ -33,7 +33,7 @@
 			  <div class="flexslider">
           <ul class="slides">
             <li>
-              <a href="/builder.php">
+              <a href="/builder.php#ash/ash/ash/ash/ash/black/black/black/black/">
                 <img src="/images/banners/hoodie.jpg" class="index-banner-image" alt="Custom Hoodies for Snowboarding">
               </a>
             </li>

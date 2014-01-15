@@ -626,6 +626,12 @@ input {
 #contactInfo a {
   color: gray;
 }
+
+.retail img {
+  max-width: 100%;
+  margin: 1em 0;
+}
+
 .shirtbuilder-select {
   width: 100%;
 }
@@ -736,9 +742,7 @@ input {
 	top: 20px;
 	right: 20px;
 	text-align: center;
-	padding: 2px;
-	height: 24px;
-	width: 24px;
+	padding: 6px;
 	background: #BBB;
 	border: 1px solid #AAA;
 	font-size: 14px;

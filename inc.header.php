@@ -21,7 +21,7 @@
 							<ul class="dropdown-menu">
 								<li><a href="shirtbuilder.php?item=tee&amp;style=graphic">custom graphic</a></li>
 								<li><a href="shirtbuilder.php?item=tee&amp;style=pocket">custom pocket</a></li>
-								<li><a href="/builder.php#heather-charcoal/heather-charcoal/heather-charcoal/heather-charcoal/heather-charcoal/black/black/black/black/">hoodie</a></li>
+								<li><a href="/builder.php#ash/ash/ash/ash/ash/black/black/black/black/">hoodie</a></li>
 							</ul>
 						</li>
 						<li class="dropdown">
@@ -51,7 +51,7 @@
 
 <div class="lightbox">
 	<div class="cart-wrapper span8">
-		<span class="cart-close">X</span>
+		<span class="cart-close">Continue Shopping</span>
 		<h2>Your Cart</h2>
 
 		<h2>Items:</h2>

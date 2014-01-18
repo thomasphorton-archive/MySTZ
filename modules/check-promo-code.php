@@ -3,7 +3,7 @@
 	
 	$promo_code = strtoupper($promo_code);
 
-	if ($promo_code == 'STZ20' || $promo_code == 'GREG20' || $promo_code == 'DIXON20' || $promo_code == 'HUNTER20' || $promo_code == 'GARETTGINNER') {
+	if ($promo_code == 'STZ20' || $promo_code == 'GREG20' || $promo_code == 'DIXON20' || $promo_code == 'HUNTER20' || $promo_code == 'GARRETTGINNER') {
 ?>
 
 (function() {

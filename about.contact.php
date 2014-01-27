@@ -70,8 +70,25 @@
 			<p><a href="mailto:sales@mystz.com">sales@mystz.com</a></p>
 			<p><a href="mailto:info@mystz.com">info@mystz.com</a></p>
 			<h2>Available At</h2>
-			<a href="http://www.valdostawakecompound.com/" target="_blank"><img src="/images/retail/vwc.png"></a>
-			<a href="http://icywakessurfshop.com/" target="_blank"><img src="/images/retail/icywakes.png"></a>
+			<a href="http://www.valdostawakecompound.com/" target="_blank">
+			<img src="/images/retail/valdosta-wake.png" alt="Valdosta Wake Compound">
+			</a>
+
+			<a href="http://icywakessurfshop.com/" target="_blank">
+				<img src="/images/retail/icy-wakes.png" alt="IcyWakes Surf Shop">
+			</a>
+
+			<a href="http://edgeoworldnc.wordpress.com/" target="_blank">
+				<img src="/images/retail/edge-of-the-world.png" alt="Edge of the World Snowboard Shop">
+			</a>
+
+			<a href="http://www.facebook.com/Roguewaveboca" target="_blank">
+				<img src="/images/retail/rogue-wave.png" alt="Rogue Wave Sun & Surf">
+			</a>
+
+			<a href="http://www.appskimtn.com/about-us/alpine-ski-shop" target="_blank">
+				<img src="/images/retail/alpine-ski-shop.png" alt="Alpine Ski Shop">
+			</a>
 		</div>
 	</div>
 </div>

@@ -554,6 +554,31 @@ $inventory  = array(
       )
     )
   ),
+  array(
+    "id" => "23",
+    "line" => "graphic-tees",
+    "title" => "Thank ___",
+    "basePrice" => "18",
+    "description" => "Thank ___ for skateboarding. Designed by team rider Garrett Ginner, a portion of every shirt goes to help him buy new camera gear. Check out his <a href='http://youtube.com/garrettdavidginner' target='_blank'>YouTube Channel</a>.",
+    "small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
+    "images" => array(
+      "main" => array(
+        "thankblank.jpg"
+      ),
+      "thumb" => "thankblank.jpg",
+    ),
+    "options" => array(
+      array(
+        "shirt" => "White",
+        "graphic" => "Black"
+      ),
+      array(
+        "shirt" => "Heather Blue",
+        "graphic" => "Black"
+      )
+    ),
+    "featured" => true
+  ),
 
 /*********** Pocket Inventory **********/
 

@@ -59,13 +59,10 @@
 		</div>
 
 		<div class="row">
-			<div class="span6">
-				<a href="/products.individual.php?id=921">
-					<img src="/images/index/mysterytee.jpg" alt="Grab a Mystery Graphic Tee">
-				</a>
-
-        <a href="/products.individual.php?id=922">
-          <img src="/images/index/mysterytank.jpg"  alt="Mystery Tanks from STZ" style="margin-top: 30px;">
+			<div class="span6"  style="position:relative;">
+				<a href="/products.individual.php?id=23">
+					<img src="/images/index/thank-blank-for.gif" alt="Thank ___ By Garrett Ginner">
+          <h3 class="product-name">Featured: Thank ___ by Garrett Ginner</h3>
         </a>
 			</div>
 

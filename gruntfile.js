@@ -61,8 +61,8 @@ module.exports = function(grunt) {
           authKey: 'key1'
         },
         src: './',
-        dest: '/beta',
-        //dest: '/htdocs/mystz.com',
+        //dest: '/beta',
+        dest: '/htdocs/mystz.com',
         exclusions: [
           '**/.DS_Store',
           './.git/**/*',

@@ -1257,7 +1257,7 @@ $inventory  = array(
         "patch" => "happy shredding patch"
       )
     ),
-    "soldout" => "true",
+    "soldout" => true,
     "message" => "Sold Out!"
   ),
 
@@ -1525,7 +1525,8 @@ $inventory  = array(
         "patch" => "send it patch"
       )
     ),
-    "featured" => true
+    "featured" => false,
+    "soldout" => true
   ),
 
   array(
@@ -1802,7 +1803,8 @@ $inventory  = array(
     ),
     "options" => array(
     ),
-    "featured" => true
+    "featured" => false,
+    "soldout" => true
   ),
 
   array(

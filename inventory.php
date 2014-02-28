@@ -1635,7 +1635,8 @@ $inventory  = array(
     ),
     "options" => array(
       
-    )
+    ),
+    "soldout" => true
   ),
 
   array(
@@ -1669,7 +1670,8 @@ $inventory  = array(
     ),
     "options" => array(
       
-    )
+    ),
+    "soldout" => true
   ),
 
   /********* Accessories *********/

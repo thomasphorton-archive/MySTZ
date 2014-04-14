@@ -95,7 +95,7 @@ $(function() {
 		//console.log(color);
 		var colorStart = ($('#swatchContainer').find("[data-color-normalized='" + color + "']").index());
 <? } else { ?>
-		var colorStart = 0;
+		var colorStart = 3;
 <? } ?>
 
 	customDetail = $('#customDetail');

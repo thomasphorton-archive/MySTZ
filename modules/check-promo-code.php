@@ -69,30 +69,6 @@
 	})();
 
 <?
-
-	} else if ($promo_code == 'SPRING') {
-
-?>
-
-	(function() {
-		simpleCart.each(function (item, x){
-			item.price(item.price()*0.75);
-			item.set('promocode', user.promoCode)
-		});
-		simpleCart.update();
-		showResult( user.promoCode + ': <br> 25% discount');
-
-		price = $('.item_price')
-
-		discountPrice = price.text().replace('$', '') * 0.75;
-		price.addClass('strikethrough');
-
-		$('.discounted_price').text('$' + discountPrice);
-		$('.discount').show();
-
-	})();
-
-<?
 	} else if ($promo_code == 'STZCREW30') {
 ?>
 

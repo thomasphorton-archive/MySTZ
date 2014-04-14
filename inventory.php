@@ -376,26 +376,26 @@ $inventory  = array(
     )
   ),
 
-  array(
-    "id" => "16",
-    "line" => "graphic-tees",
-    "title" => "OG Whaler",
-    "basePrice" => "18",
-    "description" => "This is the first graphic ever printed by the STZ crew as a school project. Concept by good friend, Jon Green, way back in the day.",
-    "small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
-    "images" => array(
-      "main" => array(
-        "ogwhaler.jpg"
-      ),
-      "thumb" => "ogwhaler.jpg",
-    ),
-    "options" => array(
-      array(
-        "shirt" => "Maritime",
-        "graphic" => "White"
-      )
-    )
-  ),
+  // array(
+  //   "id" => "16",
+  //   "line" => "graphic-tees",
+  //   "title" => "OG Whaler",
+  //   "basePrice" => "18",
+  //   "description" => "This is the first graphic ever printed by the STZ crew as a school project. Concept by good friend, Jon Green, way back in the day.",
+  //   "small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
+  //   "images" => array(
+  //     "main" => array(
+  //       "ogwhaler.jpg"
+  //     ),
+  //     "thumb" => "ogwhaler.jpg",
+  //   ),
+  //   "options" => array(
+  //     array(
+  //       "shirt" => "Maritime",
+  //       "graphic" => "White"
+  //     )
+  //   )
+  // ),
 
   array(
     "id" => "17",
@@ -1286,55 +1286,55 @@ $inventory  = array(
     )
   ),
 
-  array(
-    "id" => "403",
-    "line" => "hats",
-    "title" => "Charcoal Stone Wash",
-    "basePrice" => "25",
-    "description" => "True snapback fit, made in the USA.<br><br>Check out our <a href='/images/catalog/patch-options.jpg' target='_blank'>patch options</a>.",
-    "images" => array(
-      "main" => array(
-        "swcharcoal.happyshredding.jpg"
-      ),
-      "thumb" => "swcharcoal.happyshredding.jpg",
-    ),
-    "options" => array(
-      array(
-        "patch" => "happy shredding patch"
-      ),
-      array(
-        "patch" => "stzlife patch"
-      ),
-      array(
-        "patch" => "send it patch"
-      )
-    )
-  ),
+  // array(
+  //   "id" => "403",
+  //   "line" => "hats",
+  //   "title" => "Charcoal Stone Wash",
+  //   "basePrice" => "25",
+  //   "description" => "True snapback fit, made in the USA.<br><br>Check out our <a href='/images/catalog/patch-options.jpg' target='_blank'>patch options</a>.",
+  //   "images" => array(
+  //     "main" => array(
+  //       "swcharcoal.happyshredding.jpg"
+  //     ),
+  //     "thumb" => "swcharcoal.happyshredding.jpg",
+  //   ),
+  //   "options" => array(
+  //     array(
+  //       "patch" => "happy shredding patch"
+  //     ),
+  //     array(
+  //       "patch" => "stzlife patch"
+  //     ),
+  //     array(
+  //       "patch" => "send it patch"
+  //     )
+  //   )
+  // ),
 
-  array(
-    "id" => "404",
-    "line" => "hats",
-    "title" => "Green/Blue Stone Wash",
-    "basePrice" => "25",
-    "description" => "True snapback fit, made in the USA.<br><br>Check out our <a href='/images/catalog/patch-options.jpg' target='_blank'>patch options</a>.",
-    "images" => array(
-      "main" => array(
-        "swgreenblue.stzlife.jpg"
-      ),
-      "thumb" => "swgreenblue.stzlife.jpg",
-    ),
-    "options" => array(
-      array(
-        "patch" => "stzlife patch"
-      ),
-      array(
-        "patch" => "send it patch"
-      ),
-      array(
-        "patch" => "happy shredding patch"
-      )
-    )
-  ),
+  // array(
+  //   "id" => "404",
+  //   "line" => "hats",
+  //   "title" => "Green/Blue Stone Wash",
+  //   "basePrice" => "25",
+  //   "description" => "True snapback fit, made in the USA.<br><br>Check out our <a href='/images/catalog/patch-options.jpg' target='_blank'>patch options</a>.",
+  //   "images" => array(
+  //     "main" => array(
+  //       "swgreenblue.stzlife.jpg"
+  //     ),
+  //     "thumb" => "swgreenblue.stzlife.jpg",
+  //   ),
+  //   "options" => array(
+  //     array(
+  //       "patch" => "stzlife patch"
+  //     ),
+  //     array(
+  //       "patch" => "send it patch"
+  //     ),
+  //     array(
+  //       "patch" => "happy shredding patch"
+  //     )
+  //   )
+  // ),
 
   array(
     "id" => "405",
@@ -1726,21 +1726,21 @@ $inventory  = array(
     )
   ),
 
-  array(
-    "id" => "551",
-    "line" => "accessories",
-    "title" => "Gaiter in Black Aztec",
-    "basePrice" => "14",
-    "description" => "Keep your face warm with a super soft fleece neck gaiter.",
-    "images" => array(
-      "main" => array(
-        "neckwarmer.aztec.jpg"
-      ),
-      "thumb" => "neckwarmer.aztec.jpg",
-    ),
-    "options" => array(
-    )
-  ),
+  // array(
+  //   "id" => "551",
+  //   "line" => "accessories",
+  //   "title" => "Gaiter in Black Aztec",
+  //   "basePrice" => "14",
+  //   "description" => "Keep your face warm with a super soft fleece neck gaiter.",
+  //   "images" => array(
+  //     "main" => array(
+  //       "neckwarmer.aztec.jpg"
+  //     ),
+  //     "thumb" => "neckwarmer.aztec.jpg",
+  //   ),
+  //   "options" => array(
+  //   )
+  // ),
 
   array(
     "id" => "552",
@@ -1809,22 +1809,22 @@ $inventory  = array(
     "soldout" => true
   ),
 
-  array(
-    "id" => "556",
-    "line" => "accessories",
-    "title" => "Hawaii Five-Oh",
-    "basePrice" => "14",
-    "description" => "Keep your face warm with a super soft fleece neck gaiter.",
-    "images" => array(
-      "main" => array(
-        "neckgaiter.hawaiian.png"
-      ),
-      "thumb" => "neckgaiter.hawaiian.png",
-    ),
-    "options" => array(
-    ),
-    "featured" => true
-  ),
+  // array(
+  //   "id" => "556",
+  //   "line" => "accessories",
+  //   "title" => "Hawaii Five-Oh",
+  //   "basePrice" => "14",
+  //   "description" => "Keep your face warm with a super soft fleece neck gaiter.",
+  //   "images" => array(
+  //     "main" => array(
+  //       "neckgaiter.hawaiian.png"
+  //     ),
+  //     "thumb" => "neckgaiter.hawaiian.png",
+  //   ),
+  //   "options" => array(
+  //   ),
+  //   "featured" => true
+  // ),
 
   /********* Scarves (still under 'accessories' line) *********/
 

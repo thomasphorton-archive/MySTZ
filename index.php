@@ -33,24 +33,28 @@
 			  <div class="flexslider">
           <ul class="slides">
             <li>
-              <a href="/builder.php#ash/ash/ash/ash/ash/black/black/black/black/">
-                <img src="/images/banners/hoodie.jpg" class="index-banner-image" alt="Custom Hoodies for Snowboarding">
+              <a href="/products.line.php?line=new">
+                <img src="/images/banners/banner_newproduct.jpg" class="index-banner-image" alt="Custom Hoodies for Snowboarding">
               </a>
             </li>
             <li>
-              <img src="/images/banners/sanchezkris.jpg" class="index-banner-image" alt="Snowboarding at App Ski Mountain">
+							<a href="/products.line.php?line=graphic-tees">
+              	<img src="/images/banners/banner_tees.jpg" class="index-banner-image" alt="Snowboarding at App Ski Mountain">
+							</a>
             </li>
             <li>
-              <a href="/products.line.php?line=hats">
-                <img src="/images/banners/hats.jpg" class="index-banner-image" alt="Snapback Hats and Beanies">
+              <a href="/products.line.php?line=tanks">
+                <img src="/images/banners/banner_tanks.jpg" class="index-banner-image" alt="Snapback Hats and Beanies">
               </a>
             </li>
             <li>
-              <img src="/images/banners/jeff.jpg" class="index-banner-image" alt="Jeff Mathis Wakeboarding">
+							<a href="/products.line.php?line=hats">
+              	<img src="/images/banners/banner_hats.jpg" class="index-banner-image" alt="Jeff Mathis Wakeboarding">
+							</a>
             </li>
             <li>
-              <a href="/products.line.php?line=outer#zip-up">
-                <img src="images/banners/zipup.jpg" class="index-banner-image" alt="Zip-up Hoodies Custom Made">
+              <a href="/products.line.php?line=outer">
+                <img src="images/banners/banner_fleece.jpg" class="index-banner-image" alt="Zip-up Hoodies Custom Made">
               </a>
             </li>
           </ul>

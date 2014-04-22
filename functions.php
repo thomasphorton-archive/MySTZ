@@ -3,10 +3,21 @@
 function display_items($title, $cat, $inv) {
 
   $numProducts = count($inv);
-  for($i=0; $i<$numProducts; $i++) {
-    if ($inv[$i]['line'] != $cat){
-      unset($inv[$i]);
+
+  if ($cat !== "all") {
+
+    for($i=0; $i<$numProducts; $i++) {
+      if ($cat !== "new") {
+        if ($inv[$i]['line'] != $cat){
+          unset($inv[$i]);
+        }
+      } else {
+        if (!$inv[$i]['featured']) {
+          unset($inv[$i]);
+        }
+      }
     }
+
   }
 
 ?>
@@ -29,20 +40,20 @@ foreach ($inv as $product) {
 
   }
 
-} 
+}
 
 ?>
 
 <div class="row">
   <h2 class="span12 category-title" id="<?=$cat?>"><?=$title?></h2>
 
-<? 
+<?
 
   $numProducts = count($featured);
   if ($numProducts != 0) {
     $i = 0;
 
-  foreach ($featured as $product) { 
+  foreach ($featured as $product) {
 
 ?>
 
@@ -67,13 +78,13 @@ foreach ($inv as $product) {
 
 <? } ?>
 
-<? 
+<?
 
   $numProducts = count($regular);
   if ($numProducts != 0) {
     $i = 0;
 
-  foreach ($regular as $product) { 
+  foreach ($regular as $product) {
 
 ?>
 
@@ -97,13 +108,13 @@ foreach ($inv as $product) {
 
 <? } ?>
 
-<? 
+<?
 
   $numProducts = count($soldout);
   if ($numProducts != 0) {
     $i = 0;
 
-  foreach ($soldout as $product) { 
+  foreach ($soldout as $product) {
 
 ?>
 
@@ -116,7 +127,7 @@ foreach ($inv as $product) {
   <div class="product-soldout">
     <div class="product-soldout-box">Sold Out</div>
   </div>
-  
+
   <img src="/images/placeholder.products.png" data-original="/images/catalog/<?= $product["line"] ?>/thumbs/<?= $product["images"]["thumb"]; ?>" alt="<?= $product["title"]; ?>" title="<?= $product["title"]; ?>" class="productImage lazy">
   <h3 class="product-name"><?= $product["title"]; ?></h3>
 </a>
@@ -131,7 +142,3 @@ foreach ($inv as $product) {
 </div>
 
 <? } ?>
-
-
-
-

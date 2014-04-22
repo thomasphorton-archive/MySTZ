@@ -25,7 +25,7 @@ $inventory  = array(
         "graphic" => "Black"
       )
     ),
-    "featured" => false
+    "featured" => true
   ),
 
   array(
@@ -40,13 +40,14 @@ $inventory  = array(
         "spring14/tee_alwaysboard.png"
       ),
       "thumb" => "spring14/tee_alwaysboard.png",
-    )
+    ),
+    "featured" => true
   ),
 
   array(
     "id" => "25",
     "line" => "graphic-tees",
-    "title" => "Fish Out of Water",
+    "title" => "Fish Outta Water",
     "basePrice" => "18",
     "description" => "Hand drawn by team rider, Ben Pierce. Inspired by our homie, Fish.",
     "small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
@@ -55,7 +56,8 @@ $inventory  = array(
         "spring14/tee_fishoutofwater.png"
       ),
       "thumb" => "spring14/tee_fishoutofwater.png",
-    )
+    ),
+    "featured" => true
   ),
 
 array(
@@ -70,7 +72,8 @@ array(
       "spring14/tee_insertawesome.png"
     ),
     "thumb" => "spring14/tee_insertawesome.png",
-  )
+  ),
+  "featured" => true
 ),
 
 array(
@@ -85,7 +88,8 @@ array(
       "spring14/tee_longgone.png"
     ),
     "thumb" => "spring14/tee_longgone-natural.png",
-  )
+  ),
+  "featured" => true
 ),
 
 array(
@@ -110,7 +114,8 @@ array(
       "shirt" => "Heather Grey",
       "graphic" => "Black"
     )
-  )
+  ),
+  "featured" => true
 ),
 
 array(
@@ -125,7 +130,8 @@ array(
       "spring14/tee_pocketsaredead.png"
     ),
     "thumb" => "spring14/tee_pocketsaredead.png",
-  )
+  ),
+  "featured" => true
 ),
 
 array(
@@ -140,7 +146,8 @@ array(
       "spring14/tee_professionaloutsider-center.png"
     ),
     "thumb" => "spring14/tee_professionaloutsider-center.png",
-  )
+  ),
+  "featured" => true
 ),
 
 array(
@@ -155,7 +162,8 @@ array(
       "spring14/tee_professionaloutsider-chest.png"
     ),
     "thumb" => "spring14/tee_professionaloutsider-chest.png",
-  )
+  ),
+  "featured" => true
 ),
 
 array(
@@ -170,7 +178,8 @@ array(
       "spring14/tee_rightcoast.png"
     ),
     "thumb" => "spring14/tee_rightcoast.png",
-  )
+  ),
+  "featured" => true
 ),
 
 array(
@@ -195,7 +204,8 @@ array(
       "shirt" => "White",
       "graphic" => "Maroon"
     )
-  )
+  ),
+  "featured" => true
 ),
 
 array(
@@ -210,7 +220,8 @@ array(
       "spring14/tee_supportlocal-hthrblue.png"
     ),
     "thumb" => "spring14/tee_supportlocal-hthrblue.png",
-  )
+  ),
+  "featured" => true
 ),
 
 array(
@@ -225,7 +236,8 @@ array(
       "spring14/tee_tastefulfun.png"
     ),
     "thumb" => "spring14/tee_tastefulfun.png",
-  )
+  ),
+  "featured" => true
 ),
 
 array(
@@ -240,7 +252,8 @@ array(
       "spring14/tee_walrus.png"
     ),
     "thumb" => "spring14/tee_walrus.png",
-  )
+  ),
+  "featured" => true
 ),
 
 

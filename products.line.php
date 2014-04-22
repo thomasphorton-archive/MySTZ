@@ -155,25 +155,17 @@
 
 			break;
 
+		case "new":
+
+			display_items("new", "new", $inventory);
+
+			break;
+
 		default:
 
 			echo "<h1>$line_name</h1>";
 
-			display_items("graphic tees", "graphic-tees", $inventory);
-
-			display_items("pocket tees", "pocket-tees", $inventory);
-
-			display_items("baseball tees", "baseball", $inventory);
-
-			display_items("crew neck sweaters", "sweater", $inventory);
-
-			display_items("zip-up hoodies", "hoodie", $inventory);
-
-			display_items("hats", "hats", $inventory);
-
-			display_items("tanks", "tanks", $inventory);
-
-			display_items("ladies", "wmns", $inventory);
+			display_items("all", "all", $inventory);
 
 	}
 

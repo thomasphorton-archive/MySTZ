@@ -21,7 +21,7 @@ $(function(){
 (function($) {
   $.fn.goTo = function() {
     $('html, body').animate({
-        scrollTop: $(this).offset().top - 90 + 'px'
+        scrollTop: $(this).offset().top  + 'px'
     }, 'slow');
     return this; // for chaining...
   }

@@ -50,7 +50,7 @@ module.exports = function(grunt) {
         options: {
           spawn: false,
         },
-      } 
+      }
     },
 
     "ftp-deploy": {
@@ -61,12 +61,12 @@ module.exports = function(grunt) {
           authKey: 'key1'
         },
         src: './',
-        //dest: '/beta',
-        dest: '/htdocs/mystz.com',
+        dest: '/beta',
+        //dest: '/htdocs/mystz.com',
         exclusions: [
           '**/.DS_Store',
           './.git/**/*',
-          './images/**/*',
+          //'./images/**/*',
           './js/src/**/*',
           './node_modules/**/*',
           '.gitignore',
@@ -93,6 +93,8 @@ module.exports = function(grunt) {
 
   // 4. Where we tell Grunt what to do when we type "grunt" into the terminal.
   grunt.registerTask('default', ['watch']);
+
+  grunt.registerTask('images', ['imagemin']);
 
   grunt.registerTask('beta', ['ftp-deploy']);
 

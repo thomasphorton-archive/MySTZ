@@ -1,4 +1,4 @@
-<? 
+<?
   $hostname = $_SERVER['HTTP_HOST'];
   if ($hostname === 'localhost' || $hostname === 'beta.mystz.com') {
     $dev = true;
@@ -34,12 +34,8 @@
 </script>
 
 <script>
-  
+
 $('body').on('resource.requested', function(requestData, resource) {
-
-  console.log(requestData);
-
-  console.log(resource);
 
 });
 

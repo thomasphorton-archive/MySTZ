@@ -75,7 +75,7 @@
 
 		<div class="row">
 			<div class="span6">
-				<iframe src="http://player.vimeo.com/video/80473798?autoplay=0" width="100%" frameborder="0" style="min-height: 333px;" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+				<iframe src="http://player.vimeo.com/video/71291356?autoplay=0" width="100%" frameborder="0" style="min-height: 333px;" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 			</div>
 
 			<div class="span6">

@@ -3,6 +3,248 @@
 $inventory  = array(
 
   array(
+    "id" => "23",
+    "line" => "graphic-tees",
+    "title" => "Thank ___",
+    "basePrice" => "18",
+    "description" => "Thank whoever you want, but skateboarding is awesome. Designed by team rider, Garrett Ginner.",
+    "small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
+    "images" => array(
+      "main" => array(
+        "spring14/thankblank_main.png"
+      ),
+      "thumb" => "spring14/thankblank_thumb.png",
+    ),
+    "options" => array(
+      array(
+        "shirt" => "White",
+        "graphic" => "Black"
+      ),
+      array(
+        "shirt" => "Heather Blue",
+        "graphic" => "Black"
+      )
+    ),
+    "featured" => false
+  ),
+
+  array(
+    "id" => "24",
+    "line" => "graphic-tees",
+    "title" => "Always Board",
+    "basePrice" => "18",
+    "description" => "If you always board, you're never bored. Inspired by all of the good times with the crew.",
+    "small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
+    "images" => array(
+      "main" => array(
+        "spring14/tee_alwaysboard.png"
+      ),
+      "thumb" => "spring14/tee_alwaysboard.png",
+    )
+  ),
+
+  array(
+    "id" => "25",
+    "line" => "graphic-tees",
+    "title" => "Fish Out of Water",
+    "basePrice" => "18",
+    "description" => "Hand drawn by team rider, Ben Pierce. Inspired by our homie, Fish.",
+    "small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
+    "images" => array(
+      "main" => array(
+        "spring14/tee_fishoutofwater.png"
+      ),
+      "thumb" => "spring14/tee_fishoutofwater.png",
+    )
+  ),
+
+array(
+  "id" => "26",
+  "line" => "graphic-tees",
+  "title" => "Insert Awesome",
+  "basePrice" => "18",
+  "description" => "Just try it, turn things around.",
+  "small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
+  "images" => array(
+    "main" => array(
+      "spring14/tee_insertawesome.png"
+    ),
+    "thumb" => "spring14/tee_insertawesome.png",
+  )
+),
+
+array(
+  "id" => "27",
+  "line" => "graphic-tees",
+  "title" => "Long Gone",
+  "basePrice" => "18",
+  "description" => "Maybe you’re sending it, maybe you’re over it. Whatever you’re doing, make it an adventure",
+  "small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
+  "images" => array(
+    "main" => array(
+      "spring14/tee_longgone.png"
+    ),
+    "thumb" => "spring14/tee_longgone-natural.png",
+  )
+),
+
+array(
+  "id" => "28",
+  "line" => "graphic-tees",
+  "title" => "Over and Out",
+  "basePrice" => "18",
+  "description" => "Roger that.",
+  "small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
+  "images" => array(
+    "main" => array(
+      "spring14/tee_overandout-fatigue.png"
+    ),
+    "thumb" => "spring14/tee_overandout-fatigue.png",
+  ),
+  "options" => array(
+    array(
+      "shirt" => "Fatigue",
+      "graphic" => "Black"
+    ),
+    array(
+      "shirt" => "Heather Grey",
+      "graphic" => "Black"
+    )
+  )
+),
+
+array(
+  "id" => "29",
+  "line" => "graphic-tees",
+  "title" => "Pockets are Dead",
+  "basePrice" => "18",
+  "description" => "Who else is tired of <i>everyone</i> offering a contrast pocket tee? We started making them in '08. Not claiming first to do it, but they sure are good as dead now.",
+  "small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
+  "images" => array(
+    "main" => array(
+      "spring14/tee_pocketsaredead.png"
+    ),
+    "thumb" => "spring14/tee_pocketsaredead.png",
+  )
+),
+
+array(
+  "id" => "30",
+  "line" => "graphic-tees",
+  "title" => "Professional Outsider",
+  "basePrice" => "18",
+  "description" => "Do what you do.",
+  "small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
+  "images" => array(
+    "main" => array(
+      "spring14/tee_professionaloutsider-center.png"
+    ),
+    "thumb" => "spring14/tee_professionaloutsider-center.png",
+  )
+),
+
+array(
+  "id" => "37",
+  "line" => "graphic-tees",
+  "title" => "Professional Outsider (Chest/Back)",
+  "basePrice" => "18",
+  "description" => "Do what you do. Shirt has design printed on the chest and large on the back.",
+  "small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
+  "images" => array(
+    "main" => array(
+      "spring14/tee_professionaloutsider-chest.png"
+    ),
+    "thumb" => "spring14/tee_professionaloutsider-chest.png",
+  )
+),
+
+array(
+  "id" => "31",
+  "line" => "graphic-tees",
+  "title" => "Right Coast",
+  "basePrice" => "18",
+  "description" => "Rep where you're from",
+  "small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
+  "images" => array(
+    "main" => array(
+      "spring14/tee_rightcoast.png"
+    ),
+    "thumb" => "spring14/tee_rightcoast.png",
+  )
+),
+
+array(
+  "id" => "33",
+  "line" => "graphic-tees",
+  "title" => "RIP",
+  "basePrice" => "18",
+  "description" => "Who else is tired of <i>everyone</i> offering a contrast pocket tee? We started making them in '08. Not claiming first to do it, but they sure are good as dead now.",
+  "small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
+  "images" => array(
+    "main" => array(
+      "spring14/tee_rip-fatigue_black.png"
+    ),
+    "thumb" => "spring14/tee_rip-fatigue_black.png",
+  ),
+  "options" => array(
+    array(
+      "shirt" => "Fatigue",
+      "graphic" => "Black"
+    ),
+    array(
+      "shirt" => "White",
+      "graphic" => "Maroon"
+    )
+  )
+),
+
+array(
+  "id" => "34",
+  "line" => "graphic-tees",
+  "title" => "Support Local",
+  "basePrice" => "18",
+  "description" => "Always support your local shops and they will support you!",
+  "small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
+  "images" => array(
+    "main" => array(
+      "spring14/tee_supportlocal-hthrblue.png"
+    ),
+    "thumb" => "spring14/tee_supportlocal-hthrblue.png",
+  )
+),
+
+array(
+  "id" => "35",
+  "line" => "graphic-tees",
+  "title" => "Tasteful Fun",
+  "basePrice" => "18",
+  "description" => "Have fun and keep it tasteful. Hand drawn by team rider, Ben Pierce.",
+  "small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
+  "images" => array(
+    "main" => array(
+      "spring14/tee_tastefulfun.png"
+    ),
+    "thumb" => "spring14/tee_tastefulfun.png",
+  )
+),
+
+array(
+  "id" => "36",
+  "line" => "graphic-tees",
+  "title" => "Walrus",
+  "basePrice" => "18",
+  "description" => "Hand drawn by team rider, Ben Pierce. No caption needed.",
+  "small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
+  "images" => array(
+    "main" => array(
+      "spring14/tee_walrus.png"
+    ),
+    "thumb" => "spring14/tee_walrus.png",
+  )
+),
+
+
+  array(
     "id" => "1",
     "line" => "graphic-tees",
     "title" => "Vintage STZlife",
@@ -223,35 +465,6 @@ $inventory  = array(
   ),
 
   array(
-    "id" => "10",
-    "line" => "graphic-tees",
-    "title" => "Right Coast",
-    "basePrice" => "18",
-    "description" => "Rep where you're from. Coast Life.",
-    "small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
-    "images" => array(
-      "main" => array(
-        "rightcoast.jpg"
-      ),
-      "thumb" => "rightcoast.jpg",
-    ),
-    "options" => array(
-      array(
-        "shirt" => "Heather Red",
-        "graphic" => "Black"
-      ),
-      array(
-        "shirt" => "Heather Blue",
-        "graphic" => "Black"
-      ),
-      array(
-        "shirt" => "White",
-        "graphic" => "Black"
-      )
-    )
-  ),
-
-  array(
     "id" => "11",
     "line" => "graphic-tees",
     "title" => "El Caputo",
@@ -375,27 +588,6 @@ $inventory  = array(
       )
     )
   ),
-
-  // array(
-  //   "id" => "16",
-  //   "line" => "graphic-tees",
-  //   "title" => "OG Whaler",
-  //   "basePrice" => "18",
-  //   "description" => "This is the first graphic ever printed by the STZ crew as a school project. Concept by good friend, Jon Green, way back in the day.",
-  //   "small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
-  //   "images" => array(
-  //     "main" => array(
-  //       "ogwhaler.jpg"
-  //     ),
-  //     "thumb" => "ogwhaler.jpg",
-  //   ),
-  //   "options" => array(
-  //     array(
-  //       "shirt" => "Maritime",
-  //       "graphic" => "White"
-  //     )
-  //   )
-  // ),
 
   array(
     "id" => "17",
@@ -554,31 +746,6 @@ $inventory  = array(
       )
     )
   ),
-  array(
-    "id" => "23",
-    "line" => "graphic-tees",
-    "title" => "Thank ___",
-    "basePrice" => "18",
-    "description" => "Thank ___ for skateboarding. Designed by team rider Garrett Ginner, a portion of every shirt goes to help him buy new camera gear. Check out his <a href='http://youtube.com/garrettdavidginner' target='_blank'>YouTube Channel</a>.",
-    "small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
-    "images" => array(
-      "main" => array(
-        "thankblank.jpg"
-      ),
-      "thumb" => "thankblank.jpg",
-    ),
-    "options" => array(
-      array(
-        "shirt" => "White",
-        "graphic" => "Black"
-      ),
-      array(
-        "shirt" => "Heather Blue",
-        "graphic" => "Black"
-      )
-    ),
-    "featured" => true
-  ),
 
 /*********** Pocket Inventory **********/
 
@@ -603,31 +770,6 @@ $inventory  = array(
       ),
       array(
         "shirt" => "Black"
-      )
-    )
-  ),
-
-  array(
-    "id" => "102",
-    "line" => "pocket-tees",
-    "title" => "Color Aztec",
-    "basePrice" => "25",
-    "description" => "We have been doing custom pockets since way back in '08. We like these styles but check out the builder and show us your style! All pockets fully customizable- any shirt, any pocket!",
-    "images" => array(
-      "main" => array(
-        "coloraztec.black.jpg"
-      ),
-      "thumb" => "coloraztec.black.jpg",
-    ),
-    "options" => array(
-      array(
-        "shirt" => "Black"
-      ),
-      array(
-        "shirt" => "White"
-      ),
-      array(
-        "shirt" => "Latte"
       )
     )
   ),
@@ -685,28 +827,6 @@ $inventory  = array(
   ),
 
   array(
-    "id" => "105",
-    "line" => "pocket-tees",
-    "title" => "Majestically Rad",
-    "basePrice" => "25",
-    "description" => "We have been doing custom pockets since way back in '08. We like these styles but check out the builder and show us your style! All pockets fully customizable- any shirt, any pocket!",
-    "images" => array(
-      "main" => array(
-        "majesticallyrad.black.jpg"
-      ),
-      "thumb" => "majesticallyrad.black.jpg",
-    ),
-    "options" => array(
-      array(
-        "shirt" => "Black"
-      ),
-      array(
-        "shirt" => "Heather Navy"
-      )
-    )
-  ),
-
-  array(
     "id" => "106",
     "line" => "pocket-tees",
     "title" => "Polar Bear Club",
@@ -738,11 +858,14 @@ $inventory  = array(
     "description" => "",
     "images" => array(
       "main" => array(
-        "whiteblack.jpg"
+        "spring14/tee_professionaloutsider-baseball_whiteblack.png"
       ),
-      "thumb" => "whiteblack.jpg",
+      "thumb" => "spring14/tee_professionaloutsider-baseball_whiteblack.png",
     ),
     "options" => array(
+      array(
+        "graphic" => "Professional Outsider"
+      ),
       array(
         "graphic" => "STZlife"
       ),
@@ -760,6 +883,18 @@ $inventory  = array(
       ),
       array(
         "graphic" => "Crest"
+      ),
+      array(
+        "graphic" => "Long Gone"
+      ),
+      array(
+        "graphic" => "Always Board"
+      ),
+      array(
+        "graphic" => "Support Local"
+      ),
+      array(
+        "graphic" => "Tasteful Fun"
       )
     )
   ),
@@ -794,6 +929,21 @@ $inventory  = array(
       ),
       array(
         "graphic" => "Crest"
+      ),
+      array(
+        "graphic" => "Professional Outsider"
+      ),
+      array(
+        "graphic" => "Long Gone"
+      ),
+      array(
+        "graphic" => "Always Board"
+      ),
+      array(
+        "graphic" => "Support Local"
+      ),
+      array(
+        "graphic" => "Tasteful Fun"
       )
     )
   ),
@@ -828,6 +978,21 @@ $inventory  = array(
       ),
       array(
         "graphic" => "Crest"
+      ),
+      array(
+        "graphic" => "Professional Outsider"
+      ),
+      array(
+        "graphic" => "Long Gone"
+      ),
+      array(
+        "graphic" => "Always Board"
+      ),
+      array(
+        "graphic" => "Support Local"
+      ),
+      array(
+        "graphic" => "Tasteful Fun"
       )
     )
   ),
@@ -862,6 +1027,21 @@ $inventory  = array(
       ),
       array(
         "graphic" => "Crest"
+      ),
+      array(
+        "graphic" => "Professional Outsider"
+      ),
+      array(
+        "graphic" => "Long Gone"
+      ),
+      array(
+        "graphic" => "Always Board"
+      ),
+      array(
+        "graphic" => "Support Local"
+      ),
+      array(
+        "graphic" => "Tasteful Fun"
       )
     )
   ),
@@ -896,6 +1076,21 @@ $inventory  = array(
       ),
       array(
         "graphic" => "Crest"
+      ),
+      array(
+        "graphic" => "Professional Outsider"
+      ),
+      array(
+        "graphic" => "Long Gone"
+      ),
+      array(
+        "graphic" => "Always Board"
+      ),
+      array(
+        "graphic" => "Support Local"
+      ),
+      array(
+        "graphic" => "Tasteful Fun"
       )
     )
   ),
@@ -930,6 +1125,21 @@ $inventory  = array(
       ),
       array(
         "graphic" => "Crest"
+      ),
+      array(
+        "graphic" => "Professional Outsider"
+      ),
+      array(
+        "graphic" => "Long Gone"
+      ),
+      array(
+        "graphic" => "Always Board"
+      ),
+      array(
+        "graphic" => "Support Local"
+      ),
+      array(
+        "graphic" => "Tasteful Fun"
       )
     )
   ),
@@ -964,6 +1174,21 @@ $inventory  = array(
       ),
       array(
         "graphic" => "Crest"
+      ),
+      array(
+        "graphic" => "Professional Outsider"
+      ),
+      array(
+        "graphic" => "Long Gone"
+      ),
+      array(
+        "graphic" => "Always Board"
+      ),
+      array(
+        "graphic" => "Support Local"
+      ),
+      array(
+        "graphic" => "Tasteful Fun"
       )
     )
   ),
@@ -998,6 +1223,21 @@ $inventory  = array(
       ),
       array(
         "graphic" => "Crest"
+      ),
+      array(
+        "graphic" => "Professional Outsider"
+      ),
+      array(
+        "graphic" => "Long Gone"
+      ),
+      array(
+        "graphic" => "Always Board"
+      ),
+      array(
+        "graphic" => "Support Local"
+      ),
+      array(
+        "graphic" => "Tasteful Fun"
       )
     )
   ),
@@ -1202,7 +1442,7 @@ $inventory  = array(
         "patch" => "send it patch"
       )
     ),
-    "featured" => true
+    "featured" => false
   ),
 
   array(
@@ -1228,7 +1468,7 @@ $inventory  = array(
         "patch" => "send it patch"
       )
     ),
-    "featured" => true
+    "featured" => false
   ),
 
 
@@ -1256,9 +1496,7 @@ $inventory  = array(
       array(
         "patch" => "happy shredding patch"
       )
-    ),
-    "soldout" => true,
-    "message" => "Sold Out!"
+    )
   ),
 
   array(
@@ -1285,56 +1523,6 @@ $inventory  = array(
       )
     )
   ),
-
-  // array(
-  //   "id" => "403",
-  //   "line" => "hats",
-  //   "title" => "Charcoal Stone Wash",
-  //   "basePrice" => "25",
-  //   "description" => "True snapback fit, made in the USA.<br><br>Check out our <a href='/images/catalog/patch-options.jpg' target='_blank'>patch options</a>.",
-  //   "images" => array(
-  //     "main" => array(
-  //       "swcharcoal.happyshredding.jpg"
-  //     ),
-  //     "thumb" => "swcharcoal.happyshredding.jpg",
-  //   ),
-  //   "options" => array(
-  //     array(
-  //       "patch" => "happy shredding patch"
-  //     ),
-  //     array(
-  //       "patch" => "stzlife patch"
-  //     ),
-  //     array(
-  //       "patch" => "send it patch"
-  //     )
-  //   )
-  // ),
-
-  // array(
-  //   "id" => "404",
-  //   "line" => "hats",
-  //   "title" => "Green/Blue Stone Wash",
-  //   "basePrice" => "25",
-  //   "description" => "True snapback fit, made in the USA.<br><br>Check out our <a href='/images/catalog/patch-options.jpg' target='_blank'>patch options</a>.",
-  //   "images" => array(
-  //     "main" => array(
-  //       "swgreenblue.stzlife.jpg"
-  //     ),
-  //     "thumb" => "swgreenblue.stzlife.jpg",
-  //   ),
-  //   "options" => array(
-  //     array(
-  //       "patch" => "stzlife patch"
-  //     ),
-  //     array(
-  //       "patch" => "send it patch"
-  //     ),
-  //     array(
-  //       "patch" => "happy shredding patch"
-  //     )
-  //   )
-  // ),
 
   array(
     "id" => "405",
@@ -1525,8 +1713,7 @@ $inventory  = array(
         "patch" => "send it patch"
       )
     ),
-    "featured" => false,
-    "soldout" => true
+    "featured" => false
   ),
 
   array(
@@ -1552,7 +1739,7 @@ $inventory  = array(
         "patch" => "send it patch"
       )
     ),
-    "featured" => true
+    "featured" => false
   ),
 
   array(
@@ -1569,13 +1756,11 @@ $inventory  = array(
     ),
     "options" => array(
       array(
-        "patch" => "Red Leather Patch"
-      ),
-      array(
         "patch" => "STZ Tag"
       )
     ),
-    "featured" => true
+    "soldout" => true,
+    "featured" => false
   ),
 
   array(
@@ -1593,13 +1778,55 @@ $inventory  = array(
     "options" => array(
       array(
         "patch" => "STZ Tag"
-      ),
-      array(
-        "patch" => "Red Leather Patch"
       )
     ),
     "soldout" => "true",
     "message" => "Sold Out!"
+  ),
+
+  array(
+    "id" => "416",
+    "line" => "hats",
+    "title" => "The Grey Camper",
+    "basePrice" => "25",
+    "description" => "Five panel design for low-profile fit, adjustable plastic clip closure in back.",
+    "images" => array(
+      "main" => array(
+        "spring14/hat_greycamper.png"
+      ),
+      "thumb" => "spring14/hat_greycamper.png",
+    ),
+    "featured" => true,
+  ),
+
+  array(
+    "id" => "417",
+    "line" => "hats",
+    "title" => "The Trippy Camper",
+    "basePrice" => "25",
+    "description" => "Five panel design for low-profile fit, adjustable plastic clip closure in back.",
+    "images" => array(
+      "main" => array(
+        "spring14/hat_trippycamper.png"
+      ),
+      "thumb" => "spring14/hat_trippycamper.png",
+    ),
+    "featured" => true,
+  ),
+
+  array(
+    "id" => "418",
+    "line" => "hats",
+    "title" => "The Thatch Camper",
+    "basePrice" => "25",
+    "description" => "Five panel design for low-profile fit, adjustable plastic clip closure in back.",
+    "images" => array(
+      "main" => array(
+        "spring14/navythatchcamper_main.png"
+      ),
+      "thumb" => "spring14/navythatchcamper_thumb.png",
+    ),
+    "featured" => true,
   ),
 
   /********* Beanies *********/
@@ -1617,7 +1844,7 @@ $inventory  = array(
       "thumb" => "beanie.pink.jpg",
     ),
     "options" => array(
-      
+
     )
   ),
 
@@ -1634,7 +1861,7 @@ $inventory  = array(
       "thumb" => "beanie.charcoal.jpg",
     ),
     "options" => array(
-      
+
     ),
     "soldout" => true
   ),
@@ -1652,7 +1879,7 @@ $inventory  = array(
       "thumb" => "beanie.grey.jpg",
     ),
     "options" => array(
-      
+
     )
   ),
 
@@ -1669,7 +1896,7 @@ $inventory  = array(
       "thumb" => "beanie.hunter.jpg",
     ),
     "options" => array(
-      
+
     ),
     "soldout" => true
   ),
@@ -1726,22 +1953,6 @@ $inventory  = array(
     )
   ),
 
-  // array(
-  //   "id" => "551",
-  //   "line" => "accessories",
-  //   "title" => "Gaiter in Black Aztec",
-  //   "basePrice" => "14",
-  //   "description" => "Keep your face warm with a super soft fleece neck gaiter.",
-  //   "images" => array(
-  //     "main" => array(
-  //       "neckwarmer.aztec.jpg"
-  //     ),
-  //     "thumb" => "neckwarmer.aztec.jpg",
-  //   ),
-  //   "options" => array(
-  //   )
-  // ),
-
   array(
     "id" => "552",
     "line" => "accessories",
@@ -1755,7 +1966,8 @@ $inventory  = array(
       "thumb" => "neckwarmer.grey.jpg",
     ),
     "options" => array(
-    )
+    ),
+    "soldout" => true
   ),
 
   array(
@@ -1771,7 +1983,8 @@ $inventory  = array(
       "thumb" => "neckwarmer.orangepink.jpg",
     ),
     "options" => array(
-    )
+    ),
+    "soldout" => true
   ),
 
   array(
@@ -1788,7 +2001,7 @@ $inventory  = array(
     ),
     "options" => array(
     ),
-    "featured" => true
+    "soldout" => true
   ),
 
   array(
@@ -1809,23 +2022,6 @@ $inventory  = array(
     "soldout" => true
   ),
 
-  // array(
-  //   "id" => "556",
-  //   "line" => "accessories",
-  //   "title" => "Hawaii Five-Oh",
-  //   "basePrice" => "14",
-  //   "description" => "Keep your face warm with a super soft fleece neck gaiter.",
-  //   "images" => array(
-  //     "main" => array(
-  //       "neckgaiter.hawaiian.png"
-  //     ),
-  //     "thumb" => "neckgaiter.hawaiian.png",
-  //   ),
-  //   "options" => array(
-  //   ),
-  //   "featured" => true
-  // ),
-
   /********* Scarves (still under 'accessories' line) *********/
 
   array(
@@ -1842,7 +2038,7 @@ $inventory  = array(
     ),
     "options" => array(
     ),
-    "featured" => true
+    "featured" => false
   ),
 
   array(
@@ -1859,7 +2055,7 @@ $inventory  = array(
     ),
     "options" => array(
     ),
-    "featured" => true
+    "featured" => false
   ),
 
   array(
@@ -1876,7 +2072,7 @@ $inventory  = array(
     ),
     "options" => array(
     ),
-    "featured" => true
+    "featured" => false
   ),
 
 /********* Women's Products *********/

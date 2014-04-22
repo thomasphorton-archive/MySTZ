@@ -29,7 +29,7 @@
     <a href="/products.line.php?line=hats"><img src="images/product-categories/hats.jpg" class="span6"></a>
 	</div>
 	<div class="row row-bottom">
-		<a href="/products.line.php?line=accessories"><img src="images/product-categories/bagsaccessories.jpg" class="span6"></a>
+		<a href="/products.line.php?line=hats"><img src="images/product-categories/bagsaccessories.jpg" class="span6"></a>
 
     <a href="/shirtbuilder.select.php"><img src="images/product-categories/builder.jpg" class="span6"></a>
 	</div>

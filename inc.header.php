@@ -9,18 +9,17 @@
 							<ul class="dropdown-menu">
 								<li><a href="products.line.php?line=graphic-tees">graphic tees</a></li>
 								<li><a href="products.line.php?line=pocket-tees">pocket tees</a></li>
+								<li><a href="products.line.php?line=baseball-tees">baseball tees</a></li>
+								<li><a href="products.line.php?line=tanks">tanks</a></li>
 								<li><a href="products.line.php?line=outer">outerwear</a></li>
 								<li><a href="products.line.php?line=ladies">ladies</a></li>
-								<li><a href="products.line.php?line=hats">hats</a></li>
-								<li><a href="products.line.php?line=accessories">bags & accessories</a></li>
-								<li><a href="products.line.php?line=tanks">tanks</a></li>
+								<li><a href="products.line.php?line=hats">hats &amp; accessories</a></li>
 							</ul>
 						</li>
 						<li class="dropdown">
 							<a class="dropdown-toggle disabled" data-toggle="dropdown" href="shirtbuilder.select.php">custom builder <b class="caret"></b></a>
 							<ul class="dropdown-menu">
 								<li><a href="shirtbuilder.php?item=tee&amp;style=graphic">custom graphic</a></li>
-								<li><a href="shirtbuilder.php?item=tee&amp;style=pocket">custom pocket</a></li>
 								<li><a href="/builder.php#ash/ash/ash/ash/ash/black/black/black/black/">hoodie</a></li>
 							</ul>
 						</li>
@@ -90,5 +89,3 @@
 		<a href="javascript:;" class="simpleCart_checkout btn">checkout</a>
 	</div>
 </div>
-
-

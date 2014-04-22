@@ -29,6 +29,12 @@
 
 			break;
 
+		case "baseball-tees":
+
+			$line_name = "baseball tees";
+
+			break;
+
 		case "outer":
 
 			$line_name = "outerwear";
@@ -37,7 +43,7 @@
 
 		case "hats":
 
-			$line_name = "headwear";
+			$line_name = "hats and accessories";
 
 			break;
 
@@ -50,12 +56,6 @@
 		case "ladies":
 
 			$line_name = "ladies";
-
-			break;
-
-		case "accessories";
-
-			$line_name = "bags & accessories";
 
 			break;
 
@@ -85,13 +85,13 @@
 	<div class="container">
 	  <div class="row">
 	    <div class="span12">
-	      <span class="breadCrumb"><a href="index.php">home</a> > <a href="products.php">products</a> > <?=$line?></span>
+	      <span class="breadCrumb"><a href="index.php">home</a> > <a href="products.php">products</a> > <?=$line_name?></span>
 	    </div>
 	  </div>
 
 <?
 
-	
+
 
 	switch ($line) {
 
@@ -107,11 +107,15 @@
 
 			break;
 
+		case "baseball-tees":
+
+			display_items("baseball tees", "baseball-tees", $inventory);
+
+			break;
+
 		case "outer":
 
 			echo "<h1>$line_name</h1>";
-
-			display_items("baseball tees", "baseball-tees", $inventory);
 
 			display_items("crew neck sweaters", "crewneck", $inventory);
 
@@ -127,6 +131,10 @@
 
 			display_items("beanies", "beanies", $inventory);
 
+			display_items("accessories", "accessories", $inventory);
+
+			display_items("backpacks", "backpacks", $inventory);
+
 			break;
 
 		case "tanks":
@@ -138,14 +146,6 @@
 		case "ladies":
 
 			display_items("ladies", "wmns", $inventory);
-
-			break;
-
-		case "accessories":
-
-			display_items("accessories", "accessories", $inventory);
-
-			display_items("backpacks", "backpacks", $inventory);
 
 			break;
 
@@ -189,7 +189,7 @@
 
 	  <div class="row">
 	    <div class="span12">
-	      <span class="breadCrumb"><a href="index.php">home</a> > <a href="products.php">products</a> > <?=$line?></span>
+	      <span class="breadCrumb"><a href="index.php">home</a> > <a href="products.php">products</a> > <?=$line_name?></span>
 	    </div>
 	  </div>
 	</div><!--.container-->

@@ -3,14 +3,20 @@
 $path = "/images/shirtbuilder/graphics/";
 
 $design_options = array(
-	
 
-	// "Beast Mode" => array(
-	// 	"title" => "Beast Mode",
-	// 	"normalized" => "beastmode",
-	// 	"full_size" => $path . "graphics/beastmode.black.png",
-	// 	"thumb" => $path . "graphic-thumbs/beastmode.black.png",
-	// ),
+	"Always Board" => array(
+		"title" => "Always Board",
+		"normalized" => "alwaysboard",
+		"full_size" => $path . "graphics/spring14/alwaysboard.png",
+		"thumb" => $path . "graphic-thumbs/spring14/alwaysboard.png",
+	),
+
+	"Fish Out of Water" => array(
+		"title" => "Fish Out of Water",
+		"normalized" => "fishoutofwater",
+		"full_size" => $path . "graphics/spring14/fishoutofwater.png",
+		"thumb" => $path . "graphic-thumbs/spring14/fishoutofwater.png",
+	),
 
 	"Charlie Brown" => array(
 		"title" => "Charlie Brown",
@@ -18,7 +24,7 @@ $design_options = array(
 		"full_size" => $path . "graphics/charliebrown.black.png",
 		"thumb" => $path . "graphic-thumbs/charliebrown.black.png",
 	),
-	
+
 	"Crest" => array(
 		"title" => "Crest",
 		"normalized" => "crest",
@@ -47,13 +53,6 @@ $design_options = array(
 		"thumb" => $path . "graphic-thumbs/emergencymustache.black.png",
 	),
 
-	// "Gorilla Boombox" => array(
-	// 	"title" => "Gorilla Boombox",
-	// 	"normalized" => "gorillaboombox",
-	// 	"full_size" => $path . "graphics/gorillaboombox.black.png",
-	// 	"thumb" => $path . "graphic-thumbs/gorillaboombox.black.png",
-	// ),
-
 	"Hand Shredded" => array(
 		"title" => "Hand Shredded",
 		"normalized" => "handshredded",
@@ -68,26 +67,12 @@ $design_options = array(
 		"thumb" => $path . "graphic-thumbs/happyshredding.black.png",
 	),
 
-	// "Happy Shredding (Orange)" => array(
-	// 	"title" => "Happy Shredding (Orange)",
-	// 	"normalized" => "happyshreddingorange",
-	// 	"full_size" => $path . "graphics/happyshredding.orange.png",
-	// 	"thumb" => $path . "graphic-thumbs/happyshredding.orange.png",
-	// ),
-
 	"Helloha" => array(
 		"title" => "Helloha",
 		"normalized" => "Helloha",
 		"full_size" => $path . "graphics/helloha.black.png",
 		"thumb" => $path . "graphic-thumbs/helloha.black.png",
 	),
-
-	// "Homegrown" => array(
-	// 	"title" => "Homegrown",
-	// 	"normalized" => "homegrown",
-	// 	"full_size" => $path . "graphics/homegrown.black.png",
-	// 	"thumb" => $path . "graphic-thumbs/homegrown.black.png",
-	// ),
 
 	"KJ Gorilla" => array(
 		"title" => "KJ Gorilla",
@@ -110,13 +95,6 @@ $design_options = array(
 		"thumb" => $path . "graphic-thumbs/ogwhaler.black.png",
 	),
 
-	// "OG Whaler (White)" => array(
-	// 	"title" => "OG Whaler (White)",
-	// 	"normalized" => "ogwhalerwhite",
-	// 	"full_size" => $path . "graphics/ogwhaler.white.png",
-	// 	"thumb" => $path . "graphic-thumbs/ogwhaler.white.png",
-	// ),
-
 	"Party Animals" => array(
 		"title" => "Party Animals",
 		"normalized" => "partyanimals",
@@ -138,13 +116,6 @@ $design_options = array(
 		"thumb" => $path . "graphic-thumbs/ridenc.black.png",
 	),
 
-	// "Ride NC (Orange)" => array(
-	// 	"title" => "Ride NC (Orange)",
-	// 	"normalized" => "ridencorange",
-	// 	"full_size" => $path . "graphics/ridenc.orange.png",
-	// 	"thumb" => $path . "graphic-thumbs/ridenc.orange.png",
-	// ),
-
 	"Right Coast" => array(
 		"title" => "Right Coast",
 		"normalized" => "rightcoast",
@@ -165,14 +136,7 @@ $design_options = array(
 		"full_size" => $path . "graphics/shredtilyouredead.black.png",
 		"thumb" => $path . "graphic-thumbs/shredtilyouredead.black.png",
 	),
-/*
-	"Slush Buddie" => array(
-		"title" => "Slush Buddie",
-		"normalized" => "slushbuddie",
-		"full_size" => $path . "graphics/slushbuddie.white.png",
-		"thumb" => $path . "graphic-thumbs/slushbuddie.white.png",
-	),
-*/
+
 	"STZ Life" => array(
 		"title" => "STZ Life",
 		"normalized" => "stzlife",

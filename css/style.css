@@ -118,18 +118,18 @@ h3 {
   position: fixed;
   right: 0;
   left: 0;
-  z-index: 1030;
   top: 60px;
+  z-index: 1029;
 }
 
 .subnav .navbar-inner {
-border: none;
-background-image: none;
-background-color: white;
+  border: none;
+  background-image: none;
+  background-color: white;
 }
 .nav-catalog-section {
   list-style-type: none;
-  margin: 0;
+  margin: 5px 0 0;
   padding: 0;
   text-align: center;
 }
@@ -144,61 +144,8 @@ background-color: white;
   padding: 5px;
 }
 
-.category-title {
-  color: white;
-  text-shadow: 0 1px 1px black;
-}
 .page-wrapper {
 	width: 1060px;
-}
-
-.page-inner {
-
-}
-
-.banner-action {
-	height: 510px;
-}
-
-.height-2 {
-	height: 86px;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	border-collapse: separate;
-	display: block;
-}
-
-.height-4 {
-	height: 192px;
-	margin-top: 10px;
-	margin-bottom: 10px;
-}
-
-.height-6 {
-	height: 298px;
-	margin-top: 10px;
-	margin-bottom: 10px;
-}
-
-.height-8 {
-	height: 374px;
-	margin-top: 10px;
-	margin-bottom: 10px;
-}
-
-.height-10 {
-	height: 510px;
-	margin-top: 10px;
-	margin-bottom: 10px;
-}
-
-.gridfix {
-	padding-bottom: 0px;
-	margin-bottom: 20px;
-}
-
-.gridfix:last-child {
-	margin-bottom: 10px;
 }
 
 header {
@@ -407,8 +354,11 @@ sizingMethod='scale');
 }
 
 .category-title {
-  margin-top: -25px;
-  padding-top: 25px;
+  margin-top: -120px;
+  padding-top: 120px;
+  color: white;
+  text-shadow: 0 1px 1px black;
+  pointer-events: none;
 }
 
 /********** products **********/
@@ -751,7 +701,7 @@ input {
 	right: 0;
 	background: rgba(0,0,0,0.5);
 	height: 100%;
-	z-index: 999;
+	z-index: 1050;
 	display: none;
 }
 

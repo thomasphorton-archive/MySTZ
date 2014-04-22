@@ -1,28 +1,24 @@
 <?
 
-function display_items($title, $cat, $inv) {
+function display_items($title, $cat, $inv, $new) {
 
   $numProducts = count($inv);
 
   if ($cat !== "all") {
 
     for($i=0; $i<$numProducts; $i++) {
-      if ($cat !== "new") {
-        if ($inv[$i]['line'] != $cat){
-          unset($inv[$i]);
-        }
-      } else {
+      if ($new) {
         if (!$inv[$i]['featured']) {
           unset($inv[$i]);
         }
       }
+
+      if ($inv[$i]['line'] != $cat){
+        unset($inv[$i]);
+      }
     }
 
   }
-
-?>
-
-<?
 
 foreach ($inv as $product) {
 
@@ -41,6 +37,8 @@ foreach ($inv as $product) {
   }
 
 }
+
+  if (count($inv)) {
 
 ?>
 
@@ -140,5 +138,5 @@ foreach ($inv as $product) {
 <? } ?>
 
 </div>
-
+<? } ?>
 <? } ?>

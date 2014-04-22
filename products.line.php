@@ -4,21 +4,8 @@
 	include 'inc.header.html.php';
 
 ?>
-<script type="text/javascript">
+<script>
 $(function(){
-  $('#nav').localScroll(800);
-
-  $('.subnav').waypoint(function(direction){
-
-    var $this = $(this);
-		console.log($this);
-    if (direction === "up") {
-      $this.removeClass('subnav-fixed-top');
-    } else if(direction === "down") {
-      $this.addClass('subnav-fixed-top');
-    }
-
-  }, {offset: 60});
 
   $('.nav-catalog-section a').click(function(e){
     e.preventDefault();
@@ -34,7 +21,7 @@ $(function(){
 (function($) {
   $.fn.goTo = function() {
     $('html, body').animate({
-        scrollTop: $(this).offset().top - 120 + 'px'
+        scrollTop: $(this).offset().top - 90 + 'px'
     }, 'slow');
     return this; // for chaining...
   }
@@ -50,18 +37,27 @@ $(function(){
 	include 'inventory.php';
 	include 'functions.php';
 	include 'inc.header.php';
+
+	$numProducts = count($inventory);
+
+	if ($_GET["line"] === "new") {
+		$new = true;
+	} else {
+		$new = false;
+	}
 ?>
 
-  <div class="navbar subnav">
+  <div class="navbar subnav subnav-fixed-top">
     <div class="navbar-inner">
       <div class="container">
         <ul class="nav-catalog-section">
-          <li><a href="#graphic">Graphic Tees</a></li>
-          <li><a href="#pocket">Pocket Tees</a></li>
+          <li><a href="#graphic-tees">Graphic Tees</a></li>
+          <li><a href="#pocket-tees">Pocket Tees</a></li>
           <li><a href="#tanks">Tanks</a></li>
-          <li><a href="#baseball">Baseball Shirts</a></li>
-          <li><a href="#sweater">Sweaters</a></li>
-          <li><a href="#hoodie">Hoodies</a></li>
+          <li><a href="#baseball-tees">Baseball Tees</a></li>
+          <li><a href="#crewneck">Crewneck</a></li>
+          <li><a href="#zip-up">Hoodies</a></li>
+					<li><a href="#wmns">Ladies</a></li>
           <li><a href="#hats">Hats</a></li>
           <li><a href="#backpacks">Bags & Accessories</a></li>
         </ul>
@@ -69,53 +65,29 @@ $(function(){
     </div>
   </div>
 
-  <div id="second">
-    <div class="container">
-      <? display_items("Graphic Tees", "graphic", $inventory);  ?>
-    </div> <!--.container-->
-  </div> <!--#second-->
+  <div class="container" style="margin-top: 60px;">
+    <? display_items("Graphic Tees", "graphic-tees", $inventory, $new);  ?>
 
-  <div id="third">
-    <div class="container">
-      <? display_items("Pocket Tees", "pocket", $inventory);  ?>
-    </div>
-  </div> <!--#third-->
+    <? display_items("Pocket Tees", "pocket-tees", $inventory, $new);  ?>
 
-  <div id="fourth">
-    <div class="container">
-      <? display_items("Tanks", "tanks", $inventory);  ?>
-    </div>
-  </div> <!--#third-->
+    <? display_items("Tanks", "tanks", $inventory, $new);  ?>
 
-  <div id="fifth">
-    <div class="container">
-      <? display_items("Baseball Shirts", "baseball", $inventory);  ?>
-    </div>
-  </div> <!--#fifth-->
+    <? display_items("Baseball Tees", "baseball-tees", $inventory, $new);  ?>
 
-  <div id="sixth">
-    <div class="container">
-      <? display_items("Sweaters", "sweater", $inventory);  ?>
-    </div>
-  </div> <!--#fifth-->
+    <? display_items("Crewneck", "crewneck", $inventory, $new);  ?>
 
-  <div id="seventh">
-    <div class="container">
-      <? display_items("Hoodies", "hoodie", $inventory);  ?>
-    </div>
-  </div> <!--#fifth-->
+    <? display_items("Hoodies", "zip-up", $inventory, $new);  ?>
 
-  <div id="eigth">
-    <div class="container">
-      <? display_items("Hats", "hats", $inventory);  ?>
-    </div>
-  </div> <!--#fifth-->
+		<? display_items("Ladies", "wmns", $inventory, $new);  ?>
 
-  <div id="ninth">
-    <div class="container">
-      <? display_items("Bags & Accessories", "backpacks", $inventory);  ?>
-    </div>
-  </div> <!--#fifth-->
+    <? display_items("Hats", "hats", $inventory, $new);  ?>
+
+		<? display_items("Beanies", "beanies", $inventory, $new);  ?>
+
+    <? display_items("Bags", "backpacks", $inventory, $new);  ?>
+
+		<? display_items("Accessories", "accessories", $inventory, $new);  ?>
+  </div>
 
 	<script>
     $("img.lazy").show().lazyload({

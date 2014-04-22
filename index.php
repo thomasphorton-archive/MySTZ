@@ -38,22 +38,22 @@
               </a>
             </li>
             <li>
-							<a href="/products.line.php?line=graphic-tees">
+							<a href="/products.line.php#graphic-tees">
               	<img src="/images/banners/banner_tees.jpg" class="index-banner-image" alt="Snowboarding at App Ski Mountain">
 							</a>
             </li>
             <li>
-              <a href="/products.line.php?line=tanks">
+              <a href="/products.line.php#tanks">
                 <img src="/images/banners/banner_tanks.jpg" class="index-banner-image" alt="Snapback Hats and Beanies">
               </a>
             </li>
             <li>
-							<a href="/products.line.php?line=hats">
+							<a href="/products.line.php#hats">
               	<img src="/images/banners/banner_hats.jpg" class="index-banner-image" alt="Jeff Mathis Wakeboarding">
 							</a>
             </li>
             <li>
-              <a href="/products.line.php?line=outer">
+              <a href="/products.line.php#outer">
                 <img src="images/banners/banner_fleece.jpg" class="index-banner-image" alt="Zip-up Hoodies Custom Made">
               </a>
             </li>

@@ -7,13 +7,13 @@
 						<li class="dropdown">
 							<a class="dropdown-toggle disabled" data-toggle="dropdown" href="products.php">products <b class="caret"></b></a>
 							<ul class="dropdown-menu">
-								<li><a href="products.line.php?line=graphic-tees">graphic tees</a></li>
-								<li><a href="products.line.php?line=pocket-tees">pocket tees</a></li>
-								<li><a href="products.line.php?line=baseball-tees">baseball tees</a></li>
-								<li><a href="products.line.php?line=tanks">tanks</a></li>
-								<li><a href="products.line.php?line=outer">outerwear</a></li>
-								<li><a href="products.line.php?line=ladies">ladies</a></li>
-								<li><a href="products.line.php?line=hats">hats &amp; accessories</a></li>
+								<li><a href="products.line.php#graphic-tees">graphic tees</a></li>
+								<li><a href="products.line.php#pocket-tees">pocket tees</a></li>
+								<li><a href="products.line.php#baseball-tees">baseball tees</a></li>
+								<li><a href="products.line.php#tanks">tanks</a></li>
+								<li><a href="products.line.php#outer">outerwear</a></li>
+								<li><a href="products.line.php#ladies">ladies</a></li>
+								<li><a href="products.line.php#hats">hats &amp; accessories</a></li>
 							</ul>
 						</li>
 						<li class="dropdown">
@@ -31,19 +31,21 @@
 								<li><a href="about.contact.php">request a sticker pack</a></li>
 							</ul>
 						</li>
+						<li class="dropdown">
+							<a class="dropdown-toggle disabled" data-toggle="dropdown" href="#">view cart <span class="simpleCart_quantity"></span><b class="caret"></b></a>
+							<ul class="dropdown-menu" style="padding: 10px">
+								<p>
+									<span class="simpleCart_quantity"></span> items - <span class="simpleCart_total"></span>
+								</p>
+								<p>
+									<a href="#" class="cart-show">View Cart</a>
+								</p>
+							</ul>
+						</li>
 					</ul>
 				</div>
 		</div>
 	</div>
-</div>
-
-<div class="header-cart-wrapper">
-  <div class="container">
-    <div class="pull-right" style="margin-top: 3px;">
-      <span class="simpleCart_quantity"></span> items - <span class="simpleCart_total"></span>
-      <a href="#" class="cart-show">View Cart</a>
-    </div>
-  </div>
 </div>
 
 <div class="lightbox">

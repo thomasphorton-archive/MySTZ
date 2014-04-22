@@ -149,7 +149,7 @@
 <div class="container">
 	<div class="row">
 		<div class="span12">
-			<span class="breadCrumb"><a href="index.php">home</a> > <a href="products.php">products</a> > <a href="products.line.php?line=<?=$cat_name?>#<?=$product["line"]?>"><?=$product["line"]?></a> > <?=$product["title"]?></span>
+			<span class="breadCrumb"><a href="index.php">home</a> > <a href="products.php">products</a> > <a href="products.php#<?=$product["line"]?>"><?=$product["line"]?></a> > <?=$product["title"]?></span>
 		</div>
 	</div>
 
@@ -168,12 +168,12 @@
 
 	  </div>
 
-	  <? 
+	  <?
 
-	  include "modules/catalog/$mod"; 
+	  include "modules/catalog/$mod";
 
 	  ?>
-		
+
 	</div><!--.row-->
 
 	<div class="row">
@@ -208,7 +208,7 @@
 
 	<div class="row">
 		<div class="span12">
-			<span class="breadCrumb"><a href="index.php">home</a> > <a href="products.php">products</a> > <a href="products.line.php?line=<?=$cat_name?>"><?=$product["line"]?></a> > <?=$product["title"]?></span>
+			<span class="breadCrumb"><a href="index.php">home</a> > <a href="products.php">products</a> > <a href="products.php#<?=$cat_name?>"><?=$product["line"]?></a> > <?=$product["title"]?></span>
 		</div>
 	</div>
 </div><!--.container-->

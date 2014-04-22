@@ -1,41 +1,99 @@
 <?
-	$title = "STZ Custom Clothing | Wake Skate Surf Snow";
+	$line = $_GET['line'];
+	$title = $line . " from STZ | Custom Tees and Hoodies";
 	include 'inc.header.html.php';
-?>
 
+?>
+<script>
+$(function(){
+
+  $('.nav-catalog-section a').click(function(e){
+    e.preventDefault();
+
+    target = $(this).attr('href');
+
+    $(target).goTo();
+
+  });
+
+});
+
+(function($) {
+  $.fn.goTo = function() {
+    $('html, body').animate({
+        scrollTop: $(this).offset().top - 90 + 'px'
+    }, 'slow');
+    return this; // for chaining...
+  }
+})(jQuery);
+
+</script>
 </head>
 
-</body>
+<body>
 
 <?
+
+	include 'inventory.php';
+	include 'functions.php';
 	include 'inc.header.php';
+
+	$numProducts = count($inventory);
+
+	if ($_GET["line"] === "new") {
+		$new = true;
+	} else {
+		$new = false;
+	}
 ?>
 
-<div class="container">
-
-  <style>.row-bottom {margin-bottom:20px;}</style>
-
-  <h1>Catalog</h1>
-
-	<div class="row row-bottom">
-		<a href="/products.line.php?line=graphic-tees"><img src="/images/product-categories/graphic-tees.jpg" class="span3"></a>
-		<a href="/products.line.php?line=pocket-tees"><img src="/images/product-categories/pocket-tees.jpg" class="span3"></a>
-		<a href="/products.line.php?line=outer"><img src="/images/product-categories/fleece.jpg" class="span3"></a>
-  	<a href="/products.line.php?line=ladies"><img src="/images/product-categories/womens.jpg" class="span3"></a>
+  <div class="navbar subnav subnav-fixed-top">
+    <div class="navbar-inner">
+      <div class="container">
+        <ul class="nav-catalog-section">
+          <li><a href="#graphic-tees">Graphic Tees</a></li>
+          <li><a href="#pocket-tees">Pocket Tees</a></li>
+          <li><a href="#tanks">Tanks</a></li>
+          <li><a href="#baseball-tees">Baseball Tees</a></li>
+          <li><a href="#crewneck">Crewneck</a></li>
+          <li><a href="#zip-up">Hoodies</a></li>
+					<li><a href="#wmns">Ladies</a></li>
+          <li><a href="#hats">Hats</a></li>
+          <li><a href="#backpacks">Bags & Accessories</a></li>
+        </ul>
+      </div>
+    </div>
   </div>
-  <div class="row row-bottom">
-    <a href="/products.line.php?line=tanks"><img src="/images/product-categories/tanks.jpg" class="span6"></a>
 
-    <a href="/products.line.php?line=hats"><img src="images/product-categories/hats.jpg" class="span6"></a>
-	</div>
-	<div class="row row-bottom">
-		<a href="/products.line.php?line=hats"><img src="images/product-categories/bagsaccessories.jpg" class="span6"></a>
+  <div class="container" style="margin-top: 60px;">
+    <? display_items("Graphic Tees", "graphic-tees", $inventory, $new);  ?>
 
-    <a href="/shirtbuilder.select.php"><img src="images/product-categories/builder.jpg" class="span6"></a>
-	</div>
+    <? display_items("Pocket Tees", "pocket-tees", $inventory, $new);  ?>
 
-</div><!--.container-->
+    <? display_items("Tanks", "tanks", $inventory, $new);  ?>
 
+    <? display_items("Baseball Tees", "baseball-tees", $inventory, $new);  ?>
+
+    <? display_items("Crewneck", "crewneck", $inventory, $new);  ?>
+
+    <? display_items("Hoodies", "zip-up", $inventory, $new);  ?>
+
+		<? display_items("Ladies", "wmns", $inventory, $new);  ?>
+
+    <? display_items("Hats", "hats", $inventory, $new);  ?>
+
+		<? display_items("Beanies", "beanies", $inventory, $new);  ?>
+
+    <? display_items("Bags", "backpacks", $inventory, $new);  ?>
+
+		<? display_items("Accessories", "accessories", $inventory, $new);  ?>
+  </div>
+
+	<script>
+    $("img.lazy").show().lazyload({
+      effect: 'fadeIn'
+    });
+  </script>
 <?
 	include 'inc.footer.php';
 ?>

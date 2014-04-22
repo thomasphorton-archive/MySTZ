@@ -41,7 +41,7 @@ $(function() {
     },
 
     model: App.Models.Layer,
-    
+
     url: '/json/hoodiebuilder.json'
 
   });
@@ -77,7 +77,7 @@ $(function() {
         thisGroup.show();
 
       }
-    
+
     },
 
     initialize: function() {
@@ -99,9 +99,9 @@ $(function() {
         option.namespace = "hoodiebuilder";
 
         var className = scope.model.attributes.id + '-control',
-          control = new App.Views.Control({ 
+          control = new App.Views.Control({
             model: option,
-            className: className         
+            className: className
           });
 
         controlGroup.append(control.render().el);
@@ -119,7 +119,7 @@ $(function() {
   App.Views.Control = Backbone.View.extend({
 
     tagName: 'div',
- 
+
     template: _.template(App.Templates.Control),
 
     events: {
@@ -135,7 +135,7 @@ $(function() {
       Hoodie.set(data.piece, data.value);
 
     },
- 
+
     initialize: function() {
 
       return this;
@@ -143,7 +143,7 @@ $(function() {
       console.log('init');
 
     },
- 
+
     render: function() {
 
       var id = this.className.replace('-control', '');
@@ -169,17 +169,17 @@ $(function() {
   App.Views.Layers = Backbone.View.extend({
 
     el: $('#builder-view'),
- 
+
     template: _.template(App.Templates.Layer),
- 
+
     initialize: function() {
-     
+
       this.render();
 
       return this;
 
     },
- 
+
     render: function() {
 
       this.$el.append(this.template(this.model.attributes));
@@ -199,13 +199,13 @@ $(function() {
       this.collection = new App.Collections.LayerList;
 
       this.collection.fetch({
-      
+
         success: function(layers) {
 
           scope.render();
 
         }
-      
+
       });
 
       return this;
@@ -223,7 +223,7 @@ $(function() {
         var layers = new App.Views.Layers({ model: part });
 
         var id = part.attributes.id;
-    
+
         $('#' + id).flexslider({
           animation: "slide",
           slideshow: false,
@@ -345,7 +345,7 @@ function require_template(templateName) {
       }
     });
 
-    $('head').append('<script id="template-' + 
+    $('head').append('<script id="template-' +
     templateName + '" type="text/template">' + tmpl_string + '<\/script>');
 
   }

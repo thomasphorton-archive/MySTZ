@@ -4,7 +4,43 @@
 	include 'inc.header.html.php';
 
 ?>
+<script type="text/javascript">
+$(function(){
+  $('#nav').localScroll(800);
 
+  $('.subnav').waypoint(function(direction){
+
+    var $this = $(this);
+
+    if (direction === "up") {
+      $this.removeClass('subnav-fixed-top');
+    } else if(direction === "down") {
+      $this.addClass('subnav-fixed-top');
+    }
+
+  }, {offset: 60});
+
+  $('.nav-catalog-section a').click(function(e){
+    e.preventDefault();
+
+    target = $(this).attr('href');
+
+    $(target).goTo();
+
+  });
+
+});
+
+(function($) {
+  $.fn.goTo = function() {
+    $('html, body').animate({
+        scrollTop: $(this).offset().top - 120 + 'px'
+    }, 'slow');
+    return this; // for chaining...
+  }
+})(jQuery);
+
+</script>
 </head>
 
 <body>

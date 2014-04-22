@@ -32,11 +32,3 @@
   ga('send', 'pageview');
 
 </script>
-
-<script>
-
-$('body').on('resource.requested', function(requestData, resource) {
-
-});
-
-</script>

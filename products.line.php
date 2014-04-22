@@ -11,7 +11,7 @@ $(function(){
   $('.subnav').waypoint(function(direction){
 
     var $this = $(this);
-
+		console.log($this);
     if (direction === "up") {
       $this.removeClass('subnav-fixed-top');
     } else if(direction === "down") {
@@ -47,180 +47,75 @@ $(function(){
 
 <?
 
-	include 'inc.header.php';
 	include 'inventory.php';
 	include 'functions.php';
-
-	switch ($line) {
-
-		case "graphic-tees":
-
-			$line_name = "graphic tees";
-
-			break;
-
-		case "pocket-tees":
-
-			$line_name = "pocket tees";
-
-			break;
-
-		case "baseball-tees":
-
-			$line_name = "baseball tees";
-
-			break;
-
-		case "outer":
-
-			$line_name = "outerwear";
-
-			break;
-
-		case "hats":
-
-			$line_name = "hats and accessories";
-
-			break;
-
-		case "tanks":
-
-			$line_name = "tanks";
-
-			break;
-
-		case "ladies":
-
-			$line_name = "ladies";
-
-			break;
-
-		case "mystery";
-
-			$line_name = "mystery";
-
-			break;
-
-		default:
-
-			$line_name = "all products";
-
-	}
-
-	if (isset($_GET['shirtcolor'])){
-		$shirt_color = $_GET['shirtcolor'];
-		$numProducts = count($inventory);
-		for($i=0;$i<$numProducts;$i++){
-			if ($inventory[$i]['shirt_color'] != $shirt_color){
-				unset($inventory[$i]);
-			}
-		}
-	}
+	include 'inc.header.php';
 ?>
 
-	<div class="container">
-	  <div class="row">
-	    <div class="span12">
-	      <span class="breadCrumb"><a href="index.php">home</a> > <a href="products.php">products</a> > <?=$line_name?></span>
-	    </div>
-	  </div>
+  <div class="navbar subnav">
+    <div class="navbar-inner">
+      <div class="container">
+        <ul class="nav-catalog-section">
+          <li><a href="#graphic">Graphic Tees</a></li>
+          <li><a href="#pocket">Pocket Tees</a></li>
+          <li><a href="#tanks">Tanks</a></li>
+          <li><a href="#baseball">Baseball Shirts</a></li>
+          <li><a href="#sweater">Sweaters</a></li>
+          <li><a href="#hoodie">Hoodies</a></li>
+          <li><a href="#hats">Hats</a></li>
+          <li><a href="#backpacks">Bags & Accessories</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
 
-<?
+  <div id="second">
+    <div class="container">
+      <? display_items("Graphic Tees", "graphic", $inventory);  ?>
+    </div> <!--.container-->
+  </div> <!--#second-->
 
+  <div id="third">
+    <div class="container">
+      <? display_items("Pocket Tees", "pocket", $inventory);  ?>
+    </div>
+  </div> <!--#third-->
 
+  <div id="fourth">
+    <div class="container">
+      <? display_items("Tanks", "tanks", $inventory);  ?>
+    </div>
+  </div> <!--#third-->
 
-	switch ($line) {
+  <div id="fifth">
+    <div class="container">
+      <? display_items("Baseball Shirts", "baseball", $inventory);  ?>
+    </div>
+  </div> <!--#fifth-->
 
-		case "graphic-tees":
+  <div id="sixth">
+    <div class="container">
+      <? display_items("Sweaters", "sweater", $inventory);  ?>
+    </div>
+  </div> <!--#fifth-->
 
-			display_items("graphic tees", "graphic-tees", $inventory);
+  <div id="seventh">
+    <div class="container">
+      <? display_items("Hoodies", "hoodie", $inventory);  ?>
+    </div>
+  </div> <!--#fifth-->
 
-			break;
+  <div id="eigth">
+    <div class="container">
+      <? display_items("Hats", "hats", $inventory);  ?>
+    </div>
+  </div> <!--#fifth-->
 
-		case "pocket-tees":
-
-			display_items("pocket tees", "pocket-tees", $inventory);
-
-			break;
-
-		case "baseball-tees":
-
-			display_items("baseball tees", "baseball-tees", $inventory);
-
-			break;
-
-		case "outer":
-
-			echo "<h1>$line_name</h1>";
-
-			display_items("crew neck sweaters", "crewneck", $inventory);
-
-			display_items("zip-up hoodies", "zip-up", $inventory);
-
-			break;
-
-		case "hats":
-
-			echo "<h1>$line_name</h1>";
-
-			display_items("hats", "hats", $inventory);
-
-			display_items("beanies", "beanies", $inventory);
-
-			display_items("accessories", "accessories", $inventory);
-
-			display_items("backpacks", "backpacks", $inventory);
-
-			break;
-
-		case "tanks":
-
-			display_items("tanks", "tanks", $inventory);
-
-			break;
-
-		case "ladies":
-
-			display_items("ladies", "wmns", $inventory);
-
-			break;
-
-		case "mystery":
-
-			display_items("mystery", "mystery", $inventory);
-
-			break;
-
-		case "new":
-
-			display_items("new", "new", $inventory);
-
-			break;
-
-		default:
-
-			echo "<h1>$line_name</h1>";
-
-			display_items("all", "all", $inventory);
-
-	}
-
-?>
-
-	<? if ($line == "ladies"){ ?>
-	  <div class="row">
-	    <div class="span12">
-			  <p>All graphics are available on women's styles. <a href="about.php">Contact us</a> for details.</p>
-	    </div>
-	  </div>
-	<? } ?>
-
-	  <div class="row">
-	    <div class="span12">
-	      <span class="breadCrumb"><a href="index.php">home</a> > <a href="products.php">products</a> > <?=$line_name?></span>
-	    </div>
-	  </div>
-	</div><!--.container-->
+  <div id="ninth">
+    <div class="container">
+      <? display_items("Bags & Accessories", "backpacks", $inventory);  ?>
+    </div>
+  </div> <!--#fifth-->
 
 	<script>
     $("img.lazy").show().lazyload({

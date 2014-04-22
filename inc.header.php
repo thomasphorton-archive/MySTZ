@@ -46,8 +46,6 @@
   </div>
 </div>
 
-
-
 <div class="lightbox">
 	<div class="cart-wrapper span8">
 		<span class="cart-close">Continue Shopping</span>

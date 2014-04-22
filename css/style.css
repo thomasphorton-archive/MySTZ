@@ -114,7 +114,40 @@ h3 {
 ::selection {
   background: rgba(45, 182, 116, 0.8);
 }
+.subnav-fixed-top {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  top: 60px;
+}
 
+.subnav .navbar-inner {
+border: none;
+background-image: none;
+background-color: white;
+}
+.nav-catalog-section {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.nav-catalog-section li {
+  display: inline;
+  margin: 0 4px;
+}
+
+.nav-catalog-section a {
+  display: inline-block;
+  padding: 5px;
+}
+
+.category-title {
+  color: white;
+  text-shadow: 0 1px 1px black;
+}
 .page-wrapper {
 	width: 1060px;
 }
@@ -427,7 +460,7 @@ sizingMethod='scale');
   text-decoration: inherit;
   margin-right: .2em;
   text-align: center;
-  opacity: .8; 
+  opacity: .8;
   font-variant: normal;
   text-transform: none;
   line-height: 1em;

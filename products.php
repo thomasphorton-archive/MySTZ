@@ -51,8 +51,7 @@ $(function(){
     <div class="navbar-inner">
       <div class="container">
         <ul class="nav-catalog-section">
-          <li><a href="#graphic-tees">Graphic Tees</a></li>
-          <li><a href="#pocket-tees">Pocket Tees</a></li>
+          <li><a href="#graphic-tees">Tees</a></li>
           <li><a href="#tanks">Tanks</a></li>
           <li><a href="#baseball-tees">Baseball Tees</a></li>
           <li><a href="#crewneck">Crewneck</a></li>
@@ -66,9 +65,7 @@ $(function(){
   </div>
 
   <div class="container" style="margin-top: 60px;">
-    <? display_items("Graphic Tees", "graphic-tees", $inventory, $new);  ?>
-
-    <? display_items("Pocket Tees", "pocket-tees", $inventory, $new);  ?>
+    <? display_items("Tees", "graphic-tees", $inventory, $new);  ?>
 
     <? display_items("Tanks", "tanks", $inventory, $new);  ?>
 

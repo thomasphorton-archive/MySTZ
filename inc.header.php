@@ -7,12 +7,11 @@
 						<li class="dropdown">
 							<a class="dropdown-toggle disabled" data-toggle="dropdown" href="products.php">products <b class="caret"></b></a>
 							<ul class="dropdown-menu">
-								<li><a href="products.php#graphic-tees">graphic tees</a></li>
-								<li><a href="products.php#pocket-tees">pocket tees</a></li>
-								<li><a href="products.php#baseball-tees">baseball tees</a></li>
+								<li><a href="products.php#graphic-tees">tees</a></li>
 								<li><a href="products.php#tanks">tanks</a></li>
+								<li><a href="products.php#baseball-tees">baseball tees</a></li>
 								<li><a href="products.php#outer">outerwear</a></li>
-								<li><a href="products.php#ladies">ladies</a></li>
+								<li><a href="products.php#wmns">ladies</a></li>
 								<li><a href="products.php#hats">hats &amp; accessories</a></li>
 							</ul>
 						</li>

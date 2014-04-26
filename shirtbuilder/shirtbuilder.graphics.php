@@ -4,7 +4,7 @@ $path = "/images/shirtbuilder/graphics/";
 
 $design_options = array(
 
-	"Always Board" => array(
+/* 	"Always Board" => array(
 		"title" => "Always Board",
 		"normalized" => "alwaysboard",
 		"full_size" => $path . "graphics/spring14/alwaysboard.png",
@@ -16,7 +16,7 @@ $design_options = array(
 		"normalized" => "fishoutofwater",
 		"full_size" => $path . "graphics/spring14/fishoutofwater.png",
 		"thumb" => $path . "graphic-thumbs/spring14/fishoutofwater.png",
-	),
+	), */
 
 	"Charlie Brown" => array(
 		"title" => "Charlie Brown",

@@ -64,9 +64,17 @@
 
 		<div class="row">
 			<div class="span6"  style="position:relative;">
-				<a href="/products.individual.php?id=23">
-					<img src="/images/index/thank-blank-for.gif" alt="Thank ___ By Garrett Ginner">
-          <h3 class="product-name">Featured: Thank ___ by Garrett Ginner</h3>
+				<?
+				$featured = array(
+					array("The Navy/Tan Camper", "hat_navytancord.png", 421),
+					array("Professional Outsider", "tank_prof-outsider_nautical-red.png", 705),
+					array("Long Gone", "tee_longgone_fatigue.png", 27)
+				);
+				$rand = rand(0, count($featured) - 1);
+				?>
+				<a href="/products.individual.php?id=<?= $featured[$rand][2]?>">
+					<img src="/images/index/featured/<?= $featured[$rand][1]?>" alt="<?= $featured[$rand][0]?>" style="width: 100%">
+          <h3 class="product-name">Featured: <?= $featured[$rand][0]?></h3>
         </a>
 			</div>
 

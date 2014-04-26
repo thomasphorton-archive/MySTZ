@@ -760,107 +760,6 @@ array(
     )
   ),
 
-/*********** Pocket Inventory **********/
-
-  array(
-    "id" => "101",
-    "line" => "pocket-tees",
-    "title" => "Thatch",
-    "basePrice" => "25",
-    "description" => "We have been doing custom pockets since way back in '08. We like these styles but check out the builder and show us your style! All pockets fully customizable- any shirt, any pocket!",
-    "images" => array(
-      "main" => array(
-        "thatch.sangria.jpg"
-      ),
-      "thumb" => "thatch.sangria.jpg",
-    ),
-    "options" => array(
-      array(
-        "shirt" => "Sangria"
-      ),
-      array(
-        "shirt" => "Charcoal"
-      ),
-      array(
-        "shirt" => "Black"
-      )
-    )
-  ),
-
-  array(
-    "id" => "103",
-    "line" => "pocket-tees",
-    "title" => "Jazzercize",
-    "basePrice" => "25",
-    "description" => "We have been doing custom pockets since way back in '08. We like these styles but check out the builder and show us your style! All pockets fully customizable- any shirt, any pocket!",
-    "images" => array(
-      "main" => array(
-        "jazzercize.fatigue.jpg"
-      ),
-      "thumb" => "jazzercize.fatigue.jpg",
-    ),
-    "options" => array(
-      array(
-        "shirt" => "Fatigue"
-      ),
-      array(
-        "shirt" => "Latte"
-      ),
-      array(
-        "shirt" => "Black"
-      )
-    ),
-    "soldout" => "true",
-    "message" => "Sold Out!"
-  ),
-
-  array(
-    "id" => "104",
-    "line" => "pocket-tees",
-    "title" => "Tan Cord",
-    "basePrice" => "25",
-    "description" => "We have been doing custom pockets since way back in '08. We like these styles but check out the builder and show us your style! All pockets fully customizable- any shirt, any pocket!",
-    "images" => array(
-      "main" => array(
-        "tancord.heathernavy.jpg"
-      ),
-      "thumb" => "tancord.heathernavy.jpg",
-    ),
-    "options" => array(
-      array(
-        "shirt" => "Heather Navy"
-      ),
-      array(
-        "shirt" => "Thyme"
-      ),
-      array(
-        "shirt" => "Black"
-      )
-    )
-  ),
-
-  array(
-    "id" => "106",
-    "line" => "pocket-tees",
-    "title" => "Polar Bear Club",
-    "basePrice" => "25",
-    "description" => "We have been doing custom pockets since way back in '08. We like these styles but check out the builder and show us your style! All pockets fully customizable- any shirt, any pocket!",
-    "images" => array(
-      "main" => array(
-        "polarbear.sangria.jpg"
-      ),
-      "thumb" => "polarbear.sangria.jpg",
-    ),
-    "options" => array(
-      array(
-        "shirt" => "Sangria"
-      ),
-      array(
-        "shirt" => "Black"
-      )
-    )
-  ),
-
 /********** Baseball **********/
 
   array(
@@ -1253,6 +1152,36 @@ array(
         "graphic" => "Tasteful Fun"
       )
     )
+  ),
+
+  array(
+    "id" => "209",
+    "line" => "baseball-tees",
+    "title" => "Walrus",
+    "basePrice" => "25",
+    "description" => "",
+    "images" => array(
+      "main" => array(
+        "spring14/tee_walrus-baseball_greynavy.png"
+      ),
+      "thumb" => "spring14/tee_walrus-baseball_greynavy.png",
+    ),
+    "featured" => true
+  ),
+
+  array(
+    "id" => "210",
+    "line" => "baseball-tees",
+    "title" => "Always Board",
+    "basePrice" => "25",
+    "description" => "",
+    "images" => array(
+      "main" => array(
+        "spring14/tee_alwaysboard-baseball_greynavy.png"
+      ),
+      "thumb" => "spring14/tee_alwaysboard-baseball_greynavy.png",
+    ),
+    "featured" => true
   ),
 
 /**********  Crew Neck Fleece **********/
@@ -1704,32 +1633,6 @@ array(
   ),
 
   array(
-    "id" => "412",
-    "line" => "hats",
-    "title" => "The Bucket",
-    "basePrice" => "25",
-    "description" => "Fish in it, shred in it, party in it… Send it anywhere.<br><br>Check out our <a href='/images/catalog/patch-options.jpg' target='_blank'>patch options</a>.",
-    "images" => array(
-      "main" => array(
-        "bucket.jpg"
-      ),
-      "thumb" => "bucket.jpg",
-    ),
-    "options" => array(
-      array(
-        "patch" => "happy shredding patch"
-      ),
-      array(
-        "patch" => "stzlife patch"
-      ),
-      array(
-        "patch" => "send it patch"
-      )
-    ),
-    "featured" => false
-  ),
-
-  array(
     "id" => "413",
     "line" => "hats",
     "title" => "The Grey Cord",
@@ -1835,11 +1738,116 @@ array(
     "description" => "Five panel design for low-profile fit, adjustable plastic clip closure in back.",
     "images" => array(
       "main" => array(
-        "spring14/navythatchcamper_main.png"
+        "spring14/hat_navythatchcamper.png"
       ),
-      "thumb" => "spring14/navythatchcamper_thumb.png",
+      "thumb" => "spring14/hat_navythatchcamper.png",
     ),
     "featured" => true,
+  ),
+
+  array(
+    "id" => "419",
+    "line" => "hats",
+    "title" => "The Grey/Burg Camper",
+    "basePrice" => "25",
+    "description" => "Five panel design for low-profile fit, adjustable plastic clip closure in back.",
+    "images" => array(
+      "main" => array(
+        "spring14/hat_greyburgcamper.png"
+      ),
+      "thumb" => "spring14/hat_greyburgcamper.png",
+    ),
+    "featured" => true,
+  ),
+
+  array(
+    "id" => "420",
+    "line" => "hats",
+    "title" => "The Grey/Navy Cord Camper",
+    "basePrice" => "25",
+    "description" => "Five panel design for low-profile fit, adjustable plastic clip closure in back.",
+    "images" => array(
+      "main" => array(
+        "spring14/hat_greynavycordcamper.png"
+      ),
+      "thumb" => "spring14/hat_greynavycordcamper.png",
+    ),
+    "featured" => true,
+  ),
+
+  array(
+    "id" => "420",
+    "line" => "hats",
+    "title" => "The Grey/Polar Camper",
+    "basePrice" => "25",
+    "description" => "Five panel design for low-profile fit, adjustable plastic clip closure in back.",
+    "images" => array(
+      "main" => array(
+        "spring14/hat_greypolarcamper.png"
+      ),
+      "thumb" => "spring14/hat_greypolarcamper.png",
+    ),
+    "featured" => true,
+  ),
+
+  array(
+    "id" => "421",
+    "line" => "hats",
+    "title" => "The Navy/Tan Camper",
+    "basePrice" => "25",
+    "description" => "Five panel design for low-profile fit, adjustable plastic clip closure in back.",
+    "images" => array(
+      "main" => array(
+        "spring14/hat_navytancordcamper.png"
+      ),
+      "thumb" => "spring14/hat_navytancordcamper.png",
+    ),
+    "featured" => true,
+  ),
+
+  array(
+    "id" => "412",
+    "line" => "hats",
+    "title" => "The Bucket",
+    "basePrice" => "25",
+    "description" => "Fish in it, shred in it, party in it… Send it anywhere.<br><br>Check out our <a href='/images/catalog/patch-options.jpg' target='_blank'>patch options</a>.",
+    "images" => array(
+      "main" => array(
+        "spring14/hat_happyshredding_blackbucket.png"
+      ),
+      "thumb" => "spring14/hat_happyshredding_blackbucket.png",
+    ),
+    "featured" => true
+  ),
+
+  array(
+    "id" => "422",
+    "line" => "hats",
+    "title" => "The Camo Bucket",
+    "basePrice" => "25",
+    "description" => "Fish in it, shred in it, party in it… Send it anywhere.<br><br>Check out our <a href='/images/catalog/patch-options.jpg' target='_blank'>patch options</a>.",
+    "images" => array(
+      "main" => array(
+        "spring14/hat_sendit_camobucket.png"
+      ),
+      "thumb" => "spring14/hat_sendit_camobucket.png",
+    ),
+    "featured" => true
+  ),
+
+  array(
+    "id" => "422",
+    "line" => "hats",
+    "title" => "The Fatigue Bucket",
+    "basePrice" => "25",
+    "description" => "Fish in it, shred in it, party in it… Send it anywhere.<br><br>Check out our <a href='/images/catalog/patch-options.jpg' target='_blank'>patch options</a>.",
+    "images" => array(
+      "main" => array(
+        "spring14/hat_stzlife_fatiguebucket.png"
+      ),
+      "thumb" => "spring14/hat_stzlife_fatiguebucket.png",
+    ),
+    "featured" => true
   ),
 
   /********* Beanies *********/
@@ -2165,66 +2173,204 @@ array(
     "options" => array()
   ),
 
+  array(
+    "id" => "606",
+    "line" => "wmns",
+    "title" => "[Insert Awesome]",
+    "basePrice" => "18",
+    "description" => "",
+    "small_description" => "3.7 oz, 70% rayon / 30% poly",
+    "images" => array(
+      "main" => array(
+        "spring14/wmnstank_insertawesome_pinkgreyflow.png"
+      ),
+      "thumb" => "spring14/wmnstank_insertawesome_pinkgreyflow.png",
+    ),
+    "options" => array(),
+    "featured" => true
+  ),
+
+  array(
+    "id" => "607",
+    "line" => "wmns",
+    "title" => "Over &amp; Out (Coral)",
+    "basePrice" => "18",
+    "description" => "",
+    "small_description" => "3.7 oz, 65% poly / 35% viscose",
+    "images" => array(
+      "main" => array(
+        "spring14/wmnstank_overandout_coral.png"
+      ),
+      "thumb" => "spring14/wmnstank_overandout_coral.png",
+    ),
+    "options" => array(),
+    "featured" => true
+  ),
+
+  array(
+    "id" => "608",
+    "line" => "wmns",
+    "title" => "Over &amp; Out (Pink/Grey)",
+    "basePrice" => "18",
+    "description" => "",
+    "small_description" => "3.7 oz, 70% rayon / 30% poly",
+    "images" => array(
+      "main" => array(
+        "spring14/wmnstank_overandout_pinkgrey.png"
+      ),
+      "thumb" => "spring14/wmnstank_overandout_pinkgrey.png",
+    ),
+    "options" => array(),
+    "featured" => true
+  ),
+
+  array(
+    "id" => "609",
+    "line" => "wmns",
+    "title" => "STZ Life",
+    "basePrice" => "18",
+    "description" => "",
+    "small_description" => "3.7 oz, 70% rayon / 30% poly",
+    "images" => array(
+      "main" => array(
+        "spring14/wmnstank_stzlife_whitegrey.png"
+      ),
+      "thumb" => "spring14/wmnstank_stzlife_whitegrey.png",
+    ),
+    "options" => array(),
+    "featured" => true
+  ),
+
+  array(
+    "id" => "610",
+    "line" => "wmns",
+    "title" => "Triangles",
+    "basePrice" => "18",
+    "description" => "",
+    "small_description" => "3.7 oz, 65% poly / 35% viscose",
+    "images" => array(
+      "main" => array(
+        "spring14/wmnstank_triangles_coral.png"
+      ),
+      "thumb" => "spring14/wmnstank_triangles_coral.png",
+    ),
+    "options" => array(),
+    "featured" => true
+  ),
+
+  array(
+    "id" => "611",
+    "line" => "wmns",
+    "title" => "Walrus",
+    "basePrice" => "18",
+    "description" => "",
+    "small_description" => "3.7 oz, 65% poly / 35% viscose",
+    "images" => array(
+      "main" => array(
+        "spring14/wmnstank_walrus_greyflow.png"
+      ),
+      "thumb" => "spring14/wmnstank_walrus_greyflow.png",
+    ),
+    "options" => array(),
+    "featured" => true
+  ),
+
 /********* Tanks *********/
 
   array(
     "id" => "701",
     "line" => "tanks",
-    "title" => "Bay Blue Tank",
+    "title" => "Always Board",
     "basePrice" => "20",
     "description" => "",
     "images" => array(
       "main" => array(
-        "bayblue.jpg"
+        "spring14/tank_alwaysboard_bayblue.png"
       ),
-      "thumb" => "bayblue.jpg",
+      "thumb" => "spring14/tank_alwaysboard_bayblue.png",
     ),
-    "options" => array()
+    "options" => array(),
+    "featured" => true
   ),
 
   array(
     "id" => "702",
     "line" => "tanks",
-    "title" => "Celery Tank",
+    "title" => "Long Gone",
     "basePrice" => "20",
     "description" => "",
     "images" => array(
       "main" => array(
-        "celery.jpg"
+        "spring14/tank_lonegone_bluegrey.png"
       ),
-      "thumb" => "celery.jpg",
+      "thumb" => "spring14/tank_lonegone_bluegrey.png",
     ),
-    "options" => array()
+    "options" => array(),
+    "featured" => true
   ),
 
   array(
     "id" => "703",
     "line" => "tanks",
-    "title" => "Khaki Green Tank",
+    "title" => "Happy Shredding",
     "basePrice" => "20",
     "description" => "",
     "images" => array(
       "main" => array(
-        "khakigreen.jpg"
+        "spring14/tank_happyshredding_celery.png"
       ),
-      "thumb" => "khakigreen.jpg",
+      "thumb" => "spring14/tank_happyshredding_celery.png",
     ),
-    "options" => array()
+    "options" => array(),
+    "featured" => true
   ),
 
   array(
     "id" => "704",
     "line" => "tanks",
-    "title" => "Nautical Red Tank",
+    "title" => "[Insert Awesome]",
     "basePrice" => "20",
     "description" => "",
     "images" => array(
       "main" => array(
-        "nauticalred.jpg"
+        "spring14/tank_insertawesome_celery.png"
       ),
-      "thumb" => "nauticalred.jpg",
+      "thumb" => "spring14/tank_insertawesome_celery.png",
     ),
-    "options" => array()
+    "options" => array(),
+    "featured" => true
+  ),
+
+  array(
+    "id" => "705",
+    "line" => "tanks",
+    "title" => "Professional Outsider",
+    "basePrice" => "20",
+    "description" => "",
+    "images" => array(
+      "main" => array(
+        "spring14/tank_prof-outsider_nautical-red.png"
+      ),
+      "thumb" => "spring14/tank_prof-outsider_nautical-red.png",
+    ),
+    "options" => array(),
+    "featured" => true
+  ),
+
+  array(
+    "id" => "706",
+    "line" => "tanks",
+    "title" => "STZ Life",
+    "basePrice" => "20",
+    "description" => "",
+    "images" => array(
+      "main" => array(
+        "spring14/tank_stzlife_bayblue.png"
+      ),
+      "thumb" => "spring14/tank_stzlife_bayblue.png",
+    ),
+    "options" => array(),
+    "featured" => true
   ),
 
 /********* Custom Products *********/

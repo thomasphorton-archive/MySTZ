@@ -21,7 +21,7 @@
 
 	<div class="row">
 		<div class="span6">
-			<a href="shirtbuilder.php?item=tee&style=graphic"><img src="/images/shirtbuilder/select/select.graphic.png" class="shirtbuilder-select"/></a>
+			<a href="shirtbuilder.php?item=tee&amp;style=graphic"><img src="/images/shirtbuilder/select/select.graphic.png" class="shirtbuilder-select"/></a>
 		</div>
 	</div>
 

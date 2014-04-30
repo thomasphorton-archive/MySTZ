@@ -65,7 +65,7 @@ module.exports = function(grunt) {
         exclusions: [
           '**/.DS_Store',
           './.git/**/*',
-          './images/**/*',
+        //  './images/**/*',
           './js/src/**/*',
           './node_modules/**/*',
           '.gitignore',

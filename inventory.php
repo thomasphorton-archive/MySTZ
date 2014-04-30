@@ -2042,7 +2042,7 @@ array(
   array(
     "id" => "606",
     "line" => "wmns",
-    "title" => "[Insert Awesome]",
+    "title" => "[Insert Awesome] Crop Top",
     "basePrice" => "18",
     "description" => "",
     "small_description" => "3.7 oz, 70% rayon / 30% poly",
@@ -2127,7 +2127,7 @@ array(
   array(
     "id" => "611",
     "line" => "wmns",
-    "title" => "Walrus",
+    "title" => "Walrus Crop Top",
     "basePrice" => "18",
     "description" => "",
     "small_description" => "3.7 oz, 65% poly / 35% viscose",

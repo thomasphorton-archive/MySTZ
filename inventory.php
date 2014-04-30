@@ -45,6 +45,22 @@ $inventory  = array(
   ),
 
   array(
+    "id" => "38",
+    "line" => "graphic-tees",
+    "title" => "Always Board (Grey Dip)",
+    "basePrice" => "18",
+    "description" => "If you always board, you're never bored. Inspired by all of the good times with the crew.",
+    "small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
+    "images" => array(
+      "main" => array(
+        "spring14/tee_alwaysboard_greydip.png"
+      ),
+      "thumb" => "spring14/tee_alwaysboard_greydip.png",
+    ),
+    "featured" => true
+  ),
+
+  array(
     "id" => "25",
     "line" => "graphic-tees",
     "title" => "Fish Outta Water",
@@ -79,7 +95,7 @@ array(
 array(
   "id" => "27",
   "line" => "graphic-tees",
-  "title" => "Long Gone",
+  "title" => "Long Gone (Natural)",
   "basePrice" => "18",
   "description" => "Maybe you’re sending it, maybe you’re over it. Whatever you’re doing, make it an adventure",
   "small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
@@ -88,6 +104,38 @@ array(
       "spring14/tee_longgone.png"
     ),
     "thumb" => "spring14/tee_longgone-natural.png",
+  ),
+  "featured" => true
+),
+
+array(
+  "id" => "40",
+  "line" => "graphic-tees",
+  "title" => "Long Gone (Fatigue)",
+  "basePrice" => "18",
+  "description" => "Maybe you’re sending it, maybe you’re over it. Whatever you’re doing, make it an adventure",
+  "small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
+  "images" => array(
+    "main" => array(
+      "spring14/tee_longgone_fatigue.png"
+    ),
+    "thumb" => "spring14/tee_longgone_fatigue.png",
+  ),
+  "featured" => true
+),
+
+array(
+  "id" => "41",
+  "line" => "graphic-tees",
+  "title" => "Long Gone (Heather Blue)",
+  "basePrice" => "18",
+  "description" => "Maybe you’re sending it, maybe you’re over it. Whatever you’re doing, make it an adventure",
+  "small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
+  "images" => array(
+    "main" => array(
+      "spring14/tee_longgone_hthrblue.png"
+    ),
+    "thumb" => "spring14/tee_longgone_hthrblue.png",
   ),
   "featured" => true
 ),
@@ -114,6 +162,22 @@ array(
       "shirt" => "Heather Grey",
       "graphic" => "Black"
     )
+  ),
+  "featured" => true
+),
+
+array(
+  "id" => "42",
+  "line" => "graphic-tees",
+  "title" => "Over and Out (Grey Dip)",
+  "basePrice" => "18",
+  "description" => "Roger that.",
+  "small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
+  "images" => array(
+    "main" => array(
+      "spring14/tee_overandout_greydip.png"
+    ),
+    "thumb" => "spring14/tee_overandout_greydip.png",
   ),
   "featured" => true
 ),
@@ -146,6 +210,22 @@ array(
       "spring14/tee_professionaloutsider-center.png"
     ),
     "thumb" => "spring14/tee_professionaloutsider-center.png",
+  ),
+  "featured" => true
+),
+
+array(
+  "id" => "30",
+  "line" => "graphic-tees",
+  "title" => "Professional Outsider (Tie Dye)",
+  "basePrice" => "18",
+  "description" => "Do what you do.",
+  "small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
+  "images" => array(
+    "main" => array(
+      "spring14/tee_professionaloutsider_tiedye.png"
+    ),
+    "thumb" => "spring14/tee_profoutsider_tiedye.png",
   ),
   "featured" => true
 ),
@@ -528,6 +608,22 @@ array(
   ),
 
   array(
+    "id" => "39",
+    "line" => "graphic-tees",
+    "title" => "Happy Shredding (Grey Dip)",
+    "basePrice" => "18",
+    "description" => "Shredding with the homies and having fun is what it's all about.",
+    "small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
+    "images" => array(
+      "main" => array(
+        "spring14/tee_happyshredding_greydip.png"
+      ),
+      "thumb" => "spring14/tee_happyshredding_greydip.png",
+    ),
+    "featured" => true
+  ),
+
+  array(
     "id" => "13",
     "line" => "graphic-tees",
     "title" => "Shred Til You're Dead",
@@ -765,7 +861,7 @@ array(
   array(
     "id" => "201",
     "line" => "baseball-tees",
-    "title" => "Baseball Tee in White/Black",
+    "title" => "Professional Outsider (White/Black)",
     "basePrice" => "25",
     "description" => "",
     "images" => array(
@@ -773,48 +869,13 @@ array(
         "spring14/tee_professionaloutsider-baseball_whiteblack.png"
       ),
       "thumb" => "spring14/tee_professionaloutsider-baseball_whiteblack.png",
-    ),
-    "options" => array(
-      array(
-        "graphic" => "Professional Outsider"
-      ),
-      array(
-        "graphic" => "STZlife"
-      ),
-      array(
-        "graphic" => "Triangles"
-      ),
-      array(
-        "graphic" => "Shred Til You're Dead"
-      ),
-      array(
-        "graphic" => "Shoot All Shred"
-      ),
-      array(
-        "graphic" => "Majestically Rad"
-      ),
-      array(
-        "graphic" => "Crest"
-      ),
-      array(
-        "graphic" => "Long Gone"
-      ),
-      array(
-        "graphic" => "Always Board"
-      ),
-      array(
-        "graphic" => "Support Local"
-      ),
-      array(
-        "graphic" => "Tasteful Fun"
-      )
     )
   ),
 
   array(
     "id" => "202",
     "line" => "baseball-tees",
-    "title" => "Baseball Tee in White/Hunter",
+    "title" => "STZ Crest (White/Hunter)",
     "basePrice" => "25",
     "description" => "",
     "images" => array(
@@ -822,48 +883,13 @@ array(
         "whitegreen.jpg"
       ),
       "thumb" => "whitegreen.jpg",
-    ),
-    "options" => array(
-      array(
-        "graphic" => "STZlife"
-      ),
-      array(
-        "graphic" => "Triangles"
-      ),
-      array(
-        "graphic" => "Shred Til You're Dead"
-      ),
-      array(
-        "graphic" => "Shoot All Shred"
-      ),
-      array(
-        "graphic" => "Majestically Rad"
-      ),
-      array(
-        "graphic" => "Crest"
-      ),
-      array(
-        "graphic" => "Professional Outsider"
-      ),
-      array(
-        "graphic" => "Long Gone"
-      ),
-      array(
-        "graphic" => "Always Board"
-      ),
-      array(
-        "graphic" => "Support Local"
-      ),
-      array(
-        "graphic" => "Tasteful Fun"
-      )
     )
   ),
 
   array(
     "id" => "203",
     "line" => "baseball-tees",
-    "title" => "Baseball Tee in White/Red",
+    "title" => "Triangles (Grey/Red)",
     "basePrice" => "25",
     "description" => "",
     "images" => array(
@@ -871,48 +897,13 @@ array(
         "greyred.jpg"
       ),
       "thumb" => "greyred.jpg",
-    ),
-    "options" => array(
-      array(
-        "graphic" => "STZlife"
-      ),
-      array(
-        "graphic" => "Triangles"
-      ),
-      array(
-        "graphic" => "Shred Til You're Dead"
-      ),
-      array(
-        "graphic" => "Shoot All Shred"
-      ),
-      array(
-        "graphic" => "Majestically Rad"
-      ),
-      array(
-        "graphic" => "Crest"
-      ),
-      array(
-        "graphic" => "Professional Outsider"
-      ),
-      array(
-        "graphic" => "Long Gone"
-      ),
-      array(
-        "graphic" => "Always Board"
-      ),
-      array(
-        "graphic" => "Support Local"
-      ),
-      array(
-        "graphic" => "Tasteful Fun"
-      )
     )
   ),
 
   array(
     "id" => "204",
     "line" => "baseball-tees",
-    "title" => "Baseball Tee in White/Purple",
+    "title" => "Majestically Rad (White/Purple)",
     "basePrice" => "25",
     "description" => "",
     "images" => array(
@@ -920,48 +911,13 @@ array(
         "whitepurple.jpg"
       ),
       "thumb" => "whitepurple.jpg",
-    ),
-    "options" => array(
-      array(
-        "graphic" => "STZlife"
-      ),
-      array(
-        "graphic" => "Triangles"
-      ),
-      array(
-        "graphic" => "Shred Til You're Dead"
-      ),
-      array(
-        "graphic" => "Shoot All Shred"
-      ),
-      array(
-        "graphic" => "Majestically Rad"
-      ),
-      array(
-        "graphic" => "Crest"
-      ),
-      array(
-        "graphic" => "Professional Outsider"
-      ),
-      array(
-        "graphic" => "Long Gone"
-      ),
-      array(
-        "graphic" => "Always Board"
-      ),
-      array(
-        "graphic" => "Support Local"
-      ),
-      array(
-        "graphic" => "Tasteful Fun"
-      )
     )
   ),
 
   array(
     "id" => "205",
     "line" => "baseball-tees",
-    "title" => "Baseball Tee in Grey/Burgundy",
+    "title" => "STZ Crest (Grey/Burgundy)",
     "basePrice" => "25",
     "description" => "",
     "images" => array(
@@ -969,48 +925,13 @@ array(
         "greyburgundy.jpg"
       ),
       "thumb" => "greyburgundy.jpg",
-    ),
-    "options" => array(
-      array(
-        "graphic" => "STZlife"
-      ),
-      array(
-        "graphic" => "Triangles"
-      ),
-      array(
-        "graphic" => "Shred Til You're Dead"
-      ),
-      array(
-        "graphic" => "Shoot All Shred"
-      ),
-      array(
-        "graphic" => "Majestically Rad"
-      ),
-      array(
-        "graphic" => "Crest"
-      ),
-      array(
-        "graphic" => "Professional Outsider"
-      ),
-      array(
-        "graphic" => "Long Gone"
-      ),
-      array(
-        "graphic" => "Always Board"
-      ),
-      array(
-        "graphic" => "Support Local"
-      ),
-      array(
-        "graphic" => "Tasteful Fun"
-      )
     )
   ),
 
   array(
     "id" => "206",
     "line" => "baseball-tees",
-    "title" => "Baseball Tee in Grey/Black",
+    "title" => "Shred 'til You're Dead (Grey/Black)",
     "basePrice" => "25",
     "description" => "",
     "images" => array(
@@ -1018,48 +939,13 @@ array(
         "greyblack.jpg"
       ),
       "thumb" => "greyblack.jpg",
-    ),
-    "options" => array(
-      array(
-        "graphic" => "STZlife"
-      ),
-      array(
-        "graphic" => "Triangles"
-      ),
-      array(
-        "graphic" => "Shred Til You're Dead"
-      ),
-      array(
-        "graphic" => "Shoot All Shred"
-      ),
-      array(
-        "graphic" => "Majestically Rad"
-      ),
-      array(
-        "graphic" => "Crest"
-      ),
-      array(
-        "graphic" => "Professional Outsider"
-      ),
-      array(
-        "graphic" => "Long Gone"
-      ),
-      array(
-        "graphic" => "Always Board"
-      ),
-      array(
-        "graphic" => "Support Local"
-      ),
-      array(
-        "graphic" => "Tasteful Fun"
-      )
     )
   ),
 
   array(
     "id" => "207",
     "line" => "baseball-tees",
-    "title" => "Baseball Tee in Grey/Royal",
+    "title" => "Shoot All Shred (Grey/Royal)",
     "basePrice" => "25",
     "description" => "",
     "images" => array(
@@ -1067,48 +953,13 @@ array(
         "greyroyal.jpg"
       ),
       "thumb" => "greyroyal.jpg",
-    ),
-    "options" => array(
-      array(
-        "graphic" => "STZlife"
-      ),
-      array(
-        "graphic" => "Triangles"
-      ),
-      array(
-        "graphic" => "Shred Til You're Dead"
-      ),
-      array(
-        "graphic" => "Shoot All Shred"
-      ),
-      array(
-        "graphic" => "Majestically Rad"
-      ),
-      array(
-        "graphic" => "Crest"
-      ),
-      array(
-        "graphic" => "Professional Outsider"
-      ),
-      array(
-        "graphic" => "Long Gone"
-      ),
-      array(
-        "graphic" => "Always Board"
-      ),
-      array(
-        "graphic" => "Support Local"
-      ),
-      array(
-        "graphic" => "Tasteful Fun"
-      )
     )
   ),
 
   array(
     "id" => "208",
     "line" => "baseball-tees",
-    "title" => "Baseball Tee in Grey/Hunter",
+    "title" => "STZ Life (Grey/Hunter)",
     "basePrice" => "25",
     "description" => "",
     "images" => array(
@@ -1116,48 +967,13 @@ array(
         "greygreen.jpg"
       ),
       "thumb" => "greygreen.jpg",
-    ),
-    "options" => array(
-      array(
-        "graphic" => "STZlife"
-      ),
-      array(
-        "graphic" => "Triangles"
-      ),
-      array(
-        "graphic" => "Shred Til You're Dead"
-      ),
-      array(
-        "graphic" => "Shoot All Shred"
-      ),
-      array(
-        "graphic" => "Majestically Rad"
-      ),
-      array(
-        "graphic" => "Crest"
-      ),
-      array(
-        "graphic" => "Professional Outsider"
-      ),
-      array(
-        "graphic" => "Long Gone"
-      ),
-      array(
-        "graphic" => "Always Board"
-      ),
-      array(
-        "graphic" => "Support Local"
-      ),
-      array(
-        "graphic" => "Tasteful Fun"
-      )
     )
   ),
 
   array(
     "id" => "209",
     "line" => "baseball-tees",
-    "title" => "Walrus",
+    "title" => "Walrus (Grey/Navy)",
     "basePrice" => "25",
     "description" => "",
     "images" => array(
@@ -1172,7 +988,7 @@ array(
   array(
     "id" => "210",
     "line" => "baseball-tees",
-    "title" => "Always Board",
+    "title" => "Always Board (Grey/Navy)",
     "basePrice" => "25",
     "description" => "",
     "images" => array(
@@ -1817,6 +1633,17 @@ array(
       ),
       "thumb" => "spring14/hat_happyshredding_blackbucket.png",
     ),
+    "options" => array(
+      array(
+        "patch" => "Happy Shredding"
+      ),
+      array(
+        "patch" => "STZ Life"
+      ),
+      array(
+        "patch" => "Send It"
+      )
+    ),
     "featured" => true
   ),
 
@@ -1832,6 +1659,17 @@ array(
       ),
       "thumb" => "spring14/hat_sendit_camobucket.png",
     ),
+    "options" => array(
+      array(
+        "patch" => "Send It"
+      ),
+      array(
+        "patch" => "Happy Shredding"
+      ),
+      array(
+        "patch" => "STZ Life"
+      ),
+    ),
     "featured" => true
   ),
 
@@ -1846,6 +1684,17 @@ array(
         "spring14/hat_stzlife_fatiguebucket.png"
       ),
       "thumb" => "spring14/hat_stzlife_fatiguebucket.png",
+    ),
+    "options" => array(
+      array(
+        "patch" => "STZ Life"
+      ),
+      array(
+        "patch" => "Send It"
+      ),
+      array(
+        "patch" => "Happy Shredding"
+      )
     ),
     "featured" => true
   ),
@@ -1972,6 +1821,23 @@ array(
         "patch" => "happy shredding patch"
       )
     )
+  ),
+
+  array(
+    "id" => "574",
+    "line" => "accessories",
+    "title" => "Short & Sweets (Pink Aztec)",
+    "basePrice" => "10",
+    "description" => "Ankle length socks, lightweight and breathable.",
+    "images" => array(
+      "main" => array(
+        "sock.main.jpg"
+      ),
+      "thumb" => "sock.thumb.jpg",
+    ),
+    "options" => array(
+    ),
+    "featured" => true
   ),
 
   array(
@@ -2280,7 +2146,7 @@ array(
   array(
     "id" => "701",
     "line" => "tanks",
-    "title" => "Always Board",
+    "title" => "Always Board Tank",
     "basePrice" => "20",
     "description" => "",
     "images" => array(
@@ -2296,7 +2162,7 @@ array(
   array(
     "id" => "702",
     "line" => "tanks",
-    "title" => "Long Gone",
+    "title" => "Long Gone Tank",
     "basePrice" => "20",
     "description" => "",
     "images" => array(
@@ -2312,7 +2178,7 @@ array(
   array(
     "id" => "703",
     "line" => "tanks",
-    "title" => "Happy Shredding",
+    "title" => "Happy Shredding Tank",
     "basePrice" => "20",
     "description" => "",
     "images" => array(
@@ -2328,7 +2194,7 @@ array(
   array(
     "id" => "704",
     "line" => "tanks",
-    "title" => "[Insert Awesome]",
+    "title" => "[Insert Awesome] Tank",
     "basePrice" => "20",
     "description" => "",
     "images" => array(
@@ -2344,7 +2210,7 @@ array(
   array(
     "id" => "705",
     "line" => "tanks",
-    "title" => "Professional Outsider",
+    "title" => "Professional Outsider Tank",
     "basePrice" => "20",
     "description" => "",
     "images" => array(
@@ -2360,7 +2226,7 @@ array(
   array(
     "id" => "706",
     "line" => "tanks",
-    "title" => "STZ Life",
+    "title" => "STZ Life Tank (Bay Blue)",
     "basePrice" => "20",
     "description" => "",
     "images" => array(
@@ -2371,6 +2237,66 @@ array(
     ),
     "options" => array(),
     "featured" => true
+  ),
+
+  array(
+    "id" => "707",
+    "line" => "tanks",
+    "title" => "Right Coast Tank",
+    "basePrice" => "20",
+    "description" => "",
+    "images" => array(
+      "main" => array(
+        "bayblue.jpg"
+      ),
+      "thumb" => "bayblue.jpg",
+    ),
+    "options" => array()
+  ),
+
+  array(
+    "id" => "708",
+    "line" => "tanks",
+    "title" => "STZ Life Tank (Celery)",
+    "basePrice" => "20",
+    "description" => "",
+    "images" => array(
+      "main" => array(
+        "celery.jpg"
+      ),
+      "thumb" => "celery.jpg",
+    ),
+    "options" => array()
+  ),
+
+  array(
+    "id" => "709",
+    "line" => "tanks",
+    "title" => "Flamingo Tank",
+    "basePrice" => "20",
+    "description" => "",
+    "images" => array(
+      "main" => array(
+        "khakigreen.jpg"
+      ),
+      "thumb" => "khakigreen.jpg",
+    ),
+    "options" => array()
+  ),
+
+  array(
+    "id" => "710",
+    "line" => "tanks",
+    "title" => "Triangles Tank",
+    "basePrice" => "20",
+    "description" => "",
+    "images" => array(
+      "main" => array(
+        "nauticalred.jpg"
+      ),
+      "thumb" => "nauticalred.jpg",
+    ),
+    "options" => array()
   ),
 
 /********* Custom Products *********/

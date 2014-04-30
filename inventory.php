@@ -215,7 +215,7 @@ array(
 ),
 
 array(
-  "id" => "30",
+  "id" => "43",
   "line" => "graphic-tees",
   "title" => "Professional Outsider (Tie Dye)",
   "basePrice" => "18",
@@ -223,7 +223,7 @@ array(
   "small_description" => "All graphics are printed on a 4.3 ounce, 100% ring-spun cotton, longer than average, fitted tee.",
   "images" => array(
     "main" => array(
-      "spring14/tee_professionaloutsider_tiedye.png"
+      "spring14/tee_profoutsider_tiedye.png"
     ),
     "thumb" => "spring14/tee_profoutsider_tiedye.png",
   ),

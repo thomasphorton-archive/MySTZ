@@ -1,6 +1,6 @@
 <?
 	$promo_code = preg_replace("/[^A-Za-z0-9 ]/", '', $_POST['data']);
-	
+
 	$promo_code = strtoupper($promo_code);
 
 	if ($promo_code == 'STZ20' || $promo_code == 'GREG20' || $promo_code == 'DIXON20' || $promo_code == 'HUNTER20' || $promo_code == 'GARRETTGINNER') {
@@ -61,6 +61,29 @@
 		price = $('.item_price')
 
 		discountPrice = price.text().replace('$', '') * 0.85;
+		price.addClass('strikethrough');
+
+		$('.discounted_price').text('$' + discountPrice);
+		$('.discount').show();
+
+	})();
+
+<?
+	} else if ($promo_code == 'EATMYJORTS') {
+?>
+
+
+	(function() {
+		simpleCart.each(function (item, x){
+			item.price(item.price()*0.80);
+			item.set('promocode', user.promoCode)
+		});
+		simpleCart.update();
+		showResult( user.promoCode + ': <br> 20% discount');
+
+		price = $('.item_price')
+
+		discountPrice = price.text().replace('$', '') * 0.80;
 		price.addClass('strikethrough');
 
 		$('.discounted_price').text('$' + discountPrice);

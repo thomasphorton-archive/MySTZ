@@ -10,7 +10,7 @@
 								<li><a href="products.php#graphic-tees">tees</a></li>
 								<li><a href="products.php#tanks">tanks</a></li>
 								<li><a href="products.php#baseball-tees">baseball tees</a></li>
-								<li><a href="products.php#outer">outerwear</a></li>
+								<li><a href="products.php#crewneck">outerwear</a></li>
 								<li><a href="products.php#wmns">ladies</a></li>
 								<li><a href="products.php#hats">hats &amp; accessories</a></li>
 							</ul>
